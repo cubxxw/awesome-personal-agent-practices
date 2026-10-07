@@ -17,6 +17,6 @@ Keep relevant limitations and author affiliations. Do not submit private convers
 
 The root `checked_on` is the collection's editing date; each resource's `checked_on` is its own content-review date. Advance them only when the corresponding work was done. Regeneration alone is not a new source review.
 
-Generated homepages and category pages should be changed through the catalog or renderer. Keep the homepages short. Detailed reading scope belongs in the collapsible source notes.
+Generated READMEs should be changed through the catalog or renderer. Keep introductions and annotations brief. Every resource appears directly in each README; only detailed reading scope belongs in collapsible source notes. Do not introduce separate category reading pages.
 
 Original annotations and utility code are dedicated under CC0. Linked works keep their original licenses and rights.
