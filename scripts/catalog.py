@@ -83,72 +83,97 @@ def load():
   for u in r['source_urls']: safe_url(u)
  return data
 
-def page(section, items, lang, checked):
+def resource_name(resource, lang):
+ return resource.get('name_zh', resource['name']) if lang == 'zh' else resource['name']
+
+
+def catalog_section(section, items, lang):
  n = 1 if lang == 'zh' else 0
- suffix = '.zh-CN' if n else ''
- back = '../README.zh-CN.md' if n else '../README.md'
- title = SECTIONS[section][n]
- lines = [f'# {title}', '', f'[首页]({back}) · [English]({section}.md)' if n else f'[Home]({back}) · [简体中文]({section}.zh-CN.md)', '',
-  f'收录 {len(items)} 条资源，内容读取截至 {checked}。' if n else f'{len(items)} resources. Content read as of {checked}.', '',
-  '这里聚合公开资源；作者自报、项目说明和研究结果各自保留背景，本库未复跑所有产品。' if n else 'Public resources with their source context preserved. Author reports and project claims are not independent product tests.', '']
- groups = list(dict.fromkeys(r['category'] for r in items))
- lines += [' · '.join(f'[{GROUPS[g][n]}](#{g})' for g in groups),'']
+ lines = [f'<a id="{section}"></a>', '', f'## {SECTIONS[section][n]} · {len(items)}', '']
+ groups = [g for g in GROUPS if any(r['category'] == g for r in items)]
  for g in groups:
-  lines += [f'<a id="{g}"></a>', f'## {GROUPS[g][n]}', '']
+  lines += [f'<a id="{section}-{g}"></a>', '', f'### {GROUPS[g][n]}', '']
   for r in items:
-   if r['category'] != g: continue
-   lines += [f'<a id="{r["id"]}"></a>',f'- **[{r.get("name_zh",r["name"]) if n else r["name"]}]({r["url"]})** — {r[lang]}',f'  <sub>{EVIDENCE[r["evidence"]][n]}</sub>', '']
- lines += ['<details>', '<summary>读取范围与来源记录</summary>' if n else '<summary>Reading scope and source notes</summary>', '',
-  '说明正文、摘要和媒体的实际读取范围。未读的图片或视频不作为体验证据。' if n else 'Scope distinguishes article text, abstracts and media. Unread images or videos are not treated as experience evidence.', '']
- for r in items:
-  refs = list(dict.fromkeys([r['url'], *r['source_urls']]))
-  links = ' · '.join(f'[Source{i+1}]({u})' for i,u in enumerate(refs))
-  lines += [f'- **{r["name"]}** ({r["checked_on"]}): {r["scope"]} {links}', '']
- lines += ['</details>', '', '[贡献资源](../CONTRIBUTING.md)' if n else '[Suggest a resource](../CONTRIBUTING.md)', '']
- return '\n'.join(lines)
+   if r['category'] != g:
+    continue
+   lines += [f'<a id="{r["id"]}"></a>', '',
+             f'- **[{resource_name(r, lang)}]({r["url"]})** — {r[lang]} <sub>{EVIDENCE[r["evidence"]][n]}</sub>', '']
+ return lines
+
+
+def reading_notes(data, lang):
+ n = 1 if lang == 'zh' else 0
+ lines = ['<a id="reading-notes"></a>', '',
+          '## 读取与来源说明' if n else '## Reading and source notes', '',
+          '<details>', '<summary>展开核读范围与原始来源</summary>' if n else '<summary>Reading scope and original sources</summary>', '',
+          '正文、摘要与媒体按实际读取范围记录。' if n else 'Text, abstract and media coverage follows the actual reading scope.', '']
+ for section in SECTIONS:
+  lines += [f'### {SECTIONS[section][n]}', '']
+  for r in data['resources']:
+   if r['section'] != section:
+    continue
+   refs = list(dict.fromkeys([r['url'], *r['source_urls']]))
+   links = ' · '.join(f'[{"来源" if n else "Source"} {i+1}]({u})' for i, u in enumerate(refs))
+   lines += [f'- **{resource_name(r, lang)}** ({r["checked_on"]}): {r["scope"]} {links}', '']
+ lines += ['</details>', '']
+ return lines
+
 
 def homepage(data, lang):
- n=1 if lang=='zh' else 0
- suffix='.zh-CN' if n else ''
- counts=Counter(r['section'] for r in data['resources'])
- title='# Awesome Personal Agents'
- intro='个人Agent资源聚合：产品、开源项目、用户案例与玩法，附精选文章和论文。' if n else 'A curated resource hub for personal AI agents: products, open-source projects, use cases, playbooks, articles and research.'
- lines=[title,'','[English](README.md) · [简体中文](README.zh-CN.md)','','> '+intro,'',
- f'**{len(data["resources"])} 条精选资源** · 最近整理：{data["checked_on"]}。' if n else f'**{len(data["resources"])} curated resources** · Last curated: {data["checked_on"]}.','',
- '从你感兴趣的入口开始。完整目录和读取记录放在分类页。' if n else 'Start with what you want to explore. Full lists and reading notes live in the category pages.','',
- '## 三个主要入口' if n else '## Three ways in','',
- '| 入口 | 内容 |' if n else '| Explore | Find |', '|---|---|']
- descriptions=[('看看产品与形态','Explore available assistants'),('找开源实现和接入组件','Find runtimes and integration components'),('看别人怎么用，以及哪些步骤仍需自己处理','See what people do and what still needs a person')]
- for i,s in enumerate(('products','projects','use-cases')):
-  lines.append(f'| [{SECTIONS[s][n]}](docs/{s}{suffix}.md) · {counts[s]} | {descriptions[i][0 if n else 1]} |')
- lines+=['','## 先看这些' if n else '## A few starting points','']
- needles=['Poke','Hermes Agent','OpenMuse','六邮箱','Six inbox','Weekly knowledge','知识复习']
- picked=[]
- for needle in needles:
-  found=next((r for r in data['resources'] if needle.casefold() in r['name'].casefold() and r not in picked),None)
-  if found:picked.append(found)
- if len(picked)<5:
-  picked+= [r for r in data['resources'] if r['section']=='use-cases' and r not in picked][:5-len(picked)]
- for r in picked[:5]:
-  lines.append(f'- [{r.get("name_zh",r["name"]) if n else r["name"]}](docs/{r["section"]}{suffix}.md#{r["id"]}) — {r[lang]}')
- lines+=['','## 深入阅读' if n else '## Read further','']
- for s in ('articles','research','collections'):
-  lines.append(f'- [{SECTIONS[s][n]}](docs/{s}{suffix}.md) · {counts[s]}')
- lines+=['','## 怎样使用这份目录' if n else '## How to read the list','',
- '按任务选择资源。产品条目依据官方说明；用例区分官方玩法与作者自报，论文注明模拟或研究条件。收录用于发现和学习，不给产品作统一排名。可用地区和接入条件以原站为准。' if n else 'Choose by task. Product entries reflect official descriptions; use cases distinguish official guides from author reports, and research keeps its experimental context. Inclusion supports discovery and learning, not a universal ranking. Check the original source for availability and account requirements.','',
- '[贡献或更正资源](CONTRIBUTING.md) · [提交建议](https://github.com/cubxxw/awesome-personal-agent-practices/issues/new/choose) · [目录数据](data/catalog.json)' if n else '[Contribute or correct a resource](CONTRIBUTING.md) · [Suggest a link](https://github.com/cubxxw/awesome-personal-agent-practices/issues/new/choose) · [Catalog data](data/catalog.json)','',
- '原创注释采用[CC0](LICENSE)；所链接内容保留各自权利。' if n else 'Original annotations are released under [CC0](LICENSE). Linked works retain their own rights.','']
+ n = 1 if lang == 'zh' else 0
+ counts = Counter(r['section'] for r in data['resources'])
+ intro = ('个人Agent资源聚合：产品、开源项目、用户案例与玩法，附精选文章和论文。' if n else
+          'A curated resource hub for personal AI agents: products, open-source projects, use cases, playbooks, articles and research.')
+ lines = ['# Awesome Personal Agents', '', '[English](README.md) · [简体中文](README.zh-CN.md)', '',
+          '> ' + intro, '',
+          f'**{len(data["resources"])} 条精选资源** · 最近整理：{data["checked_on"]}。' if n else
+          f'**{len(data["resources"])} curated resources** · Last curated: {data["checked_on"]}.', '',
+          '完整资源直接列在本页。用目录跳到感兴趣的分类，点击资源名称打开原始来源。' if n else
+          'The full collection is on this page. Jump to a category below, then open a resource to read its original source.', '',
+          '## 目录' if n else '## Contents', '',
+          '| 分类 | 找什么 |' if n else '| Category | Find |', '|---|---|']
+ descriptions = {
+  'products': ('看看产品与助手形态', 'Explore available assistants'),
+  'projects': ('找运行框架和接入组件', 'Find runtimes and integration components'),
+  'use-cases': ('看实际用法、官方教程与使用限制', 'Explore user workflows, official guides and practical limits'),
+  'articles': ('理解产品与工程取舍', 'Understand product and engineering choices'),
+  'research': ('找记忆、主动性及评测研究', 'Find memory, proactivity and evaluation research'),
+  'collections': ('继续发现相关资料', 'Discover adjacent collections'),
+ }
+ for section in SECTIONS:
+  lines.append(f'| [{SECTIONS[section][n]}](#{section}) · {counts[section]} | {descriptions[section][0 if n else 1]} |')
+ lines += ['',
+           '产品保留官方说明，用例区分作者自报和官方玩法，研究注明读取范围。可用地区与接入条件以原站为准。' if n else
+           'Products retain official context, cases distinguish author reports from official guides, and research records its reading scope. Check the original source for availability and account requirements.', '']
+ for section in SECTIONS:
+  items = [r for r in data['resources'] if r['section'] == section]
+  lines += catalog_section(section, items, lang)
+ lines += reading_notes(data, lang)
+ lines += ['## 贡献与更正' if n else '## Contribute and correct', '',
+           '[提交资源或纠错](https://github.com/cubxxw/awesome-personal-agent-practices/issues/new/choose) · [贡献指南](CONTRIBUTING.md)' if n else
+           '[Suggest a resource or correction](https://github.com/cubxxw/awesome-personal-agent-practices/issues/new/choose) · [Contributing](CONTRIBUTING.md)', '',
+           '原创注释采用[CC0](LICENSE)；所链接内容保留各自权利。' if n else
+           'Original annotations are released under [CC0](LICENSE). Linked works retain their own rights.', '']
  return '\n'.join(lines)
 
+
 def render(data):
- result={}
- for lang in ('en','zh'):
-  suffix='.zh-CN' if lang=='zh' else ''
-  result['README'+suffix+'.md']=homepage(data,lang)
-  for section in SECTIONS:
-   items=[r for r in data['resources'] if r['section']==section]
-   result[f'docs/{section}{suffix}.md']=page(section,items,lang,data['checked_on'])
- return result
+ return {'README.md': homepage(data, 'en'), 'README.zh-CN.md': homepage(data, 'zh')}
+
+
+def validate_publication(data, files):
+ """Every catalog entry must be directly readable on each README."""
+ expected = {r['id'] for r in data['resources']}
+ for relative, text in files.items():
+  anchors = re.findall(r'<a id="([^"]+)"></a>', text)
+  assert len(anchors) == len(set(anchors)), f'Duplicate navigation anchors: {relative}'
+  visible = re.sub(r'<details>.*?</details>', '', text, flags=re.S)
+  visible_ids = set(re.findall(r'<a id="([^"]+)"></a>', visible)) & expected
+  assert visible_ids == expected, f'Resources hidden or missing: {relative}'
+  assert not re.search(r'\]\((?:\./)?docs/', visible), f'Catalog requires a child page: {relative}'
+  for r in data['resources']:
+   assert f']({r["url"]})' in visible, f'Original source missing: {r["id"]}'
+
 
 def local_links():
  for p in [*ROOT.glob('*.md'),*ROOT.joinpath('docs').glob('*.md')]:
@@ -163,14 +188,11 @@ def main():
  parser=argparse.ArgumentParser(description=__doc__)
  parser.add_argument('--check',action='store_true',help='validate catalog, generation parity and local links without writing')
  args=parser.parse_args();data=load();files=render(data)
- for relative,text in files.items():
-  anchors=re.findall(r'<a id="([^"]+)"></a>',text)
-  assert len(anchors)==len(set(anchors)), f'Duplicate navigation anchors: {relative}'
+ validate_publication(data,files)
  for relative,text in files.items():
   p=ROOT/relative
   if args.check: assert p.exists() and p.read_text()==text, f'Stale generated page: {relative}'
   else:p.write_text(text)
- for relative in ('README.md','README.zh-CN.md'):assert len(files[relative].splitlines())<=100
  local_links()
  print(json.dumps({'resources':len(data['resources']),'sections':dict(Counter(r['section'] for r in data['resources'])),'generated_pages':len(files),'check':'passed'},ensure_ascii=False))
 if __name__=='__main__':main()
