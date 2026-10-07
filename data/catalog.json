@@ -1,0 +1,1275 @@
+{
+  "schema_version": 1,
+  "checked_on": "2026-10-07",
+  "resources": [
+    {
+      "id": "products-today-ai",
+      "name": "Today",
+      "url": "https://today.ai/",
+      "category": "computer",
+      "en": "A personal agent combining living memory, recurring work and connected apps. Explore its calendar, mail, research and cross-device workflows.",
+      "zh": "结合可编辑记忆、周期任务和应用连接的个人Agent，适合关注日程、邮件、研究及跨设备工作流。",
+      "scope": "Official download page lists Mac, Windows, Linux and mobile entry points; specific country eligibility not verified. Distinct from the Since Kindly app at oneintent.today.",
+      "evidence": "official",
+      "source_urls": [
+        "https://today.ai/",
+        "https://today.ai/downloads",
+        "https://today.ai/privacy"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-instinct",
+      "name": "Instinct",
+      "url": "https://instinct.com/",
+      "category": "messaging",
+      "en": "A personal assistant you can text or call, with phone and computer actions. Explore real-world errands such as appointments, groceries and travel planning.",
+      "zh": "可以发消息或打电话委托的个人助理，官方介绍包括电话与电脑操作，适合关注预约、采购和出行等现实事务。",
+      "scope": "Text/call entry documented; current country, pricing and invitation eligibility not established on the inspected homepage.",
+      "evidence": "official",
+      "source_urls": [
+        "https://instinct.com/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-poke",
+      "name": "Poke",
+      "url": "https://poke.com/",
+      "category": "messaging",
+      "en": "A messaging-first assistant connecting your apps and services. Explore reminders, connected-work routines and interaction through Messages, WhatsApp or Telegram.",
+      "zh": "从聊天入口连接应用和服务的助理，适合关注提醒与日常自动化；官网列出 Messages、WhatsApp 和 Telegram。",
+      "scope": "Messaging channels explicitly named on homepage; individual channel/account/region availability not independently tested.",
+      "evidence": "official",
+      "source_urls": [
+        "https://poke.com/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-meta-muse",
+      "name": "Muse by Meta",
+      "url": "https://ai.meta.com/muse/",
+      "category": "ecosystem",
+      "en": "Meta’s personal agent with its own cloud computer and browser, accessible through the Muse app or WhatsApp. Explore ongoing goals and connected-app tasks.",
+      "zh": "Meta 的个人Agent，拥有云端电脑与浏览器，可通过 Muse 应用或 WhatsApp 交流，适合关注持续目标和跨应用任务。",
+      "scope": "Official launch page states US rollout on iOS, Android and muse.ai; current expansion outside the US not verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+        "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-town",
+      "name": "Town",
+      "url": "https://www.town.com/",
+      "category": "messaging",
+      "en": "An assistant that learns your working context and acts across email, calendar, documents and connected tools. Explore personalized work routines and reaching a Townie through different channels.",
+      "zh": "学习工作上下文并连接邮件、日历、文档和工具的助理，适合关注个人化工作习惯与不同渠道中的 Townie。",
+      "scope": "Official documentation covers connected services and work tasks; country eligibility not verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://www.town.com/",
+        "https://www.town.com/docs/getting-started"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-tomo-mapo",
+      "name": "Tomo by Mapo Labs",
+      "url": "https://www.tomo.ai/",
+      "category": "family-goals",
+      "en": "A text-based personal AI focused on goals and everyday life. Explore accountability, proactive reminders, group chats and calendar/email connections.",
+      "zh": "由 Mapo Labs 开发、以短信交流的个人 AI，适合关注目标陪伴、主动提醒、群聊以及日历和邮件连接。",
+      "scope": "Official About page names Mapo Labs; do not confuse with unrelated open-source tamnd/tomo. Region eligibility not verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://www.tomo.ai/",
+        "https://www.tomo.ai/about"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-ollie",
+      "name": "Ollie",
+      "url": "https://ollie.ai/",
+      "category": "family-goals",
+      "en": "A family-oriented assistant for shared calendars, inbox information and household coordination. Explore how a family assistant works through text and group conversations.",
+      "zh": "面向家庭日历、邮箱信息和家庭协作的助理，适合关注短信与家庭群聊中的事务协调。",
+      "scope": "Official indexed homepage describes iOS/Android text access; country eligibility unknown. Full-page retrieval failed in this run.",
+      "evidence": "official-partial",
+      "source_urls": [
+        "https://ollie.ai/",
+        "https://www.ollie.ai/about/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-chatgpt-dots",
+      "name": "Dots in ChatGPT",
+      "url": "https://chatgpt.com/features/dots/",
+      "category": "ecosystem",
+      "en": "Always-on agents inside ChatGPT with a cloud computer, connected apps and ongoing responsibilities. Explore persistent delegation and the permissions you choose for your dot.",
+      "zh": "ChatGPT 中拥有云端电脑、应用连接与持续职责的 Agent，适合关注长期委托以及可配置的访问权限。",
+      "scope": "Official Help Center describes initial Pro rollout excluding EEA/Switzerland/UK, Business Premium across supported ChatGPT regions, and admin-enabled Enterprise beta; eligibility varies.",
+      "evidence": "official",
+      "source_urls": [
+        "https://help.openai.com/en/articles/20001530-getting-started-with-your-dot",
+        "https://openai.com/index/introducing-dots/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-grok-bot",
+      "name": "Grok Bot",
+      "url": "https://x.ai/bot",
+      "category": "computer",
+      "en": "Persistent AI teammates with their own computers that can use connected tools and return finished work. Explore personal and team task delegation.",
+      "zh": "拥有独立电脑、能使用连接工具并交回成果的持续运行 AI 队友，适合关注个人与团队任务委托。",
+      "scope": "Official page documents desktop/iOS interaction and persistent computer workspace; country eligibility not verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://x.ai/bot",
+        "https://x.ai/bot/guides/grok-bot-101"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-manus-cue",
+      "name": "Cue by Manus",
+      "url": "https://www.cue.im/",
+      "category": "computer",
+      "en": "A standalone personal-agent app from Manus, with distinct agents, identities and recurring routines. Explore giving different agents clear responsibilities and reviewing work from your phone.",
+      "zh": "Manus 的独立个人Agent 应用，可创建不同身份与职责的 Agent，适合关注多助理分工、周期任务及手机端审阅。",
+      "scope": "Official Manus help page says invitation code required, obtained through Agents (Cue!) in the Manus sidebar; mobile and desktop described. Distinct from heycue.ai and the desktop Cue at heycue.io.",
+      "evidence": "official",
+      "source_urls": [
+        "https://help.manus.im/en/articles/17190150-what-is-new-in-manus-2-0",
+        "https://www.cue.im/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-heycue-life-admin",
+      "name": "HeyCue",
+      "url": "https://heycue.ai/",
+      "category": "family-goals",
+      "en": "A life-admin service for bills, renewals and local-service quotes, combining agents with human representatives. Explore the household job-and-quote workflow and its approval steps.",
+      "zh": "管理账单、续订与本地服务报价的生活事务产品，结合 Agent 和人工代表，适合关注家庭需求如何变成报价及确认流程。",
+      "scope": "Homepage states web/iOS/Android and English/Spanish. Human involvement explicitly disclosed. Country/service-area eligibility not established.",
+      "evidence": "official",
+      "source_urls": [
+        "https://heycue.ai/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-gemini-spark",
+      "name": "Gemini Spark",
+      "url": "https://gemini.google/overview/agent/spark/",
+      "category": "ecosystem",
+      "en": "Google’s background personal agent for tasks, skills and schedules across connected Google apps. Explore inbox, document and recurring Workspace workflows.",
+      "zh": "Google 的后台个人Agent，通过任务、技能与调度连接 Google 应用，适合关注邮件、文档及周期性 Workspace 工作流。",
+      "scope": "Official page says Google AI Pro/Ultra users over 18 in selected countries and selected business users; availability link provided rather than a complete region list.",
+      "evidence": "official",
+      "source_urls": [
+        "https://gemini.google/overview/agent/spark/",
+        "https://support.google.com/gemini/answer/17094507"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-siri-ai",
+      "name": "Siri / Siri AI",
+      "url": "https://www.apple.com/apple-intelligence/",
+      "category": "ecosystem",
+      "en": "Apple’s system-integrated assistant for personal context and actions in supported apps. Explore how device context, voice and app actions fit everyday tasks.",
+      "zh": "Apple 系统中的个人上下文与应用操作助理，适合关注设备信息、语音及受支持应用动作怎样连接日常任务。",
+      "scope": "Current official landing page says Siri AI rolling out in English; features depend on compatible devices, OS, language and region. Do not treat it as documented always-on background delegation.",
+      "evidence": "official",
+      "source_urls": [
+        "https://www.apple.com/apple-intelligence/",
+        "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-manus",
+      "name": "Manus",
+      "url": "https://manus.im/",
+      "category": "computer",
+      "en": "A general task agent for research, deliverables and browser/computer work. Explore multi-step projects, connected local files and scheduled or event-triggered automations.",
+      "zh": "面向研究、交付物及浏览器与电脑工作的通用任务 Agent，适合关注多步项目、本地文件及周期或事件触发自动化。",
+      "scope": "Official Manus 2.0 documentation inspected; distinct from its standalone personal-agent app Cue. Region eligibility not verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://www.manus.im/",
+        "https://help.manus.im/en/articles/17190150-what-is-new-in-manus-2-0"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-claude-cowork",
+      "name": "Claude / Cowork",
+      "url": "https://claude.com/product/cowork",
+      "category": "computer",
+      "en": "Delegated knowledge work across files, connected tools and a built-in browser. Explore document, spreadsheet and recurring report workflows; the official page says Cowork is becoming Claude.",
+      "zh": "跨文件、连接工具与内置浏览器执行知识工作的助理，适合关注文档、表格及周期报告；官方页面说明 Cowork 正并入 Claude。",
+      "scope": "Paid-plan access and web/mobile rollout conditions documented; exact account eligibility varies.",
+      "evidence": "official",
+      "source_urls": [
+        "https://claude.com/product/cowork"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-since-kindly-today-ai",
+      "name": "today ai by Since Kindly",
+      "url": "https://oneintent.today/",
+      "category": "adjacent",
+      "en": "An adjacent daily-intention and reflection tool, rather than evidence of a general action agent. Explore goal-setting and reflective routines without confusing it with Today at today.ai.",
+      "zh": "邻近的每日意图与反思工具，适合关注目标设定和日常回顾；不把它当作通用行动 Agent，也不与 today.ai 的 Today 混为一谈。",
+      "scope": "Official terms identify Since Kindly Inc. and describe daily intention/reflection; iOS app named. Country eligibility not verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://oneintent.today/",
+        "https://oneintent.today/terms.html",
+        "https://apps.apple.com/us/app/today-ai-personal-agent/id6767525653"
+      ],
+      "adjacent": true,
+      "section": "products",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-cue-desktop",
+      "name": "Cue desktop (heycue.io)",
+      "name_zh": "Cue桌面助手（heycue.io）",
+      "url": "https://heycue.io/",
+      "section": "products",
+      "category": "computer",
+      "en": "A Mac and Windows assistant for voice writing, screen-context questions, tasks and meeting notes. Distinct from Manus Cue and the life-admin service at heycue.ai.",
+      "zh": "面向Mac和Windows的语音写作、屏幕上下文问答、任务与会议记录助手。与Manus Cue及heycue.ai生活事务产品分开。",
+      "scope": "Current official homepage text read; listed examples and demo video not treated as reproduced tasks.",
+      "evidence": "official",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-openclaw",
+      "name": "OpenClaw",
+      "url": "https://github.com/openclaw/openclaw",
+      "category": "core",
+      "en": "Self-hosted personal assistant with messaging channels, tools, memory, and scheduled automations; a useful starting point for everyday assistant workflows. Tool access and channel permissions depend on your deployment configuration.",
+      "zh": "把消息渠道、工具、记忆和定时任务接在一起的自托管个人助手，适合从日常工作流开始探索。工具访问和渠道权限需要按自己的部署配置。",
+      "scope": "Self-hosted assistant and automation runtime",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/README.md",
+        "https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/docs/automation/index.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-hermes-agent",
+      "name": "Hermes Agent",
+      "url": "https://github.com/NousResearch/hermes-agent",
+      "category": "core",
+      "en": "Nous Research's personal agent combines persistent memory, reusable skills, messaging, and scheduled work across local or remote environments. Scheduled delivery needs an active gateway or a configured managed scheduler.",
+      "zh": "Nous Research 的个人Agent，结合持久记忆、可复用技能、消息入口和定时工作，可在本机或远程环境运行。定时结果送达需要持续运行的 gateway 或已配置的托管调度。",
+      "scope": "Personal agent, skills, memory, and scheduled work",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/NousResearch/hermes-agent/blob/a50406d9b7474b060450d2dcaff8743c977d296a/README.md",
+        "https://github.com/NousResearch/hermes-agent/blob/a50406d9b7474b060450d2dcaff8743c977d296a/website/docs/user-guide/features/cron.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-letta-code",
+      "name": "Letta Code",
+      "url": "https://github.com/letta-ai/letta-code",
+      "category": "core",
+      "en": "Stateful agents with Git-backed memory, background dreaming, channels, and local or cloud backends; useful for exploring assistants that carry context between conversations. This is the current source repository; the former Letta V1 API server is archived separately.",
+      "zh": "用 Git 管理记忆，支持后台整理、消息渠道及本地或云端运行，适合探索跨对话保留上下文的助手。当前源码在 letta-code；原 Letta V1 API server 已另行归档。",
+      "scope": "Stateful personal agents and editable memory",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/letta-ai/letta-code/blob/4b028fab07c69edaac2ddb4f7b9a43573ff20d81/README.md",
+        "https://github.com/letta-ai/letta/blob/5bcdd177d70fa2b31a754cfcd801e77b2e1ab16a/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-nanoclaw",
+      "name": "NanoClaw",
+      "url": "https://github.com/nanocoai/nanoclaw",
+      "category": "core",
+      "en": "Container-based assistant with per-agent working files, memory, messaging integrations, and scheduled tasks. The repository moved from qwibitai to nanocoai; network lockdown is optional, so container isolation should not be read as blanket permission protection.",
+      "zh": "以容器运行助手，提供按 Agent 划分的工作文件、记忆、消息集成和定时任务。仓库已从 qwibitai 迁到 nanocoai；出网限制是可选配置，容器隔离不代表所有动作都有权限保护。",
+      "scope": "Container-based personal assistant",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/nanocoai/nanoclaw/blob/66f0823a693bd9cca4123e72f8ccee05f5e7e1c5/README.md",
+        "https://github.com/nanocoai/nanoclaw/blob/66f0823a693bd9cca4123e72f8ccee05f5e7e1c5/docs/SECURITY.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-openmuse",
+      "name": "OpenMuse",
+      "url": "https://github.com/CopilotKit/openmuse",
+      "category": "core",
+      "en": "CopilotKit's personal-agent application template brings together email, calendar, a persistent browser, visible task progress, and action approvals. It is an alpha for self-hosting and building on, with integrations that require their own configuration.",
+      "zh": "CopilotKit 的个人Agent 应用模板，把邮件、日历、持久浏览器、任务进展和动作审批放在同一工作面。当前为适合自托管和二次开发的 alpha，相关集成需要单独配置。",
+      "scope": "Personal-agent application template",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/CopilotKit/openmuse/blob/1ac68f3909f2478ab6280883f1ab5ea65eb5719d/README.md",
+        "https://github.com/CopilotKit/openmuse/blob/1ac68f3909f2478ab6280883f1ab5ea65eb5719d/apps/server/src/actions.ts"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-nanobot",
+      "name": "nanobot",
+      "url": "https://github.com/HKUDS/nanobot",
+      "category": "core",
+      "en": "HKUDS's Python personal-agent framework provides a WebUI, chat integrations, tools, memory, and automation in a readable core. A gateway must remain running for scheduled delivery, and source builds may differ from stable packages.",
+      "zh": "HKUDS 的 Python 个人Agent 框架，提供网页界面、聊天集成、工具、记忆和自动化，适合读源码和自行扩展。定时结果送达需要 gateway 持续运行，源码版与稳定包可能不同。",
+      "scope": "Lightweight Python personal-agent runtime",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/HKUDS/nanobot/blob/main/README.md",
+        "https://github.com/HKUDS/nanobot/blob/main/docs/automations.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-zeroclaw",
+      "name": "ZeroClaw",
+      "url": "https://github.com/zeroclaw-labs/zeroclaw",
+      "category": "core",
+      "en": "Rust personal-assistant runtime with pluggable models, messaging channels, tools, and event-triggered routines. Worth exploring for a configurable always-on setup; autonomy and sandbox choices change what it can access.",
+      "zh": "Rust 编写的个人助手运行时，支持可替换模型、消息渠道、工具和事件触发流程，适合探索可配置的常驻助手。自主等级和沙箱选项会影响它能访问哪些资源。",
+      "scope": "Rust personal-assistant runtime",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/zeroclaw-labs/zeroclaw/blob/master/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-picoclaw",
+      "name": "PicoClaw",
+      "url": "https://github.com/sipeed/picoclaw",
+      "category": "core",
+      "en": "Sipeed's independent Go assistant targets small devices and multiple hardware architectures, with chat channels and tool integrations. Useful for edge-device experiments; the README flags rapid development and changing resource usage.",
+      "zh": "Sipeed 独立开发的 Go 个人助手，面向小型设备和多种硬件架构，提供聊天渠道与工具集成。适合边缘设备实验；README 提醒项目仍在快速开发，资源占用会随版本变化。",
+      "scope": "Personal assistant for small and edge devices",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/sipeed/picoclaw/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-ironclaw",
+      "name": "IronClaw",
+      "url": "https://github.com/nearai/ironclaw",
+      "category": "core",
+      "en": "NEAR AI's personal assistant emphasizes sandboxed tools, credential handling, persistent memory, and background routines. A useful security-oriented design reference; protection still depends on the configured provider, tools, and policies.",
+      "zh": "NEAR AI 的个人助手，重点包括工具沙箱、凭据处理、持久记忆和后台例程，适合了解围绕安全边界的设计。实际保护范围仍取决于模型服务、工具和策略配置。",
+      "scope": "Personal assistant with sandboxed tool execution",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/nearai/ironclaw/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-qwenpaw",
+      "name": "QwenPaw (formerly CoPaw)",
+      "url": "https://github.com/agentscope-ai/QwenPaw",
+      "category": "core",
+      "en": "AgentScope's personal assistant combines editable memory, skills, scheduled tasks, and channels including DingTalk and Lark. The former CoPaw repository now redirects here; integrations and local or cloud models need configuration.",
+      "zh": "AgentScope 的个人助手，结合可编辑记忆、技能、定时任务以及钉钉、飞书等渠道。原 CoPaw 仓库已重定向至这里，集成及本地或云端模型需要配置。",
+      "scope": "Personal assistant with Chinese workplace channels",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/agentscope-ai/QwenPaw/blob/main/README.md",
+        "https://github.com/agentscope-ai/CoPaw"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-rowboat",
+      "name": "Rowboat",
+      "url": "https://github.com/rowboatlabs/rowboat",
+      "category": "core",
+      "en": "Desktop personal assistant that connects a work knowledge graph with email, notes, browser tasks, and background agents. Useful for work-context and team-space ideas; shared spaces and model providers have separate data boundaries to consider.",
+      "zh": "桌面个人助手，用工作知识图谱连接邮件、笔记、浏览器任务和后台 Agent，适合探索如何利用工作上下文及团队空间。共享空间与模型服务的数据边界需要分别了解。",
+      "scope": "Desktop work assistant and shared spaces",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/rowboatlabs/rowboat/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-khoj",
+      "name": "Khoj",
+      "url": "https://github.com/khoj-ai/khoj",
+      "category": "core",
+      "en": "Self-hostable personal AI for querying documents and the web, creating custom agents, and delivering recurring research or notifications. A useful entry point for a knowledge-focused assistant; document answers alone do not establish reliable external actions.",
+      "zh": "可自托管的个人 AI，支持查询文档与网络、创建自定义 Agent，以及定期研究和通知。适合以个人知识为起点，文档问答能力本身不能证明外部操作可靠。",
+      "scope": "Knowledge-focused personal AI and research automation",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/khoj-ai/khoj/blob/master/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-mem0",
+      "name": "Mem0",
+      "url": "https://github.com/mem0ai/mem0",
+      "category": "component",
+      "en": "Memory layer for retaining user preferences and context across assistant conversations, with library, self-hosted, and managed options. The README distinguishes managed-platform optimizations from the open-source SDK, so their reported performance should not be treated as identical.",
+      "zh": "为助手跨对话保留用户偏好和上下文的记忆层，提供库、自托管和托管服务选项。README 明确托管平台包含开源 SDK 未提供的优化，相关成绩不能直接视为开源版表现。",
+      "scope": "Assistant memory component",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/mem0ai/mem0/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-hindsight",
+      "name": "Hindsight",
+      "url": "https://github.com/vectorize-io/hindsight",
+      "category": "component",
+      "en": "Agent memory organized around retain, recall, and reflect operations, with separate memory banks and time-aware retrieval. Useful for assistants that revisit experiences; it adds storage and model dependencies, and may be excessive for simple scheduled scripts.",
+      "zh": "围绕保存、召回和反思组织 Agent 记忆，提供独立记忆库与时间相关检索，适合需要回顾经验的助手。它增加存储和模型依赖，对简单定时脚本可能过重。",
+      "scope": "Persistent assistant memory and reflection",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/vectorize-io/hindsight/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-graphiti",
+      "name": "Graphiti",
+      "url": "https://github.com/getzep/graphiti",
+      "category": "component",
+      "en": "Temporal knowledge-graph framework for tracking changing facts, relationships, and their source episodes. Useful for personal relationship or project context; you provide the graph database and model setup, while Zep's managed service is a separate product.",
+      "zh": "跟踪事实、关系及其来源如何变化的时间知识图谱框架，可用于个人关系或项目上下文。需要自行配置图数据库和模型，Zep 的托管服务是另一项产品。",
+      "scope": "Temporal context and relationship memory",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/getzep/graphiti/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-e2b",
+      "name": "E2B",
+      "url": "https://github.com/e2b-dev/E2B",
+      "category": "component",
+      "en": "Sandbox infrastructure and SDKs for running assistant code, commands, and desktop interactions away from the user's main machine. Hosted execution requires an account, while self-hosting has its own setup; a sandbox does not define the assistant's authorization policy.",
+      "zh": "供助手运行代码、命令和桌面操作的沙箱基础设施与 SDK，可把执行环境与用户主电脑分开。托管执行需要账号，自托管另有部署要求；沙箱本身不决定助手的授权策略。",
+      "scope": "Agent execution sandbox and cloud desktop",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/e2b-dev/E2B/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-browser-use",
+      "name": "Browser Use",
+      "url": "https://github.com/browser-use/browser-use",
+      "category": "component",
+      "en": "Open-source browser agent for web tasks such as finding information and filling forms, with local-library and separate hosted options. A practical computer-use starting point; models, browser accounts, and hosted services have their own access and cost requirements.",
+      "zh": "用于查找信息、填写表单等网页任务的开源浏览器 Agent，提供本地库及独立托管选项，适合作为电脑操作的起点。模型、浏览器账号和托管服务各有访问及费用要求。",
+      "scope": "Browser tasks and web automation",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/browser-use/browser-use/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-playwright-mcp",
+      "name": "Playwright MCP",
+      "url": "https://github.com/microsoft/playwright-mcp",
+      "category": "component",
+      "en": "Microsoft's MCP interface exposes structured browser interaction through Playwright, useful for assistants that inspect and operate web pages. Its README explicitly states that it is not a security boundary; browser access must be scoped separately.",
+      "zh": "Microsoft 提供的 Playwright MCP 接口，让助手通过结构化信息查看和操作网页。README 明确它不是安全边界，浏览器访问范围需要另外限定。",
+      "scope": "Structured browser tools for assistants",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/microsoft/playwright-mcp/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-google-workspace-cli",
+      "name": "Google Workspace CLI (gws)",
+      "url": "https://github.com/googleworkspace/cli",
+      "category": "component",
+      "en": "CLI with structured output and agent skills for Gmail, Calendar, Drive, and other Workspace APIs, useful for email and scheduling workflows. Despite the repository organization, the README says it is not an officially supported Google product; OAuth setup is required.",
+      "zh": "提供结构化输出及 Agent 技能的 Workspace 命令行工具，可用于 Gmail、Calendar、Drive 等邮件和日程工作流。虽然仓库位于 googleworkspace 组织，README 明确它不是 Google 官方支持的产品，并需要配置 OAuth。",
+      "scope": "Email, calendar, and Workspace tools",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/googleworkspace/cli/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "projects-agentmail-python",
+      "name": "AgentMail Python SDK",
+      "url": "https://github.com/agentmail-to/agentmail-python",
+      "category": "component",
+      "en": "Official Python client for AgentMail's inbox APIs, useful when an assistant needs its own email inbox and programmatic communication. The SDK is open source, while the email service requires an AgentMail account and API key.",
+      "zh": "AgentMail 官方 Python 客户端，用于创建和操作 Agent 收件箱，适合需要独立邮箱及程序化通信的助手。SDK 开源，邮件服务需要 AgentMail 账号和 API key。",
+      "scope": "Agent-owned email inbox client",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/agentmail-to/agentmail-python/blob/main/README.md"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "use-cases-uc01",
+      "name": "WhatsApp website updates for a dance school",
+      "url": "https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/",
+      "category": "family-workflows",
+      "en": "A developer reports connecting a small dance-school website to WhatsApp through a GitHub repository. Initial permissions and reliable recovery still required technical help.",
+      "zh": "作者自报把小型舞校网站连到WhatsApp和GitHub，母亲可通过聊天更新。初始化权限与可靠回滚仍需技术熟手帮忙。",
+      "scope": "主帖；舞校评论链（网页125–277行）；关键质疑与作者回应；未展开全部回复；Reddit 搜索结果绝对日期；选定评论日期可不同；未读媒体：该帖其他图片/外链项目未核看",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "用WhatsApp更新舞蹈学校网站"
+    },
+    {
+      "id": "use-cases-uc02",
+      "name": "OpenClaw cost spike and deterministic-workflow split",
+      "url": "https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/",
+      "category": "cautions",
+      "en": "A multi-agent operator reports a $850 month and describes moving repeatable work to n8n while shortening context and adding limits. The claimed savings lack comparable bills or workload logs.",
+      "zh": "多代理操作者自报一个月花费$850，说明如何把确定性步骤移给n8n、缩短上下文并限额。降费幅度没有同负载账单或调用日志佐证。",
+      "scope": "主帖；成本质疑、作者两次澄清、n8n替代讨论（网页21–305行）；Reddit 搜索结果绝对日期；未读媒体：作者提及的费用截图未核看",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "成本暴涨后拆分确定性流程"
+    },
+    {
+      "id": "use-cases-uc03",
+      "name": "Months of Hermes: six inboxes and reusable routines",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/",
+      "category": "email-calendar",
+      "en": "A user reports triaging six inboxes and maintaining reusable routines over several months, while retaining control of sending. The account also covers outdated memory and costly automatic model fallback.",
+      "zh": "用户自报数月用Hermes分拣六个邮箱、积累可复用流程，发送仍由本人控制。记录同时包含过时记忆维护与昂贵模型自动回退的教训。",
+      "scope": "主帖主要全文（网页21–84行）；首个评论中5个月使用者的本地memory维护/高投入提醒（124–127行）；2026-10-07读取时缓存显示28d ago；不据缓存反推准确日；未读媒体：评论所链记忆项目和模型未审源码",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "Hermes数月使用：六邮箱与复用流程"
+    },
+    {
+      "id": "use-cases-uc04",
+      "name": "One week with Poke: schedules and late-meeting messages",
+      "url": "https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant",
+      "category": "email-calendar",
+      "en": "A one-week account describes daily briefings and a location-triggered rescheduling workflow using Workers, Shortcuts and webhooks. Setup effort and integration problems are part of the recipe, with no published reliability log.",
+      "zh": "一周使用记录包含日程简报，以及通过Workers、Shortcuts和webhooks搭出的迟到改约流程。需要配置调试，也有接入问题，未公开可靠性日志。",
+      "scope": "主帖；自定义流程与一周体验段；Daniel MCP接入质疑及作者回复（224–235行）；网页显示1yr ago；公开HTML日期字段均为2025-09，本轮未锁定帖级精确日；未读媒体：入门截图与MCP连接截图未核看",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "Poke一周体验：日程与迟到改约"
+    },
+    {
+      "id": "use-cases-uc05",
+      "name": "Today interview invitation with next-day follow-up",
+      "url": "https://www.pingwest.com/a/317164",
+      "category": "email-calendar",
+      "en": "A journalist reports approving an interview email, checking it in the inbox, and receiving an unsolicited follow-up after the reply the next day. This is a one-week account without a final interview outcome or long-term measurements.",
+      "zh": "记者自报确认采访邀约后在邮箱看到已发邮件，次日收到对方回复时Today主动续办。只有一周体验，未交代最终采访落实或长期效果。",
+      "scope": "原站公开HTML正文完整提取；工具web首开有目录、后续Internal Error，以免费HTTP正文恢复；未读截图；页面可见0评论；原站9月9日，聚合页交叉确认2026-09-09；未读媒体：产品截图未核看",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.pingwest.com/a/317164"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "Today采访邀约与次日续办"
+    },
+    {
+      "id": "use-cases-uc06",
+      "name": "Instinct flight monitoring and shopping stress test",
+      "url": "https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/",
+      "category": "travel-shopping",
+      "en": "A tester reports flight checks roughly three times daily and several shopping tasks, alongside slow steps, inaccessible sites and manual OTP handling. Payment approval remains a separate trust decision.",
+      "zh": "试用者自报每天约三次机票检查和多项购物任务，也报告步骤慢、部分网站不通与OTP接管。是否允许付款需要单独决定。",
+      "scope": "主帖全文；虚拟卡建议与作者反问（125–134行）；OTP/速度讨论；iMessage读权限误认后自纠（248–300行）；Reddit 搜索结果绝对日期，既有来源卡一致；未读媒体：评论外链视频、Instagram及媒体未逐一核读",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "Instinct机票监控与购物测试"
+    },
+    {
+      "id": "use-cases-uc07",
+      "name": "Muse travel-advisor workflow after twelve days",
+      "url": "https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/",
+      "category": "cautions",
+      "en": "A travel advisor reports missing spreadsheet details and repeated rule failures after an initially useful start, creating extra review work. Shopping-site blocks and account issues are allegations, without logs proving their cause.",
+      "zh": "旅行顾问自报最初有用，约12天后开始漏填表格、反复忘规则，复核负担增加。购物网站阻拦与账号异常未有日志证明因果。",
+      "scope": "Public post and selected discussion read, including repeated-task failures and claimed verification. Exact publication date not independently rechecked; images, videos and linked threads not read.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "Muse十二天后：复核负担上升"
+    },
+    {
+      "id": "use-cases-uc08",
+      "name": "When a plain workflow plus one model call is enough",
+      "url": "https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/",
+      "category": "cautions",
+      "en": "A weekly-use discussion describes log summaries, inbox drafts and page diffs with deterministic fetching and routing. These are reported alternatives to a general agent; sending and money-sensitive actions remain approved by a person.",
+      "zh": "周常讨论提供日志摘要、邮件拟稿、网页差异等规则抓取与路由的做法。它们是通用代理的自报替代方案，发送和涉及金钱的步骤仍由人批准。",
+      "scope": "主帖；Total_Drag7439三项实际周用例（128–138行）；规则/模型边界反问；其他每周例子与在建声明；本轮缓存显示23d ago；既有研究2026-09-29已读，不反推准确日；未读媒体：评论所链工具产品未逐一读",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "规则流程加一次模型判断的对照"
+    },
+    {
+      "id": "use-cases-uc09",
+      "name": "OpenClaw study recall from an Obsidian vault",
+      "url": "https://sajalsharma.com/posts/openclaw-experiments/",
+      "category": "research-learning",
+      "en": "Sajal Sharma reports a twice-weekly cron that quizzes him from the articles and courses logged in Obsidian. His one-week account also explains separate accounts, sender allowlisting and duplicate-email fixes; learning gains are not measured.",
+      "zh": "Sajal Sharma自报每周两次根据Obsidian中的文章和课程记录主动提问，帮助检查记忆与理解。一周记录也交代独立账号、发件人白名单及重复邮件修复，未测学习成绩。",
+      "scope": "2026-02-16；主文全文，重点Studying与技术失败；图片未读，未来看房功能为计划。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://sajalsharma.com/posts/openclaw-experiments/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "从Obsidian笔记发起复习提问"
+    },
+    {
+      "id": "use-cases-uc10",
+      "name": "Sebastian: a family Matrix assistant",
+      "url": "https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/",
+      "category": "family-workflows",
+      "en": "A builder describes a family-of-four assistant with Matrix rooms, email monitoring and source-checked news digests. The post documents rate-limit and encryption-session failures; E2EE does not make data sent to external models local.",
+      "zh": "作者描述供四口之家使用的Matrix助手，处理邮件监测和核来源的新闻简报。正文记录限流、加密会话与升级故障；聊天端加密不等于外部模型不会收到上下文。",
+      "scope": "2026-04-10；主文全文，含新闻步骤、家人重新验证与失败；图片未读，技能加速倍率未经独立测试。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "家庭Matrix消息助手Sebastian"
+    },
+    {
+      "id": "use-cases-uc11",
+      "name": "Semantic email mining with Gmail API and Claude",
+      "url": "https://moontowermeta.com/unlocking-my-email-with-ai/amp/",
+      "category": "email-calendar",
+      "en": "Kris reports retrieving email candidates with fourteen keyword searches, fetching bodies through Gmail API, then classifying them with a model. The reusable script workflow needed caching, retries and resumable writes after rate limits and failed API calls.",
+      "zh": "Kris自报先用14组关键词取候选邮件，再通过Gmail API读正文并让模型分类。缓存、重试和可续跑保存处理限流与失败调用，属于可复用脚本流程。",
+      "scope": "公开正文全文；步骤1–3、结果与故障均已读；发布时间页面只显示相对日期，未核绝对日；未查私有邮件或脚本。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://moontowermeta.com/unlocking-my-email-with-ai/amp/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "邮件语义检索与资料挖掘"
+    },
+    {
+      "id": "use-cases-uc12",
+      "name": "Zoho appointment email to a confirmed family event",
+      "url": "https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf",
+      "category": "family-workflows",
+      "en": "Ganesh Tarala describes reading appointment email over IMAP, checking availability through ICS and creating the event over CalDAV after confirmation. It uses local helper scripts rather than a ready-made Google connector; ongoing reliability and costs are not reported.",
+      "zh": "Ganesh Tarala描述通过IMAP读预约邮件、ICS查空闲，在确认后用CalDAV建家庭日历事件。依靠本地辅助脚本，未报告持续可靠性和费用。",
+      "scope": "2026-05-05；公开LinkedIn作者正文全文与可见感谢评论；截图未读，链接ganesht.de未进一步读取。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "邮件中的家庭预约确认后写入日历"
+    },
+    {
+      "id": "use-cases-uc13",
+      "name": "Three weeks of Hermes through Telegram",
+      "url": "https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/",
+      "category": "family-workflows",
+      "en": "A three-week user reports sending voice notes and screenshots from a phone to build a small-business Telegram bot. A script rotates available free models, but the author admits failed cron jobs and commenters report inconsistent results and extra review.",
+      "zh": "三周使用者自报通过手机语音与截图开发小企业Telegram机器人，另用脚本轮换可用免费模型。作者承认失败的定时任务，评论也有结果不一致和多轮复核。",
+      "scope": "2026-05-17；主帖及OP关于脚本、失败cron、个人数据隔离的回复；模型不稳定评论；机器人摘要与操作代码不作独立证据，未读图片。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "Hermes三周Telegram工作流"
+    },
+    {
+      "id": "use-cases-uc14",
+      "name": "Kashmir itinerary test: overview versus details",
+      "url": "https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/",
+      "category": "travel-shopping",
+      "en": "A Trip Planner builder explains a search-plus-model itinerary workflow, and a Kashmir traveler reports useful day-level ideas but hallucinated details and weak date-specific hotel prices. Other comments report a search rate-limit error; no booking or completed trip is verified.",
+      "zh": "Trip Planner作者介绍搜索加模型的行程流程，Kashmir旅行用户反馈按天概览有用，细节却有幻觉、酒店报价未按日期落实。另有搜索限流错误，没有已验证的预订或旅程结果。",
+      "scope": "主帖与旅行测试、作者回应、500限流评论均已读；页面关联2025-03-16，精确发表时间未核；外链产品未登录或试用。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/"
+      ],
+      "section": "use-cases",
+      "checked_on": "2026-10-07",
+      "name_zh": "克什米尔行程测试与细节幻觉"
+    },
+    {
+      "id": "use-cases-xiaobu-phone",
+      "name": "Two months with Xiaobu Next: phone workflows and limits",
+      "name_zh": "小布Next两个月体验与第三方应用限制",
+      "url": "https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "A co-creation-tagged account of reminders and information capture. Author replies acknowledge limited third-party app control; useful for exploring phone-assistant expectations, not an independent long-term test.",
+      "zh": "带共创活动标签的提醒与信息归档体验；作者评论承认第三方应用控制有限，适合了解手机助手的期望和现实边界。",
+      "scope": "TikHub text detail and18 returned comment/reply records read on2026-10-07. Images and video not read; no pagination or product test.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "use-cases-dots-handoffs",
+      "name": "Dots after a few days: agent handoffs and calls",
+      "name_zh": "Dots几天体验：权限交接与通话",
+      "url": "https://x.com/telegram_man/status/2107498869571633273",
+      "section": "use-cases",
+      "category": "cautions",
+      "en": "The author's report of friction when delegating to other agents and using calls. A friend's travel success is second-hand; useful for thinking about handoffs rather than comparing completion rates.",
+      "zh": "作者报告把任务转给其他Agent及通话时遇到的阻碍。朋友的旅行成功是转述，适合思考交接条件，不能用于成功率比较。",
+      "scope": "TikHub returned long-form post text read; image and replies not read. No independent reproduction.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "articles-ar01",
+      "name": "OpenPoke: Recreating Poke’s Architecture",
+      "url": "https://www.shloked.com/openpoke",
+      "category": "practitioner",
+      "en": "Shlok Khemani walks through his local prototype: interaction and execution agents, email tools, triggers and layered memory. It is a reverse engineering account based on usage and leaked prompts, with explicit cost, latency and feature gaps; it is not Poke’s official architecture.",
+      "zh": "Shlok Khemani拆解自己的本地原型：交互与执行代理、邮件工具、触发器和分层记忆。基于使用与泄漏提示词的逆向，明确有成本、延迟和功能缺口，并非Poke官方架构。",
+      "scope": "2025-09-22；作者正文全文；截图、视频未读，原型源码未审；泄漏prompt未作为权威产品保证。",
+      "evidence": "implementation-account",
+      "source_urls": [
+        "https://www.shloked.com/openpoke"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-07",
+      "name_zh": "OpenPoke：复现Poke架构的分析"
+    },
+    {
+      "id": "articles-ar02",
+      "name": "On the Interaction Acquisition",
+      "url": "https://www.shloked.com/interaction-acquisition",
+      "category": "practitioner",
+      "en": "The OpenPoke author explains why he stopped paying for Poke after a month despite liking it: too little email/calendar work and effort needed to invent automations. His broader retention and acquisition explanations are speculation, and he discloses a brief contractor relationship.",
+      "zh": "OpenPoke作者解释为何喜欢Poke却一个月后停付费：本人邮件日历需求不多，自动化还得自己找。他对总体留存和出售原因的解释是猜测，文末披露短期承包关系。",
+      "scope": "2026-07-30；短文全文；所链X讨论未读，不据单人经历估总体留存。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.shloked.com/interaction-acquisition"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-07",
+      "name_zh": "离开Poke后的个人反思"
+    },
+    {
+      "id": "articles-ar03",
+      "name": "Trying (another) AI assistant — Tanisha Srivatsa",
+      "url": "https://tanishasrivatsa.substack.com/p/i-spent-30-minutes-arguing-with-a",
+      "category": "practitioner",
+      "en": "A Poke user combines onboarding experience with an edited interview about messaging, personality and context. The text includes a messaging outage and the team’s explanation; it is useful product commentary, not a measured reliability study.",
+      "zh": "Poke用户把入门经历与团队采访结合，讨论消息入口、性格与个人上下文。文中有消息停止响应及团队解释，适合读产品取舍，不能当可靠性测评。",
+      "scope": "2025-09-23；公开正文与编辑后的访谈全文；截图未读；团队解释未独立核事故。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://tanishasrivatsa.substack.com/p/i-spent-30-minutes-arguing-with-a"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-07",
+      "name_zh": "Tanisha的消息式助手体验"
+    },
+    {
+      "id": "articles-ar04",
+      "name": "Building 4shClaw — Sylvain Cau",
+      "url": "https://4sh.dev/posts/2026/building-4shclaw/",
+      "category": "practitioner",
+      "en": "Sylvain Cau explains a Telegram system with per-agent containers, capabilities, shared ledgers and gated proactive check-ins. The proposed GLORP project illustrates the handoffs, but the closing section says its implementation pipeline is only ready to begin.",
+      "zh": "Sylvain Cau解释Telegram入口、每代理容器、能力声明、共享账本与有条件的主动提醒。GLORP用于说明交接，但结尾写明项目流水线正准备开始，不能当完整交付战绩。",
+      "scope": "2026-02-28；作者公开HTML正文全文已读；图的文本结构已读、图片与公开repo提交未核；威胁判断是作者论证。",
+      "evidence": "implementation-account",
+      "source_urls": [
+        "https://4sh.dev/posts/2026/building-4shclaw/"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-07",
+      "name_zh": "构建4shClaw的过程"
+    },
+    {
+      "id": "articles-ar05",
+      "name": "Five OpenClaw workflows — Corey Ganim",
+      "url": "https://www.coreyganim.com/blog/5-openclaw-workflows-that-made-me-say-wait-it-can-do-that-by-itself/",
+      "category": "practitioner",
+      "en": "An operator lists triggers, integrations and review steps for podcast production, inbox triage, repurposing, guest research and meeting preparation. Time-saving and percentage claims are author-reported, and the post also promotes services and a lead magnet.",
+      "zh": "作者列出播客制作、邮件分拣、内容拆解、嘉宾研究和会前准备的触发、工具与人审步骤。省时和比例均为自报，文章兼有服务与资料推广。",
+      "scope": "2026-02-10；主文全文、五项How it works与制作步骤已读；未看任何YouTube视频或核查产物/工时账单。",
+      "evidence": "reported",
+      "source_urls": [
+        "https://www.coreyganim.com/blog/5-openclaw-workflows-that-made-me-say-wait-it-can-do-that-by-itself/"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-07",
+      "name_zh": "五个OpenClaw工作流"
+    },
+    {
+      "id": "articles-ar06",
+      "name": "Personal Agents Have Gone Mainstream — Sajal Sharma",
+      "url": "https://sajalsharma.com/posts/personal-agents-have-gone-mainstream/",
+      "category": "practitioner",
+      "en": "A long-term tinkerer discusses the shift from asking questions to delegating errands, including account access and memory portability. Read it as product analysis; market figures and competitive claims are not independently checked by this collection.",
+      "zh": "长期使用者讨论从问问题到交办事务的变化，包括账号访问和记忆迁移。适合作为产品分析，文中的市场数字与竞争判断未在本清单独立核验。",
+      "scope": "2026-09-30；作者正文全文；内链市场新闻未逐条核读，不采用其市场规模数字。",
+      "evidence": "implementation-account",
+      "source_urls": [
+        "https://sajalsharma.com/posts/personal-agents-have-gone-mainstream/"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-07",
+      "name_zh": "Personal Agent的产品与采用分析"
+    },
+    {
+      "id": "articles-context-engineering",
+      "name": "Effective context engineering for AI agents",
+      "url": "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents",
+      "section": "articles",
+      "category": "engineering",
+      "en": "Anthropic's guide to selecting context, compacting conversations and keeping persistent notes. Useful for understanding why an assistant loses track during long tasks.",
+      "zh": "Anthropic讲解上下文选择、会话压缩与持久笔记，适合理解助手为什么会在长任务中丢失重点。",
+      "scope": "Public article text; images and linked demonstrations not inspected.",
+      "evidence": "official",
+      "checked_on": "2026-10-07",
+      "source_urls": [],
+      "name_zh": "怎样管理Agent的上下文"
+    },
+    {
+      "id": "articles-building-effective-agents",
+      "name": "Building effective agents",
+      "url": "https://www.anthropic.com/engineering/building-effective-agents",
+      "section": "articles",
+      "category": "engineering",
+      "en": "A foundation for choosing fixed workflows or model-directed agents. Read for the design patterns; the original 2024 article flags that its tooling has since changed.",
+      "zh": "介绍固定工作流与模型自主决策的设计取舍。适合学习基础模式；原文已提醒2024年的工具环境发生变化。",
+      "scope": "Public article text and its current update notice; examples not reproduced.",
+      "evidence": "official",
+      "checked_on": "2026-10-07",
+      "source_urls": [],
+      "name_zh": "构建有效Agent的基础模式"
+    },
+    {
+      "id": "articles-muse-safety",
+      "name": "How We Built Safety Into Muse",
+      "url": "https://research.meta.ai/blog/security-and-safety-for-ai-agents-our-approach-with-muse",
+      "section": "articles",
+      "category": "engineering",
+      "en": "Meta's explanation of Muse's credential handling, isolated execution and action approval. A vendor architecture account, not an independent security audit.",
+      "zh": "Meta介绍Muse的凭据处理、隔离执行和动作审批。属于厂商架构说明，没有经过本库独立安全审计。",
+      "scope": "Public engineering article text; no product or security test performed.",
+      "evidence": "official",
+      "checked_on": "2026-10-07",
+      "source_urls": [],
+      "name_zh": "Muse的安全设计说明"
+    },
+    {
+      "id": "articles-manus-context",
+      "name": "Context Engineering for AI Agents: Lessons from Building Manus",
+      "url": "https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus",
+      "section": "articles",
+      "category": "engineering",
+      "en": "Manus's engineering account of tool context, cache reuse, external state and learning from failed actions. Useful beyond its own product; reported lessons are not a comparative benchmark.",
+      "zh": "Manus分享工具上下文、缓存利用与外部状态的工程经验，也讨论如何保留失败信息。可供其他实现参考，不能当跨产品评测。",
+      "scope": "Public article text; no implementation reproduction.",
+      "evidence": "official",
+      "checked_on": "2026-10-07",
+      "source_urls": [],
+      "name_zh": "Manus的上下文工程经验"
+    },
+    {
+      "id": "articles-nicolas-stack",
+      "name": "My Agent Stack For Automating My Personal Life",
+      "name_zh": "跨应用处理个人事务：Nicolas的工具栈",
+      "url": "https://www.nicolasbustamante.com/blog/how-agents-run-my-personal-life",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "Nicolas describes a cross-app introduction email and his personal tools, files and reusable skills. Includes approval before important messages and the ongoing work of repairing connectors and instructions.",
+      "zh": "Nicolas通过一封跨应用介绍邮件讲解个人工具栈，保留发信审批，也写出维护连接器和修订技能的劳动。效果属于作者自报。",
+      "scope": "Public article text read; screenshots and linked tools not tested.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "articles-talal-calendar",
+      "name": "Managing Time With an Agent",
+      "name_zh": "与Agent共同管理日历和精力预算",
+      "url": "https://talalakkari.com/blog/managing-time-with-an-agent/",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "Talal's account of a shared busy/free calendar, human-accepted invitations and quiet hours. A useful design story about coordinating across calendars without handing over every decision.",
+      "zh": "Talal介绍多个日历的共同忙闲视图、本人接受邀请以及安静时段，适合学习共享工作面怎样支持日常协作。",
+      "scope": "Public article text read; diagrams and linked implementation not tested.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "articles-tbpn-delegation",
+      "name": "Ben Thompson on tasks people may not want to delegate",
+      "name_zh": "哪些事情用户可能愿意自己做",
+      "url": "https://x.com/tbpn/status/2102529303212970099",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "TBPN's published text of Ben Thompson's argument about choosing flights and enjoying shopping. A demand-side counterpoint to automating everything; the interview video was not watched.",
+      "zh": "TBPN发布文字记录了Ben Thompson对航班选择和购物体验的看法，可用于思考用户愿不愿委托。未观看访谈视频。",
+      "scope": "TikHub post text read; video and replies not read. This is platform-published discussion text, not a full interview review.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "research-vitabench2",
+      "name": "VitaBench 2.0",
+      "url": "https://arxiv.org/html/2605.27141v1",
+      "section": "research",
+      "category": "proactivity",
+      "en": "Studies evolving preferences and proactive information gathering across ordered user tasks, with comparable memory interfaces. Uses constructed histories rather than months of real account use.",
+      "zh": "研究连续任务中的偏好变化与主动补问，并提供可比较的记忆接口。使用构造历史，不能等同真实账户跨月体验。",
+      "scope": "Benchmark, setup and limitations sections; not reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-pi-bench",
+      "name": "π-Bench",
+      "url": "https://arxiv.org/html/2605.14678v3",
+      "section": "research",
+      "category": "proactivity",
+      "en": "Proactive personal-assistant tasks with hidden intent, dependencies and cross-session continuity. Simulated users and one shared agent scaffold limit generalization to deployed products.",
+      "zh": "通过隐藏意图、任务依赖和跨会话续接考察主动助手。采用模拟用户及统一执行框架，结论不能直接套到所有上线产品。",
+      "scope": "Benchmark, implementation configuration and limitations; not reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-memora",
+      "name": "Memora: From Recall to Forgetting",
+      "url": "https://arxiv.org/html/2604.20006v1",
+      "section": "research",
+      "category": "memory",
+      "en": "Evaluates remembering, reasoning and recommendations as user information changes. Its forgetting-aware metric makes obsolete memories visible; conversation streams are simulated.",
+      "zh": "考察用户信息变化后的记忆、推理与推荐，用遗忘指标识别过时记忆。对话是模拟数据，适合借用测试问题。",
+      "scope": "Benchmark, experiments, limitations and memory-evaluation appendix; not reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-pasb",
+      "name": "PASB: Agents Don’t Just Agree, They Remember",
+      "url": "https://arxiv.org/html/2607.10526v1",
+      "section": "research",
+      "category": "memory",
+      "en": "Examines how user claims can persist in an agent's memory and affect later sessions. A useful prompt for memory-write governance; controlled episodes are not a life-task reliability test.",
+      "zh": "研究用户说法如何进入记忆并影响后续会话，适合思考记忆写入规则。受控对话实验不能证明日常执行可靠性。",
+      "scope": "Sections3–5 and the human-gold appendix; not reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-longmint",
+      "name": "LongMINT",
+      "url": "https://arxiv.org/html/2605.18565v1",
+      "section": "research",
+      "category": "memory",
+      "en": "Tests current facts, history and ordering in evolving information. Helps separate remembering an old fact from using the right fact now; this is offline question answering.",
+      "zh": "测试变化信息中的当前事实、历史与先后顺序，帮助区分记住旧事实和用对当前事实。属于离线问答评测。",
+      "scope": "Method and selected experimental sections; not reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-recuris",
+      "name": "Recuris",
+      "url": "https://arxiv.org/html/2608.24876v1",
+      "section": "research",
+      "category": "evaluation",
+      "en": "Connects verified task state, structured failure traces and targeted skill repair. Benchmark improvements do not establish unattended real-life reliability.",
+      "zh": "连接可核验任务状态、失败轨迹和针对性技能修复。基准中的改进不等于真实生活中无人值守的可靠性。",
+      "scope": "Selected method, task-state and held-out evaluation sections; not reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-vibelife",
+      "name": "VibeLifeBench",
+      "url": "https://arxiv.org/abs/2608.10875v2",
+      "section": "research",
+      "category": "proactivity",
+      "en": "A paper on multi-week life-assistant scenarios in a changing simulated world, including timing and implicit constraints. This entry is based on the abstract, not full-method review.",
+      "zh": "介绍变化模拟环境中的多周生活助手任务，关注行动时机与隐含约束。本条只依据摘要，尚未精读完整方法。",
+      "scope": "arXiv abstract and version metadata only; not reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-personalized-rag",
+      "name": "Awesome Personalized RAG Agent / survey",
+      "url": "https://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent",
+      "section": "research",
+      "category": "memory",
+      "en": "A research map linking personalized retrieval, agent methods, datasets and evaluation. Useful for finding papers; individual techniques require reading their original work.",
+      "zh": "按个性化检索和Agent方法整理论文、数据与评测，适合顺着地图找原始研究。具体技术仍需回到论文核读。",
+      "scope": "Official README and related survey sections4.4.5,5,6.",
+      "evidence": "collection",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-personal-agent-bench",
+      "name": "Personal Agent Bench",
+      "url": "https://personalagentbench.com/",
+      "section": "research",
+      "category": "evaluation",
+      "en": "Runtime teardowns alongside state-based simulated task tests. The Zentor team discloses its own agent-business interest; some aggregate results lack complete public run records.",
+      "zh": "将运行机制拆解与模拟任务结果并列。Zentor团队披露自身Agent业务关联，部分聚合成绩缺完整公开运行记录。",
+      "scope": "Homepage, about page, task index and exam methodology; scores not independently reproduced.",
+      "evidence": "research",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "research-micro1-personalagentbench",
+      "name": "micro1 PersonalAgentBench launch",
+      "url": "https://www.linkedin.com/posts/aliansarinik_which-personal-agent-is-the-best-life-assistant-activity-7513263537247457282-D1-5",
+      "section": "research",
+      "category": "evaluation",
+      "en": "Founder announcement of everyday-task and trust testing across four personal agents, inviting user contributions. Launch text only; linked results and scores were not verified.",
+      "zh": "创始人介绍四款个人Agent的日常任务与信任测试，并邀请用户贡献。本条只核读发布文字，没有验证外链成绩。",
+      "scope": "Public launch text and page-provided transcript; video not watched, linked result inaccessible.",
+      "evidence": "official",
+      "checked_on": "2026-10-07",
+      "source_urls": []
+    },
+    {
+      "id": "collections-awesome-personal-agents-selection",
+      "name": "Awesome Personal Agents — selection guide",
+      "url": "https://github.com/upgundecha/awesome-personal-agents",
+      "category": "collection",
+      "en": "A product discovery list with a detailed selection guide for task fit, deployment, memory, permissions and cost.",
+      "zh": "产品发现清单，附任务适配、部署、记忆、权限及成本选型指南。",
+      "scope": "Independent public curator/community collection; not an endorsement or benchmark.",
+      "evidence": "collection",
+      "source_urls": [
+        "https://github.com/upgundecha/awesome-personal-agents"
+      ],
+      "section": "collections",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "collections-awesome-personal-agents-components",
+      "name": "Awesome Personal Agents — components",
+      "url": "https://github.com/ahmadyan/awesome-personal-agents",
+      "category": "collection",
+      "en": "A neighboring map of personal agents, memory layers, runtimes, sandboxes and messaging bridges.",
+      "zh": "整理个人Agent、记忆层、运行时、沙箱和消息桥的邻近资源地图。",
+      "scope": "Independent public curator/community collection; not an endorsement or benchmark.",
+      "evidence": "collection",
+      "source_urls": [
+        "https://github.com/ahmadyan/awesome-personal-agents"
+      ],
+      "section": "collections",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "collections-awesome-personal-ai-assistants",
+      "name": "Awesome Personal AI Assistants",
+      "url": "https://github.com/elyase/awesome-personal-ai-assistants",
+      "category": "collection",
+      "en": "A self-hosted assistant catalogue with lightweight, security-focused and deployment-oriented sections.",
+      "zh": "自托管个人助理清单，包含轻量实现、安全边界和部署资源。",
+      "scope": "Independent public curator/community collection; not an endorsement or benchmark.",
+      "evidence": "collection",
+      "source_urls": [
+        "https://github.com/elyase/awesome-personal-ai-assistants"
+      ],
+      "section": "collections",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "collections-awesome-openclaw-usecases",
+      "name": "Awesome OpenClaw Use Cases",
+      "url": "https://github.com/hesamsheikh/awesome-openclaw-usecases",
+      "category": "collection",
+      "en": "A community use-case library for OpenClaw; contribution rules require personally tested workflows.",
+      "zh": "OpenClaw 社区用例库，贡献要求作者亲自测试工作流。",
+      "scope": "Independent public curator/community collection; not an endorsement or benchmark.",
+      "evidence": "collection",
+      "source_urls": [
+        "https://github.com/hesamsheikh/awesome-openclaw-usecases"
+      ],
+      "section": "collections",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "collections-awesome-openclaw-examples",
+      "name": "Awesome OpenClaw Examples",
+      "url": "https://github.com/OthmaneBlial/awesome-openclaw-examples",
+      "category": "collection",
+      "en": "Inspectable workflow starter packs with prompts, sample outputs and setup notes. Samples are not automatically evidence of production runs.",
+      "zh": "提供提示、输出样例和配置说明的工作流起步包；样例不自动等于真实生产运行。",
+      "scope": "Independent public curator/community collection; not an endorsement or benchmark.",
+      "evidence": "collection",
+      "source_urls": [
+        "https://github.com/OthmaneBlial/awesome-openclaw-examples"
+      ],
+      "section": "collections",
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "use-cases-poke-recipes",
+      "name": "Poke Recipes: package and share a workflow",
+      "name_zh": "Poke Recipe：打包与分享一个工作流",
+      "url": "https://poke.com/docs/creating-recipes",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "Official instructions for packaging onboarding context and required integrations into a shareable recipe. Requires Kitchen access; a local integration tunnel must remain running. This is a guide, not a tested user outcome.",
+      "zh": "官方教程把首次上下文和所需集成打包成可分享Recipe。需要Kitchen权限，本地接入隧道需持续运行；属于玩法指南，没有本库实跑结果。",
+      "scope": "Current official guide/article text read; linked demonstrations and live workflow not tested.",
+      "evidence": "official",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "use-cases-town-routines",
+      "name": "Town Routines: recurring email and meeting jobs",
+      "name_zh": "Town Routine：周期邮件与会议任务",
+      "url": "https://www.town.com/docs/features/routines",
+      "section": "use-cases",
+      "category": "email-calendar",
+      "en": "Official examples include morning briefings, inbox triage, meeting preparation and reply drafts. Explore the read-only, approval-required and autonomous modes; examples are vendor-described workflows.",
+      "zh": "官方示例包含晨报、邮件分拣、会前准备及回复草稿，适合学习只读、需审批与自主运行的设置。属于厂商介绍的流程。",
+      "scope": "Current official guide/article text read; linked demonstrations and live workflow not tested.",
+      "evidence": "official",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    },
+    {
+      "id": "use-cases-today-recording",
+      "name": "Today Recording: meeting notes and follow-up",
+      "name_zh": "Today Recording：会议记录与后续跟进",
+      "url": "https://today.ai/articles/blog/introducing-today-recording",
+      "section": "use-cases",
+      "category": "email-calendar",
+      "en": "A vendor explanation of connecting meeting capture, existing project context and follow-up tasks. Useful for exploring the path from a transcript to action; the demonstration was not reproduced.",
+      "zh": "厂商介绍如何把会议记录、已有项目上下文和后续任务连接起来。适合探索转录之后怎样推进事情，演示尚未复跑。",
+      "scope": "Current official guide/article text read; linked demonstrations and live workflow not tested.",
+      "evidence": "official",
+      "source_urls": [],
+      "checked_on": "2026-10-07"
+    }
+  ]
+}
