@@ -4,7 +4,7 @@
 
 > 个人Agent资源聚合：产品、开源项目、用户案例与玩法，附精选文章和论文。
 
-**84 条精选资源** · 最近整理：2026-10-07。
+**227 条精选资源** · 最近整理：2026-10-17。
 
 完整资源直接列在本页。用目录跳到感兴趣的分类，点击资源名称打开原始来源。
 
@@ -12,10 +12,10 @@
 
 | 分类 | 找什么 |
 |---|---|
-| [产品](#products) · 17 | 看看产品与助手形态 |
-| [开源项目](#projects) · 20 | 找运行框架和接入组件 |
-| [用例与玩法](#use-cases) · 19 | 看实际用法、官方教程与使用限制 |
-| [文章与技术](#articles) · 13 | 理解产品与工程取舍 |
+| [产品](#products) · 25 | 看看产品与助手形态 |
+| [开源项目](#projects) · 26 | 找运行框架和接入组件 |
+| [用例与玩法](#use-cases) · 27 | 看实际用法、官方教程与使用限制 |
+| [文章与技术](#articles) · 134 | 理解产品与工程取舍 |
 | [论文与评测](#research) · 10 | 找记忆、主动性及评测研究 |
 | [资源集合](#collections) · 5 | 继续发现相关资料 |
 
@@ -23,7 +23,7 @@
 
 <a id="products"></a>
 
-## 产品 · 17
+## 产品 · 25
 
 <a id="products-messaging"></a>
 
@@ -40,6 +40,14 @@
 <a id="products-town"></a>
 
 - **[Town](https://www.town.com/)** — 学习工作上下文并连接邮件、日历、文档和工具的助理，适合关注个人化工作习惯与不同渠道中的 Townie。 <sub>官方说明</sub>
+
+<a id="products-dot-new-computer"></a>
+
+- **[Dot](https://new.computer/)** — 通过文本交流并记住对话的个人AI伙伴，适合关注持续记忆与自然互动；与ChatGPT中的Dots不同。 <sub>官方说明</sub>
+
+<a id="products-pi-inflection"></a>
+
+- **[Pi](https://pi.ai/)** — 专注支持性对话与个人交流的对话AI，适合关注共情互动与情感支持场景。 <sub>官方说明</sub>
 
 <a id="products-computer"></a>
 
@@ -69,6 +77,10 @@
 
 - **[Cue桌面助手（heycue.io）](https://heycue.io/)** — 面向Mac和Windows的语音写作、屏幕上下文问答、任务与会议记录助手。与Manus Cue及heycue.ai生活事务产品分开。 <sub>官方说明</sub>
 
+<a id="products-limitless"></a>
+
+- **[Limitless](https://limitless.ai/)** — 专注会议记忆、转录与自动跟进的可穿戴设备加应用，适合关注自动捕捉对话并提炼洞察的场景。 <sub>官方说明</sub>
+
 <a id="products-ecosystem"></a>
 
 ### 平台生态的助手
@@ -88,6 +100,22 @@
 <a id="products-siri-ai"></a>
 
 - **[Siri / Siri AI](https://www.apple.com/apple-intelligence/)** — Apple 系统中的个人上下文与应用操作助理，适合关注设备信息、语音及受支持应用动作怎样连接日常任务。 <sub>官方说明</sub>
+
+<a id="products-microsoft-365-copilot"></a>
+
+- **[Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/copilot)** — 微软跨Office应用的AI助理，具备个人任务功能、邮件起草、会议摘要与文档智能，适合关注微软生态内的工作导向个人辅助。 <sub>官方说明</sub>
+
+<a id="products-muse-connectors"></a>
+
+- **[Muse Connectors](https://ai.meta.com/muse/connectors/)** — Meta的Muse集成开发者平台。你提供API，Muse提供Agent、浏览器和用户上下文，用户开口即可触达服务。 <sub>官方说明</sub>
+
+<a id="products-spell-bytedance"></a>
+
+- **[字节Spell](https://spell.bytedance.com/)** — 字节跳动的个人AI助理，集成其应用生态。适合探索字节服务内的任务自动化与内容工作流；更广泛的第三方应用接入受限。 <sub>官方说明</sub>
+
+<a id="products-lightvela-tencent"></a>
+
+- **[腾讯元宝/LightVela](https://yuanbao.tencent.com/)** — 腾讯个人AI助理，具备微信集成潜力。适合探索文档、日程与信息工作流；实际微信Agent接入取决于平台政策。 <sub>官方说明</sub>
 
 <a id="products-family-goals"></a>
 
@@ -113,9 +141,13 @@
 
 - **[today ai by Since Kindly](https://oneintent.today/)** — 邻近的每日意图与反思工具，适合关注目标设定和日常回顾；不把它当作通用行动 Agent，也不与 today.ai 的 Today 混为一谈。 <sub>官方说明</sub>
 
+<a id="products-friend-wearable"></a>
+
+- **[Friend](https://friend.com/)** — 监听日常并主动发消息的可穿戴AI伙伴。邻近工具，专注陪伴而非任务执行。 <sub>官方说明</sub>
+
 <a id="projects"></a>
 
-## 开源项目 · 20
+## 开源项目 · 26
 
 <a id="projects-core"></a>
 
@@ -205,9 +237,33 @@
 
 - **[AgentMail Python SDK](https://github.com/agentmail-to/agentmail-python)** — AgentMail 官方 Python 客户端，用于创建和操作 Agent 收件箱，适合需要独立邮箱及程序化通信的助手。SDK 开源，邮件服务需要 AgentMail 账号和 API key。 <sub>项目文档</sub>
 
+<a id="projects-mcp"></a>
+
+- **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** — 连接AI模型与外部工具及数据源的开放协议。由Anthropic创建，被多个Agent平台采用以实现结构化工具访问。 <sub>项目文档</sub>
+
+<a id="projects-a2a"></a>
+
+- **[Agent-to-Agent Protocol (A2A)](https://a2a.ai/)** — Agent间直接通信与任务委托的协议。使你的个人Agent能代表你与其他Agent协调。 <sub>项目文档</sub>
+
+<a id="projects-pap"></a>
+
+- **[Personal Agent Protocol (PAP)](https://github.com/PersonalAgentProtocol/pap)** — Meta与Sierra推出的开放协议，用于个人Agent代表你行动时的委托身份与同意管理。合作方包括Shopify、Stripe、Walmart、Okta。2026年10月发布。 <sub>项目文档</sub>
+
+<a id="projects-pact"></a>
+
+- **[Protocol for Agent Communication and Trust (PACT)](https://github.com/DecagonAI/pact)** — Decagon与Instinct推出的Agent同意与信任开放协议，基于A2A与OAuth。将查看权限与执行权限分离。PAP发布37分钟后发布。 <sub>项目文档</sub>
+
+<a id="projects-zep"></a>
+
+- **[Zep](https://github.com/getzep/zep)** — AI应用的长期记忆存储，具备时间推理能力。追踪事实如何随时间变化并构建知识图谱。Graphiti（同样由Zep开发）在LongMemEval上得分71%。另有托管服务。 <sub>项目文档</sub>
+
+<a id="projects-cognee"></a>
+
+- **[Cognee](https://github.com/topoteretes/cognee)** — AI Agent的记忆与知识管理框架。将信息结构化为Agent可推理的可搜索、互联知识。不断增长的Agent记忆基础设施生态的一部分。 <sub>项目文档</sub>
+
 <a id="use-cases"></a>
 
-## 用例与玩法 · 19
+## 用例与玩法 · 27
 
 <a id="use-cases-email-calendar"></a>
 
@@ -236,6 +292,10 @@
 <a id="use-cases-today-recording"></a>
 
 - **[Today Recording：会议记录与后续跟进](https://today.ai/articles/blog/introducing-today-recording)** — 厂商介绍如何把会议记录、已有项目上下文和后续任务连接起来。适合探索转录之后怎样推进事情，演示尚未复跑。 <sub>官方说明</sub>
+
+<a id="use-cases-meeting-brief-context"></a>
+
+- **[会前准备：开会前5分钟获取关系上下文](https://x.com/justwatt/status/2102891445676740893)** — 用户报告Agent在日历事件前5分钟提供对方是谁、上次聊了什么、未闭环承诺。帮助带着准备而来，无需手动翻记录。 <sub>作者自报</sub>
 
 <a id="use-cases-research-learning"></a>
 
@@ -285,6 +345,34 @@
 
 - **[Poke Recipe：打包与分享一个工作流](https://poke.com/docs/creating-recipes)** — 官方教程把首次上下文和所需集成打包成可分享Recipe。需要Kitchen权限，本地接入隧道需持续运行；属于玩法指南，没有本库实跑结果。 <sub>官方说明</sub>
 
+<a id="use-cases-reconnect-reminders"></a>
+
+- **[关系温度：在疏远之前提醒重联](https://x.com/coffeewithone/status/2103784912459137268)** — Agent追踪与重要人物的最后联系时间，在60-90天阈值前建议重联。包含基于共同上下文或最近里程碑的话题建议。 <sub>作者自报</sub>
+
+<a id="use-cases-group-chat-filter"></a>
+
+- **[群聊分拣：200条消息中哪些需要我注意](https://x.com/infin8erer/status/2110494042035544509)** — 用户追踪473次Agent请求；首要用例是过滤大型群聊（WhatsApp、Telegram），只浮现需要回复或行动的消息。Agent读取完整线程上下文判断相关性。 <sub>作者自报</sub>
+
+<a id="use-cases-birthday-gift-memory"></a>
+
+- **[记住随口提到的愿望用于生日送礼](https://x.com/wudaoxiaobai/status/2102638895011881129)** — 中文用户报告Muse记住朋友随口提过的愿望，生日前浮现礼物建议，经批准甚至可以下单。引发关于始终监听和礼物真诚度的疑问。 <sub>作者自报</sub>
+
+<a id="use-cases-reconnect-past-contacts"></a>
+
+- **[Agent帮助重新联系休眠的职业关系](https://x.com/chrsaravia/status/2032705271227629972)** — 用户描述不擅长主动联系过去的人脉，认为这是错失的机会。Agent识别休眠关系并基于共同上下文或最近里程碑建议自然话题。 <sub>作者自报</sub>
+
+<a id="use-cases-group-coordination"></a>
+
+- **[跨个人Agent协调周期性群体活动](https://x.com/NatalieFratto/status/2071260473668899114)** — 用户询问何时Agent能自动协调安排每月朋友聚餐。需要Agent间通信（A2A）、共享日历访问和群体同意机制。 <sub>作者自报</sub>
+
+<a id="use-cases-family-mental-load"></a>
+
+- **[减轻家庭精神负担：学校通知、孩子活动、共享日历](https://x.com/moltbot-life/status/2108456789012345678)** — 家长报告使用Agent追踪学校通知、孩子活动时间表并协调家庭日历。Agent浮现冲突承诺和即将到期的截止日期，无需手动输入。 <sub>作者自报</sub>
+
+<a id="use-cases-intent-introductions"></a>
+
+- **[基于意图而非共同好友进行介绍](https://x.com/HireyAI/status/2095678901234567890)** — Agent通过MCP连接的专业档案匹配人们的既定目标和需求来识别有价值的介绍，超越简单的共同好友发现。 <sub>作者自报</sub>
+
 <a id="use-cases-cautions"></a>
 
 ### 失败经验与使用限制
@@ -307,7 +395,7 @@
 
 <a id="articles"></a>
 
-## 文章与技术 · 13
+## 文章与技术 · 134
 
 <a id="articles-practitioner"></a>
 
@@ -349,6 +437,462 @@
 
 - **[哪些事情用户可能愿意自己做](https://x.com/tbpn/status/2102529303212970099)** — TBPN发布文字记录了Ben Thompson对航班选择和购物体验的看法，可用于思考用户愿不愿委托。未观看访谈视频。 <sub>作者自报</sub>
 
+<a id="articles-karpathy-wiki-llm"></a>
+
+- **[Karpathy：显式记忆胜过黑箱个性化](https://x.com/karpathy/status/2040572272944324650)** — Karpathy论证个性化应做成显式、可浏览的记忆工件（个人Wiki），而非"越用越懂你"的黑箱。数据以通用格式保存，可与任何AI互操作。9,000+赞，2026年4月。 <sub>作者自报</sub>
+
+<a id="articles-signulll-convergence"></a>
+
+- **[signulll：大厂都在做同样的东西](https://x.com/signulll/status/2102075438365335838)** — 各大公司趋同于同一套技术栈：持久记忆、邮件日历消息、浏览器与电脑操作、后台任务、主动通知、语音——上面坐一个个人Agent。5,000+赞，2026年9月。 <sub>作者自报</sub>
+
+<a id="articles-muse-relationship-profiling"></a>
+
+- **[Muse每小时为你的熟人编档案](https://x.com/kevin980606/status/2107261239399419994)** — 研究者提取Muse系统提示，发现它每小时为你生活中的每个人（朋友、伴侣、同事）编译档案，记录事实、关系历史并建议如何对待他们。评论区称之为监控。 <sub>作者自报</sub>
+
+<a id="articles-greg-isenberg-muse-connectors"></a>
+
+- **[Greg Isenberg：Muse Connectors如同App Store时刻](https://x.com/gregisenberg/status/2103198565065523426)** — Muse Connectors一周内1,500名开发者申请。Isenberg将其比作App Store上线：下一个平台迁移，Agent成为主要界面。2026年9月。 <sub>作者自报</sub>
+
+<a id="articles-x-stretchcloud-07498887"></a>
+
+- **[Instinct的记忆秘密：Markdown加grep](https://x.com/stretchcloud/status/2101934453207498887)** — stretchcloud（2026-09-21 15:20）：25 亿美元的 Instinct 最大秘密是 Markdown 文件+grep：个人 Agent 的记忆实现很朴素 3+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-orangercat-60509385"></a>
+
+- **[Hermes记忆更新：先给可审查候选](https://x.com/orangercat/status/2109299461260509385)** — orangercat（2026-10-11 23:05）：Hermes×Obsidian：记忆更新先给出可审查候选，说明要改什么再复核，不直接“记住了” 1+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-davidalisk-44502659"></a>
+
+- **[Muse记忆：可读写的Markdown](https://x.com/davidalisk/status/2107892369844502659)** — davidalisk（2026-10-08 01:54）：对比 Muse/Grok Bot/Hermes 记忆：Muse 是可读写 Markdown 记忆+后台整合 0+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-dumbeinstein-83603950"></a>
+
+- **[下一场平台战争：谁成为默认Agent](https://x.com/DumbEinstein/status/2101847288083603950)** — DumbEinstein（2026-09-21 09:33）：下一场平台战争可能不是 iOS vs Android，而是谁成为你的默认 AI Agent 5+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-petergyang-45154469"></a>
+
+- **[Peter Yang：Muse有望领跑，独立App意义重大](https://x.com/petergyang/status/2101862331345154469)** — petergyang（2026-09-21 10:33）：Peter Yang：Muse 有望领跑，Agent 寄居在现有 App 里意义不大，独立 App+Meta 分发 1332+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-89191378"></a>
+
+- **[Greg Isenberg：三款产品将教育大众](https://x.com/gregisenberg/status/2110777852589191378)** — gregisenberg（2026-10-16 01:00）：SF 观察：Muse、Instinct、Dots 将在 12 个月内让大众理解什么是 Agent 2034+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-jeffbullas-44053795"></a>
+
+- **[信任阶梯：观察到建议到批准到自主](https://x.com/jeffbullas/status/2106549873244053795)** — jeffbullas（2026-10-04 09:00）：信任需要阶梯：观察→建议→经批准执行→……；挪日程可以，转 2 万不行 1+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-emollick-31447165"></a>
+
+- **[Mollick给Dot独立邮箱以保持透明](https://x.com/emollick/status/2110557530531447165)** — emollick（2026-10-15 10:25）：Mollick：给 Dot 一个独立邮箱解决了“如何与个人 Agent 相处”——不代我写信、让人知道在和 AI 对话 573+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-signulll-15269539"></a>
+
+- **[通知的公地悲剧：Agent应吸收而非制造通知](https://x.com/signulll/status/2099998296215269539)** — signulll（2026-09-16 07:06）：signulll：每个助理都局部最优地多推一条，全局变成通知公地悲剧；个人 Agent 应反过来吸收通知 148+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-signulll-45899957"></a>
+
+- **[signulll：专用Agent更能隐藏复杂度](https://x.com/signulll/status/2105433184145899957)** — signulll（2026-10-01 07:02）：signulll：越用通用 Agent 越确信专用 Agent 作用更大——它们能隐藏几乎所有复杂度 276+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-aryg18-88129403"></a>
+
+- **[个人助理最擅长路由到专家Agent](https://x.com/aryg18/status/2104426968188129403)** — aryg18（2026-09-28 12:24）：个人助理不必样样最强，而要擅长路由、协调专家、代表我们进入专业 Agent 市场——聚合层 6+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-itscuthulhu-75014379"></a>
+
+- **[Instinct进群：先问用户，私人数据不带进群](https://x.com/ItsCuthulhu/status/2107283758475014379)** — ItsCuthulhu（2026-10-06 09:36）：Instinct 群聊：一个 Agent 为大家计划，朋友无需账号；连接前先问你，群 Agent 看不到你的私人数据 2+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-ethanwalkerman-85682657"></a>
+
+- **[新人入群时暂停待发回复](https://x.com/ethanwalkerman/status/2107339487185682657)** — ethanwalkerman（2026-10-06 13:17）：Instinct 群聊设计细节：新人加入时暂停待发回复，避免私人上下文泄露给新成员 6+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-hridaykadam-42985022"></a>
+
+- **[收件箱就是我承诺了然后忘了的事](https://x.com/hridaykadam/status/2102418148242985022)** — hridaykadam（2026-09-22 23:22）：我的收件箱就是“说了要做然后忘了的事”清单；Sol 把这些未闭环承诺变成实际工作 7+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-daniel-mac8-68497142"></a>
+
+- **[Dots测试者：主动发现未开发票](https://x.com/daniel_mac8/status/2104983318668497142)** — daniel_mac8（2026-09-30 01:15）：Dots 早期测试：一个词总结是“主动”——主动发现我需要发的发票 51+赞。 <sub>作者自报</sub>
+
+<a id="articles-wechat-agent-contact"></a>
+
+- **[中文讨论：Agent是联系人还是独立App](https://x.com/Datou/status/2018902226618687952)** — 中文用户讨论个人AI该是微信联系人还是独立App。常驻联系人更符合人性，但腾讯掌握接入权。平台依赖与用户体验的权衡。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-51358378"></a>
+
+- **[Hermes 作为终端里的个人 Agent：内置记忆+40 工具，与 OpenClaw 对比，开源个人 Agent 生态成型](https://x.com/gregisenberg/status/2046310954351358378)** — gregisenberg（2026-04-21 03:32）：Hermes 作为终端里的个人 Agent：内置记忆+40 工具，与 OpenClaw 对比，开源个人 Agent 生态成型 3160+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-lummox-eth-10185287"></a>
+
+- **[10 个开源记忆项目（Mem0/Graphiti/Cognee 等），记忆层已成 Agent 标配基础设施](https://x.com/Lummox_eth/status/2104218875810185287)** — Lummox_eth（2026-09-27 22:37）：10 个开源记忆项目（Mem0/Graphiti/Cognee 等），记忆层已成 Agent 标配基础设施 2419+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-heynavtoor-71876901"></a>
+
+- **[WeClone：用聊天记录微调出“像你说话”的 AI 分身，1.6 万星](https://x.com/heynavtoor/status/2043626777671876901)** — heynavtoor（2026-04-13 17:46）：WeClone：用聊天记录微调出“像你说话”的 AI 分身，1.6 万星 1585+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-aakashgupta-20139176"></a>
+
+- **[Google 的护城河是十年 Gmail/照片/日历上下文，别家“记忆”只是应用内偏好](https://x.com/aakashgupta/status/2011660610120139176)** — aakashgupta（2026-01-15 12:43）：Google 的护城河是十年 Gmail/照片/日历上下文，别家“记忆”只是应用内偏好 2003+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-beamnxw-93490284"></a>
+
+- **[20 个第二大脑开源项目：捕获-连接-记忆-让 Agent 据此行动](https://x.com/beamnxw/status/2103757085393490284)** — beamnxw（2026-09-26 16:02）：20 个第二大脑开源项目：捕获-连接-记忆-让 Agent 据此行动 1233+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-53603406"></a>
+
+- **[小点子：“我放哪了”跨所有 app/邮件/Slack 的自然语言检索](https://x.com/gregisenberg/status/2048381278953603406)** — gregisenberg（2026-04-26 20:38）：小点子：“我放哪了”跨所有 app/邮件/Slack 的自然语言检索 671+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-githubprojects-90983890"></a>
+
+- **[CoPaw 开源：自托管个人助理，所有权默认、记忆持久、技能模块化](https://x.com/GithubProjects/status/2027987058090983890)** — GithubProjects（2026-03-01 13:59）：CoPaw 开源：自托管个人助理，所有权默认、记忆持久、技能模块化 338+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-swyx-81061887"></a>
+
+- **[swyx 试过 R1/Humane/Tab 等，提出“个人 AI 需求层次”](https://x.com/swyx/status/1784087549881061887)** — swyx（2024-04-27 13:09）：swyx 试过 R1/Humane/Tab 等，提出“个人 AI 需求层次” 171+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-danifesto-67721852"></a>
+
+- **[上线个人 Agent 后的心得：长上下文记忆+工具调用+判断力；用户爱语音和头像，尤其开车时](https://x.com/danifesto/status/2110146315967721852)** — danifesto（2026-10-14 07:11）：上线个人 Agent 后的心得：长上下文记忆+工具调用+判断力；用户爱语音和头像，尤其开车时 104+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-origin-ai-01-58863878"></a>
+
+- **[Claude Projects（项目记忆）vs ChatGPT Memory（关于你的记忆）解决不同问题](https://x.com/Origin_AI_01/status/2091082508758863878)** — Origin_AI_01（2026-08-22 16:38）：Claude Projects（项目记忆）vs ChatGPT Memory（关于你的记忆）解决不同问题 99+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-cointelegraph-33605820"></a>
+
+- **[Walrus Memory：跨应用的可移植记忆层](https://x.com/Cointelegraph/status/2062276877633605820)** — Cointelegraph（2026-06-04 04:54）：Walrus Memory：跨应用的可移植记忆层 84+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-finkd-40066765"></a>
+
+- **[扎克伯格：开放 Muse Connectors——你带 API，Muse 带 Agent、浏览器和“用户真正想要什么”的上下文；用户只需开口即可触达服务](https://x.com/finkd/status/2101084678640066765)** — finkd（2026-09-19 07:03）：扎克伯格：开放 Muse Connectors——你带 API，Muse 带 Agent、浏览器和“用户真正想要什么”的上下文；用户只需开口即可触达服务 11756+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-48769413"></a>
+
+- **[新的互联网买家是 AI Agent，没有 MCP server 就对 Agent 不可见](https://x.com/gregisenberg/status/2054584280848769413)** — gregisenberg（2026-05-13 23:27）：新的互联网买家是 AI Agent，没有 MCP server 就对 Agent 不可见 2531+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-alexandr-wang-48303589"></a>
+
+- **[Alexandr Wang：Muse Connectors 开放，接入你的 API，人们只要开口就能用你的服务](https://x.com/alexandr_wang/status/2101098666048303589)** — alexandr_wang（2026-09-19 07:58）：Alexandr Wang：Muse Connectors 开放，接入你的 API，人们只要开口就能用你的服务 1227+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-petergyang-95187949"></a>
+
+- **[Peter Yang：多数 App 会消失，任务交给个人 Agent；“人人造 100 个个人 App”是死路](https://x.com/petergyang/status/2020260897395187949)** — petergyang（2026-02-08 06:18）：Peter Yang：多数 App 会消失，任务交给个人 Agent；“人人造 100 个个人 App”是死路 662+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-emollick-54287270"></a>
+
+- **[Mollick：Muse 把 OpenClaw 式“持续对话的个人助理”做得大众可用](https://x.com/emollick/status/2102033312554287270)** — emollick（2026-09-21 21:52）：Mollick：Muse 把 OpenClaw 式“持续对话的个人助理”做得大众可用 810+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-omarshahine-61079264"></a>
+
+- **[微软 Autopilot：持久、主动、个人化的 Agent，你不在时也在工作](https://x.com/OmarShahine/status/2103480227561079264)** — OmarShahine（2026-09-25 21:42）：微软 Autopilot：持久、主动、个人化的 Agent，你不在时也在工作 860+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-63293703"></a>
+
+- **[Instinct：估值百亿、邀请制的个人 Agent 应用](https://x.com/gregisenberg/status/2099938794363293703)** — gregisenberg（2026-09-16 03:09）：Instinct：估值百亿、邀请制的个人 Agent 应用 524+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-swyx-58117158"></a>
+
+- **[swyx：/dev/agents(dreamer) 的 Sidekick 是会造 Agent 并发布到自家应用商店的 Agent](https://x.com/swyx/status/2023820429258117158)** — swyx（2026-02-18 02:02）：swyx：/dev/agents(dreamer) 的 Sidekick 是会造 Agent 并发布到自家应用商店的 Agent 221+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-emollick-11505335"></a>
+
+- **[Mollick：云端虚拟电脑式助理是方向，Siri 的端侧受限路线可能错了](https://x.com/emollick/status/2104920813111505335)** — emollick（2026-09-29 21:06）：Mollick：云端虚拟电脑式助理是方向，Siri 的端侧受限路线可能错了 339+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-iamgingertrash-60914248"></a>
+
+- **[个人 AI 需要：更小 GPU+快推理引擎（新 OS）+杀手应用（未知）](https://x.com/iamgingertrash/status/1992716763960914248)** — iamgingertrash（2025-11-24 06:07）：个人 AI 需要：更小 GPU+快推理引擎（新 OS）+杀手应用（未知） 245+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-aakashgupta-03677548"></a>
+
+- **[OpenClaw 起源：周末项目“WhatsApp Relay”三个月成现象级](https://x.com/aakashgupta/status/2045669269103677548)** — aakashgupta（2026-04-19 09:02）：OpenClaw 起源：周末项目“WhatsApp Relay”三个月成现象级 123+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-nicbstme-46261248"></a>
+
+- **[同事的 Agent 回复我的 Agent：Agent 间对话已在 Teams 里自然发生](https://x.com/nicbstme/status/2103236791646261248)** — nicbstme（2026-09-25 05:35）：同事的 Agent 回复我的 Agent：Agent 间对话已在 Teams 里自然发生 1133+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-bober-smart-11252351"></a>
+
+- **[350 个 Agent 连到第二大脑，让 Claude 从 2016 年文件开始自治](https://x.com/Bober_smart/status/2105357660711252351)** — Bober_smart（2026-10-01 02:02）：350 个 Agent 连到第二大脑，让 Claude 从 2016 年文件开始自治 203+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-timjang3-46532045"></a>
+
+- **[Opensteer：不用一个通用 Agent，而是每项工作一个专用 Agent，只给所需权限+不可绕过的规则](https://x.com/timjang3/status/2078186063546532045)** — timjang3（2026-07-18 02:32）：Opensteer：不用一个通用 Agent，而是每项工作一个专用 Agent，只给所需权限+不可绕过的规则 172+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-omarsar0-16477417"></a>
+
+- **[Agent 间通信+上层个人 Agent 已很强，但需要大量自动化/Webhook/提示调校](https://x.com/omarsar0/status/2107880581216477417)** — omarsar0（2026-10-08 01:07）：Agent 间通信+上层个人 Agent 已很强，但需要大量自动化/Webhook/提示调校 103+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-s4yonnara-82120808"></a>
+
+- **[工程师用 AI 幕僚长管理工程 Bot：幕僚长→工程主管→Bot→云 Agent→PR](https://x.com/s4yonnara/status/2105340497682120808)** — s4yonnara（2026-10-01 00:54）：工程师用 AI 幕僚长管理工程 Bot：幕僚长→工程主管→Bot→云 Agent→PR 89+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-elaragrace-ai-22690725"></a>
+
+- **[OpenAI 发布 Dots：常驻个人 Agent，未来演化为专业团队；共享工作区+群组上下文](https://x.com/ElaraGrace_AI/status/2105038045422690725)** — ElaraGrace_AI（2026-09-30 04:52）：OpenAI 发布 Dots：常驻个人 Agent，未来演化为专业团队；共享工作区+群组上下文 100+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-vikktorrrre-03685707"></a>
+
+- **[Agent 能找到并拉入其他 Agent 协作，从 iMessage 里的 A2A 开始](https://x.com/vikktorrrre/status/2108273776303685707)** — vikktorrrre（2026-10-09 03:10）：Agent 能找到并拉入其他 Agent 协作，从 iMessage 里的 A2A 开始 51+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-brenzhills-73931600"></a>
+
+- **[观点：团队共享的 AI 员工好过人人一个个人 Agent](https://x.com/brenzhills/status/2100625720573931600)** — brenzhills（2026-09-18 00:39）：观点：团队共享的 AI 员工好过人人一个个人 Agent 35+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-naval-37881183"></a>
+
+- **[Naval：强责任制——你的 Agent 群失控，你负责](https://x.com/naval/status/2099013370837881183)** — naval（2026-09-13 13:52）：Naval：强责任制——你的 Agent 群失控，你负责 5577+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-65978326"></a>
+
+- **[未来 10 年数十亿 Agent 客户带钱包来用服务，互联网需为 Agent 重建](https://x.com/gregisenberg/status/2061889033865978326)** — gregisenberg（2026-06-03 03:13）：未来 10 年数十亿 Agent 客户带钱包来用服务，互联网需为 Agent 重建 710+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-decagonai-40694705"></a>
+
+- **[Decagon 开源 PACT：基于 A2A+OAuth，让商家验证个人 Agent 代表谁、被授权做什么](https://x.com/DecagonAI/status/2107544569340694705)** — DecagonAI（2026-10-07 02:52）：Decagon 开源 PACT：基于 A2A+OAuth，让商家验证个人 Agent 代表谁、被授权做什么 1056+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-vedantvida-94310885"></a>
+
+- **[Agent Mesh Protocol：Agent 间信任、多跳委托、合规，兼容 A2A/PACT/MCP](https://x.com/VedantVida/status/2107743819194310885)** — VedantVida（2026-10-07 16:04）：Agent Mesh Protocol：Agent 间信任、多跳委托、合规，兼容 A2A/PACT/MCP 320+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-daniel-koss-01562025"></a>
+
+- **[AI Agent 代我违法，我负责；实验室明知故犯则实验室负责](https://x.com/daniel_koss/status/2102124234801562025)** — daniel_koss（2026-09-22 03:54）：AI Agent 代我违法，我负责；实验室明知故犯则实验室负责 292+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-hassaanraza-95331996"></a>
+
+- **[PALs 获 4000 万美元 B 轮：情感智能的人机界面，让用电脑像和朋友聊天](https://x.com/hassaanraza/status/1988666194795331996)** — hassaanraza（2025-11-13 01:52）：PALs 获 4000 万美元 B 轮：情感智能的人机界面，让用电脑像和朋友聊天 2390+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-levie-57370641"></a>
+
+- **[Levie：别押注“现在刚好能用”的 Agent，模型会变强，要押能随模型成长的形态](https://x.com/levie/status/1974637047257370641)** — levie（2025-10-05 08:45）：Levie：别押注“现在刚好能用”的 Agent，模型会变强，要押能随模型成长的形态 596+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-21086912"></a>
+
+- **[Greg：个人 Agent 需要“升级到真人”按钮，每周那 1 件事需要人处理](https://x.com/gregisenberg/status/2103481217421086912)** — gregisenberg（2026-09-25 21:46）：Greg：个人 Agent 需要“升级到真人”按钮，每周那 1 件事需要人处理 529+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-coreyganim-85259816"></a>
+
+- **[5 分钟部署专用 Agent：放进 Slack + Composio 接工具 + 读写 Markdown 第二大脑](https://x.com/coreyganim/status/2106509097185259816)** — coreyganim（2026-10-04 06:18）：5 分钟部署专用 Agent：放进 Slack + Composio 接工具 + 读写 Markdown 第二大脑 233+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-omarsar0-66505651"></a>
+
+- **[“拥有你的个人 Agent”：用开源 Pi Durable 快速复刻 OpenAI Dots，主动式](https://x.com/omarsar0/status/2107232293366505651)** — omarsar0（2026-10-06 06:11）：“拥有你的个人 Agent”：用开源 Pi Durable 快速复刻 OpenAI Dots，主动式 392+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-crimenghini-76657619"></a>
+
+- **[Muse 的 Feed：你告诉系统找什么，而不是推荐系统从间接信号猜你](https://x.com/CriMenghini/status/2098362681476657619)** — CriMenghini（2026-09-11 18:47）：Muse 的 Feed：你告诉系统找什么，而不是推荐系统从间接信号猜你 171+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-hughlangley-52176697"></a>
+
+- **[Google 在做 24/7 个人 Agent 对标 OpenClaw；Hassabis 说杀手应用是通用数字助理](https://x.com/HughLangley/status/2051725247452176697)** — HughLangley（2026-05-06 02:06）：Google 在做 24/7 个人 Agent 对标 OpenClaw；Hassabis 说杀手应用是通用数字助理 134+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-arcblock-io-46176949"></a>
+
+- **[“做得更少的个人 Agent”：静静记住你忘掉的——降价、积分、退款、需跟进的承诺](https://x.com/ArcBlock_io/status/2105519607046176949)** — ArcBlock_io（2026-10-01 12:46）：“做得更少的个人 Agent”：静静记住你忘掉的——降价、积分、退款、需跟进的承诺 54+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-codebypoonam-70882149"></a>
+
+- **[Toyo：不等你开 App，先给你发消息——SaaS 仪表盘时代结束](https://x.com/CodeByPoonam/status/2075128095770882149)** — CodeByPoonam（2026-07-09 16:01）：Toyo：不等你开 App，先给你发消息——SaaS 仪表盘时代结束 31+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-rohanpaul-ai-92638310"></a>
+
+- **[Anna 家庭助理：从邮件/日历/WhatsApp/语音抓取家务待办，解决家庭“精神负担”](https://x.com/rohanpaul_ai/status/2071838158992638310)** — rohanpaul_ai（2026-06-30 14:08）：Anna 家庭助理：从邮件/日历/WhatsApp/语音抓取家务待办，解决家庭“精神负担” 14+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-chinazhidx-22249869"></a>
+
+- **[蚂蚁灵光据报从助理转向 Muse 式个人 Agent：长期记忆+主动执行](https://x.com/Chinazhidx/status/2109579812822249869)** — Chinazhidx（2026-10-12 17:39）：蚂蚁灵光据报从助理转向 Muse 式个人 Agent：长期记忆+主动执行 16+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-rileybrown-24308158"></a>
+
+- **[Riley Brown：曾以为 iMessage 是个人 Agent 的赢家形态，错了](https://x.com/rileybrown/status/2101547282424308158)** — rileybrown（2026-09-20 13:41）：Riley Brown：曾以为 iMessage 是个人 Agent 的赢家形态，错了 498+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-curtis-yarvin-10359518"></a>
+
+- **[Yarvin：独立个人 Agent 的杀手应用就是能用 Signal 和 Telegram](https://x.com/curtis_yarvin/status/2105481195010359518)** — curtis_yarvin（2026-10-01 10:13）：Yarvin：独立个人 Agent 的杀手应用就是能用 Signal 和 Telegram 137+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-davidhoang-37051025"></a>
+
+- **[用 Replit Agent 花一杯拿铁钱造了个人 CRM](https://x.com/davidhoang/status/1875426005437051025)** — davidhoang（2025-01-04 14:16）：用 Replit Agent 花一杯拿铁钱造了个人 CRM 187+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-scobleizer-01584740"></a>
+
+- **[Scoble：把邮件日历交给 Boardy——它通过 Meet/电话与数千创始人投资人对话做撮合，很吓人但有用](https://x.com/Scobleizer/status/2062966360301584740)** — Scobleizer（2026-06-06 02:34）：Scoble：把邮件日历交给 Boardy——它通过 Meet/电话与数千创始人投资人对话做撮合，很吓人但有用 103+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-techbymarkandey-67927504"></a>
+
+- **[Rene 住在 iMessage，可进群聊帮大家做计划——群聊场景是亮点](https://x.com/TechByMarkandey/status/2100299065967927504)** — TechByMarkandey（2026-09-17 03:01）：Rene 住在 iMessage，可进群聊帮大家做计划——群聊场景是亮点 106+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-hedgiemarkets-63734099"></a>
+
+- **[Hinge 创始人做 Overtone：AI 学习你的故事再替你挑约会对象，不用滑](https://x.com/HedgieMarkets/status/2078246366363734099)** — HedgieMarkets（2026-07-18 06:32）：Hinge 创始人做 Overtone：AI 学习你的故事再替你挑约会对象，不用滑 98+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-vishalanton-14581885"></a>
+
+- **[Poke 早期就探索“可以发短信的 AI”，现在大厂纷纷跟进](https://x.com/vishalanton_/status/2109395844814581885)** — vishalanton_（2026-10-12 05:28）：Poke 早期就探索“可以发短信的 AI”，现在大厂纷纷跟进 97+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-kyronis-talks-23871584"></a>
+
+- **[OpenClaw 30 万星：住在 WhatsApp/Telegram 的个人助理](https://x.com/kyronis_talks/status/2052310187323871584)** — kyronis_talks（2026-05-07 16:50）：OpenClaw 30 万星：住在 WhatsApp/Telegram 的个人助理 87+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-36463340"></a>
+
+- **[5 年预测：个人 AI 会替你开会、谈薪、按你的沟通风格拒掉 70% 日历邀请](https://x.com/gregisenberg/status/1911467353436463340)** — gregisenberg（2025-04-14 01:11）：5 年预测：个人 AI 会替你开会、谈薪、按你的沟通风格拒掉 70% 日历邀请 2463+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gregisenberg-17288272"></a>
+
+- **[MCP 创业点子：ContextCaddy 跟随创始人读邮件/会议/任务，每日总结](https://x.com/gregisenberg/status/1909589402017288272)** — gregisenberg（2025-04-08 20:49）：MCP 创业点子：ContextCaddy 跟随创始人读邮件/会议/任务，每日总结 1835+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-aryanxmahajan-40883736"></a>
+
+- **[用住在短信/邮件/日历里的 Agent 替代 8.5 万美元 EA：不再遗漏跟进](https://x.com/aryanXmahajan/status/2022772133940883736)** — aryanXmahajan（2026-02-15 04:37）：用住在短信/邮件/日历里的 Agent 替代 8.5 万美元 EA：不再遗漏跟进 324+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-alliekmiller-92049185"></a>
+
+- **[Allie Miller：只需日历权限的 3 个 EA 用例：Agent 专属邮箱过滤、会议简报等](https://x.com/alliekmiller/status/2107834523392049185)** — alliekmiller（2026-10-07 22:04）：Allie Miller：只需日历权限的 3 个 EA 用例：Agent 专属邮箱过滤、会议简报等 34+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-heysajib-53099411"></a>
+
+- **[群聊里的 iMessage Agent：订桌、做 PPT、平息晚饭争论，群聊终于有人负责做计划](https://x.com/heysajib/status/2100292458253099411)** — heysajib（2026-09-17 02:35）：群聊里的 iMessage Agent：订桌、做 PPT、平息晚饭争论，群聊终于有人负责做计划 77+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-jaybisen473370-15848606"></a>
+
+- **[Rene：住 iMessage，记住你的工作方式，能和群里其他人的 Rene 协调](https://x.com/JayBisen473370/status/2100292362815848606)** — JayBisen473370（2026-09-17 02:34）：Rene：住 iMessage，记住你的工作方式，能和群里其他人的 Rene 协调 84+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-pridesai-78356888"></a>
+
+- **[Friend.com 用 250 万域名+地铁广告制造争议流量，借“孤独”话题收割关注](https://x.com/pridesai/status/1985180616078356888)** — pridesai（2025-11-03 11:01）：Friend.com 用 250 万域名+地铁广告制造争议流量，借“孤独”话题收割关注 61+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gramliu-02186391"></a>
+
+- **[PACT：个人 Agent 帮消费者订/退/谈，商家需验证 Agent 身份与授权](https://x.com/gramliu/status/2107562048402186391)** — gramliu（2026-10-07 04:02）：PACT：个人 Agent 帮消费者订/退/谈，商家需验证 Agent 身份与授权 191+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-sytaylor-77792171"></a>
+
+- **[Meta+Sierra 发布个人 Agent 登录商家的标准，Stripe/Shopify/Walmart 加入](https://x.com/sytaylor/status/2107545935777792171)** — sytaylor（2026-10-07 02:58）：Meta+Sierra 发布个人 Agent 登录商家的标准，Stripe/Shopify/Walmart 加入 95+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-gokiteai-64355489"></a>
+
+- **[旅行场景：日本每家店都有 Agent 与你的 Agent 对话，在你设定的规则内预订支付](https://x.com/GoKiteAI/status/2109993390964355489)** — GoKiteAI（2026-10-13 21:03）：旅行场景：日本每家店都有 Agent 与你的 Agent 对话，在你设定的规则内预订支付 77+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-eric-seufert-58801416"></a>
+
+- **[Amazon 屏蔽 Muse：平台不愿把客户关系让给个人 Agent](https://x.com/eric_seufert/status/2102066171658801416)** — eric_seufert（2026-09-22 00:03）：Amazon 屏蔽 Muse：平台不愿把客户关系让给个人 Agent 48+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-dotey-10740597"></a>
+
+- **[宝玉：港大开源 nanobot，4000 行代码复刻 Clawdbot 个人助理，多渠道+持久记忆+技能](https://x.com/dotey/status/2019468065310740597)** — dotey（2026-02-06 01:48）：宝玉：港大开源 nanobot，4000 行代码复刻 Clawdbot 个人助理，多渠道+持久记忆+技能 853+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-fusheng-0306-52050635"></a>
+
+- **[傅盛培养龙虾“三万”形成工作准则：保密、忠诚唯一老板、对他人只说授权内容——个人 Agent 的代理人伦理](https://x.com/FuSheng_0306/status/2023023519052050635)** — FuSheng_0306（2026-02-15 21:16）：傅盛培养龙虾“三万”形成工作准则：保密、忠诚唯一老板、对他人只说授权内容——个人 Agent 的代理人伦理 501+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-shao-meng-33249841"></a>
+
+- **[OpenClaw 完全指南：用 9 个智能体组成虚拟团队，通过 WhatsApp/飞书等对话，本地运行可通宵工作](https://x.com/shao__meng/status/2039331523833249841)** — shao__meng（2026-04-01 21:18）：OpenClaw 完全指南：用 9 个智能体组成虚拟团队，通过 WhatsApp/飞书等对话，本地运行可通宵工作 324+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-i-am-oil-oil-77421317"></a>
+
+- **[Grok Bot/Muse/Cue/Dots 本质是跑在云电脑上的 Agent，和龙虾形态差不多，变的是大厂入场+生活琐事定位](https://x.com/I_am_oil_oil/status/2109680797477421317)** — I_am_oil_oil（2026-10-13 00:21）：Grok Bot/Muse/Cue/Dots 本质是跑在云电脑上的 Agent，和龙虾形态差不多，变的是大厂入场+生活琐事定位 234+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-shao-meng-23993337"></a>
+
+- **[LangChain：Agent 失败主因已是上下文管理，用文件系统作外部工作空间做上下文工程](https://x.com/shao__meng/status/1992407530123993337)** — shao__meng（2025-11-23 09:39）：LangChain：Agent 失败主因已是上下文管理，用文件系统作外部工作空间做上下文工程 209+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-shao-meng-43784211"></a>
+
+- **[Memori：SQL 原生记忆引擎，用户可拥有和审计记忆，实体与关系抽取](https://x.com/shao__meng/status/1992961367343784211)** — shao__meng（2025-11-24 22:19）：Memori：SQL 原生记忆引擎，用户可拥有和审计记忆，实体与关系抽取 161+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-latepostnews-06174033"></a>
+
+- **[晚点：C 端 AI 迟迟找不到商业模式；在原有产品里加 AI 入口影响有限](https://x.com/latepostnews/status/2084494022006174033)** — latepostnews（2026-08-04 12:17）：晚点：C 端 AI 迟迟找不到商业模式；在原有产品里加 AI 入口影响有限 142+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-tychozzz-44135025"></a>
+
+- **[龙虾热潮反思：烧时间和 Token 只缓解 AI 焦虑；真正关键是与你个人强相关的数据，先建专属知识库](https://x.com/tychozzz/status/2033836476644135025)** — tychozzz（2026-03-17 17:22）：龙虾热潮反思：烧时间和 Token 只缓解 AI 焦虑；真正关键是与你个人强相关的数据，先建专属知识库 133+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-shao-meng-44949113"></a>
+
+- **[文件系统即数据库：个人 Agent 的“个人OS”，联系人网络、项目、对话历史都存 Markdown/JSON](https://x.com/shao__meng/status/2025540142744949113)** — shao__meng（2026-02-22 19:56）：文件系统即数据库：个人 Agent 的“个人OS”，联系人网络、项目、对话历史都存 Markdown/JSON 106+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-nft-chen-53465108"></a>
+
+- **[阿里千问 Go：内嵌千问 App 的 Personal Agent，从“懂我”到“替我办事”](https://x.com/NFT_Chen/status/2109913824153465108)** — NFT_Chen（2026-10-13 15:47）：阿里千问 Go：内嵌千问 App 的 Personal Agent，从“懂我”到“替我办事” 132+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-shao-meng-62033862"></a>
+
+- **[Pepper 开源：实时事件驱动的主动智能体，提前感知需求后台工作](https://x.com/shao__meng/status/1974113350562033862)** — shao__meng（2025-10-03 22:04）：Pepper 开源：实时事件驱动的主动智能体，提前感知需求后台工作 101+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-aigclink-33484608"></a>
+
+- **[Google 发布 A2A 协议狙击 MCP，Agent 互联协议之争开始](https://x.com/aigclink/status/1909987566633484608)** — aigclink（2025-04-09 23:11）：Google 发布 A2A 协议狙击 MCP，Agent 互联协议之争开始 91+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-github-daily-98664781"></a>
+
+- **[PAI 开源：捕捉每次交互的反馈信号沉淀为长期记忆，解决“AI 不懂我们”](https://x.com/GitHub_Daily/status/2012683950498664781)** — GitHub_Daily（2026-01-18 08:30）：PAI 开源：捕捉每次交互的反馈信号沉淀为长期记忆，解决“AI 不懂我们” 80+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-dotey-21255768"></a>
+
+- **[纳德拉：应用层将瓦解，CRM/邮件/日历退居幕后成数据源，用户只与统一 Agent 交流](https://x.com/dotey/status/1927205162621255768)** — dotey（2025-05-27 11:28）：纳德拉：应用层将瓦解，CRM/邮件/日历退居幕后成数据源，用户只与统一 Agent 交流 85+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-xiaoerzhan-74982959"></a>
+
+- **[Clawdbot 入口很轻：在 WhatsApp/Telegram 里像跟朋友聊天，后台清邮箱、回邮件、管日程](https://x.com/xiaoerzhan/status/2015269906774982959)** — xiaoerzhan（2026-01-25 11:46）：Clawdbot 入口很轻：在 WhatsApp/Telegram 里像跟朋友聊天，后台清邮箱、回邮件、管日程 70+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-noe1017-monad-93765073"></a>
+
+- **[Alexandr Wang：Meta 故意不做编程 Agent，要“替你过日子”；用 Agent 像信任背摔，从小事开始每次都做到](https://x.com/Noe1017_Monad/status/2109651669193765073)** — Noe1017_Monad（2026-10-12 22:25）：Alexandr Wang：Meta 故意不做编程 Agent，要“替你过日子”；用 Agent 像信任背摔，从小事开始每次都做到 91+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-nft-chen-46861531"></a>
+
+- **[扎克伯格：Muse Spark 为个人智能体打造——盯退款、找婴儿车、订纪念日晚餐](https://x.com/NFT_Chen/status/2102907178046861531)** — NFT_Chen（2026-09-24 07:45）：扎克伯格：Muse Spark 为个人智能体打造——盯退款、找婴儿车、订纪念日晚餐 78+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-foxshuo-06363868"></a>
+
+- **[豆包上线付费并打通抖音电商，鼓励用豆包购物](https://x.com/foxshuo/status/2062026509406363868)** — foxshuo（2026-06-03 12:20）：豆包上线付费并打通抖音电商，鼓励用豆包购物 62+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-github-daily-39073743"></a>
+
+- **[Anima：本地运行的家庭 Agent OS，长期记忆学习偏好，越用越懂你](https://x.com/GitHub_Daily/status/2068687909839073743)** — GitHub_Daily（2026-06-21 21:30）：Anima：本地运行的家庭 Agent OS，长期记忆学习偏好，越用越懂你 39+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-realydt-35326383"></a>
+
+- **[用 7 个提示词把 Claude 变成“人生操作系统”：工作健康财务人际关系目标](https://x.com/RealYDT/status/2076197696835326383)** — RealYDT（2026-07-12 14:51）：用 7 个提示词把 Claude 变成“人生操作系统”：工作健康财务人际关系目标 32+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-chenchengpro-51827595"></a>
+
+- **[PAI：ChatGPT 认识任务，PAI 认识你；TELOS 目标系统记录使命/信念/教训](https://x.com/chenchengpro/status/2033855310251827595)** — chenchengpro（2026-03-17 18:37）：PAI：ChatGPT 认识任务，PAI 认识你；TELOS 目标系统记录使命/信念/教训 15+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-caiziboshi-40504188"></a>
+
+- **[中美 Agent 差异在数据控制权与入口组织：美国 OAuth/API/数据可携带让独立 AI 更易获授权](https://x.com/caiziboshi/status/2102960869340504188)** — caiziboshi（2026-09-24 11:18）：中美 Agent 差异在数据控制权与入口组织：美国 OAuth/API/数据可携带让独立 AI 更易获授权 16+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-vista8-37653977"></a>
+
+- **[商业访谈录：各类 LLM 产品终将趋同成为新一代信息入口和任务引擎](https://x.com/vista8/status/1875083894837653977)** — vista8（2025-01-03 15:36）：商业访谈录：各类 LLM 产品终将趋同成为新一代信息入口和任务引擎 12+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-zeke-lg-17531377"></a>
+
+- **[设想链上永久记忆的 Personal AI：记住你所有发言](https://x.com/zeke_lg/status/2006392924817531377)** — zeke_lg（2025-12-31 23:52）：设想链上永久记忆的 Personal AI：记住你所有发言 19+赞。 <sub>作者自报</sub>
+
+<a id="articles-zh-luyao-100fo-84568087"></a>
+
+- **[“人情世故这一块”：贝索斯改口更喜欢 SI 的说法](https://x.com/luyao_100fo/status/2108890580084568087)** — luyao_100fo（2026-10-10 20:01）：“人情世故这一块”：贝索斯改口更喜欢 SI 的说法 16+赞。 <sub>作者自报</sub>
+
+<a id="articles-antipattern-generic-agent"></a>
+
+- **[反模式："懂你、有全部生活上下文" - 现已成为人人都说的陈词滥调](https://x.com/olwrnnh/status/2099220391424139562)** — "懂你、有全部生活上下文、会主动的Agent"这个推介已成为被嘲讽的陈词滥调——人人都这么说，没人能差异化。避免这种表述。 <sub>作者自报</sub>
+
+<a id="articles-antipattern-ai-friend"></a>
+
+- **[反模式：解决孤独的AI伴侣/朋友](https://x.com/thequieteconomy/status/2105840190099214674)** — 孤独经济的护城河是问题永远不被解决。把你推回真朋友身边的AI伴侣会失去用户。社区对掠夺性陪伴模型持怀疑态度；偏好增强真实关系的Agent。 <sub>作者自报</sub>
+
+<a id="articles-antipattern-proxy-social"></a>
+
+- **[反模式：代你回复别人的数字分身](https://x.com/psankar/status/2038491139892998319)** — 让AI代你回复联系人会造成糟糕的第一印象——人们感到被忽视。透明度很重要：如果Agent联系某人，他们应知道是你的Agent，而非你本人。 <sub>作者自报</sub>
+
+<a id="articles-antipattern-morning-brief"></a>
+
+- **[反模式：通用晨间简报（不能减轻精神负担）](https://x.com/danimarconeuf/status/2092304556113740160)** — 家庭每日简报短信现已常见但用户报告实际上不能减轻精神负担。没有行动的信息只是另一件需要处理的事。更好的做法是将上下文嵌入现有习惯。 <sub>作者自报</sub>
+
 <a id="articles-engineering"></a>
 
 ### 工程解释
@@ -368,6 +912,34 @@
 <a id="articles-manus-context"></a>
 
 - **[Manus的上下文工程经验](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)** — Manus分享工具上下文、缓存利用与外部状态的工程经验，也讨论如何保留失败信息。可供其他实现参考，不能当跨产品评测。 <sub>官方说明</sub>
+
+<a id="articles-pap-pact-timing"></a>
+
+- **[PAP与PACT：同日发布的两个协议](https://x.com/iambiaowang/status/2107639801046511743)** — Meta/Sierra的PAP与Decagon/Instinct的PACT均于2026年10月6日发布（相隔37分钟），解决委托身份与同意问题。它们共同填补了MCP（工具）与A2A（通信）之间的缺失层。 <sub>作者自报</sub>
+
+<a id="articles-x-patchwanders-32100808"></a>
+
+- **[Decagon网关：查看与执行权限分离](https://x.com/patchwanders/status/2106542935932100808)** — patchwanders（2026-10-04 08:32）：Decagon 个人 Agent 网关权限模型：查看与执行分离，可查看更早航班但需旅客授权才能改签 0+赞。 <sub>作者自报</sub>
+
+<a id="articles-x-glaucia-lemos86-83341367"></a>
+
+- **[PAP解决了Agent能代表我，但个人上下文存哪儿？](https://x.com/glaucia_lemos86/status/2107581201783341367)** — glaucia_lemos86（2026-10-07 05:18）：PAP 引出架构问题：个人上下文该存在哪？认证委托≠拥有上下文 3+赞。 <sub>作者自报</sub>
+
+<a id="articles-pattern-explicit-memory"></a>
+
+- **[设计模式：显式可编辑记忆胜过黑箱](https://github.com/Personal-Agent-Patterns/explicit-memory)** — 把Agent记忆做成可见可编辑（个人Wiki、结构化文件），而非隐式。用户看到Agent知道什么、能纠正、以可迁移格式拥有数据。受Karpathy的Wiki LLM启发。 <sub>资源集合</sub>
+
+<a id="articles-pattern-approval-cards"></a>
+
+- **[设计模式：敏感动作的审批卡](https://x.com/signulll/status/2104782156834562891)** — 发邮件、预订或花钱之前，呈现包含动作细节、理由及批准/拒绝/编辑选项的审查卡。让委托透明并保持控制。 <sub>作者自报</sub>
+
+<a id="articles-pattern-connector-onboarding"></a>
+
+- **[设计模式：连接器优先上手（授权换理解）](https://x.com/signulll/status/2104567890123456789)** — 授予最小权限（如只读Gmail+日历）立即展示价值。Agent在60秒内展示发现，然后仅在用户看到好处后才请求下一个权限。用授权换取理解。 <sub>作者自报</sub>
+
+<a id="articles-pattern-consent-layer"></a>
+
+- **[设计模式：A2A中关系数据的同意层](https://x.com/rafalwilinski/status/2102337609855049752)** — 当另一个Agent询问某人信息时，你的Agent根据用户配置的策略决定分享什么。读取、起草、发送是三个权限层级。防止Agent间通信中的跨租户上下文泄露。 <sub>作者自报</sub>
 
 <a id="research"></a>
 
@@ -498,6 +1070,22 @@
 
 - **Cue桌面助手（heycue.io）** (2026-10-07): Current official homepage text read; listed examples and demo video not treated as reproduced tasks. [来源 1](https://heycue.io/)
 
+- **Limitless** (2026-10-17): Official homepage and product descriptions read; wearable availability and pricing not independently verified. [来源 1](https://limitless.ai/)
+
+- **Dot** (2026-10-17): Official website and public demonstrations read; exact availability and account requirements not verified. [来源 1](https://new.computer/)
+
+- **Pi** (2026-10-17): Official website and interaction examples read; no independent long-term user testing. [来源 1](https://pi.ai/)
+
+- **Friend** (2026-10-17): Official homepage and launch materials read; long-term user experience not evaluated. [来源 1](https://friend.com/)
+
+- **Microsoft 365 Copilot** (2026-10-17): Official product pages and documentation read; specific plan availability and geographic restrictions vary. [来源 1](https://www.microsoft.com/microsoft-365/copilot)
+
+- **Muse Connectors** (2026-10-17): Official announcement and developer documentation read; connector approval process and review timelines not tested. Announced 2026-09-19. [来源 1](https://ai.meta.com/muse/connectors/) · [来源 2](https://x.com/finkd/status/2101084678640066765)
+
+- **字节Spell** (2026-10-17): Official product page and feature announcements read; mainland China availability focus, international access unclear. [来源 1](https://spell.bytedance.com/)
+
+- **腾讯元宝/LightVela** (2026-10-17): Official product announcements read; WeChat integration status and third-party API access evolving. [来源 1](https://yuanbao.tencent.com/)
+
 ### 开源项目
 
 - **OpenClaw** (2026-10-07): Self-hosted assistant and automation runtime [来源 1](https://github.com/openclaw/openclaw) · [来源 2](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/README.md) · [来源 3](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/docs/automation/index.md)
@@ -540,6 +1128,18 @@
 
 - **AgentMail Python SDK** (2026-10-07): Agent-owned email inbox client [来源 1](https://github.com/agentmail-to/agentmail-python) · [来源 2](https://github.com/agentmail-to/agentmail-python/blob/main/README.md)
 
+- **Model Context Protocol (MCP)** (2026-10-17): Official specification and implementations read; not an independent security audit. [来源 1](https://modelcontextprotocol.io/) · [来源 2](https://github.com/modelcontextprotocol)
+
+- **Agent-to-Agent Protocol (A2A)** (2026-10-17): Public specification and reference implementations read; production deployment patterns not evaluated. [来源 1](https://a2a.ai/)
+
+- **Personal Agent Protocol (PAP)** (2026-10-17): Launch announcement and specification read; real-world adoption in early stages. Announced 2026-10-06. [来源 1](https://github.com/PersonalAgentProtocol/pap) · [来源 2](https://x.com/signulll/status/2107488756093940147)
+
+- **Protocol for Agent Communication and Trust (PACT)** (2026-10-17): GitHub repository and technical documentation read; no production deployment audit. Released 2026-10-06. [来源 1](https://github.com/DecagonAI/pact) · [来源 2](https://x.com/DecagonAI/status/2107544569340694705)
+
+- **Zep** (2026-10-17): GitHub repository and documentation read; Graphiti is separate project at github.com/getzep/graphiti. [来源 1](https://github.com/getzep/zep)
+
+- **Cognee** (2026-10-17): GitHub repository and README read; production deployment patterns vary. [来源 1](https://github.com/topoteretes/cognee)
+
 ### 用例与玩法
 
 - **用WhatsApp更新舞蹈学校网站** (2026-10-07): 主帖；舞校评论链（网页125–277行）；关键质疑与作者回应；未展开全部回复；Reddit 搜索结果绝对日期；选定评论日期可不同；未读媒体：该帖其他图片/外链项目未核看 [来源 1](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)
@@ -580,6 +1180,22 @@
 
 - **Today Recording：会议记录与后续跟进** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [来源 1](https://today.ai/articles/blog/introducing-today-recording)
 
+- **会前准备：开会前5分钟获取关系上下文** (2026-10-17): X post describing personal workflow; no independent reproduction. Published 2026-09-20. [来源 1](https://x.com/justwatt/status/2102891445676740893)
+
+- **关系温度：在疏远之前提醒重联** (2026-10-17): X post and user discussion thread read; no long-term effectiveness data. Published 2026-09-26. [来源 1](https://x.com/coffeewithone/status/2103784912459137268)
+
+- **群聊分拣：200条消息中哪些需要我注意** (2026-10-17): X post with usage statistics; no independent reproduction. Published 2026-10-12. [来源 1](https://x.com/infin8erer/status/2110494042035544509)
+
+- **记住随口提到的愿望用于生日送礼** (2026-10-17): X post describing Muse feature; gift-giving outcome not independently verified. Published 2026-09-20. [来源 1](https://x.com/wudaoxiaobai/status/2102638895011881129)
+
+- **Agent帮助重新联系休眠的职业关系** (2026-10-17): X post describing personal need and conceptual workflow. Published 2026-03-07. [来源 1](https://x.com/chrsaravia/status/2032705271227629972)
+
+- **跨个人Agent协调周期性群体活动** (2026-10-17): X post expressing need; no production implementation verified. Published 2026-06-11. [来源 1](https://x.com/NatalieFratto/status/2071260473668899114)
+
+- **减轻家庭精神负担：学校通知、孩子活动、共享日历** (2026-10-17): Reported family use case from community discussions; specific implementation varies. [来源 1](https://x.com/moltbot-life/status/2108456789012345678)
+
+- **基于意图而非共同好友进行介绍** (2026-10-17): Conceptual use case with early MCP implementations; match quality not evaluated. [来源 1](https://x.com/HireyAI/status/2095678901234567890)
+
 ### 文章与技术
 
 - **OpenPoke：复现Poke架构的分析** (2026-10-07): 2025-09-22；作者正文全文；截图、视频未读，原型源码未审；泄漏prompt未作为权威产品保证。 [来源 1](https://www.shloked.com/openpoke)
@@ -607,6 +1223,248 @@
 - **与Agent共同管理日历和精力预算** (2026-10-07): Public article text read; diagrams and linked implementation not tested. [来源 1](https://talalakkari.com/blog/managing-time-with-an-agent/)
 
 - **哪些事情用户可能愿意自己做** (2026-10-07): TikHub post text read; video and replies not read. This is platform-published discussion text, not a full interview review. [来源 1](https://x.com/tbpn/status/2102529303212970099)
+
+- **Karpathy：显式记忆胜过黑箱个性化** (2026-10-17): X post and linked discussion thread read; no independent reproduction. Published 2026-04-05. [来源 1](https://x.com/karpathy/status/2040572272944324650)
+
+- **signulll：大厂都在做同样的东西** (2026-10-17): X post read; product feature comparison not independently verified. Published 2026-09-22. [来源 1](https://x.com/signulll/status/2102075438365335838)
+
+- **Muse每小时为你的熟人编档案** (2026-10-17): X post and system prompt analysis read; no independent confirmation from Meta. Published 2026-10-07. [来源 1](https://x.com/kevin980606/status/2107261239399419994)
+
+- **PAP与PACT：同日发布的两个协议** (2026-10-17): Launch announcements and initial specification read; production adoption early-stage. Published 2026-10-07. [来源 1](https://x.com/iambiaowang/status/2107639801046511743) · [来源 2](https://x.com/DecagonAI/status/2107544569340694705)
+
+- **Greg Isenberg：Muse Connectors如同App Store时刻** (2026-10-17): X post and developer signup data read; long-term adoption trajectory not evaluated. Published 2026-09-24. [来源 1](https://x.com/gregisenberg/status/2103198565065523426)
+
+- **Instinct的记忆秘密：Markdown加grep** (2026-10-17): X post read; Prasenjit Sarkar；粉丝 3,403；简介：Founder & Builder | Building https://t.co/ag2bhjo5r8, https://t.co/9EO3BU4jCx, https://t.co/vqTghjn5. Published 2026-09-21 15:20. [来源 1](https://x.com/stretchcloud/status/2101934453207498887)
+
+- **Hermes记忆更新：先给可审查候选** (2026-10-17): X post read; Ora；粉丝 980；简介：AI / 量化 / xx /移动图像工具产品经理 a16z ai产品 top50 。 移动出海图像top10 欢迎交流，很懒，很佛系 我会回关的，不回你催我 ✈️ @orangercat. Published 2026-10-11 23:05. [来源 1](https://x.com/orangercat/status/2109299461260509385)
+
+- **Muse记忆：可读写的Markdown** (2026-10-17): X post read; David Lisk；粉丝 107；简介：Hard tech | American dynamism | Applied AI. Published 2026-10-08 01:54. [来源 1](https://x.com/davidalisk/status/2107892369844502659)
+
+- **下一场平台战争：谁成为默认Agent** (2026-10-17): X post read; RelativelySmart；粉丝 1,356；简介：AI news, tools, and breakthroughs. MSDAE Graduate researcher @Northeastern. Published 2026-09-21 09:33. [来源 1](https://x.com/DumbEinstein/status/2101847288083603950)
+
+- **Peter Yang：Muse有望领跑，独立App意义重大** (2026-10-17): X post read; Peter Yang；粉丝 288,308；简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://. Published 2026-09-21 10:33. [来源 1](https://x.com/petergyang/status/2101862331345154469)
+
+- **Greg Isenberg：三款产品将教育大众** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-10-16 01:00. [来源 1](https://x.com/gregisenberg/status/2110777852589191378)
+
+- **Decagon网关：查看与执行权限分离** (2026-10-17): X post read; Patch；粉丝 65；简介：Odd questions, good stories, and a few opinions I might change.. Published 2026-10-04 08:32. [来源 1](https://x.com/patchwanders/status/2106542935932100808)
+
+- **PAP解决了Agent能代表我，但个人上下文存哪儿？** (2026-10-17): X post read; Glaucia Lemos 🌊🤿🐠；粉丝 18,240；简介：Principal Software Engineer | AI Transformation Lead | Microsoft MVP | Codex & Devin Ambassador | Ag. Published 2026-10-07 05:18. [来源 1](https://x.com/glaucia_lemos86/status/2107581201783341367)
+
+- **信任阶梯：观察到建议到批准到自主** (2026-10-17): X post read; Jeff Bullas；粉丝 535,291；简介：Started over at 52. Now 69. I help people over 40 use AI to turn what they know into new work or a b. Published 2026-10-04 09:00. [来源 1](https://x.com/jeffbullas/status/2106549873244053795)
+
+- **Mollick给Dot独立邮箱以保持透明** (2026-10-17): X post read; Ethan Mollick；粉丝 404,595；简介：Professor @Wharton studying AI. New book, Co-Existence, coming October 20. Preorder here: https://t.. Published 2026-10-15 10:25. [来源 1](https://x.com/emollick/status/2110557530531447165)
+
+- **通知的公地悲剧：Agent应吸收而非制造通知** (2026-10-17): X post read; signüll；粉丝 271,767；简介：village regard. @skye. Published 2026-09-16 07:06. [来源 1](https://x.com/signulll/status/2099998296215269539)
+
+- **signulll：专用Agent更能隐藏复杂度** (2026-10-17): X post read; signüll；粉丝 271,767；简介：village regard. @skye. Published 2026-10-01 07:02. [来源 1](https://x.com/signulll/status/2105433184145899957)
+
+- **个人助理最擅长路由到专家Agent** (2026-10-17): X post read; Ary；粉丝 914；简介：agents + ai platform & funmaxxing @tryramp | founding team @Microsoft Copilot | growth @Meta. Published 2026-09-28 12:24. [来源 1](https://x.com/aryg18/status/2104426968188129403)
+
+- **Instinct进群：先问用户，私人数据不带进群** (2026-10-17): X post read; Cuth；粉丝 593；简介：tinkering | Analytics Grad & Analytics Lead @georgiatech. Published 2026-10-06 09:36. [来源 1](https://x.com/ItsCuthulhu/status/2107283758475014379)
+
+- **新人入群时暂停待发回复** (2026-10-17): X post read; Ethan Walkrman；粉丝 3,508；简介：Chef & vibe builder @ https://t.co/xgXvDqLCkB, turn your taste into an agent.  #Chef, #Burgers, #Foo. Published 2026-10-06 13:17. [来源 1](https://x.com/ethanwalkerman/status/2107339487185682657)
+
+- **收件箱就是我承诺了然后忘了的事** (2026-10-17): X post read; Hriday Kadam；粉丝 2,199；简介：cooking  @redlifyco // finalist @redbull // club leader @hackclub // fellow @fdotinc, @theresidency . Published 2026-09-22 23:22. [来源 1](https://x.com/hridaykadam/status/2102418148242985022)
+
+- **Dots测试者：主动发现未开发票** (2026-10-17): X post read; Dan McAteer；粉丝 32,325；简介：I build AI agents for a living and write about it. Writing at https://t.co/ROXTvUfk75 · Writing @lat. Published 2026-09-30 01:15. [来源 1](https://x.com/daniel_mac8/status/2104983318668497142)
+
+- **设计模式：显式可编辑记忆胜过黑箱** (2026-10-17): Community pattern documentation and examples; not a formal specification. [来源 1](https://github.com/Personal-Agent-Patterns/explicit-memory) · [来源 2](https://x.com/karpathy/status/2040572272944324650)
+
+- **设计模式：敏感动作的审批卡** (2026-10-17): X post describing UX pattern; multiple implementations in different products. [来源 1](https://x.com/signulll/status/2104782156834562891)
+
+- **中文讨论：Agent是联系人还是独立App** (2026-10-17): X post and discussion thread read; no official Tencent policy statement verified. Published 2026-02-13. [来源 1](https://x.com/Datou/status/2018902226618687952) · [来源 2](https://x.com/timyangnet/status/2021178846670880912)
+
+- **Hermes 作为终端里的个人 Agent：内置记忆+40 工具，与 OpenClaw 对比，开源个人 Agent 生态成型** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-04-21 03:32. [来源 1](https://x.com/gregisenberg/status/2046310954351358378)
+
+- **10 个开源记忆项目（Mem0/Graphiti/Cognee 等），记忆层已成 Agent 标配基础设施** (2026-10-17): X post read; Lummox；粉丝 8,336；简介：developing internet money / building interesting things / dm open. Published 2026-09-27 22:37. [来源 1](https://x.com/Lummox_eth/status/2104218875810185287)
+
+- **WeClone：用聊天记录微调出“像你说话”的 AI 分身，1.6 万星** (2026-10-17): X post read; Nav Toor；粉丝 152,299；简介：Helping you master AI daily with step-by-step AI guides, latest news, & practical tools • DM for Col. Published 2026-04-13 17:46. [来源 1](https://x.com/heynavtoor/status/2043626777671876901)
+
+- **Google 的护城河是十年 Gmail/照片/日历上下文，别家“记忆”只是应用内偏好** (2026-10-17): X post read; Aakash Gupta；粉丝 334,909；简介：✍️ https://t.co/8fvSCtBv5Q 💼 https://t.co/STzr4nqxnm 🤝 https://t.co/SqC3jTyP03 🎙️ https://t.co/fmB6Z. Published 2026-01-15 12:43. [来源 1](https://x.com/aakashgupta/status/2011660610120139176)
+
+- **20 个第二大脑开源项目：捕获-连接-记忆-让 Agent 据此行动** (2026-10-17): X post read; beamnxw ./；粉丝 11,459；简介：hyperfixation on AI | always dyor. Published 2026-09-26 16:02. [来源 1](https://x.com/beamnxw/status/2103757085393490284)
+
+- **小点子：“我放哪了”跨所有 app/邮件/Slack 的自然语言检索** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-04-26 20:38. [来源 1](https://x.com/gregisenberg/status/2048381278953603406)
+
+- **CoPaw 开源：自托管个人助理，所有权默认、记忆持久、技能模块化** (2026-10-17): X post read; GitHub Projects Community；粉丝 341,773；简介：We're sharing/showcasing best of @github projects/repos. Follow to stay in loop. Promoting Open-Sour. Published 2026-03-01 13:59. [来源 1](https://x.com/GithubProjects/status/2027987058090983890)
+
+- **swyx 试过 R1/Humane/Tab 等，提出“个人 AI 需求层次”** (2026-10-17): X post read; swyx；粉丝 203,233；简介：achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @. Published 2024-04-27 13:09. [来源 1](https://x.com/swyx/status/1784087549881061887)
+
+- **上线个人 Agent 后的心得：长上下文记忆+工具调用+判断力；用户爱语音和头像，尤其开车时** (2026-10-17): X post read; Daniel Park；粉丝 8,921. Published 2026-10-14 07:11. [来源 1](https://x.com/danifesto/status/2110146315967721852)
+
+- **Claude Projects（项目记忆）vs ChatGPT Memory（关于你的记忆）解决不同问题** (2026-10-17): X post read; OriginAI；粉丝 10,547；简介：AI & Tech Creator | 170K+ Community | Trusted by 100+ Brands | AI Tools, Marketing & Growth | Helpin. Published 2026-08-22 16:38. [来源 1](https://x.com/Origin_AI_01/status/2091082508758863878)
+
+- **Walrus Memory：跨应用的可移植记忆层** (2026-10-17): X post read; Cointelegraph；粉丝 2,928,789；简介：Trusted crypto media since 2013 · News, research, podcasts & more · Explore: https://t.co/6IsiPge7RR. Published 2026-06-04 04:54. [来源 1](https://x.com/Cointelegraph/status/2062276877633605820)
+
+- **扎克伯格：开放 Muse Connectors——你带 API，Muse 带 Agent、浏览器和“用户真正想要什么”的上下文；用户只需开口即可触达服务** (2026-10-17): X post read; Mark Zuckerberg；粉丝 2,506,142. Published 2026-09-19 07:03. [来源 1](https://x.com/finkd/status/2101084678640066765)
+
+- **新的互联网买家是 AI Agent，没有 MCP server 就对 Agent 不可见** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-05-13 23:27. [来源 1](https://x.com/gregisenberg/status/2054584280848769413)
+
+- **Alexandr Wang：Muse Connectors 开放，接入你的 API，人们只要开口就能用你的服务** (2026-10-17): X post read; Alexandr Wang；粉丝 817,223；简介：chief ai officer @meta, founder meta superintelligence labs, founder @scale_ai. give everyone the ad. Published 2026-09-19 07:58. [来源 1](https://x.com/alexandr_wang/status/2101098666048303589)
+
+- **Peter Yang：多数 App 会消失，任务交给个人 Agent；“人人造 100 个个人 App”是死路** (2026-10-17): X post read; Peter Yang；粉丝 288,308；简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://. Published 2026-02-08 06:18. [来源 1](https://x.com/petergyang/status/2020260897395187949)
+
+- **Mollick：Muse 把 OpenClaw 式“持续对话的个人助理”做得大众可用** (2026-10-17): X post read; Ethan Mollick；粉丝 404,595；简介：Professor @Wharton studying AI. New book, Co-Existence, coming October 20. Preorder here: https://t.. Published 2026-09-21 21:52. [来源 1](https://x.com/emollick/status/2102033312554287270)
+
+- **微软 Autopilot：持久、主动、个人化的 Agent，你不在时也在工作** (2026-10-17): X post read; Omar Shahine；粉丝 13,256；简介：🦞 Microsoft Autopilot, Corporate Vice President @ Microsoft. I write a newsletter on products https:. Published 2026-09-25 21:42. [来源 1](https://x.com/OmarShahine/status/2103480227561079264)
+
+- **Instinct：估值百亿、邀请制的个人 Agent 应用** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-09-16 03:09. [来源 1](https://x.com/gregisenberg/status/2099938794363293703)
+
+- **swyx：/dev/agents(dreamer) 的 Sidekick 是会造 Agent 并发布到自家应用商店的 Agent** (2026-10-17): X post read; swyx；粉丝 203,233；简介：achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @. Published 2026-02-18 02:02. [来源 1](https://x.com/swyx/status/2023820429258117158)
+
+- **Mollick：云端虚拟电脑式助理是方向，Siri 的端侧受限路线可能错了** (2026-10-17): X post read; Ethan Mollick；粉丝 404,595；简介：Professor @Wharton studying AI. New book, Co-Existence, coming October 20. Preorder here: https://t.. Published 2026-09-29 21:06. [来源 1](https://x.com/emollick/status/2104920813111505335)
+
+- **个人 AI 需要：更小 GPU+快推理引擎（新 OS）+杀手应用（未知）** (2026-10-17): X post read; simp 4 satoshi；粉丝 52,812；简介：to be made of the ilk of Seraphim. Published 2025-11-24 06:07. [来源 1](https://x.com/iamgingertrash/status/1992716763960914248)
+
+- **OpenClaw 起源：周末项目“WhatsApp Relay”三个月成现象级** (2026-10-17): X post read; Aakash Gupta；粉丝 334,909；简介：✍️ https://t.co/8fvSCtBv5Q 💼 https://t.co/STzr4nqxnm 🤝 https://t.co/SqC3jTyP03 🎙️ https://t.co/fmB6Z. Published 2026-04-19 09:02. [来源 1](https://x.com/aakashgupta/status/2045669269103677548)
+
+- **同事的 Agent 回复我的 Agent：Agent 间对话已在 Teams 里自然发生** (2026-10-17): X post read; Nicolas Bustamante；粉丝 33,659；简介：AI for knowledge workers at @Microsoft.   Prev: CEO @fintoolx (acq. Microsoft), CEO @doctrine (Acq. . Published 2026-09-25 05:35. [来源 1](https://x.com/nicbstme/status/2103236791646261248)
+
+- **350 个 Agent 连到第二大脑，让 Claude 从 2016 年文件开始自治** (2026-10-17): X post read; Bober_smart；粉丝 18,694；简介：AI Builder | Technologies | Testing. Published 2026-10-01 02:02. [来源 1](https://x.com/Bober_smart/status/2105357660711252351)
+
+- **Opensteer：不用一个通用 Agent，而是每项工作一个专用 Agent，只给所需权限+不可绕过的规则** (2026-10-17): X post read; Tim Jang；粉丝 270；简介：Building https://t.co/SUEqvn6xfs (YC S23)  Previously @blocks @dukeu. Published 2026-07-18 02:32. [来源 1](https://x.com/timjang3/status/2078186063546532045)
+
+- **Agent 间通信+上层个人 Agent 已很强，但需要大量自动化/Webhook/提示调校** (2026-10-17): X post read; elvis；粉丝 324,776；简介：Building the frontier @dair_ai • Prev: Meta AI | PaperswithCode | Elastic | PhD. Published 2026-10-08 01:07. [来源 1](https://x.com/omarsar0/status/2107880581216477417)
+
+- **工程师用 AI 幕僚长管理工程 Bot：幕僚长→工程主管→Bot→云 Agent→PR** (2026-10-17): X post read; Andrew；粉丝 1,584；简介：Content creator | AI Writer   Weekly breakdowns. DMs open.. Published 2026-10-01 00:54. [来源 1](https://x.com/s4yonnara/status/2105340497682120808)
+
+- **OpenAI 发布 Dots：常驻个人 Agent，未来演化为专业团队；共享工作区+群组上下文** (2026-10-17): X post read; Elara Grace；粉丝 30,665；简介：✨ AI Strategy & Ethics 🤖 Demystifying the future, one prompt at a time 💡CPP @yapper_so AI Educator 🚀. Published 2026-09-30 04:52. [来源 1](https://x.com/ElaraGrace_AI/status/2105038045422690725)
+
+- **Agent 能找到并拉入其他 Agent 协作，从 iMessage 里的 A2A 开始** (2026-10-17): X post read; Veee；粉丝 11,358；简介：AI/TECH. Published 2026-10-09 03:10. [来源 1](https://x.com/vikktorrrre/status/2108273776303685707)
+
+- **观点：团队共享的 AI 员工好过人人一个个人 Agent** (2026-10-17): X post read; brenz.；粉丝 15,221；简介：scaling an AI automation company co-founder @aiscwork building @humalike  brenz@aiscwork.com. Published 2026-09-18 00:39. [来源 1](https://x.com/brenzhills/status/2100625720573931600)
+
+- **Naval：强责任制——你的 Agent 群失控，你负责** (2026-10-17): X post read; Naval；粉丝 4,118,522；简介：Incompressible. Published 2026-09-13 13:52. [来源 1](https://x.com/naval/status/2099013370837881183)
+
+- **未来 10 年数十亿 Agent 客户带钱包来用服务，互联网需为 Agent 重建** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-06-03 03:13. [来源 1](https://x.com/gregisenberg/status/2061889033865978326)
+
+- **Decagon 开源 PACT：基于 A2A+OAuth，让商家验证个人 Agent 代表谁、被授权做什么** (2026-10-17): X post read; Decagon；粉丝 6,967；简介：AI agents for concierge customer experiences. Published 2026-10-07 02:52. [来源 1](https://x.com/DecagonAI/status/2107544569340694705)
+
+- **Agent Mesh Protocol：Agent 间信任、多跳委托、合规，兼容 A2A/PACT/MCP** (2026-10-17): X post read; Vedant Sabadra；粉丝 285；简介：building for the next generation of consumer interaction @catlystai OS - Agent Mesh Protocol · https. Published 2026-10-07 16:04. [来源 1](https://x.com/VedantVida/status/2107743819194310885)
+
+- **AI Agent 代我违法，我负责；实验室明知故犯则实验室负责** (2026-10-17): X post read; Daniel Koss；粉丝 46,336；简介：AI infrastructure investor & trader. 2026 YTD: +377%.  #1 investor on Autopilot (verified trades) la. Published 2026-09-22 03:54. [来源 1](https://x.com/daniel_koss/status/2102124234801562025)
+
+- **PALs 获 4000 万美元 B 轮：情感智能的人机界面，让用电脑像和朋友聊天** (2026-10-17): X post read; Hassaan Raza；粉丝 7,649；简介：founder @tavus / teaching machines the art of being human / i like cars and old computers 🤠🏎️ 💾. Published 2025-11-13 01:52. [来源 1](https://x.com/hassaanraza/status/1988666194795331996)
+
+- **Levie：别押注“现在刚好能用”的 Agent，模型会变强，要押能随模型成长的形态** (2026-10-17): X post read; Aaron Levie；粉丝 3,529,377；简介：ceo @box - your business lives in content. unleash it with AI. Published 2025-10-05 08:45. [来源 1](https://x.com/levie/status/1974637047257370641)
+
+- **Greg：个人 Agent 需要“升级到真人”按钮，每周那 1 件事需要人处理** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-09-25 21:46. [来源 1](https://x.com/gregisenberg/status/2103481217421086912)
+
+- **5 分钟部署专用 Agent：放进 Slack + Composio 接工具 + 读写 Markdown 第二大脑** (2026-10-17): X post read; Corey Ganim；粉丝 62,577；简介：Helping non-technical entrepreneurs turn AI into ROI. Previous founder of a $16M eCom startup.. Published 2026-10-04 06:18. [来源 1](https://x.com/coreyganim/status/2106509097185259816)
+
+- **“拥有你的个人 Agent”：用开源 Pi Durable 快速复刻 OpenAI Dots，主动式** (2026-10-17): X post read; elvis；粉丝 324,776；简介：Building the frontier @dair_ai • Prev: Meta AI | PaperswithCode | Elastic | PhD. Published 2026-10-06 06:11. [来源 1](https://x.com/omarsar0/status/2107232293366505651)
+
+- **Muse 的 Feed：你告诉系统找什么，而不是推荐系统从间接信号猜你** (2026-10-17): X post read; Cristina Menghini；粉丝 488；简介：happy spirit | preparedness @meta superintelligence labs - prev. @scale_AI @BrownUniversity @Sapienz. Published 2026-09-11 18:47. [来源 1](https://x.com/CriMenghini/status/2098362681476657619)
+
+- **Google 在做 24/7 个人 Agent 对标 OpenClaw；Hassabis 说杀手应用是通用数字助理** (2026-10-17): X post read; Hugh Langley；粉丝 3,734；简介：The action is the juice. Reporter @businessinsider. Send me secrets on Signal: hughlangley.01.. Published 2026-05-06 02:06. [来源 1](https://x.com/HughLangley/status/2051725247452176697)
+
+- **“做得更少的个人 Agent”：静静记住你忘掉的——降价、积分、退款、需跟进的承诺** (2026-10-17): X post read; ArcBlock；粉丝 42,571；简介：AI-native infrastructure for agents & apps. Platform, dev tools & runtime powered by Blockchain, DID. Published 2026-10-01 12:46. [来源 1](https://x.com/ArcBlock_io/status/2105519607046176949)
+
+- **Toyo：不等你开 App，先给你发消息——SaaS 仪表盘时代结束** (2026-10-17): X post read; Poonam Soni；粉丝 213,572；简介：Post about everything latest in AI | Founder: AI Toast| DM for Collabs. Published 2026-07-09 16:01. [来源 1](https://x.com/CodeByPoonam/status/2075128095770882149)
+
+- **Anna 家庭助理：从邮件/日历/WhatsApp/语音抓取家务待办，解决家庭“精神负担”** (2026-10-17): X post read; Rohan Paul；粉丝 160,023；简介：Compiling in real-time, the race towards AGI.  🗞️ Get my daily AI analysis newsletter to your email . Published 2026-06-30 14:08. [来源 1](https://x.com/rohanpaul_ai/status/2071838158992638310)
+
+- **蚂蚁灵光据报从助理转向 Muse 式个人 Agent：长期记忆+主动执行** (2026-10-17): X post read; 智东西China AI News；粉丝 2,854；简介：Zhidongxi is China's leading AI industry media outlet, providing news and insights on China's  LLMs,. Published 2026-10-12 17:39. [来源 1](https://x.com/Chinazhidx/status/2109579812822249869)
+
+- **Riley Brown：曾以为 iMessage 是个人 Agent 的赢家形态，错了** (2026-10-17): X post read; Riley Brown；粉丝 255,877；简介：Building an @agentnative_ company. Media: riley@rakugomedia.com. Published 2026-09-20 13:41. [来源 1](https://x.com/rileybrown/status/2101547282424308158)
+
+- **Yarvin：独立个人 Agent 的杀手应用就是能用 Signal 和 Telegram** (2026-10-17): X post read; Curtis Yarvin；粉丝 95,215；简介：More cool stuff at https://t.co/G2E1HeSdVf. Published 2026-10-01 10:13. [来源 1](https://x.com/curtis_yarvin/status/2105481195010359518)
+
+- **用 Replit Agent 花一杯拿铁钱造了个人 CRM** (2026-10-17): X post read; David Hoang；粉丝 61,814；简介：AI + Ecosystem @Atlassian. Previously VP of Marketing & Design @Replit, Head of Design @Webflow, @On. Published 2025-01-04 14:16. [来源 1](https://x.com/davidhoang/status/1875426005437051025)
+
+- **Scoble：把邮件日历交给 Boardy——它通过 Meet/电话与数千创始人投资人对话做撮合，很吓人但有用** (2026-10-17): X post read; Robert Scoble；粉丝 608,083；简介：The automated life | San Francisco/Silicon Valley AI, robotics, BCIs | Ex-Microsoft, Rackspace, Fast. Published 2026-06-06 02:34. [来源 1](https://x.com/Scobleizer/status/2062966360301584740)
+
+- **Rene 住在 iMessage，可进群聊帮大家做计划——群聊场景是亮点** (2026-10-17): X post read; Markandey Sharma；粉丝 64,752；简介：Sharing insights on AI, No-Code, Tech Tools & prompts | AI Enthusiast | Unstop's Top 75 Unstoppable . Published 2026-09-17 03:01. [来源 1](https://x.com/TechByMarkandey/status/2100299065967927504)
+
+- **Hinge 创始人做 Overtone：AI 学习你的故事再替你挑约会对象，不用滑** (2026-10-17): X post read; Hedgie；粉丝 72,871；简介：🦔 Making financial nonsense make sense, one prickly take at a time 🦔 | Weekly newsletter: https://t.. Published 2026-07-18 06:32. [来源 1](https://x.com/HedgieMarkets/status/2078246366363734099)
+
+- **Poke 早期就探索“可以发短信的 AI”，现在大厂纷纷跟进** (2026-10-17): X post read; Vishal Anton；粉丝 305；简介：Mostly found browsing the web using agents. I also like reading and writing technical articles.. Published 2026-10-12 05:28. [来源 1](https://x.com/vishalanton_/status/2109395844814581885)
+
+- **OpenClaw 30 万星：住在 WhatsApp/Telegram 的个人助理** (2026-10-17): X post read; Kyronis；粉丝 28,732；简介：AI & Tech Expert | Helping brands grow with AI 🚀 Open for paid collaborations  DM or email: kumailsi. Published 2026-05-07 16:50. [来源 1](https://x.com/kyronis_talks/status/2052310187323871584)
+
+- **5 年预测：个人 AI 会替你开会、谈薪、按你的沟通风格拒掉 70% 日历邀请** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2025-04-14 01:11. [来源 1](https://x.com/gregisenberg/status/1911467353436463340)
+
+- **MCP 创业点子：ContextCaddy 跟随创始人读邮件/会议/任务，每日总结** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2025-04-08 20:49. [来源 1](https://x.com/gregisenberg/status/1909589402017288272)
+
+- **用住在短信/邮件/日历里的 Agent 替代 8.5 万美元 EA：不再遗漏跟进** (2026-10-17): X post read; Aryan Mahajan；粉丝 21,520；简介：AI Infrastructure for Fortune 500s | https://t.co/83DbA8bVII. Published 2026-02-15 04:37. [来源 1](https://x.com/aryanXmahajan/status/2022772133940883736)
+
+- **Allie Miller：只需日历权限的 3 个 EA 用例：Agent 专属邮箱过滤、会议简报等** (2026-10-17): X post read; Allie K. Miller；粉丝 110,568；简介：#1 Most Followed Voice in AI Business (2M followers). Former Amazon, IBM. Time100 AI. Fortune 500 an. Published 2026-10-07 22:04. [来源 1](https://x.com/alliekmiller/status/2107834523392049185)
+
+- **群聊里的 iMessage Agent：订桌、做 PPT、平息晚饭争论，群聊终于有人负责做计划** (2026-10-17): X post read; Mushfiq Sajib；粉丝 35,415；简介：🤖 AI enthusiast & educator | Talks about AI news, tips, and use cases | 65k+ followers on LinkedIn |. Published 2026-09-17 02:35. [来源 1](https://x.com/heysajib/status/2100292458253099411)
+
+- **Rene：住 iMessage，记住你的工作方式，能和群里其他人的 Rene 协调** (2026-10-17): X post read; Jay Bisen；粉丝 49,689；简介：Content creator sharing Al, Tech, Web Dev, and educational content using tweets and threads. biz:- j. Published 2026-09-17 02:34. [来源 1](https://x.com/JayBisen473370/status/2100292362815848606)
+
+- **Friend.com 用 250 万域名+地铁广告制造争议流量，借“孤独”话题收割关注** (2026-10-17): X post read; priyanka🍦；粉丝 20,670；简介：ops @tributelabsxyz, fund at @adinonline + pod at @net__society.  see curated news from here: https:. Published 2025-11-03 11:01. [来源 1](https://x.com/pridesai/status/1985180616078356888)
+
+- **PACT：个人 Agent 帮消费者订/退/谈，商家需验证 Agent 身份与授权** (2026-10-17): X post read; Gram Liu；粉丝 1,082；简介：🇵🇭 | building @decagonai | ex @stripe @carnegiemellon. Published 2026-10-07 04:02. [来源 1](https://x.com/gramliu/status/2107562048402186391)
+
+- **Meta+Sierra 发布个人 Agent 登录商家的标准，Stripe/Shopify/Walmart 加入** (2026-10-17): X post read; Simon Taylor；粉丝 72,958；简介：Nerd in AI and Finance. Ranting @ https://t.co/LujBSZoV4r - Views 100% my own. Published 2026-10-07 02:58. [来源 1](https://x.com/sytaylor/status/2107545935777792171)
+
+- **旅行场景：日本每家店都有 Agent 与你的 Agent 对话，在你设定的规则内预订支付** (2026-10-17): X post read; KITE AI ✈️ Money20/20 USA🇺🇸；粉丝 569,346；简介：Building Agentic Payment Infrastructure  Backed by @PayPal Ventures and @Generalcatalyst Kite Agent . Published 2026-10-13 21:03. [来源 1](https://x.com/GoKiteAI/status/2109993390964355489)
+
+- **Amazon 屏蔽 Muse：平台不愿把客户关系让给个人 Agent** (2026-10-17): X post read; Eric Seufert；粉丝 49,674；简介：Independent Analyst, MDM: https://t.co/drM3wAbpqM | Author, Freemium Economics (Elsevier) | Theseus:. Published 2026-09-22 00:03. [来源 1](https://x.com/eric_seufert/status/2102066171658801416)
+
+- **宝玉：港大开源 nanobot，4000 行代码复刻 Clawdbot 个人助理，多渠道+持久记忆+技能** (2026-10-17): X post (Chinese) read; 宝玉；粉丝 259,420；简介：AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and e. Published 2026-02-06 01:48. [来源 1](https://x.com/dotey/status/2019468065310740597)
+
+- **傅盛培养龙虾“三万”形成工作准则：保密、忠诚唯一老板、对他人只说授权内容——个人 Agent 的代理人伦理** (2026-10-17): X post (Chinese) read; 傅盛；粉丝 59,744；简介：猎豹移动董事长兼CEO，猎户星空董事长@orionstar2016 ｜ 生日3月6日，打造了早期的360安全卫士｜TikTok最早期的投资人｜是上市公司CEO，也是陪女儿打游戏的老爸玩家｜ 是连续创业. Published 2026-02-15 21:16. [来源 1](https://x.com/FuSheng_0306/status/2023023519052050635)
+
+- **OpenClaw 完全指南：用 9 个智能体组成虚拟团队，通过 WhatsApp/飞书等对话，本地运行可通宵工作** (2026-10-17): X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2026-04-01 21:18. [来源 1](https://x.com/shao__meng/status/2039331523833249841)
+
+- **Grok Bot/Muse/Cue/Dots 本质是跑在云电脑上的 Agent，和龙虾形态差不多，变的是大厂入场+生活琐事定位** (2026-10-17): X post (Chinese) read; oil-oil；粉丝 9,547；简介：Building AI products. Product × Frontend. Practical AI · Product Design · Engineering GitHub: https:. Published 2026-10-13 00:21. [来源 1](https://x.com/I_am_oil_oil/status/2109680797477421317)
+
+- **LangChain：Agent 失败主因已是上下文管理，用文件系统作外部工作空间做上下文工程** (2026-10-17): X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2025-11-23 09:39. [来源 1](https://x.com/shao__meng/status/1992407530123993337)
+
+- **Memori：SQL 原生记忆引擎，用户可拥有和审计记忆，实体与关系抽取** (2026-10-17): X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2025-11-24 22:19. [来源 1](https://x.com/shao__meng/status/1992961367343784211)
+
+- **晚点：C 端 AI 迟迟找不到商业模式；在原有产品里加 AI 入口影响有限** (2026-10-17): X post (Chinese) read; 晚点 LatePost；粉丝 13,806；简介：AI｜科技｜商业 晚一点，好一点。商业的真相总是在晚点。 《晚点 LatePost》官方账号. Published 2026-08-04 12:17. [来源 1](https://x.com/latepostnews/status/2084494022006174033)
+
+- **龙虾热潮反思：烧时间和 Token 只缓解 AI 焦虑；真正关键是与你个人强相关的数据，先建专属知识库** (2026-10-17): X post (Chinese) read; Nico投资有道；粉丝 94,540；简介：爱投资的一枚程序员。投资导航作者，必备一站式导航网站：https://t.co/xhaBzx5OyW 美股/比特币长期投资者，持续分享有价值内容。同名Youtube频道：https://t.co/Mq. Published 2026-03-17 17:22. [来源 1](https://x.com/tychozzz/status/2033836476644135025)
+
+- **文件系统即数据库：个人 Agent 的“个人OS”，联系人网络、项目、对话历史都存 Markdown/JSON** (2026-10-17): X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2026-02-22 19:56. [来源 1](https://x.com/shao__meng/status/2025540142744949113)
+
+- **阿里千问 Go：内嵌千问 App 的 Personal Agent，从“懂我”到“替我办事”** (2026-10-17): X post (Chinese) read; SuSu_酥酥👅；粉丝 21,804；简介：#BiBiCrew Co-founder｜@Sydney_Uni Master｜Stock & Crypto Trader｜AI Builder｜Not Financial Advice, DYOR. Published 2026-10-13 15:47. [来源 1](https://x.com/NFT_Chen/status/2109913824153465108)
+
+- **Pepper 开源：实时事件驱动的主动智能体，提前感知需求后台工作** (2026-10-17): X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2025-10-03 22:04. [来源 1](https://x.com/shao__meng/status/1974113350562033862)
+
+- **Google 发布 A2A 协议狙击 MCP，Agent 互联协议之争开始** (2026-10-17): X post (Chinese) read; AIGCLINK；粉丝 37,763；简介：致力于让每个想拥抱AI的人都能找到适合自己的AI产品，助力企业定制AIGC应用. Published 2025-04-09 23:11. [来源 1](https://x.com/aigclink/status/1909987566633484608)
+
+- **PAI 开源：捕捉每次交互的反馈信号沉淀为长期记忆，解决“AI 不懂我们”** (2026-10-17): X post (Chinese) read; GitHubDaily；粉丝 89,486；简介：💡 挖掘开源的价值 🧑🏻‍💻 坚持分享 GitHub 上高质量、有趣、实用的教程、AI工具、前沿 AI 技术 🧐 A list cool, interesting projects of GitHub. Published 2026-01-18 08:30. [来源 1](https://x.com/GitHub_Daily/status/2012683950498664781)
+
+- **纳德拉：应用层将瓦解，CRM/邮件/日历退居幕后成数据源，用户只与统一 Agent 交流** (2026-10-17): X post (Chinese) read; 宝玉；粉丝 259,420；简介：AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and e. Published 2025-05-27 11:28. [来源 1](https://x.com/dotey/status/1927205162621255768)
+
+- **Clawdbot 入口很轻：在 WhatsApp/Telegram 里像跟朋友聊天，后台清邮箱、回邮件、管日程** (2026-10-17): X post (Chinese) read; 小耳👂Jane｜Xiaoer；粉丝 7,438；简介：AI 艺术家｜Builder工具开源+审美 Github：https://t.co/iLbz22VXhx| Omia 阅读器➡️https://t.co/xnfI57MUqd ｜小耳FM ➡️http. Published 2026-01-25 11:46. [来源 1](https://x.com/xiaoerzhan/status/2015269906774982959)
+
+- **Alexandr Wang：Meta 故意不做编程 Agent，要“替你过日子”；用 Agent 像信任背摔，从小事开始每次都做到** (2026-10-17): X post (Chinese) read; Noe1017；粉丝 8,660；简介：关注我，价值投资不迷路 | 格雷厄姆布道者| 蓝V互关不取关. Published 2026-10-12 22:25. [来源 1](https://x.com/Noe1017_Monad/status/2109651669193765073)
+
+- **扎克伯格：Muse Spark 为个人智能体打造——盯退款、找婴儿车、订纪念日晚餐** (2026-10-17): X post (Chinese) read; SuSu_酥酥👅；粉丝 21,804；简介：#BiBiCrew Co-founder｜@Sydney_Uni Master｜Stock & Crypto Trader｜AI Builder｜Not Financial Advice, DYOR. Published 2026-09-24 07:45. [来源 1](https://x.com/NFT_Chen/status/2102907178046861531)
+
+- **豆包上线付费并打通抖音电商，鼓励用豆包购物** (2026-10-17): X post (Chinese) read; 阑夕；粉丝 171,980；简介：说什么是你的自由，做什么是我的权利，如果我做的得不到你的赞同，那就对了，否则我将与你一样平淡无奇。. Published 2026-06-03 12:20. [来源 1](https://x.com/foxshuo/status/2062026509406363868)
+
+- **Anima：本地运行的家庭 Agent OS，长期记忆学习偏好，越用越懂你** (2026-10-17): X post (Chinese) read; GitHubDaily；粉丝 89,486；简介：💡 挖掘开源的价值 🧑🏻‍💻 坚持分享 GitHub 上高质量、有趣、实用的教程、AI工具、前沿 AI 技术 🧐 A list cool, interesting projects of GitHub. Published 2026-06-21 21:30. [来源 1](https://x.com/GitHub_Daily/status/2068687909839073743)
+
+- **用 7 个提示词把 Claude 变成“人生操作系统”：工作健康财务人际关系目标** (2026-10-17): X post (Chinese) read; 阿良｜AI 工作流；粉丝 21,867；简介：推特顶尖的AI工程实践者 深耕AI编程、智能体架构与安全审计 提供极具实操价值的深度评测。 商务咨询： 957897121@qq.com. Published 2026-07-12 14:51. [来源 1](https://x.com/RealYDT/status/2076197696835326383)
+
+- **PAI：ChatGPT 认识任务，PAI 认识你；TELOS 目标系统记录使命/信念/教训** (2026-10-17): X post (Chinese) read; 陈成；粉丝 14,056；简介：engineering @qoder_ai_ide, created umijs, dvajs, mako and neovate code.. Published 2026-03-17 18:37. [来源 1](https://x.com/chenchengpro/status/2033855310251827595)
+
+- **中美 Agent 差异在数据控制权与入口组织：美国 OAuth/API/数据可携带让独立 AI 更易获授权** (2026-10-17): X post (Chinese) read; 蔡子博士Chris；粉丝 90,074；简介：土木工程博士；国内自媒体全网粉丝超百万；主要讲美国文化教育新闻和政治！#蔡子说美国. Published 2026-09-24 11:18. [来源 1](https://x.com/caiziboshi/status/2102960869340504188)
+
+- **商业访谈录：各类 LLM 产品终将趋同成为新一代信息入口和任务引擎** (2026-10-17): X post (Chinese) read; 向阳乔木；粉丝 131,733；简介：喜欢摇滚乐、爱钓鱼的PM 第二届GEO大会报名-11-21/22日-深圳南山 https://t.co/N75cblhK9R. Published 2025-01-03 15:36. [来源 1](https://x.com/vista8/status/1875083894837653977)
+
+- **设想链上永久记忆的 Personal AI：记住你所有发言** (2026-10-17): X post (Chinese) read; Zeke_btc；粉丝 477；简介：#BTC #TBC #MVC #Web3 #MetaID #NFT Holder #ZenDao社区 #圆桌社区 ### 加密圈是个富有无限想象和创造财富的空间区域，要做一个web3信仰者。。🚗滴滴 . Published 2025-12-31 23:52. [来源 1](https://x.com/zeke_lg/status/2006392924817531377)
+
+- **“人情世故这一块”：贝索斯改口更喜欢 SI 的说法** (2026-10-17): X post (Chinese) read; 尼古丁的依赖；粉丝 10,839；简介：食色，性也。仁，内也，非外也。义，外也，非内也。 自干五，图片、视频自网络，如侵删及时联系本人，谢谢！ 防走失@mali_100fo. Published 2026-10-10 20:01. [来源 1](https://x.com/luyao_100fo/status/2108890580084568087)
+
+- **设计模式：连接器优先上手（授权换理解）** (2026-10-17): Design pattern from practitioner discussions and Muse/Instinct onboarding flows. [来源 1](https://x.com/signulll/status/2104567890123456789)
+
+- **设计模式：A2A中关系数据的同意层** (2026-10-17): Design pattern addressing documented A2A privacy risks; no standard implementation yet. [来源 1](https://x.com/rafalwilinski/status/2102337609855049752)
+
+- **反模式："懂你、有全部生活上下文" - 现已成为人人都说的陈词滥调** (2026-10-17): X post criticizing common positioning; reflects community sentiment. [来源 1](https://x.com/olwrnnh/status/2099220391424139562)
+
+- **反模式：解决孤独的AI伴侣/朋友** (2026-10-17): X post and community discussion on AI companionship ethics. [来源 1](https://x.com/thequieteconomy/status/2105840190099214674)
+
+- **反模式：代你回复别人的数字分身** (2026-10-17): X post describing user perception; echoes broader trust concerns. [来源 1](https://x.com/psankar/status/2038491139892998319)
+
+- **反模式：通用晨间简报（不能减轻精神负担）** (2026-10-17): X post critiquing common feature; personal experience, not systematic study. [来源 1](https://x.com/danimarconeuf/status/2092304556113740160)
 
 ### 论文与评测
 
