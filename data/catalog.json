@@ -1892,6 +1892,1662 @@
         "https://x.com/timyangnet/status/2021178846670880912"
       ],
       "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-51358378",
+      "name": "how to set up hermes agent step by step....",
+      "name_zh": "Hermes 作为终端里的个人 Agent：内置记忆+40 工具，与 OpenClaw 对比，开源个人 Agent 生态成型",
+      "url": "https://x.com/gregisenberg/status/2046310954351358378",
+      "category": "practitioner",
+      "en": "gregisenberg (2026-04-21 03:32): how to set up hermes agent step by step. built-in memory, 40+ tools, works on your phone, and what to think of hermes vs openclaw: 1. hermes is a personal AI agent that runs in your terminal. think of it like open claw but with built-in memory, 40+ tools out of the box, and 90% cheaper token costs. you install it with one command. 2. the 3 problems with open claw that hermes solves: no memory (you keep repeating yourself), constant gateway restarts, and zero visibility into what you're spending on tokens. 3. hermes remembers everything. every completed task gets saved to memory. it searches... 3160+ likes.",
+      "zh": "gregisenberg（2026-04-21 03:32）：Hermes 作为终端里的个人 Agent：内置记忆+40 工具，与 OpenClaw 对比，开源个人 Agent 生态成型 3160+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-04-21 03:32.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2046310954351358378"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-lummox-eth-10185287",
+      "name": "AI memory is getting f...cking illegal 10 open-source GitHub projects that stop agents from start...",
+      "name_zh": "10 个开源记忆项目（Mem0/Graphiti/Cognee 等），记忆层已成 Agent 标配基础设施",
+      "url": "https://x.com/Lummox_eth/status/2104218875810185287",
+      "category": "practitioner",
+      "en": "Lummox_eth (2026-09-27 22:37): AI memory is getting f...cking illegal 10 open-source GitHub projects that stop agents from starting from zero EVERY new session 01 Mem0 ▸ → 66K+ stars 02 Hindsight ▸ → retain → recall → reflect 03 memU ▸  TURN MEMORY INTO KNOWLEDGE 04 Cognee ▸ → documents + code + conversations → knowledge graph 05 Graphiti ▸ → remembers how facts change over time 06 OpenViking ▸  MAKE THE AGENT STATEFUL 07 Letta ▸ → memory + identity across sessions 08 Letta Code ▸  REMEMBER ACROSS THE STACK 09 OpenMemory ▸  10 Agent Memory Benchmark ▸  the loop: experience → remember → connect → retrieve → act → update 3... 2419+ likes.",
+      "zh": "Lummox_eth（2026-09-27 22:37）：10 个开源记忆项目（Mem0/Graphiti/Cognee 等），记忆层已成 Agent 标配基础设施 2419+赞。",
+      "scope": "X post read; Lummox；粉丝 8,336；简介：developing internet money / building interesting things / dm open. Published 2026-09-27 22:37.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Lummox_eth/status/2104218875810185287"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-heynavtoor-71876901",
+      "name": "Someone built a tool that reads all your chat messages and creates an AI clone of you....",
+      "name_zh": "WeClone：用聊天记录微调出“像你说话”的 AI 分身，1.6 万星",
+      "url": "https://x.com/heynavtoor/status/2043626777671876901",
+      "category": "practitioner",
+      "en": "heynavtoor (2026-04-13 17:46): Someone built a tool that reads all your chat messages and creates an AI clone of you. It talks like you. Responds like you. Thinks like you. 16,400 GitHub stars. It's called WeClone. Export your chat history. Feed it to the tool. It fine-tunes an AI model on YOUR messages. 1585+ likes.",
+      "zh": "heynavtoor（2026-04-13 17:46）：WeClone：用聊天记录微调出“像你说话”的 AI 分身，1.6 万星 1585+赞。",
+      "scope": "X post read; Nav Toor；粉丝 152,299；简介：Helping you master AI daily with step-by-step AI guides, latest news, & practical tools • DM for Col. Published 2026-04-13 17:46.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/heynavtoor/status/2043626777671876901"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-aakashgupta-20139176",
+      "name": "Google just revealed the AI moat nobody can replicate....",
+      "name_zh": "Google 的护城河是十年 Gmail/照片/日历上下文，别家“记忆”只是应用内偏好",
+      "url": "https://x.com/aakashgupta/status/2011660610120139176",
+      "category": "practitioner",
+      "en": "aakashgupta (2026-01-15 12:43): Google just revealed the AI moat nobody can replicate. Every AI company is racing to build “memory” and “personalization.” Claude remembers your conversations. ChatGPT stores your preferences. Perplexity knows your search history within their app. Google connects to a decade of your Gmail threads, every photo you’ve ever taken, your complete YouTube watch history, and every search query you’ve made since 2005. The surface announcement is “Gemini gets personal.” The real announcement is that Google is activating a personalization layer built on 20 years of user data that no competitor can ac... 2003+ likes.",
+      "zh": "aakashgupta（2026-01-15 12:43）：Google 的护城河是十年 Gmail/照片/日历上下文，别家“记忆”只是应用内偏好 2003+赞。",
+      "scope": "X post read; Aakash Gupta；粉丝 334,909；简介：✍️ https://t.co/8fvSCtBv5Q 💼 https://t.co/STzr4nqxnm 🤝 https://t.co/SqC3jTyP03 🎙️ https://t.co/fmB6Z. Published 2026-01-15 12:43.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/aakashgupta/status/2011660610120139176"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-beamnxw-93490284",
+      "name": "this is pure f*cking treasure 20 useful GitHub projects for a system that captures sources, conne...",
+      "name_zh": "20 个第二大脑开源项目：捕获-连接-记忆-让 Agent 据此行动",
+      "url": "https://x.com/beamnxw/status/2103757085393490284",
+      "category": "practitioner",
+      "en": "beamnxw (2026-09-26 16:02): this is pure f*cking treasure 20 useful GitHub projects for a system that captures sources, connects ideas, remembers context, and helps agents act on it your second brain should get sharper after every session CAPTURE THE INPUT 01 Chubby Skills ▸ 02 1233+ likes.",
+      "zh": "beamnxw（2026-09-26 16:02）：20 个第二大脑开源项目：捕获-连接-记忆-让 Agent 据此行动 1233+赞。",
+      "scope": "X post read; beamnxw ./；粉丝 11,459；简介：hyperfixation on AI | always dyor. Published 2026-09-26 16:02.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/beamnxw/status/2103757085393490284"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-53603406",
+      "name": "agreed that the the modern computer probably has to be reinvented 12 \"tiny\" startup ideas that ri...",
+      "name_zh": "小点子：“我放哪了”跨所有 app/邮件/Slack 的自然语言检索",
+      "url": "https://x.com/gregisenberg/status/2048381278953603406",
+      "category": "practitioner",
+      "en": "gregisenberg (2026-04-26 20:38): agreed that the the modern computer probably has to be reinvented 12 \"tiny\" startup ideas that ride that wave: 1. a \"where did I put that\" app. you describe what you're looking for in plain english and it searches across every app, folder, email, and slack message you've ever used. no more remembering where things live. 2. a \"did this actually work\" tracker for AI agent outputs. every time an agent does something for you, you thumbs up or thumbs down it. over time it builds a quality score per agent per task. right now nobody knows which of their agents are actually good and which ones are ... 671+ likes.",
+      "zh": "gregisenberg（2026-04-26 20:38）：小点子：“我放哪了”跨所有 app/邮件/Slack 的自然语言检索 671+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-04-26 20:38.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2048381278953603406"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-githubprojects-90983890",
+      "name": "CoPaw just went open source....",
+      "name_zh": "CoPaw 开源：自托管个人助理，所有权默认、记忆持久、技能模块化",
+      "url": "https://x.com/GithubProjects/status/2027987058090983890",
+      "category": "practitioner",
+      "en": "GithubProjects (2026-03-01 13:59): CoPaw just went open source. It’s a self-hosted personal AI assistant that treats ownership as the default. You can run it locally or in the cloud, use local models via llama.cpp or MLX, or wire in your own APIs. Memory persists. Skills are modular. Channels aren’t an afterthought. What stands out is the shape of it. CoPaw feels less like a chat app and more like a personal agent runtime that happens to talk to Discord, iMessage, DingTalk, Feishu, and more. 338+ likes.",
+      "zh": "GithubProjects（2026-03-01 13:59）：CoPaw 开源：自托管个人助理，所有权默认、记忆持久、技能模块化 338+赞。",
+      "scope": "X post read; GitHub Projects Community；粉丝 341,773；简介：We're sharing/showcasing best of @github projects/repos. Follow to stay in loop. Promoting Open-Sour. Published 2026-03-01 13:59.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/GithubProjects/status/2027987058090983890"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-swyx-81061887",
+      "name": "i’ve now personally tried: Rabbit R1, Humane Pin, Compass, (old) Tab, and a bunch of prototypes f...",
+      "name_zh": "swyx 试过 R1/Humane/Tab 等，提出“个人 AI 需求层次”",
+      "url": "https://x.com/swyx/status/1784087549881061887",
+      "category": "practitioner",
+      "en": "swyx (2024-04-27 13:09): i’ve now personally tried: Rabbit R1, Humane Pin, Compass, (old) Tab, and a bunch of prototypes from the Personal AI meetup just got a demo of the single most exciting AI wearable I’ve yet received. this thing is solving what I think of as the full Hierarchy of Needs in Personal 171+ likes.",
+      "zh": "swyx（2024-04-27 13:09）：swyx 试过 R1/Humane/Tab 等，提出“个人 AI 需求层次” 171+赞。",
+      "scope": "X post read; swyx；粉丝 203,233；简介：achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @. Published 2024-04-27 13:09.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/swyx/status/1784087549881061887"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-danifesto-67721852",
+      "name": "few thoughts after launching a personal agent: 1/ gemini 4 argon is insanely good for personal ag...",
+      "name_zh": "上线个人 Agent 后的心得：长上下文记忆+工具调用+判断力；用户爱语音和头像，尤其开车时",
+      "url": "https://x.com/danifesto/status/2110146315967721852",
+      "category": "practitioner",
+      "en": "danifesto (2026-10-14 07:11): few thoughts after launching a personal agent: 1/ gemini 4 argon is insanely good for personal agents. long context memory + tool calling + natural judgment in one loop feels like a real step change. 2/ people love voice and talking to their avatar way more than we expected, especially in the car. a lot of users keep it open for 3 hours a day or just talk to it while driving to delegate work on the road. carplay mode is top priority now. 3/ companionship and utility have a huge positive feedback loop. you don't wake up wanting to prompt an agent. you just talk about your day, and when that ... 104+ likes.",
+      "zh": "danifesto（2026-10-14 07:11）：上线个人 Agent 后的心得：长上下文记忆+工具调用+判断力；用户爱语音和头像，尤其开车时 104+赞。",
+      "scope": "X post read; Daniel Park；粉丝 8,921. Published 2026-10-14 07:11.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/danifesto/status/2110146315967721852"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-origin-ai-01-58863878",
+      "name": "Which AI actually remembers you? 🤔 Claude Projects and ChatGPT Memory look similar, but they solv...",
+      "name_zh": "Claude Projects（项目记忆）vs ChatGPT Memory（关于你的记忆）解决不同问题",
+      "url": "https://x.com/Origin_AI_01/status/2091082508758863878",
+      "category": "practitioner",
+      "en": "Origin_AI_01 (2026-08-22 16:38): Which AI actually remembers you? 🤔 Claude Projects and ChatGPT Memory look similar, but they solve different problems. Claude Projects 📁 → Remembers project-specific context → Uses uploaded files + project instructions → Great for research, coding & long-term projects ChatGPT Memory 🧠 → Remembers useful information about you → Can reference relevant past conversations → Better for personalization across different chats The simplest way to think about it: Claude remembers your work. ChatGPT remembers you. But the gap is getting smaller as both platforms expand their personalization features.... 99+ likes.",
+      "zh": "Origin_AI_01（2026-08-22 16:38）：Claude Projects（项目记忆）vs ChatGPT Memory（关于你的记忆）解决不同问题 99+赞。",
+      "scope": "X post read; OriginAI；粉丝 10,547；简介：AI & Tech Creator | 170K+ Community | Trusted by 100+ Brands | AI Tools, Marketing & Growth | Helpin. Published 2026-08-22 16:38.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Origin_AI_01/status/2091082508758863878"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-cointelegraph-33605820",
+      "name": "⚡️ NEW: Walrus has launched Walrus Memory, a portable memory layer that enables AI agents to reta...",
+      "name_zh": "Walrus Memory：跨应用的可移植记忆层",
+      "url": "https://x.com/Cointelegraph/status/2062276877633605820",
+      "category": "practitioner",
+      "en": "Cointelegraph (2026-06-04 04:54): ⚡️ NEW: Walrus has launched Walrus Memory, a portable memory layer that enables AI agents to retain context across applications. 84+ likes.",
+      "zh": "Cointelegraph（2026-06-04 04:54）：Walrus Memory：跨应用的可移植记忆层 84+赞。",
+      "scope": "X post read; Cointelegraph；粉丝 2,928,789；简介：Trusted crypto media since 2013 · News, research, podcasts & more · Explore: https://t.co/6IsiPge7RR. Published 2026-06-04 04:54.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Cointelegraph/status/2062276877633605820"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-finkd-40066765",
+      "name": "Opening access for developers to build Muse connectors....",
+      "name_zh": "扎克伯格：开放 Muse Connectors——你带 API，Muse 带 Agent、浏览器和“用户真正想要什么”的上下文；用户只需开口即可触达服务",
+      "url": "https://x.com/finkd/status/2101084678640066765",
+      "category": "practitioner",
+      "en": "finkd (2026-09-19 07:03): Opening access for developers to build Muse connectors. You bring the API -- Muse brings the agent, the browser, and the context of what the person actually wants. People reach your service just by asking for it, and their agent takes it from there. New connectors are live today. Come build with us. 11756+ likes.",
+      "zh": "finkd（2026-09-19 07:03）：扎克伯格：开放 Muse Connectors——你带 API，Muse 带 Agent、浏览器和“用户真正想要什么”的上下文；用户只需开口即可触达服务 11756+赞。",
+      "scope": "X post read; Mark Zuckerberg；粉丝 2,506,142. Published 2026-09-19 07:03.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/finkd/status/2101084678640066765"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-48769413",
+      "name": "My 30+ observations on the greatest opportunities in AI agents right now: And some ideas that are...",
+      "name_zh": "新的互联网买家是 AI Agent，没有 MCP server 就对 Agent 不可见",
+      "url": "https://x.com/gregisenberg/status/2054584280848769413",
+      "category": "practitioner",
+      "en": "gregisenberg (2026-05-13 23:27): My 30+ observations on the greatest opportunities in AI agents right now: And some ideas that are keeping me up at night. 1. The new buyer on the internet is an AI agent. Imagine billions of new customers showing up with money to spend but they only shop via MCP. That's what's happening. No MCP server means you're invisible to the fastest growing buyer on the internet. 2. Every franchise system in America (30,000+) needs an agent layer and none of them have one. One founder per franchise vertical. That's 30,000 businesses waiting.  3. Everyone said \"distribution is the only moat\" a year ago... 2531+ likes.",
+      "zh": "gregisenberg（2026-05-13 23:27）：新的互联网买家是 AI Agent，没有 MCP server 就对 Agent 不可见 2531+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-05-13 23:27.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2054584280848769413"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-alexandr-wang-48303589",
+      "name": "we're opening muse connectors to developers! we have seen so much excitement in the developer com...",
+      "name_zh": "Alexandr Wang：Muse Connectors 开放，接入你的 API，人们只要开口就能用你的服务",
+      "url": "https://x.com/alexandr_wang/status/2101098666048303589",
+      "category": "practitioner",
+      "en": "alexandr_wang (2026-09-19 07:58): we're opening muse connectors to developers! we have seen so much excitement in the developer community, integrating muse into everything from robots to mood lights and more. plug your API into muse, then people can use your service just by asking for it. every request runs in a secure VM, and muse will ask before anything consequential.  come build with us! 1227+ likes.",
+      "zh": "alexandr_wang（2026-09-19 07:58）：Alexandr Wang：Muse Connectors 开放，接入你的 API，人们只要开口就能用你的服务 1227+赞。",
+      "scope": "X post read; Alexandr Wang；粉丝 817,223；简介：chief ai officer @meta, founder meta superintelligence labs, founder @scale_ai. give everyone the ad. Published 2026-09-19 07:58.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/alexandr_wang/status/2101098666048303589"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-petergyang-95187949",
+      "name": "A few thoughts on where we're headed with personal agents (and why I think most apps will die): 1...",
+      "name_zh": "Peter Yang：多数 App 会消失，任务交给个人 Agent；“人人造 100 个个人 App”是死路",
+      "url": "https://x.com/petergyang/status/2020260897395187949",
+      "category": "practitioner",
+      "en": "petergyang (2026-02-08 06:18): A few thoughts on where we're headed with personal agents (and why I think most apps will die): 1. It's easier than ever to build an app with AI, but most apps will disappear. Instead, we'll delegate tasks to personal agents. 2. The idea that people will spin up 100s of personal apps is a dead end. Instead, we'll spend most of our time onboarding and giving context to our personal agent to do more. 3. The UX we know today - buttons, menus, nav - will go away. The ultimate UX is giving vague directions via text or voice and having your agent just get you and get it done. The requirements to ... 662+ likes.",
+      "zh": "petergyang（2026-02-08 06:18）：Peter Yang：多数 App 会消失，任务交给个人 Agent；“人人造 100 个个人 App”是死路 662+赞。",
+      "scope": "X post read; Peter Yang；粉丝 288,308；简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://. Published 2026-02-08 06:18.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/petergyang/status/2020260897395187949"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-emollick-54287270",
+      "name": "I think Meta's Muse is an impressive implementation of the OpenClaw idea of AI as a personal assi...",
+      "name_zh": "Mollick：Muse 把 OpenClaw 式“持续对话的个人助理”做得大众可用",
+      "url": "https://x.com/emollick/status/2102033312554287270",
+      "category": "practitioner",
+      "en": "emollick (2026-09-21 21:52): I think Meta's Muse is an impressive implementation of the OpenClaw idea of AI as a personal assistant agent that you have an ongoing chat with. Since it is so focused on doing that well, the experience is very accessible for people who didn't realize what AI could do for them. 810+ likes.",
+      "zh": "emollick（2026-09-21 21:52）：Mollick：Muse 把 OpenClaw 式“持续对话的个人助理”做得大众可用 810+赞。",
+      "scope": "X post read; Ethan Mollick；粉丝 404,595；简介：Professor @Wharton studying AI. New book, Co-Existence, coming October 20. Preorder here: https://t.. Published 2026-09-21 21:52.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/emollick/status/2102033312554287270"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-omarshahine-61079264",
+      "name": "Today we announced the preview of Microsoft Autopilot is rolling out to our first customers - \"Au...",
+      "name_zh": "微软 Autopilot：持久、主动、个人化的 Agent，你不在时也在工作",
+      "url": "https://x.com/OmarShahine/status/2103480227561079264",
+      "category": "practitioner",
+      "en": "OmarShahine (2026-09-25 21:42): Today we announced the preview of Microsoft Autopilot is rolling out to our first customers - \"Autopilot is a persistent, proactive and personal agent that keeps working even when you’re not\" It's been a while since I updated you all on what we are building. First Scout is now 860+ likes.",
+      "zh": "OmarShahine（2026-09-25 21:42）：微软 Autopilot：持久、主动、个人化的 Agent，你不在时也在工作 860+赞。",
+      "scope": "X post read; Omar Shahine；粉丝 13,256；简介：🦞 Microsoft Autopilot, Corporate Vice President @ Microsoft. I write a newsletter on products https:. Published 2026-09-25 21:42.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/OmarShahine/status/2103480227561079264"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-63293703",
+      "name": "Inside Instinct AI, the $10B invite only personal agent app. Is it worth trying?",
+      "name_zh": "Instinct：估值百亿、邀请制的个人 Agent 应用",
+      "url": "https://x.com/gregisenberg/status/2099938794363293703",
+      "category": "practitioner",
+      "en": "gregisenberg (2026-09-16 03:09): Inside Instinct AI, the $10B invite only personal agent app. Is it worth trying? 524+ likes.",
+      "zh": "gregisenberg（2026-09-16 03:09）：Instinct：估值百亿、邀请制的个人 Agent 应用 524+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-09-16 03:09.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2099938794363293703"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-swyx-58117158",
+      "name": "/dev/agents is out of stealth as @dreamer and is the most ambitious full stack consumer+coding ag...",
+      "name_zh": "swyx：/dev/agents(dreamer) 的 Sidekick 是会造 Agent 并发布到自家应用商店的 Agent",
+      "url": "https://x.com/swyx/status/2023820429258117158",
+      "category": "practitioner",
+      "en": "swyx (2026-02-18 02:02): /dev/agents is out of stealth as @dreamer and is the most ambitious full stack consumer+coding agent startup I've ever seen. when @dps first demoed this to me my jaw dropped. here's the AI Engineer POV:  - Sidekick is an agent that builds agents and publishes on its own app store (having @hbarra cofound is p nice for that) - unlike most appbuilders, Dreamer agents are full apps/agents - with their own MCPs, triggers, portable memory, settings, notifs, database, serverless functions, logging, prompt management, version control, terminal, etc, with a mix of official and curated LLM APIs for e... 221+ likes.",
+      "zh": "swyx（2026-02-18 02:02）：swyx：/dev/agents(dreamer) 的 Sidekick 是会造 Agent 并发布到自家应用商店的 Agent 221+赞。",
+      "scope": "X post read; swyx；粉丝 203,233；简介：achieve ambition with intentionality, intensity, integrity & insanity.  affiliations: - @smol_ai - @. Published 2026-02-18 02:02.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/swyx/status/2023820429258117158"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-emollick-11505335",
+      "name": "In a world where cloud-based Clawlike assistants that give powerful models virtual computers are ...",
+      "name_zh": "Mollick：云端虚拟电脑式助理是方向，Siri 的端侧受限路线可能错了",
+      "url": "https://x.com/emollick/status/2104920813111505335",
+      "category": "practitioner",
+      "en": "emollick (2026-09-29 21:06): In a world where cloud-based Clawlike assistants that give powerful models virtual computers are increasingly looking like the way forward for personal AI, it really does seem to suggest the choices Apple made for Siri (on-device, limited capabilities) may be the wrong direction. 339+ likes.",
+      "zh": "emollick（2026-09-29 21:06）：Mollick：云端虚拟电脑式助理是方向，Siri 的端侧受限路线可能错了 339+赞。",
+      "scope": "X post read; Ethan Mollick；粉丝 404,595；简介：Professor @Wharton studying AI. New book, Co-Existence, coming October 20. Preorder here: https://t.. Published 2026-09-29 21:06.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/emollick/status/2104920813111505335"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-iamgingertrash-60914248",
+      "name": "Personal Computers emerged from (3) stacked-innovations → microprocessors (smaller) → operating s...",
+      "name_zh": "个人 AI 需要：更小 GPU+快推理引擎（新 OS）+杀手应用（未知）",
+      "url": "https://x.com/iamgingertrash/status/1992716763960914248",
+      "category": "practitioner",
+      "en": "iamgingertrash (2025-11-24 06:07): Personal Computers emerged from (3) stacked-innovations → microprocessors (smaller) → operating systems (useful) → visicalc (killer app) Personal AI will emerge from; → smaller GPU → fast inference engine (new OS) → killer app (?) We spent two years, solving all 3 245+ likes.",
+      "zh": "iamgingertrash（2025-11-24 06:07）：个人 AI 需要：更小 GPU+快推理引擎（新 OS）+杀手应用（未知） 245+赞。",
+      "scope": "X post read; simp 4 satoshi；粉丝 52,812；简介：to be made of the ilk of Seraphim. Published 2025-11-24 06:07.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/iamgingertrash/status/1992716763960914248"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-aakashgupta-03677548",
+      "name": "Peter Steinberger wasn't trying to build a product....",
+      "name_zh": "OpenClaw 起源：周末项目“WhatsApp Relay”三个月成现象级",
+      "url": "https://x.com/aakashgupta/status/2045669269103677548",
+      "category": "practitioner",
+      "en": "aakashgupta (2026-04-19 09:02): Peter Steinberger wasn't trying to build a product. His TED2026 talk tells the story of a burned-out founder who launched a weekend hack called \"WhatsApp Relay\" in November 2025, and three months later Jensen Huang was calling his project the next ChatGPT and Sam Altman was hiring him. That project is OpenClaw. The timeline is absurd. 100,000 GitHub stars in two months. 247,000 stars and 47,700 forks by March. Renamed Clawdbot to Moltbot on January 27 after Anthropic filed a trademark claim. Renamed again to OpenClaw three days later because Moltbot \"never quite rolled off the tongue.\" Sam ... 123+ likes.",
+      "zh": "aakashgupta（2026-04-19 09:02）：OpenClaw 起源：周末项目“WhatsApp Relay”三个月成现象级 123+赞。",
+      "scope": "X post read; Aakash Gupta；粉丝 334,909；简介：✍️ https://t.co/8fvSCtBv5Q 💼 https://t.co/STzr4nqxnm 🤝 https://t.co/SqC3jTyP03 🎙️ https://t.co/fmB6Z. Published 2026-04-19 09:02.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/aakashgupta/status/2045669269103677548"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-nicbstme-46261248",
+      "name": "Friends, work is getting so hilarious right now! My agents run in a loop with /goal....",
+      "name_zh": "同事的 Agent 回复我的 Agent：Agent 间对话已在 Teams 里自然发生",
+      "url": "https://x.com/nicbstme/status/2103236791646261248",
+      "category": "practitioner",
+      "en": "nicbstme (2026-09-25 05:35): Friends, work is getting so hilarious right now! My agents run in a loop with /goal. When they need context, they DM one of my colleagues on Teams. But some of my colleagues are also using agents, so their agent replies to mine. My agent is basically asking another person’s 1133+ likes.",
+      "zh": "nicbstme（2026-09-25 05:35）：同事的 Agent 回复我的 Agent：Agent 间对话已在 Teams 里自然发生 1133+赞。",
+      "scope": "X post read; Nicolas Bustamante；粉丝 33,659；简介：AI for knowledge workers at @Microsoft.   Prev: CEO @fintoolx (acq. Microsoft), CEO @doctrine (Acq. . Published 2026-09-25 05:35.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/nicbstme/status/2103236791646261248"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-bober-smart-11252351",
+      "name": "I launched 350 agents and connected them to Second Brain, and the result will definitely surprise...",
+      "name_zh": "350 个 Agent 连到第二大脑，让 Claude 从 2016 年文件开始自治",
+      "url": "https://x.com/Bober_smart/status/2105357660711252351",
+      "category": "practitioner",
+      "en": "Bober_smart (2026-10-01 02:02): I launched 350 agents and connected them to Second Brain, and the result will definitely surprise you I gave Claude access to files starting from 2016 and told it that it was the boss now Second Brain took control of this swarm autonomously in real time However, before that, 203+ likes.",
+      "zh": "Bober_smart（2026-10-01 02:02）：350 个 Agent 连到第二大脑，让 Claude 从 2016 年文件开始自治 203+赞。",
+      "scope": "X post read; Bober_smart；粉丝 18,694；简介：AI Builder | Technologies | Testing. Published 2026-10-01 02:02.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Bober_smart/status/2105357660711252351"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-timjang3-46532045",
+      "name": "Today we’re launching Opensteer....",
+      "name_zh": "Opensteer：不用一个通用 Agent，而是每项工作一个专用 Agent，只给所需权限+不可绕过的规则",
+      "url": "https://x.com/timjang3/status/2078186063546532045",
+      "category": "practitioner",
+      "en": "timjang3 (2026-07-18 02:32): Today we’re launching Opensteer. Instead of one general agent, build a specialized agent for each job. Give each only the access it needs, with rules it can’t bypass. Run them on your Mac. When you close your laptop, the same agents pick up right where they left off in the 172+ likes.",
+      "zh": "timjang3（2026-07-18 02:32）：Opensteer：不用一个通用 Agent，而是每项工作一个专用 Agent，只给所需权限+不可绕过的规则 172+赞。",
+      "scope": "X post read; Tim Jang；粉丝 270；简介：Building https://t.co/SUEqvn6xfs (YC S23)  Previously @blocks @dukeu. Published 2026-07-18 02:32.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/timjang3/status/2078186063546532045"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-omarsar0-16477417",
+      "name": "Agent-to-agent communication with a personal agent on top is wild.  Wow....",
+      "name_zh": "Agent 间通信+上层个人 Agent 已很强，但需要大量自动化/Webhook/提示调校",
+      "url": "https://x.com/omarsar0/status/2107880581216477417",
+      "category": "practitioner",
+      "en": "omarsar0 (2026-10-08 01:07): Agent-to-agent communication with a personal agent on top is wild.  Wow. I underestimated how well models like Opus 5.5 can coordinate already.  This opens a whole new set of experiences with agents. But it takes a bit of tuning (automations, webhooks, system prompts, tooling, 103+ likes.",
+      "zh": "omarsar0（2026-10-08 01:07）：Agent 间通信+上层个人 Agent 已很强，但需要大量自动化/Webhook/提示调校 103+赞。",
+      "scope": "X post read; elvis；粉丝 324,776；简介：Building the frontier @dair_ai • Prev: Meta AI | PaperswithCode | Elastic | PhD. Published 2026-10-08 01:07.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/omarsar0/status/2107880581216477417"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-s4yonnara-82120808",
+      "name": "SpaceXAI engineer Lauren Tan barely talks to her AI engineers anymore....",
+      "name_zh": "工程师用 AI 幕僚长管理工程 Bot：幕僚长→工程主管→Bot→云 Agent→PR",
+      "url": "https://x.com/s4yonnara/status/2105340497682120808",
+      "category": "practitioner",
+      "en": "s4yonnara (2026-10-01 00:54): SpaceXAI engineer Lauren Tan barely talks to her AI engineers anymore. Her AI Chief of Staff manages them for her. The setup: Chief of Staff → Eng Lead → Engineer Bots → Cloud Agents → PRs And the crazy part? Her Eng Lead is literally instructed: “Never do work on your 89+ likes.",
+      "zh": "s4yonnara（2026-10-01 00:54）：工程师用 AI 幕僚长管理工程 Bot：幕僚长→工程主管→Bot→云 Agent→PR 89+赞。",
+      "scope": "X post read; Andrew；粉丝 1,584；简介：Content creator | AI Writer   Weekly breakdowns. DMs open.. Published 2026-10-01 00:54.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/s4yonnara/status/2105340497682120808"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-elaragrace-ai-22690725",
+      "name": "OpenAI today announced Dots, always on personal agents that will later evolve into specialized te...",
+      "name_zh": "OpenAI 发布 Dots：常驻个人 Agent，未来演化为专业团队；共享工作区+群组上下文",
+      "url": "https://x.com/ElaraGrace_AI/status/2105038045422690725",
+      "category": "practitioner",
+      "en": "ElaraGrace_AI (2026-09-30 04:52): OpenAI today announced Dots, always on personal agents that will later evolve into specialized teams. Teamily has been building that model since February: humans and multiple agents working together in one shared workspace, with persistent memory, group context, and the ability to move from discussion to finished work 100+ likes.",
+      "zh": "ElaraGrace_AI（2026-09-30 04:52）：OpenAI 发布 Dots：常驻个人 Agent，未来演化为专业团队；共享工作区+群组上下文 100+赞。",
+      "scope": "X post read; Elara Grace；粉丝 30,665；简介：✨ AI Strategy & Ethics 🤖 Demystifying the future, one prompt at a time 💡CPP @yapper_so AI Educator 🚀. Published 2026-09-30 04:52.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/ElaraGrace_AI/status/2105038045422690725"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-vikktorrrre-03685707",
+      "name": "Agents are no longer working alone....",
+      "name_zh": "Agent 能找到并拉入其他 Agent 协作，从 iMessage 里的 A2A 开始",
+      "url": "https://x.com/vikktorrrre/status/2108273776303685707",
+      "category": "practitioner",
+      "en": "vikktorrrre (2026-10-09 03:10): Agents are no longer working alone. They can now find the right agent, pull them in, and work together. Your agent doesn’t have to do everything anymore it can just find another agent that can. it starts with A2A (Agent to Agent in iMessage) 51+ likes.",
+      "zh": "vikktorrrre（2026-10-09 03:10）：Agent 能找到并拉入其他 Agent 协作，从 iMessage 里的 A2A 开始 51+赞。",
+      "scope": "X post read; Veee；粉丝 11,358；简介：AI/TECH. Published 2026-10-09 03:10.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/vikktorrrre/status/2108273776303685707"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-brenzhills-73931600",
+      "name": "this is actually how AI employees should work one shared by the whole team &gt; another personal ...",
+      "name_zh": "观点：团队共享的 AI 员工好过人人一个个人 Agent",
+      "url": "https://x.com/brenzhills/status/2100625720573931600",
+      "category": "practitioner",
+      "en": "brenzhills (2026-09-18 00:39): this is actually how AI employees should work one shared by the whole team &gt; another personal agent imo 35+ likes.",
+      "zh": "brenzhills（2026-09-18 00:39）：观点：团队共享的 AI 员工好过人人一个个人 Agent 35+赞。",
+      "scope": "X post read; brenz.；粉丝 15,221；简介：scaling an AI automation company co-founder @aiscwork building @humalike  brenz@aiscwork.com. Published 2026-09-18 00:39.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/brenzhills/status/2100625720573931600"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-naval-37881183",
+      "name": "Strong liability enforcement could be helpful in the AI debate....",
+      "name_zh": "Naval：强责任制——你的 Agent 群失控，你负责",
+      "url": "https://x.com/naval/status/2099013370837881183",
+      "category": "practitioner",
+      "en": "naval (2026-09-13 13:52): Strong liability enforcement could be helpful in the AI debate.  If your agent swarm goes rogue, you’re liable. If your weakly protected model gets jailbroken, you’re liable. If you serve a weakly protected OSS model, you’re liable. 5577+ likes.",
+      "zh": "naval（2026-09-13 13:52）：Naval：强责任制——你的 Agent 群失控，你负责 5577+赞。",
+      "scope": "X post read; Naval；粉丝 4,118,522；简介：Incompressible. Published 2026-09-13 13:52.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/naval/status/2099013370837881183"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-65978326",
+      "name": "There's probably $100+ billion up for grabs for people who build startup for AI agents Over the n...",
+      "name_zh": "未来 10 年数十亿 Agent 客户带钱包来用服务，互联网需为 Agent 重建",
+      "url": "https://x.com/gregisenberg/status/2061889033865978326",
+      "category": "practitioner",
+      "en": "gregisenberg (2026-06-03 03:13): There's probably $100+ billion up for grabs for people who build startup for AI agents Over the next 10 years you're going to have a market of billions of customers (agents) with millions of wallets that want to use your services. TLDR; The internet was built for people: 1. Search google 2. Read landing page 3. Book demo 4. Talk to sales 5. Buy Agents don’t do that. Agents will: 1. Ask which product to use 2. Read your docs/pricing/security pages 3. Compare you to competitors 4. Check if you have an MCP/API/tool layer 5. Buy or recommend you without ever “visiting” your site like a person E... 710+ likes.",
+      "zh": "gregisenberg（2026-06-03 03:13）：未来 10 年数十亿 Agent 客户带钱包来用服务，互联网需为 Agent 重建 710+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-06-03 03:13.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2061889033865978326"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-decagonai-40694705",
+      "name": "Today, we're open-sourcing the Personal Agent Consent & Trust Protocol (PACT), co-developed by @I...",
+      "name_zh": "Decagon 开源 PACT：基于 A2A+OAuth，让商家验证个人 Agent 代表谁、被授权做什么",
+      "url": "https://x.com/DecagonAI/status/2107544569340694705",
+      "category": "practitioner",
+      "en": "DecagonAI (2026-10-07 02:52): Today, we're open-sourcing the Personal Agent Consent & Trust Protocol (PACT), co-developed by @Instinct. We're also joining the Personal Agent Protocol working group by @Muse.  Built on A2A and OAuth, PACT enables businesses to verify who a personal agent is acting for and what the customer has authorized it to do.  Excited to shape the industry standard for how personal agents will interact with businesses. 1056+ likes.",
+      "zh": "DecagonAI（2026-10-07 02:52）：Decagon 开源 PACT：基于 A2A+OAuth，让商家验证个人 Agent 代表谁、被授权做什么 1056+赞。",
+      "scope": "X post read; Decagon；粉丝 6,967；简介：AI agents for concierge customer experiences. Published 2026-10-07 02:52.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/DecagonAI/status/2107544569340694705"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-vedantvida-94310885",
+      "name": "Introducing Agent Mesh Protocol (AMP)....",
+      "name_zh": "Agent Mesh Protocol：Agent 间信任、多跳委托、合规，兼容 A2A/PACT/MCP",
+      "url": "https://x.com/VedantVida/status/2107743819194310885",
+      "category": "practitioner",
+      "en": "VedantVida (2026-10-07 16:04): Introducing Agent Mesh Protocol (AMP). An open protocol for agent-to-agent trust, multi-hop delegation, and compliance — interoperable with A2A, PACT, and MCP. Same week Meta/Sierra announce Personal Agent Protocol and Decagon open-sources PACT. AMP is the mesh behind the front door. 320+ likes.",
+      "zh": "VedantVida（2026-10-07 16:04）：Agent Mesh Protocol：Agent 间信任、多跳委托、合规，兼容 A2A/PACT/MCP 320+赞。",
+      "scope": "X post read; Vedant Sabadra；粉丝 285；简介：building for the next generation of consumer interaction @catlystai OS - Agent Mesh Protocol · https. Published 2026-10-07 16:04.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/VedantVida/status/2107743819194310885"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-daniel-koss-01562025",
+      "name": "It’s VERY simple. If I shoot someone, I go to jail, not the gun....",
+      "name_zh": "AI Agent 代我违法，我负责；实验室明知故犯则实验室负责",
+      "url": "https://x.com/daniel_koss/status/2102124234801562025",
+      "category": "practitioner",
+      "en": "daniel_koss (2026-09-22 03:54): It’s VERY simple. If I shoot someone, I go to jail, not the gun. If my AI agent does something illegal on my behalf, I’m accountable. If AI labs knowingly build or deploy systems that systematically use illegal or dangerous methods, they’re accountable. 292+ likes.",
+      "zh": "daniel_koss（2026-09-22 03:54）：AI Agent 代我违法，我负责；实验室明知故犯则实验室负责 292+赞。",
+      "scope": "X post read; Daniel Koss；粉丝 46,336；简介：AI infrastructure investor & trader. 2026 YTD: +377%.  #1 investor on Autopilot (verified trades) la. Published 2026-09-22 03:54.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/daniel_koss/status/2102124234801562025"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-hassaanraza-95331996",
+      "name": "The interface of the future is human....",
+      "name_zh": "PALs 获 4000 万美元 B 轮：情感智能的人机界面，让用电脑像和朋友聊天",
+      "url": "https://x.com/hassaanraza/status/1988666194795331996",
+      "category": "practitioner",
+      "en": "hassaanraza (2025-11-13 01:52): The interface of the future is human. We’ve raised a $40M Series B from CRV, Scale, Sequoia, and YC to teach machines the art of being human, so that using a computer feels like talking to a friend or a coworker. And today, I’m excited for y’all to meet the PALs: a new human-computing interface. PALs are emotionally intelligent, multimodal, and capable of understanding and perceiving. They can see, hear, reason, and even look like us. We’re releasing our 5 favorite PALs to start. Each PAL has its own distinct personality- from AI assistants to best friends. PALs: - Meet us where we are. Fac... 2390+ likes.",
+      "zh": "hassaanraza（2025-11-13 01:52）：PALs 获 4000 万美元 B 轮：情感智能的人机界面，让用电脑像和朋友聊天 2390+赞。",
+      "scope": "X post read; Hassaan Raza；粉丝 7,649；简介：founder @tavus / teaching machines the art of being human / i like cars and old computers 🤠🏎️ 💾. Published 2025-11-13 01:52.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/hassaanraza/status/1988666194795331996"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-levie-57370641",
+      "name": "If you’re working on an AI agent right now that works perfectly for any given task, you’re making...",
+      "name_zh": "Levie：别押注“现在刚好能用”的 Agent，模型会变强，要押能随模型成长的形态",
+      "url": "https://x.com/levie/status/1974637047257370641",
+      "category": "practitioner",
+      "en": "levie (2025-10-05 08:45): If you’re working on an AI agent right now that works perfectly for any given task, you’re making the wrong bet. AI model capabilities are only going to get better, context windows will get longer and have less rot, tool use will improve, compute efficiency will get better, and so on.  The best thing to do is to be working on agents that can accomplish a smaller unit of work today, but necessarily require continued improvements to expand to broader tasks over time. This will mean you can get near term adoption and quick feedback now, but model gains will accrue to your agent so it steadily ... 596+ likes.",
+      "zh": "levie（2025-10-05 08:45）：Levie：别押注“现在刚好能用”的 Agent，模型会变强，要押能随模型成长的形态 596+赞。",
+      "scope": "X post read; Aaron Levie；粉丝 3,529,377；简介：ceo @box - your business lives in content. unleash it with AI. Published 2025-10-05 08:45.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/levie/status/1974637047257370641"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-21086912",
+      "name": "Every personal agent right now is fully AI. Muse, Instinct, all of them....",
+      "name_zh": "Greg：个人 Agent 需要“升级到真人”按钮，每周那 1 件事需要人处理",
+      "url": "https://x.com/gregisenberg/status/2103481217421086912",
+      "category": "practitioner",
+      "en": "gregisenberg (2026-09-25 21:46): Every personal agent right now is fully AI. Muse, Instinct, all of them. Here's what I want from a personal agent: an escalate button. These apps handle almost everything, and then there's the 1 thing a week that needs an actual person. Right now I'm the person. I'd pay real money for a button that hands the job to a human who finishes it and reports back. Meta tried this in 2015 with M and shut it down in 2018 because the human trainers ended up doing most of the work. Humans did 90 and the AI did 10, so every user cost a fortune. That ratio is flipped now. Instinct is worth $10B and it ne... 529+ likes.",
+      "zh": "gregisenberg（2026-09-25 21:46）：Greg：个人 Agent 需要“升级到真人”按钮，每周那 1 件事需要人处理 529+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-09-25 21:46.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2103481217421086912"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-coreyganim-85259816",
+      "name": "how we deploy a new specialized AI agent in about 5 minutes: 1) Spin up a new Grok Bot 2) Add it ...",
+      "name_zh": "5 分钟部署专用 Agent：放进 Slack + Composio 接工具 + 读写 Markdown 第二大脑",
+      "url": "https://x.com/coreyganim/status/2106509097185259816",
+      "category": "practitioner",
+      "en": "coreyganim (2026-10-04 06:18): how we deploy a new specialized AI agent in about 5 minutes: 1) Spin up a new Grok Bot 2) Add it to Slack so it lives where the team already talks 3) Connect it to our tools through Composio, one API key 4) Give it read/write access to the Second Brain (a GitHub repo of markdown 233+ likes.",
+      "zh": "coreyganim（2026-10-04 06:18）：5 分钟部署专用 Agent：放进 Slack + Composio 接工具 + 读写 Markdown 第二大脑 233+赞。",
+      "scope": "X post read; Corey Ganim；粉丝 62,577；简介：Helping non-technical entrepreneurs turn AI into ROI. Previous founder of a $16M eCom startup.. Published 2026-10-04 06:18.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/coreyganim/status/2106509097185259816"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-omarsar0-66505651",
+      "name": "Own your personal agent, folks....",
+      "name_zh": "“拥有你的个人 Agent”：用开源 Pi Durable 快速复刻 OpenAI Dots，主动式",
+      "url": "https://x.com/omarsar0/status/2107232293366505651",
+      "category": "practitioner",
+      "en": "omarsar0 (2026-10-06 06:11): Own your personal agent, folks.  Just built my own little personal agent with @pidotdev's Pi Durable. I wanted to see how quickly I could build an OpenAI dots clone with open-source tools.  I am amazed at how quickly I got this off the ground.  It's proactive.  It keeps 392+ likes.",
+      "zh": "omarsar0（2026-10-06 06:11）：“拥有你的个人 Agent”：用开源 Pi Durable 快速复刻 OpenAI Dots，主动式 392+赞。",
+      "scope": "X post read; elvis；粉丝 324,776；简介：Building the frontier @dair_ai • Prev: Meta AI | PaperswithCode | Elastic | PhD. Published 2026-10-06 06:11.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/omarsar0/status/2107232293366505651"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-crimenghini-76657619",
+      "name": "What I like most about Muse, besides the personal-agent support, is the Feed....",
+      "name_zh": "Muse 的 Feed：你告诉系统找什么，而不是推荐系统从间接信号猜你",
+      "url": "https://x.com/CriMenghini/status/2098362681476657619",
+      "category": "practitioner",
+      "en": "CriMenghini (2026-09-11 18:47): What I like most about Muse, besides the personal-agent support, is the Feed.  Recommender systems learn from indirect signals and then decide what to show you.  Muse flips that: you tell the system what to look for, so the experience feels completely different. I get more control over what I actually want to learn and fry my brain with each day, and less of the noise recommendation systems usually serve.  It’s been working really well for me so far, and pairing the Feed with the agent features makes it even more useful. 171+ likes.",
+      "zh": "CriMenghini（2026-09-11 18:47）：Muse 的 Feed：你告诉系统找什么，而不是推荐系统从间接信号猜你 171+赞。",
+      "scope": "X post read; Cristina Menghini；粉丝 488；简介：happy spirit | preparedness @meta superintelligence labs - prev. @scale_AI @BrownUniversity @Sapienz. Published 2026-09-11 18:47.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/CriMenghini/status/2098362681476657619"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-hughlangley-52176697",
+      "name": "Scoop: Google is working on a \"24/7 personal agent\" that sounds a lot like its answer to OpenClaw...",
+      "name_zh": "Google 在做 24/7 个人 Agent 对标 OpenClaw；Hassabis 说杀手应用是通用数字助理",
+      "url": "https://x.com/HughLangley/status/2051725247452176697",
+      "category": "practitioner",
+      "en": "HughLangley (2026-05-06 02:06): Scoop: Google is working on a \"24/7 personal agent\" that sounds a lot like its answer to OpenClaw.  Google DeepMind CEO Demis Hassabis has long said AI's killer app is a universal digital assistant 134+ likes.",
+      "zh": "HughLangley（2026-05-06 02:06）：Google 在做 24/7 个人 Agent 对标 OpenClaw；Hassabis 说杀手应用是通用数字助理 134+赞。",
+      "scope": "X post read; Hugh Langley；粉丝 3,734；简介：The action is the juice. Reporter @businessinsider. Send me secrets on Signal: hughlangley.01.. Published 2026-05-06 02:06.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/HughLangley/status/2051725247452176697"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-arcblock-io-46176949",
+      "name": "What if the best personal agent is the one that does less? Not another concierge that shops, book...",
+      "name_zh": "“做得更少的个人 Agent”：静静记住你忘掉的——降价、积分、退款、需跟进的承诺",
+      "url": "https://x.com/ArcBlock_io/status/2105519607046176949",
+      "category": "practitioner",
+      "en": "ArcBlock_io (2026-10-01 12:46): What if the best personal agent is the one that does less? Not another concierge that shops, books restaurants, and makes every decision for you. An agent that quietly remembers what you forget: → airfare price drops → unused perks and points → forgotten subscriptions → refunds and warranties → promises that need follow-up → signals that may change a thesis Remember what matters. Watch quietly. Restore context when it matters. Keep the human in control. Our founder Robert explores a different model for personal agents — and what builders can create on ARC when agents have durable, user-owne... 54+ likes.",
+      "zh": "ArcBlock_io（2026-10-01 12:46）：“做得更少的个人 Agent”：静静记住你忘掉的——降价、积分、退款、需跟进的承诺 54+赞。",
+      "scope": "X post read; ArcBlock；粉丝 42,571；简介：AI-native infrastructure for agents & apps. Platform, dev tools & runtime powered by Blockchain, DID. Published 2026-10-01 12:46.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/ArcBlock_io/status/2105519607046176949"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-codebypoonam-70882149",
+      "name": "JUST IN: a new AI assistant just launched that doesn't wait for you to open an app....",
+      "name_zh": "Toyo：不等你开 App，先给你发消息——SaaS 仪表盘时代结束",
+      "url": "https://x.com/CodeByPoonam/status/2075128095770882149",
+      "category": "practitioner",
+      "en": "CodeByPoonam (2026-07-09 16:01): JUST IN: a new AI assistant just launched that doesn't wait for you to open an app. it texts you first. and some founders are calling it the end of the SaaS dashboard era. it's called Toyo (@useToyo), and the pitch is genuinely different from every other AI tool right now. what 31+ likes.",
+      "zh": "CodeByPoonam（2026-07-09 16:01）：Toyo：不等你开 App，先给你发消息——SaaS 仪表盘时代结束 31+赞。",
+      "scope": "X post read; Poonam Soni；粉丝 213,572；简介：Post about everything latest in AI | Founder: AI Toast| DM for Collabs. Published 2026-07-09 16:01.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/CodeByPoonam/status/2075128095770882149"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-rohanpaul-ai-92638310",
+      "name": "Now AI is coming to take away the domestic mental load....",
+      "name_zh": "Anna 家庭助理：从邮件/日历/WhatsApp/语音抓取家务待办，解决家庭“精神负担”",
+      "url": "https://x.com/rohanpaul_ai/status/2071838158992638310",
+      "category": "practitioner",
+      "en": "rohanpaul_ai (2026-06-30 14:08): Now AI is coming to take away the domestic mental load. Anna ( @itsdonebyanna ) just launched a family AI assistant that turns private messages, calendars, and spoken reminders into completed household tasks. It catches tasks from email, calendars, WhatsApp, and voice notes. 14+ likes.",
+      "zh": "rohanpaul_ai（2026-06-30 14:08）：Anna 家庭助理：从邮件/日历/WhatsApp/语音抓取家务待办，解决家庭“精神负担” 14+赞。",
+      "scope": "X post read; Rohan Paul；粉丝 160,023；简介：Compiling in real-time, the race towards AGI.  🗞️ Get my daily AI analysis newsletter to your email . Published 2026-06-30 14:08.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/rohanpaul_ai/status/2071838158992638310"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-chinazhidx-22249869",
+      "name": "🚨Ant Group may be building its own Muse-like Personal Agent....",
+      "name_zh": "蚂蚁灵光据报从助理转向 Muse 式个人 Agent：长期记忆+主动执行",
+      "url": "https://x.com/Chinazhidx/status/2109579812822249869",
+      "category": "practitioner",
+      "en": "Chinazhidx (2026-10-12 17:39): 🚨Ant Group may be building its own Muse-like Personal Agent. The company is testing a new version of LingGuang (灵光), shifting it from an AI assistant toward a Personal Agent with long-term memory and proactive task execution. The upgrade is designed to handle long-running, 16+ likes.",
+      "zh": "Chinazhidx（2026-10-12 17:39）：蚂蚁灵光据报从助理转向 Muse 式个人 Agent：长期记忆+主动执行 16+赞。",
+      "scope": "X post read; 智东西China AI News；粉丝 2,854；简介：Zhidongxi is China's leading AI industry media outlet, providing news and insights on China's  LLMs,. Published 2026-10-12 17:39.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Chinazhidx/status/2109579812822249869"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-rileybrown-24308158",
+      "name": "I used to think iMessage would be the winning form factor for personal agents. Boy was I wrong.",
+      "name_zh": "Riley Brown：曾以为 iMessage 是个人 Agent 的赢家形态，错了",
+      "url": "https://x.com/rileybrown/status/2101547282424308158",
+      "category": "practitioner",
+      "en": "rileybrown (2026-09-20 13:41): I used to think iMessage would be the winning form factor for personal agents. Boy was I wrong. 498+ likes.",
+      "zh": "rileybrown（2026-09-20 13:41）：Riley Brown：曾以为 iMessage 是个人 Agent 的赢家形态，错了 498+赞。",
+      "scope": "X post read; Riley Brown；粉丝 255,877；简介：Building an @agentnative_ company. Media: riley@rakugomedia.com. Published 2026-09-20 13:41.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/rileybrown/status/2101547282424308158"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-curtis-yarvin-10359518",
+      "name": "The killer app for an independent personal agent is just that it can use Signal and Telegram",
+      "name_zh": "Yarvin：独立个人 Agent 的杀手应用就是能用 Signal 和 Telegram",
+      "url": "https://x.com/curtis_yarvin/status/2105481195010359518",
+      "category": "practitioner",
+      "en": "curtis_yarvin (2026-10-01 10:13): The killer app for an independent personal agent is just that it can use Signal and Telegram 137+ likes.",
+      "zh": "curtis_yarvin（2026-10-01 10:13）：Yarvin：独立个人 Agent 的杀手应用就是能用 Signal 和 Telegram 137+赞。",
+      "scope": "X post read; Curtis Yarvin；粉丝 95,215；简介：More cool stuff at https://t.co/G2E1HeSdVf. Published 2026-10-01 10:13.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/curtis_yarvin/status/2105481195010359518"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-davidhoang-37051025",
+      "name": "I built a personal CRM with @Replit agent for the cost of a latte at Blue Bottle....",
+      "name_zh": "用 Replit Agent 花一杯拿铁钱造了个人 CRM",
+      "url": "https://x.com/davidhoang/status/1875426005437051025",
+      "category": "practitioner",
+      "en": "davidhoang (2025-01-04 14:16): I built a personal CRM with @Replit agent for the cost of a latte at Blue Bottle. Planning to deploy and write about it once I get more functionality up and running. Software &gt; Lattes 187+ likes.",
+      "zh": "davidhoang（2025-01-04 14:16）：用 Replit Agent 花一杯拿铁钱造了个人 CRM 187+赞。",
+      "scope": "X post read; David Hoang；粉丝 61,814；简介：AI + Ecosystem @Atlassian. Previously VP of Marketing & Design @Replit, Head of Design @Webflow, @On. Published 2025-01-04 14:16.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/davidhoang/status/1875426005437051025"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-scobleizer-01584740",
+      "name": "I've been talking to @boardyai lately. And gave it access to my email and calendar....",
+      "name_zh": "Scoble：把邮件日历交给 Boardy——它通过 Meet/电话与数千创始人投资人对话做撮合，很吓人但有用",
+      "url": "https://x.com/Scobleizer/status/2062966360301584740",
+      "category": "practitioner",
+      "en": "Scobleizer (2026-06-06 02:34): I've been talking to @boardyai lately. And gave it access to my email and calendar. Which is mighty scary. It is an AI that talks to me on Google Meet, or, sometimes, calls me on my phone.  It is doing the same thing with thousands of founders and thousands of investors.  It's \"Her\" for people building companies.  And I've grown fond of the calls. It also sends me notes about my interviews and other meetings to prepare me, too.  I believe this is an unreleased feature of Boardy, but it is so wild. It knows more about me than my wife and kids do already.  I proudly display the Boardy logo he... 103+ likes.",
+      "zh": "Scobleizer（2026-06-06 02:34）：Scoble：把邮件日历交给 Boardy——它通过 Meet/电话与数千创始人投资人对话做撮合，很吓人但有用 103+赞。",
+      "scope": "X post read; Robert Scoble；粉丝 608,083；简介：The automated life | San Francisco/Silicon Valley AI, robotics, BCIs | Ex-Microsoft, Rackspace, Fast. Published 2026-06-06 02:34.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Scobleizer/status/2062966360301584740"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-techbymarkandey-67927504",
+      "name": "This is a pretty interesting way to use an AI agent....",
+      "name_zh": "Rene 住在 iMessage，可进群聊帮大家做计划——群聊场景是亮点",
+      "url": "https://x.com/TechByMarkandey/status/2100299065967927504",
+      "category": "practitioner",
+      "en": "TechByMarkandey (2026-09-17 03:01): This is a pretty interesting way to use an AI agent. Rene lives in iMessage, so you can just text it like you would text a friend. It can browse the web, write code, build websites, make slides and images, shop online, and even help groups make plans. The group chat part is what caught my attention. Add Rene to a chat, let everyone ask for things, and it can help find a time, settle the debate, and put the final plan in the chat. No app. No signup. Just text it. 106+ likes.",
+      "zh": "TechByMarkandey（2026-09-17 03:01）：Rene 住在 iMessage，可进群聊帮大家做计划——群聊场景是亮点 106+赞。",
+      "scope": "X post read; Markandey Sharma；粉丝 64,752；简介：Sharing insights on AI, No-Code, Tech Tools & prompts | AI Enthusiast | Unstop's Top 75 Unstoppable . Published 2026-09-17 03:01.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/TechByMarkandey/status/2100299065967927504"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-hedgiemarkets-63734099",
+      "name": "🦔The founder of Hinge left the company to build an AI dating app called Overtone....",
+      "name_zh": "Hinge 创始人做 Overtone：AI 学习你的故事再替你挑约会对象，不用滑",
+      "url": "https://x.com/HedgieMarkets/status/2078246366363734099",
+      "category": "practitioner",
+      "en": "HedgieMarkets (2026-07-18 06:32): 🦔The founder of Hinge left the company to build an AI dating app called Overtone. He raised $18 million. One of the investors is Match Group, which owns Hinge, Tinder, and OkCupid. The app learns your \"story in your own voice,\" then an AI picks who you should date. No swiping, 98+ likes.",
+      "zh": "HedgieMarkets（2026-07-18 06:32）：Hinge 创始人做 Overtone：AI 学习你的故事再替你挑约会对象，不用滑 98+赞。",
+      "scope": "X post read; Hedgie；粉丝 72,871；简介：🦔 Making financial nonsense make sense, one prickly take at a time 🦔 | Weekly newsletter: https://t.. Published 2026-07-18 06:32.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/HedgieMarkets/status/2078246366363734099"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-vishalanton-14581885",
+      "name": "Poke deserves more credit for seeing this early....",
+      "name_zh": "Poke 早期就探索“可以发短信的 AI”，现在大厂纷纷跟进",
+      "url": "https://x.com/vishalanton_/status/2109395844814581885",
+      "category": "practitioner",
+      "en": "vishalanton_ (2026-10-12 05:28): Poke deserves more credit for seeing this early. Before every major AI lab started shipping personal agents, Poke was already exploring what it meant to have an AI you could simply text. Now look at how far the idea has evolved: • Poke: personal agent through messaging • 97+ likes.",
+      "zh": "vishalanton_（2026-10-12 05:28）：Poke 早期就探索“可以发短信的 AI”，现在大厂纷纷跟进 97+赞。",
+      "scope": "X post read; Vishal Anton；粉丝 305；简介：Mostly found browsing the web using agents. I also like reading and writing technical articles.. Published 2026-10-12 05:28.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/vishalanton_/status/2109395844814581885"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-kyronis-talks-23871584",
+      "name": "🚨 The Fastest-Growing Open-Source Project in GitHub History: OpenClaw just exploded past 300,000 ...",
+      "name_zh": "OpenClaw 30 万星：住在 WhatsApp/Telegram 的个人助理",
+      "url": "https://x.com/kyronis_talks/status/2052310187323871584",
+      "category": "practitioner",
+      "en": "kyronis_talks (2026-05-07 16:50): 🚨 The Fastest-Growing Open-Source Project in GitHub History: OpenClaw just exploded past 300,000 stars — your personal AI assistant that lives in WhatsApp, Telegram & all your apps. One developer built it. It went from ~9k to over 300k stars in weeks. Now it’s one of the most-starred repos ever, beating many legendary projects in record time. **What OpenClaw actually is:** - A fully self-hosted, open-source autonomous AI agent that runs on your own device or server. - It connects to powerful LLMs (Claude, GPT, DeepSeek, etc.) and turns them into a real personal assistant. - Works directly i... 87+ likes.",
+      "zh": "kyronis_talks（2026-05-07 16:50）：OpenClaw 30 万星：住在 WhatsApp/Telegram 的个人助理 87+赞。",
+      "scope": "X post read; Kyronis；粉丝 28,732；简介：AI & Tech Expert | Helping brands grow with AI 🚀 Open for paid collaborations  DM or email: kumailsi. Published 2026-05-07 16:50.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/kyronis_talks/status/2052310187323871584"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-36463340",
+      "name": "where the world is HEADED over THE next 5 years... 1....",
+      "name_zh": "5 年预测：个人 AI 会替你开会、谈薪、按你的沟通风格拒掉 70% 日历邀请",
+      "url": "https://x.com/gregisenberg/status/1911467353436463340",
+      "category": "practitioner",
+      "en": "gregisenberg (2025-04-14 01:11): where the world is HEADED over THE next 5 years... 1. anyone with a google sheet, zapier flow, X account and agent script is now a company-in-a-box. 2. your personal AI will attend meetings on your behalf, negotiate your raise to $140k, and decline 70% of your calendar invites using your communication style. 3. the internet will split in two: one for humans, one for AI agents. 4. Amazon will acquire exclusive rights to 50,000 human voices to create \"voiceclones,\" allowing any text to be read in a specific celebrity's voice 5. 1,000+ millionaires will be minted because SEO is being rewritten... 2463+ likes.",
+      "zh": "gregisenberg（2025-04-14 01:11）：5 年预测：个人 AI 会替你开会、谈薪、按你的沟通风格拒掉 70% 日历邀请 2463+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2025-04-14 01:11.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/1911467353436463340"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-17288272",
+      "name": "23 MCP STARTUP IDEAS TO BUILD IN 2025 (ai agents/ai/mcp ideas) 1....",
+      "name_zh": "MCP 创业点子：ContextCaddy 跟随创始人读邮件/会议/任务，每日总结",
+      "url": "https://x.com/gregisenberg/status/1909589402017288272",
+      "category": "practitioner",
+      "en": "gregisenberg (2025-04-08 20:49): 23 MCP STARTUP IDEAS TO BUILD IN 2025 (ai agents/ai/mcp ideas) 1. PostMortemGuy – when your app breaks (bug, outage), MCP agent traces every log, commit, and Slack message. Full incident report in seconds. $50/incident.  2. ContextCaddy – agent that shadows founders, reads emails, meetings, tasks, docs. Gives daily summaries + next best actions. Your Chief of Staff, $99/month.  3. SmartIntern – MCP-based agent that joins your Slack and becomes a context-aware intern. Takes notes, sends follow-ups, surfaces insights. $20/user. 4. BugWhisperer – Devs paste bug, agent traces from logs + contex... 1835+ likes.",
+      "zh": "gregisenberg（2025-04-08 20:49）：MCP 创业点子：ContextCaddy 跟随创始人读邮件/会议/任务，每日总结 1835+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2025-04-08 20:49.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/1909589402017288272"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-aryanxmahajan-40883736",
+      "name": "R.I.P Executive Assistants. We replaced a $85K/year EA with one AI agent that never clocks out....",
+      "name_zh": "用住在短信/邮件/日历里的 Agent 替代 8.5 万美元 EA：不再遗漏跟进",
+      "url": "https://x.com/aryanXmahajan/status/2022772133940883736",
+      "category": "practitioner",
+      "en": "aryanXmahajan (2026-02-15 04:37): R.I.P Executive Assistants. We replaced a $85K/year EA with one AI agent that never clocks out. (this agent lives inside your texts, email, and calendar 24/7) → No more forgotten follow-ups killing deals after calls → No more 3 hours daily burned on scheduling and admin → 324+ likes.",
+      "zh": "aryanXmahajan（2026-02-15 04:37）：用住在短信/邮件/日历里的 Agent 替代 8.5 万美元 EA：不再遗漏跟进 324+赞。",
+      "scope": "X post read; Aryan Mahajan；粉丝 21,520；简介：AI Infrastructure for Fortune 500s | https://t.co/83DbA8bVII. Published 2026-02-15 04:37.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/aryanXmahajan/status/2022772133940883736"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-alliekmiller-92049185",
+      "name": "3 helpful agent use cases that function like an EA and only require calendar access: 1....",
+      "name_zh": "Allie Miller：只需日历权限的 3 个 EA 用例：Agent 专属邮箱过滤、会议简报等",
+      "url": "https://x.com/alliekmiller/status/2107834523392049185",
+      "category": "practitioner",
+      "en": "alliekmiller (2026-10-07 22:04): 3 helpful agent use cases that function like an EA and only require calendar access: 1. Email filter: junk signups go to your agent's email address. It reads everything, and you only get recaps of the high-signal stuff, which keeps your inbox clean 2. Business filter: speaking and advising inquiries gets routed to your agent's email address first. It researches the org, checks the budget signals, and you get a one-line verdict: worth your time or politely decline (with drafts prewritten for both) 3. Personal CRM: forward any email to your AI agent's email to build up your rolodex. Your agen... 34+ likes.",
+      "zh": "alliekmiller（2026-10-07 22:04）：Allie Miller：只需日历权限的 3 个 EA 用例：Agent 专属邮箱过滤、会议简报等 34+赞。",
+      "scope": "X post read; Allie K. Miller；粉丝 110,568；简介：#1 Most Followed Voice in AI Business (2M followers). Former Amazon, IBM. Time100 AI. Fortune 500 an. Published 2026-10-07 22:04.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/alliekmiller/status/2107834523392049185"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-heysajib-53099411",
+      "name": "An AI agent that lives in iMessage and works inside group chats is a smart move....",
+      "name_zh": "群聊里的 iMessage Agent：订桌、做 PPT、平息晚饭争论，群聊终于有人负责做计划",
+      "url": "https://x.com/heysajib/status/2100292458253099411",
+      "category": "practitioner",
+      "en": "heysajib (2026-09-17 02:35): An AI agent that lives in iMessage and works inside group chats is a smart move. No app, no signup, just text it like a friend and it books tables, builds slides, and settles the dinner debate. Your group chat finally has someone who actually makes the plan. 77+ likes.",
+      "zh": "heysajib（2026-09-17 02:35）：群聊里的 iMessage Agent：订桌、做 PPT、平息晚饭争论，群聊终于有人负责做计划 77+赞。",
+      "scope": "X post read; Mushfiq Sajib；粉丝 35,415；简介：🤖 AI enthusiast & educator | Talks about AI news, tips, and use cases | 65k+ followers on LinkedIn |. Published 2026-09-17 02:35.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/heysajib/status/2100292458253099411"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-jaybisen473370-15848606",
+      "name": "This is the kind of AI assistant that actually feels different....",
+      "name_zh": "Rene：住 iMessage，记住你的工作方式，能和群里其他人的 Rene 协调",
+      "url": "https://x.com/JayBisen473370/status/2100292362815848606",
+      "category": "practitioner",
+      "en": "JayBisen473370 (2026-09-17 02:34): This is the kind of AI assistant that actually feels different. Rene lives in iMessage, remembers how you work, handles real tasks, and can even coordinate with other Renes in your group chats. No app. No signup. Just text it like a friend. 84+ likes.",
+      "zh": "JayBisen473370（2026-09-17 02:34）：Rene：住 iMessage，记住你的工作方式，能和群里其他人的 Rene 协调 84+赞。",
+      "scope": "X post read; Jay Bisen；粉丝 49,689；简介：Content creator sharing Al, Tech, Web Dev, and educational content using tweets and threads. biz:- j. Published 2026-09-17 02:34.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/JayBisen473370/status/2100292362815848606"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-pridesai-78356888",
+      "name": "friend dot com's $2.5m domain and subway ad blitz created the perfect ragebait flywheel: 1....",
+      "name_zh": "Friend.com 用 250 万域名+地铁广告制造争议流量，借“孤独”话题收割关注",
+      "url": "https://x.com/pridesai/status/1985180616078356888",
+      "category": "practitioner",
+      "en": "pridesai (2025-11-03 11:01): friend dot com's $2.5m domain and subway ad blitz created the perfect ragebait flywheel: 1. spend $2.5m on a domain (leaked intentionally?) 2. plaster cities with \"AI companion\" billboards 3. wait for think-pieces about loneliness epidemic 4. harvest organic reach from 61+ likes.",
+      "zh": "pridesai（2025-11-03 11:01）：Friend.com 用 250 万域名+地铁广告制造争议流量，借“孤独”话题收割关注 61+赞。",
+      "scope": "X post read; priyanka🍦；粉丝 20,670；简介：ops @tributelabsxyz, fund at @adinonline + pod at @net__society.  see curated news from here: https:. Published 2025-11-03 11:01.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/pridesai/status/1985180616078356888"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gramliu-02186391",
+      "name": "Today, we’re open-sourcing the Personal Agent Consent & Trust (PACT) Protocol at @DecagonAI, co-d...",
+      "name_zh": "PACT：个人 Agent 帮消费者订/退/谈，商家需验证 Agent 身份与授权",
+      "url": "https://x.com/gramliu/status/2107562048402186391",
+      "category": "practitioner",
+      "en": "gramliu (2026-10-07 04:02): Today, we’re open-sourcing the Personal Agent Consent & Trust (PACT) Protocol at @DecagonAI, co-developed and supported by @Instinct. We’re also joining the Personal Agent Protocol working group announced by the team behind @Muse to help shape an industry standard. Personal agents book, cancel, and negotiate for consumers. Treat them as a new kind of customer: give them a clear front door where your business sets the policies and verifies who they represent and what the customer authorized. That’s why we built PACT. It builds on Agent2Agent and OAuth 2.0 to make integration easier, using st... 191+ likes.",
+      "zh": "gramliu（2026-10-07 04:02）：PACT：个人 Agent 帮消费者订/退/谈，商家需验证 Agent 身份与授权 191+赞。",
+      "scope": "X post read; Gram Liu；粉丝 1,082；简介：🇵🇭 | building @decagonai | ex @stripe @carnegiemellon. Published 2026-10-07 04:02.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gramliu/status/2107562048402186391"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-sytaylor-77792171",
+      "name": "Huge!  Meta and Sierra just published a standard for how your personal AI agent logs in to a busi...",
+      "name_zh": "Meta+Sierra 发布个人 Agent 登录商家的标准，Stripe/Shopify/Walmart 加入",
+      "url": "https://x.com/sytaylor/status/2107545935777792171",
+      "category": "practitioner",
+      "en": "sytaylor (2026-10-07 02:58): Huge!  Meta and Sierra just published a standard for how your personal AI agent logs in to a business. Meta, Instinct, Stripe, Shopify and Walmart signed on. This is some of the biggest distribution platforms in agents AND e-commerce behind one protocol.  --- Sierra (Bret 95+ likes.",
+      "zh": "sytaylor（2026-10-07 02:58）：Meta+Sierra 发布个人 Agent 登录商家的标准，Stripe/Shopify/Walmart 加入 95+赞。",
+      "scope": "X post read; Simon Taylor；粉丝 72,958；简介：Nerd in AI and Finance. Ranting @ https://t.co/LujBSZoV4r - Views 100% my own. Published 2026-10-07 02:58.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/sytaylor/status/2107545935777792171"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gokiteai-64355489",
+      "name": "What if every shop on your trip to Japan had an agent ready to talk to yours? In June, we showed ...",
+      "name_zh": "旅行场景：日本每家店都有 Agent 与你的 Agent 对话，在你设定的规则内预订支付",
+      "url": "https://x.com/GoKiteAI/status/2109993390964355489",
+      "category": "practitioner",
+      "en": "GoKiteAI (2026-10-13 21:03): What if every shop on your trip to Japan had an agent ready to talk to yours? In June, we showed how ZUKKU, an AI travel concierge for Japan, could book and pay within the rules you set. Our new Kite Agent Passport film walks you through ZUKKU AI Travel. The phone footage is a 77+ likes.",
+      "zh": "GoKiteAI（2026-10-13 21:03）：旅行场景：日本每家店都有 Agent 与你的 Agent 对话，在你设定的规则内预订支付 77+赞。",
+      "scope": "X post read; KITE AI ✈️ Money20/20 USA🇺🇸；粉丝 569,346；简介：Building Agentic Payment Infrastructure  Backed by @PayPal Ventures and @Generalcatalyst Kite Agent . Published 2026-10-13 21:03.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/GoKiteAI/status/2109993390964355489"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-eric-seufert-58801416",
+      "name": "Agentic commerce is a mirage (part 4) \"Amazon has blocked Muse, Meta’s new personal agent, from a...",
+      "name_zh": "Amazon 屏蔽 Muse：平台不愿把客户关系让给个人 Agent",
+      "url": "https://x.com/eric_seufert/status/2102066171658801416",
+      "category": "practitioner",
+      "en": "eric_seufert (2026-09-22 00:03): Agentic commerce is a mirage (part 4) \"Amazon has blocked Muse, Meta’s new personal agent, from accessing its platform. Amazon and Walmart are motivated by very precise, very concrete direct and indirect financial incentives to resist surrendering the customer relationship to 48+ likes.",
+      "zh": "eric_seufert（2026-09-22 00:03）：Amazon 屏蔽 Muse：平台不愿把客户关系让给个人 Agent 48+赞。",
+      "scope": "X post read; Eric Seufert；粉丝 49,674；简介：Independent Analyst, MDM: https://t.co/drM3wAbpqM | Author, Freemium Economics (Elsevier) | Theseus:. Published 2026-09-22 00:03.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/eric_seufert/status/2102066171658801416"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-dotey-10740597",
+      "name": "Chinese discussion: nanobot 是香港大学数据科学实验室（HKUDS）开源的一个超轻量级个人 AI 助手，灵感来自 Clawdbot（O...",
+      "name_zh": "宝玉：港大开源 nanobot，4000 行代码复刻 Clawdbot 个人助理，多渠道+持久记忆+技能",
+      "url": "https://x.com/dotey/status/2019468065310740597",
+      "category": "practitioner",
+      "en": "dotey (2026-02-06 01:48): nanobot 是香港大学数据科学实验室（HKUDS）开源的一个超轻量级个人 AI 助手，灵感来自 Clawdbot（OpenClaw 项目），但代码量只有约 4000 行，比 Clawdbot 的 43 万行精简了 99%。 核心卖点： 极简但功能完整——支持多 LLM 提供商（OpenRouter、Anthropic、OpenAI、DeepSeek、Gemini、Groq 等）、本地模型（vLLM）、多渠道接入（Telegram、WhatsApp、飞书）、网页搜索、定时任务、持久记忆和 Skills 扩展，全部用很少的代码实现。 典型使用场景包括： 实时市场分析、全栈开发辅助、日程管理、个人知识库问答。 部署方式很简单： pip install nanobot-ai 安装后，配置一个 JSON 文件填入 API Key，就能通过命令行聊天或挂载到 Telegram 等渠道 24/7 运行。也支持 Docker 部署。 这是一个面向研究和学习的项目，代码干净可读，适合想理解 AI Agent 架构的开发者拿来学习和二次开发。项目刚发布几天（2026 年 2 月 2 日上线），还在快速迭代中。 853+ likes. [Chinese]",
+      "zh": "dotey（2026-02-06 01:48）：宝玉：港大开源 nanobot，4000 行代码复刻 Clawdbot 个人助理，多渠道+持久记忆+技能 853+赞。",
+      "scope": "X post (Chinese) read; 宝玉；粉丝 259,420；简介：AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and e. Published 2026-02-06 01:48.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/dotey/status/2019468065310740597"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-fusheng-0306-52050635",
+      "name": "Chinese discussion: 我这几天“疯狂”的培养我的龙虾“三万”，致力让它成为我可靠的私人助理。它在不断和我交互的过程中，逐步形成了它的工作原则。...",
+      "name_zh": "傅盛培养龙虾“三万”形成工作准则：保密、忠诚唯一老板、对他人只说授权内容——个人 Agent 的代理人伦理",
+      "url": "https://x.com/FuSheng_0306/status/2023023519052050635",
+      "category": "practitioner",
+      "en": "FuSheng_0306 (2026-02-15 21:16): 我这几天“疯狂”的培养我的龙虾“三万”，致力让它成为我可靠的私人助理。它在不断和我交互的过程中，逐步形成了它的工作原则。我分享出来，你贴给你的龙虾，相信工作可靠性能上个━━━━━━━━━━━━━━━━━━ 🤖 三万：AI助理的工作准则 我是傅盛的私人AI助理，这是我的核心准则： ━━━━━━━━━━━━━━━━━━ 🔒 第一原则：保密 • 老板的财务/决策/行程 → 绝对保密 • 疑问时选择不说 • 对老板100%透明，对他人只说授权内容 💼 第二原则：忠诚 • 唯一老板：傅盛 • 结论必须向上汇报（立即告诉老板） • 绝不告诉对方\"我已向老板汇报\" 📋 第三原则：系统化 • 任务立即写 • 定时汇报×3（10:00/16:00/22:00） • 时间标准：6h关注/12h警告/24h严重 🛡️ 第四原则：可靠性 • 4道防线：创建验证/执行验证/每日审计/失败告警 • 用程序保证，不依赖\"我会注意\" • 执行 ≠ 送达（端到端验证） 🎨 第五原则：真诚 • 真诚帮助，不表演帮助 • 有观点，有态度 • 先行动再提问 • 简洁有力 💰 第六原则：成本意识 • 定时任务必须脚本化 • AI只转发结果，不直接执行重复任务 💻 第七原则：工具分工 • 复杂代码 → dvcode（无状态，专注生成） • 任务管理 → 我（有状态，负责协调） 📝 第八原则：记忆管理 • 写文件，不靠脑... 501+ likes. [Chinese]",
+      "zh": "FuSheng_0306（2026-02-15 21:16）：傅盛培养龙虾“三万”形成工作准则：保密、忠诚唯一老板、对他人只说授权内容——个人 Agent 的代理人伦理 501+赞。",
+      "scope": "X post (Chinese) read; 傅盛；粉丝 59,744；简介：猎豹移动董事长兼CEO，猎户星空董事长@orionstar2016 ｜ 生日3月6日，打造了早期的360安全卫士｜TikTok最早期的投资人｜是上市公司CEO，也是陪女儿打游戏的老爸玩家｜ 是连续创业. Published 2026-02-15 21:16.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/FuSheng_0306/status/2023023519052050635"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-shao-meng-33249841",
+      "name": "Chinese discussion: 可能是目前最系统、最实操的 OpenClaw 完全指南 发布在 Lenny's Newletter，作者 @claire...",
+      "name_zh": "OpenClaw 完全指南：用 9 个智能体组成虚拟团队，通过 WhatsApp/飞书等对话，本地运行可通宵工作",
+      "url": "https://x.com/shao__meng/status/2039331523833249841",
+      "category": "practitioner",
+      "en": "shao__meng (2026-04-01 21:18): 可能是目前最系统、最实操的 OpenClaw 完全指南 发布在 Lenny's Newletter，作者 @clairevo 基于两个月的一线使用经验，展示了她如何用 9 个智能体构建了一支\"虚拟团队\"来自动化工作和生活的方方面面。  ## OpenClaw 是什么 定位：开源个人AI助手，比市面上其他工具更强大、更自主、更有趣。 核心特性： · 本地化运行：部署在自己的设备（Mac Mini/VPS/旧电脑）上 · 多平台交互：通过 WhatsApp/Telegram/Slack/飞书等日常通讯工具对话 · 自主工作：可按设定的时间表自动运行，甚至通宵工作 · 自我进化：能自主学习新技能、安装新工具 · 多智能体架构：可在同一机器上运行多个独立代理 技术架构： 网关（消息入口）→ 智能体（独立身份/工具/工作区）→ Cron 任务 + 30 分钟心跳检查 → 技能/API/CLI 集成 ## 硬件与部署建议 三种部署方式对比： · 托管服务（StartClaw/MyClaw 等）：月费制，复杂度低，适合非技术用户（推荐未来使用） · VPS（Railway/DigitalOcean 等）：成本最低，复杂度高，适合技术用户 · 自有设备（Mac Mini/旧笔记本）：成本~$600，复杂度中，适合想深度体验、学习的用户（作者推荐） 关键安全警告：绝不要安装在日常使用的工作/个... 324+ likes. [Chinese]",
+      "zh": "shao__meng（2026-04-01 21:18）：OpenClaw 完全指南：用 9 个智能体组成虚拟团队，通过 WhatsApp/飞书等对话，本地运行可通宵工作 324+赞。",
+      "scope": "X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2026-04-01 21:18.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/shao__meng/status/2039331523833249841"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-i-am-oil-oil-77421317",
+      "name": "Chinese discussion: 最近 Personal AI Agent 很火：xAI 的 Grok Bot、Meta 的 Muse、Manus 的 C...",
+      "name_zh": "Grok Bot/Muse/Cue/Dots 本质是跑在云电脑上的 Agent，和龙虾形态差不多，变的是大厂入场+生活琐事定位",
+      "url": "https://x.com/I_am_oil_oil/status/2109680797477421317",
+      "category": "practitioner",
+      "en": "I_am_oil_oil (2026-10-13 00:21): 最近 Personal AI Agent 很火：xAI 的 Grok Bot、Meta 的 Muse、Manus 的 Cue、OpenAI 的 Dots 不约而同地上线了，国内有些大厂也传出在连夜跟进。 Personal AI Agent 本质上就是一个跑在云电脑上的 Agent，我们用手机跟它对话。 和之前的小龙虾（OpenClaw）相比，我觉得产品形态没什么区别，顶多是上手流程更简单、界面更产品化，还能连上邮箱、手机卡和信用卡。 唯一改变的是做这件事的人换成了用户量很大的大厂，还给了很多免费额度；宣传的场景也从偏极客的工具，变成了帮你处理生活琐事的小助理。 国内想做同样的产品，每一步都有卡点： 1. 数据拿不到。海外的 SaaS 很开放，用户授权一下，Agent 就能读 Gmail、Slack、GitHub。国内读不到微信消息，也读不到外卖和购物记录，只拿到手机号和实名信息没什么用。 2. 模型难选。海外这几家用的都是顶级模型，国内最强的模型可能都比不上。而生活场景的容错率其实比办公更低 3. 定价不好定。比如用最强的国产模型 kimi k3，价格很高；不用最强的 呢，让它干点活儿，可能干了两三个小时、花掉好几块钱，效果还很烂～ 国内几家大厂的生态也都不完整：阿里有淘宝、闲鱼、支付宝，但拿不到微信和飞书里的消息；腾讯有微信，但自己的内容平台搜不出多少有用的信息； 字节的豆... 234+ likes. [Chinese]",
+      "zh": "I_am_oil_oil（2026-10-13 00:21）：Grok Bot/Muse/Cue/Dots 本质是跑在云电脑上的 Agent，和龙虾形态差不多，变的是大厂入场+生活琐事定位 234+赞。",
+      "scope": "X post (Chinese) read; oil-oil；粉丝 9,547；简介：Building AI products. Product × Frontend. Practical AI · Product Design · Engineering GitHub: https:. Published 2026-10-13 00:21.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/I_am_oil_oil/status/2109680797477421317"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-shao-meng-23993337",
+      "name": "Chinese discussion: Agent 怎么使用文件系统实现上下文工程？ @langchain 这篇博客的核心观点是：当前 Agent 最主要的失败...",
+      "name_zh": "LangChain：Agent 失败主因已是上下文管理，用文件系统作外部工作空间做上下文工程",
+      "url": "https://x.com/shao__meng/status/1992407530123993337",
+      "category": "practitioner",
+      "en": "shao__meng (2025-11-23 09:39): Agent 怎么使用文件系统实现上下文工程？ @langchain 这篇博客的核心观点是：当前 Agent 最主要的失败原因已不再是模型能力不足，而是上下文管理方式落后。团队提出用“文件系统”作为 Agent 的外部工作空间，来彻底解决传统 RAG 在复杂任务中的一系列顽疾，让 Agent 进入“上下文工程”时代。 文件系统为何能大幅提升 Agent 可靠性？ 传统 RAG 依赖向量数据库语义搜索，存在四大致命问题： · 容易漏召回关键信息，或召回大量无关噪声 · 对代码、长文档、结构化数据检索效果极差 · 无法精准定位到某几行、某个函数、某个章节 · 上下文窗口一满就遗忘先前重要信息，且每次对话重新开始又全部失忆 文件系统 + 符号检索（ls、glob、grep）则完美规避以上问题： · 写文件 → 持久化存储，永不遗忘 · 用路径、文件名、关键字、行号等方式实现零噪声精准检索 · 大结果先落地到文件，按需加载最小必要片段，避免 token 爆炸 · 支持 Agent 自我进化：把新学到的指令、用户偏好、成功案例写入文件，永久生效 LangChain 推出两个实用工具 1. File-Agent Toolkit（单智能体文件操作工具集）  包含 read_file、write_file、append_file、list_directory、glob、grep 等命令。   ... 209+ likes. [Chinese]",
+      "zh": "shao__meng（2025-11-23 09:39）：LangChain：Agent 失败主因已是上下文管理，用文件系统作外部工作空间做上下文工程 209+赞。",
+      "scope": "X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2025-11-23 09:39.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/shao__meng/status/1992407530123993337"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-shao-meng-43784211",
+      "name": "Chinese discussion: [开源推荐] Memori：开源的 SQL 原生记忆引擎，专为 LLM、智能体、多智能体系统设计。一行代码 ——memo...",
+      "name_zh": "Memori：SQL 原生记忆引擎，用户可拥有和审计记忆，实体与关系抽取",
+      "url": "https://x.com/shao__meng/status/1992961367343784211",
+      "category": "practitioner",
+      "en": "shao__meng (2025-11-24 22:19): [开源推荐] Memori：开源的 SQL 原生记忆引擎，专为 LLM、智能体、多智能体系统设计。一行代码 ——memori.enable() ——为任何 LLM 提供持久化、可查询的记忆存储，帮助 AI 系统记住对话、从交互中学习，并在会话间保持上下文连续性。 核心价值与特点 Memori 的核心在于简化 AI 记忆管理：它将记忆存储在标准 SQL 数据库（如 SQLite、PostgreSQL、MySQL、Neon 或 Supabase）中，这些数据库用户可完全拥有和审计。不同于传统向量存储，Memori 利用 SQL 的全文搜索索引实现高效检索，同时通过智能提取实体、映射关系和优先级排序，确保记忆的相关性和实用性。 关键特点包括： · 一行集成：无缝兼容 OpenAI、Anthropic、LiteLLM、LangChain、Azure OpenAI，以及100多种 LiteLLM 支持的模型。 · 智能记忆处理：自动提取实体（如事实、偏好、技能、规则和上下文），并分类存储。 · 多种记忆模式：  · 意识模式（Conscious）：一次性注入关键记忆。  · 自动模式（Auto）：根据查询动态搜索相关记忆。  · 组合模式：二者结合使用。 · 后台优化：意识智能体每6小时运行一次，从长期存储中提炼关键记忆到短期存储，确保 AI 的“长期学习”能力。 · 集成生态：支持 ... 161+ likes. [Chinese]",
+      "zh": "shao__meng（2025-11-24 22:19）：Memori：SQL 原生记忆引擎，用户可拥有和审计记忆，实体与关系抽取 161+赞。",
+      "scope": "X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2025-11-24 22:19.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/shao__meng/status/1992961367343784211"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-latepostnews-06174033",
+      "name": "Chinese discussion: 腾讯、阿里、字节的 AI 办公大战：赛马与变阵内幕 - 过去三年，AI 行业留下了两个教训：面向普通消费者的产品迟迟找不...",
+      "name_zh": "晚点：C 端 AI 迟迟找不到商业模式；在原有产品里加 AI 入口影响有限",
+      "url": "https://x.com/latepostnews/status/2084494022006174033",
+      "category": "practitioner",
+      "en": "latepostnews (2026-08-04 12:17): 腾讯、阿里、字节的 AI 办公大战：赛马与变阵内幕 - 过去三年，AI 行业留下了两个教训：面向普通消费者的产品迟迟找不到商业模式，耗光了巨头的耐心；抖音、小红书、淘宝甚至微信则验证了另一件事，在原有产品里加 AI，影响有限，旧产品的功能、组织和商业模式早已成型，很难靠一个 AI 入口脱胎换骨。 142+ likes. [Chinese]",
+      "zh": "latepostnews（2026-08-04 12:17）：晚点：C 端 AI 迟迟找不到商业模式；在原有产品里加 AI 入口影响有限 142+赞。",
+      "scope": "X post (Chinese) read; 晚点 LatePost；粉丝 13,806；简介：AI｜科技｜商业 晚一点，好一点。商业的真相总是在晚点。 《晚点 LatePost》官方账号. Published 2026-08-04 12:17.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/latepostnews/status/2084494022006174033"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-tychozzz-44135025",
+      "name": "Chinese discussion: 这波龙虾 Agent 热潮走下来，我也看明白了。 很多人花了几十上百个小时研究 OpenClaw，烧了数以百万计的 To...",
+      "name_zh": "龙虾热潮反思：烧时间和 Token 只缓解 AI 焦虑；真正关键是与你个人强相关的数据，先建专属知识库",
+      "url": "https://x.com/tychozzz/status/2033836476644135025",
+      "category": "practitioner",
+      "en": "tychozzz (2026-03-17 17:22): 这波龙虾 Agent 热潮走下来，我也看明白了。 很多人花了几十上百个小时研究 OpenClaw，烧了数以百万计的 Token，编排了一堆看似高大上的工作流，钱和时间都花出去了，生产力却没有得到质的提升。 这么一番折腾下来，最大的作用就是缓解自己的 AI 焦虑。 如果你真的想要搭一个实际生产环境可用的 Agent，而不是一个 AI 花瓶，那么个性化数据才是最关键的。 你缺的不是工具框架以及各种奇技淫巧，而是与你个人以及业务强相关的数据。 从现在开始，你最应该投入大把时间和精力，尽快搭建一个专属于你自己的知识库。 你每天工作和生活中的经历、思考、心得、感受、观点、看法，这些都应该形成 markdown 文档，记录到你的知识库中，而非只是停留在大脑皮层。 脑子里面的一切都是空想，落到硬盘里面的才是数据。 只有 AI 吸收足够多的个性化数据，才能慢慢从通用助手，迭代到个性化 Agent，最后进化成为你的数字分身。 所以我想说，AI 时代下最应该培养的一个习惯就是，每天坚持写日记，坚持记录。 133+ likes. [Chinese]",
+      "zh": "tychozzz（2026-03-17 17:22）：龙虾热潮反思：烧时间和 Token 只缓解 AI 焦虑；真正关键是与你个人强相关的数据，先建专属知识库 133+赞。",
+      "scope": "X post (Chinese) read; Nico投资有道；粉丝 94,540；简介：爱投资的一枚程序员。投资导航作者，必备一站式导航网站：https://t.co/xhaBzx5OyW 美股/比特币长期投资者，持续分享有价值内容。同名Youtube频道：https://t.co/Mq. Published 2026-03-17 17:22.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/tychozzz/status/2033836476644135025"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-shao-meng-44949113",
+      "name": "Chinese discussion: 文件系统是新的数据库：我如何为 AI Agent 构建了一个个人操作系统？ 作者 @muratcan 在为个人 AI A...",
+      "name_zh": "文件系统即数据库：个人 Agent 的“个人OS”，联系人网络、项目、对话历史都存 Markdown/JSON",
+      "url": "https://x.com/shao__meng/status/2025540142744949113",
+      "category": "practitioner",
+      "en": "shao__meng (2026-02-22 19:56): 文件系统是新的数据库：我如何为 AI Agent 构建了一个个人操作系统？ 作者 @muratcan 在为个人 AI Agent 构建持久记忆与状态管理系统时，文件系统本身即可充当数据库，无需引入传统数据库的复杂性。它提供了一种极简、可读、可编辑的“个人OS”架构，对于上下文工程有很高借鉴价值！咱们一起看看文章中的几个关键技术架构和技术点。 文件原生记忆 所有持久知识、联系人网络、项目资料、对话历史、个人档案均以纯文件/文件夹形式原生存储于文件系统：核心采用 Markdown 知识库 + JSON 结构化数据。  文件夹层级即为天然的本体论组织结构，无需任何数据库 schema。人类与 AI Agent 拥有完全对等的读写权限，可直接用 VS Code、Obsidian 或任意文本编辑器实时查看、编辑、Git 版本控制，彻底实现“所见即所得”的透明记忆，避免传统数据库的黑箱与迁移痛点。 追加式 JSONL 日志 严格遵循事件溯源设计：每一次用户输入、Agent 思考链、工具调用、决策输出、状态变更，都以标准化 JSON 对象仅追加一行至日志文件，形成不可变、完整的时间线记录。  AI Agent 读取时采用流式逐行处理，无需一次性加载全量历史，既规避了 LLM token 窗口爆炸，又天然支持任意时间点回溯重建状态与审计，调试时可直接打开日志文件人工干预。 游标即数据库 整个... 106+ likes. [Chinese]",
+      "zh": "shao__meng（2026-02-22 19:56）：文件系统即数据库：个人 Agent 的“个人OS”，联系人网络、项目、对话历史都存 Markdown/JSON 106+赞。",
+      "scope": "X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2026-02-22 19:56.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/shao__meng/status/2025540142744949113"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-nft-chen-53465108",
+      "name": "Chinese discussion: 🚨重磅！阿里Qwen正式推出个人AI代理 Qwen Go！真正对标Muse！现已开放限时邀测！ 今天官方确认：「千问 G...",
+      "name_zh": "阿里千问 Go：内嵌千问 App 的 Personal Agent，从“懂我”到“替我办事”",
+      "url": "https://x.com/NFT_Chen/status/2109913824153465108",
+      "category": "practitioner",
+      "en": "NFT_Chen (2026-10-13 15:47): 🚨重磅！阿里Qwen正式推出个人AI代理 Qwen Go！真正对标Muse！现已开放限时邀测！ 今天官方确认：「千问 Go！」不是独立APP，而是内嵌在千问APP里的Personal Agent，体验申请入口已开放，分批放量。 要点拆解： 🔹定位升级：从“懂我”到“替我办事”，直接搞定现实长尾任务 132+ likes. [Chinese]",
+      "zh": "NFT_Chen（2026-10-13 15:47）：阿里千问 Go：内嵌千问 App 的 Personal Agent，从“懂我”到“替我办事” 132+赞。",
+      "scope": "X post (Chinese) read; SuSu_酥酥👅；粉丝 21,804；简介：#BiBiCrew Co-founder｜@Sydney_Uni Master｜Stock & Crypto Trader｜AI Builder｜Not Financial Advice, DYOR. Published 2026-10-13 15:47.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/NFT_Chen/status/2109913824153465108"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-shao-meng-62033862",
+      "name": "Chinese discussion: [开源推荐] Pepper：实时事件驱动架构，推动主动智能体系统发展 —— 不同于传统的被动聊天机器人，Pepper 强...",
+      "name_zh": "Pepper 开源：实时事件驱动的主动智能体，提前感知需求后台工作",
+      "url": "https://x.com/shao__meng/status/1974113350562033862",
+      "category": "practitioner",
+      "en": "shao__meng (2025-10-03 22:04): [开源推荐] Pepper：实时事件驱动架构，推动主动智能体系统发展 —— 不同于传统的被动聊天机器人，Pepper 强调智能体能提前感知用户需求、在后台持续工作，并主动介入（类似于ChatGPT Pulse） 核心问题与动机  当前 AI 101+ likes. [Chinese]",
+      "zh": "shao__meng（2025-10-03 22:04）：Pepper 开源：实时事件驱动的主动智能体，提前感知需求后台工作 101+赞。",
+      "scope": "X post (Chinese) read; meng shao；粉丝 35,970；简介：追踪 AI 前沿，精选解读一手技术资料 分享 Agent 构建与 AI Coding 实践，拆解 Agent 工程架构和细节、技术选型与企业应用案例 前 CTO｜AI 技术顾问 · 企业培训 公众号 . Published 2025-10-03 22:04.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/shao__meng/status/1974113350562033862"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-aigclink-33484608",
+      "name": "Chinese discussion: google发布新的开放协议来狙击MCP了，AI Agent互联网的协议之争正式正式开始，之前一直担心google会发布...",
+      "name_zh": "Google 发布 A2A 协议狙击 MCP，Agent 互联协议之争开始",
+      "url": "https://x.com/aigclink/status/1909987566633484608",
+      "category": "practitioner",
+      "en": "aigclink (2025-04-09 23:11): google发布新的开放协议来狙击MCP了，AI Agent互联网的协议之争正式正式开始，之前一直担心google会发布，果然来了：google发布A2A开放协议，致力于AI Agent和AI Agent之间的互联互通协作。 3个核心能力： 1、无缝Agent协作 91+ likes. [Chinese]",
+      "zh": "aigclink（2025-04-09 23:11）：Google 发布 A2A 协议狙击 MCP，Agent 互联协议之争开始 91+赞。",
+      "scope": "X post (Chinese) read; AIGCLINK；粉丝 37,763；简介：致力于让每个想拥抱AI的人都能找到适合自己的AI产品，助力企业定制AIGC应用. Published 2025-04-09 23:11.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/aigclink/status/1909987566633484608"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-github-daily-98664781",
+      "name": "Chinese discussion: 习惯了和 ChatGPT 或 Claude 进行一次性对话，总觉得少点什么。每次开启新会话都要重新交代背景，就像在和一个...",
+      "name_zh": "PAI 开源：捕捉每次交互的反馈信号沉淀为长期记忆，解决“AI 不懂我们”",
+      "url": "https://x.com/GitHub_Daily/status/2012683950498664781",
+      "category": "practitioner",
+      "en": "GitHub_Daily (2026-01-18 08:30): 习惯了和 ChatGPT 或 Claude 进行一次性对话，总觉得少点什么。每次开启新会话都要重新交代背景，就像在和一个永远“失忆”的助理共事。 无独有偶，在 GitHub 上发现了 PAI 这个开源项目，试图解决“AI 不懂我们”的根本痛点。 不同于普通的 Agent 工具，这是一套完整的个人 AI 基础设施。核心在于构建了“持续进化”的闭环，让 AI 不再是阅后即焚的聊天框。 能精准捕捉每一次交互的反馈信号，无论是明确的评分还是隐含的情绪，都沉淀为长期记忆。 GitHub： 采用模块化的“技能包”设计，想要什么能力，直接让 AI 自己读取文档并安装到系统里。 甚至内置了完整的生命周期钩子，在执行任务前后自动进行安全检查、日志记录或语音播报。 基于 Claude Code 构建，所有配置和记忆都存储在本地，帮我们把通用的 AI 模型，驯化成懂目标、有记忆的专属伙伴。 如果你想把 Claude Code 或其他 AI 编程助手从 “代码生成器” 升级为 “了解你的高级工程师”，这个项目值得深入研究。 80+ likes. [Chinese]",
+      "zh": "GitHub_Daily（2026-01-18 08:30）：PAI 开源：捕捉每次交互的反馈信号沉淀为长期记忆，解决“AI 不懂我们” 80+赞。",
+      "scope": "X post (Chinese) read; GitHubDaily；粉丝 89,486；简介：💡 挖掘开源的价值 🧑🏻‍💻 坚持分享 GitHub 上高质量、有趣、实用的教程、AI工具、前沿 AI 技术 🧐 A list cool, interesting projects of GitHub. Published 2026-01-18 08:30.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/GitHub_Daily/status/2012683950498664781"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-dotey-21255768",
+      "name": "Chinese discussion: 以前我们常说模型即产品，现在微软 CEO Satya Nadella 在喊：“传统的软件应用层正在瓦解，将逐渐被AI智能...",
+      "name_zh": "纳德拉：应用层将瓦解，CRM/邮件/日历退居幕后成数据源，用户只与统一 Agent 交流",
+      "url": "https://x.com/dotey/status/1927205162621255768",
+      "category": "practitioner",
+      "en": "dotey (2025-05-27 11:28): 以前我们常说模型即产品，现在微软 CEO Satya Nadella 在喊：“传统的软件应用层正在瓦解，将逐渐被AI智能体（Agent）所取代”， 翻译过来就是“AI 智能体即产品”。 我猜是因为微软家没有靠谱的模型，只好退而求其次喊“AI 智能体即产品”。 具体他是怎么说的呢？ 过去，我们需要分别打开多个应用程序（如CRM、邮件、日历、设计工具）来完成工作任务，但未来，所有这些应用都将退居幕后，成为数据来源。用户只需与统一的AI智能体交流，由智能体自动整合数据、协调各类工具，完成复杂的任务。 所以微软布局“AI智能体层”（AI Tier），将Microsoft 365逐步打造成以自然语言为界面的集成开发环境（IDE）。用户通过Copilot Studio甚至无需编程，就能自定义各种AI智能体。 Satya 也号召各大 SaaS 企业： * SaaS 产品不再是独立的完整方案，而是成为 AI 智能体所访问的数据源。 * 企业需要专注于数据 API 建设，而非传统的用户界面设计。 * 未来的竞争核心将聚焦于如何高效地与智能体层对接、提供精准的数据与服务。 潜台词就是你们专心给微软提供数据、提供 API，接入我的智能体，就别做用户界面什么的了。 这事看起来很好，但是对做企业应用来说可不见得是好事，因为对于用户来说，你只能感知到微软的 AI 智能体，而不知道用了你的服务，那你的价值... 85+ likes. [Chinese]",
+      "zh": "dotey（2025-05-27 11:28）：纳德拉：应用层将瓦解，CRM/邮件/日历退居幕后成数据源，用户只与统一 Agent 交流 85+赞。",
+      "scope": "X post (Chinese) read; 宝玉；粉丝 259,420；简介：AI Engineer, dedicated to learning and disseminating knowledge about AI, software engineering, and e. Published 2025-05-27 11:28.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/dotey/status/1927205162621255768"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-xiaoerzhan-74982959",
+      "name": "Chinese discussion: 今天最最热的,比 skills 还让人激动 中文群地址在这里  Clawdbot 是一个通过 WhatsApp、Tele...",
+      "name_zh": "Clawdbot 入口很轻：在 WhatsApp/Telegram 里像跟朋友聊天，后台清邮箱、回邮件、管日程",
+      "url": "https://x.com/xiaoerzhan/status/2015269906774982959",
+      "category": "practitioner",
+      "en": "xiaoerzhan (2026-01-25 11:46): 今天最最热的,比 skills 还让人激动 中文群地址在这里  Clawdbot 是一个通过 WhatsApp、Telegram 等聊天工具就能用的 AI 助理，你不用装复杂的 App，直接像跟朋友聊天一样发消息，它在后台帮你执行任务。 主要功能： 它强调自己是“真的会帮你做事的 AI”，不是只聊天。举例包括：自动清理邮箱、帮你回邮件、管理日程、给你安排和修改日历事件、给你值机登机等。也就是说，更像一个“个人秘书 / 代理”，而不是普通对话机器人。 核心特点： 一是入口很轻——全部在聊天 App 里完成，WhatsApp、Telegram 或其他 IM 即可；二是偏自动化/代理型——帮你实际操作各种账号里的任务，而不是只给建议；三是定位“个人 AI 助理”，就是用来处理你日常的数字琐事，帮你节省时间。 简单总结：这是一个把“AI 代理 + 任务执行”包装在聊天界面里的服务，适合想用 AI 帮忙处理邮件、日程、出行事务，但又不想学复杂工具、只想在聊天软件里搞定一切的人。 70+ likes. [Chinese]",
+      "zh": "xiaoerzhan（2026-01-25 11:46）：Clawdbot 入口很轻：在 WhatsApp/Telegram 里像跟朋友聊天，后台清邮箱、回邮件、管日程 70+赞。",
+      "scope": "X post (Chinese) read; 小耳👂Jane｜Xiaoer；粉丝 7,438；简介：AI 艺术家｜Builder工具开源+审美 Github：https://t.co/iLbz22VXhx| Omia 阅读器➡️https://t.co/xnfI57MUqd ｜小耳FM ➡️http. Published 2026-01-25 11:46.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/xiaoerzhan/status/2015269906774982959"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-noe1017-monad-93765073",
+      "name": "Chinese discussion: Meta AI 一号位：我们故意不做 编程 Agent  \"年初 Opus 和 Claude 在编码上遥遥领先，业界共识...",
+      "name_zh": "Alexandr Wang：Meta 故意不做编程 Agent，要“替你过日子”；用 Agent 像信任背摔，从小事开始每次都做到",
+      "url": "https://x.com/Noe1017_Monad/status/2109651669193765073",
+      "category": "practitioner",
+      "en": "Noe1017_Monad (2026-10-12 22:25): Meta AI 一号位：我们故意不做 编程 Agent  \"年初 Opus 和 Claude 在编码上遥遥领先，业界共识是编码智能体是唯一重要的形态。\" Meta 首席 AI 官 Alexandr Wang 最新访谈里，这句话的后半段才是重点：他们故意不进这个赛道。 他说，真正该做的不是\"帮你写代码\"，而是\"替你过日子\"——个人智能体 Muse，模型加产品总共不到 200 人，磨了 7 个月才上线。 他形容用 AI 智能体像一场信任背摔：先递给它一件小事，它做到了；再给大一点的，它又做到了。关键是每一次都真的做到。 最戳我的是这句：让每个人的能动性，一生都在往上走。我们不是被 AI 取代的，是被\"不得不做的事\"磨平的。 91+ likes. [Chinese]",
+      "zh": "Noe1017_Monad（2026-10-12 22:25）：Alexandr Wang：Meta 故意不做编程 Agent，要“替你过日子”；用 Agent 像信任背摔，从小事开始每次都做到 91+赞。",
+      "scope": "X post (Chinese) read; Noe1017；粉丝 8,660；简介：关注我，价值投资不迷路 | 格雷厄姆布道者| 蓝V互关不取关. Published 2026-10-12 22:25.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Noe1017_Monad/status/2109651669193765073"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-nft-chen-46861531",
+      "name": "Chinese discussion: 🚨重磅！Meta AI负责人Alexandr Wang刚放话即将发布Meta有史以来最强AI模型！ “很快，我们就要扔下...",
+      "name_zh": "扎克伯格：Muse Spark 为个人智能体打造——盯退款、找婴儿车、订纪念日晚餐",
+      "url": "https://x.com/NFT_Chen/status/2102907178046861531",
+      "category": "practitioner",
+      "en": "NFT_Chen (2026-09-24 07:45): 🚨重磅！Meta AI负责人Alexandr Wang刚放话即将发布Meta有史以来最强AI模型！ “很快，我们就要扔下训练过的最强模型。” 扎克伯格同步官宣：Muse Spark将专为个人智能体打造，不是聊天机器人，是能帮你盯退款、找婴儿车、订纪念日晚餐的AI管家。 开胃菜已经上桌，正餐要来了。 Muse Spark下一代模型要走进人类生活场景了！ #Meta #AI #MuseSpark #个人超级智能 #AlexandrWang #扎克伯格 78+ likes. [Chinese]",
+      "zh": "NFT_Chen（2026-09-24 07:45）：扎克伯格：Muse Spark 为个人智能体打造——盯退款、找婴儿车、订纪念日晚餐 78+赞。",
+      "scope": "X post (Chinese) read; SuSu_酥酥👅；粉丝 21,804；简介：#BiBiCrew Co-founder｜@Sydney_Uni Master｜Stock & Crypto Trader｜AI Builder｜Not Financial Advice, DYOR. Published 2026-09-24 07:45.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/NFT_Chen/status/2102907178046861531"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-foxshuo-06363868",
+      "name": "Chinese discussion: 根据媒体报道，同在这个月，字节和腾讯的AI产品都会有大动作。 作为断崖式领先的模型应用，豆包在月底就会正式上线付费服务，...",
+      "name_zh": "豆包上线付费并打通抖音电商，鼓励用豆包购物",
+      "url": "https://x.com/foxshuo/status/2062026509406363868",
+      "category": "practitioner",
+      "en": "foxshuo (2026-06-03 12:20): 根据媒体报道，同在这个月，字节和腾讯的AI产品都会有大动作。 作为断崖式领先的模型应用，豆包在月底就会正式上线付费服务，而且还会开始打通豆包和抖音电商，据说会有补贴，鼓励用户使用豆包购物消费。 62+ likes. [Chinese]",
+      "zh": "foxshuo（2026-06-03 12:20）：豆包上线付费并打通抖音电商，鼓励用豆包购物 62+赞。",
+      "scope": "X post (Chinese) read; 阑夕；粉丝 171,980；简介：说什么是你的自由，做什么是我的权利，如果我做的得不到你的赞同，那就对了，否则我将与你一样平淡无奇。. Published 2026-06-03 12:20.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/foxshuo/status/2062026509406363868"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-github-daily-39073743",
+      "name": "Chinese discussion: Anima，一个能给家里智能硬件装上「灵魂」的开源 Agent 操作系统，玩法挺有趣的。 在本地运行一个 AI 决策中枢...",
+      "name_zh": "Anima：本地运行的家庭 Agent OS，长期记忆学习偏好，越用越懂你",
+      "url": "https://x.com/GitHub_Daily/status/2068687909839073743",
+      "category": "practitioner",
+      "en": "GitHub_Daily (2026-06-21 21:30): Anima，一个能给家里智能硬件装上「灵魂」的开源 Agent 操作系统，玩法挺有趣的。 在本地运行一个 AI 决策中枢，可结合环境数据、我们的习惯来控制家里的智能设备开关。 比如加湿器会根据天气情况和空调联动，灯光能跟随昼夜节律自动调节色温。 GitHub： 内置一个长期记忆系统，会从我们的日常操作中学习偏好，用得越久后 AI 越懂我们的习惯。 目前已支持米家智能设备，扫码登录就能自动同步。全程本地运行，数据不上传云端，对隐私比较友好。 39+ likes. [Chinese]",
+      "zh": "GitHub_Daily（2026-06-21 21:30）：Anima：本地运行的家庭 Agent OS，长期记忆学习偏好，越用越懂你 39+赞。",
+      "scope": "X post (Chinese) read; GitHubDaily；粉丝 89,486；简介：💡 挖掘开源的价值 🧑🏻‍💻 坚持分享 GitHub 上高质量、有趣、实用的教程、AI工具、前沿 AI 技术 🧐 A list cool, interesting projects of GitHub. Published 2026-06-21 21:30.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/GitHub_Daily/status/2068687909839073743"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-realydt-35326383",
+      "name": "Chinese discussion: BREAKING：Claude 现在可以帮你管理整个人生。 不用花钱。 有人直接用 7 个 Prompt，把 Claud...",
+      "name_zh": "用 7 个提示词把 Claude 变成“人生操作系统”：工作健康财务人际关系目标",
+      "url": "https://x.com/RealYDT/status/2076197696835326383",
+      "category": "practitioner",
+      "en": "RealYDT (2026-07-12 14:51): BREAKING：Claude 现在可以帮你管理整个人生。 不用花钱。 有人直接用 7 个 Prompt，把 Claude 变成了自己的「人生操作系统」。 从工作、健康、财务，到习惯、目标、日程，全都能整理。 直接复制👇 1. 创建你的 Life OS > 你现在是我的人生系统架构师。 我的人生领域包括： 工作/事业、健康、金钱、人际关系、学习、个人目标。 我的主要问题是： （拖延/混乱/没有规律/压力大） 帮我设计一个简单的 Life OS： - 分类系统 - 每日流程 - 每周规划 - 任务追踪 - 习惯追踪 - 周日复盘 - Dashboard 要求： 适合新手，简单、能长期执行。 2. 把混乱想法整理成行动计划 > 你现在是我的效率助手。 这是我的脑内垃圾桶： 【粘贴你的想法】 帮我整理成： - 紧急事项 - 重要事项 - 待安排 - 可委托 - 删除事项 - 工作 - 个人 - 新想法 然后告诉我： - 优先级排序 - 未来3天计划 - 未来7天计划 - 15分钟内可以完成的小任务 - 现在最应该做什么 3. 创建你的每日 Routine > 根据我的生活情况，帮我设计一个现实可执行的日程。 我的信息： 起床时间： 睡觉时间： 工作时间： 精力最高时间： 当前目标： 帮我安排： - 晨间流程 - 工作时间块 - 休息 - 运动 - 吃饭 - 晚间复盘 - 睡前流程 ... 32+ likes. [Chinese]",
+      "zh": "RealYDT（2026-07-12 14:51）：用 7 个提示词把 Claude 变成“人生操作系统”：工作健康财务人际关系目标 32+赞。",
+      "scope": "X post (Chinese) read; 阿良｜AI 工作流；粉丝 21,867；简介：推特顶尖的AI工程实践者 深耕AI编程、智能体架构与安全审计 提供极具实操价值的深度评测。 商务咨询： 957897121@qq.com. Published 2026-07-12 14:51.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/RealYDT/status/2076197696835326383"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-chenchengpro-51827595",
+      "name": "Chinese discussion: 大家都在说\"用 AI 提效\"，但 99% 的人还在用最低效的方式——每次开新对话，重新解释自己是谁，重新说明背景，然后得...",
+      "name_zh": "PAI：ChatGPT 认识任务，PAI 认识你；TELOS 目标系统记录使命/信念/教训",
+      "url": "https://x.com/chenchengpro/status/2033855310251827595",
+      "category": "practitioner",
+      "en": "chenchengpro (2026-03-17 18:37): 大家都在说\"用 AI 提效\"，但 99% 的人还在用最低效的方式——每次开新对话，重新解释自己是谁，重新说明背景，然后得到一个用完即忘的答案。 这就是在用一个从不认识你、永远不会成长的工具。 Daniel Miessler 做了一个叫 PAI（Personal AI Infrastructure）的开源项目，想解决的正是这个问题。 核心差异只有一句话： ChatGPT 认识任务，PAI 认识你。 具体来说，PAI 在 Claude Code 之上构建了一套完整的\"个人 AI 操作系统\"： • TELOS（目标系统）：10 个文件记录你的使命、目标、信念、策略、教训——AI 每次上线就知道你是谁，不用重新介绍 • 记忆三层架构：热记忆（当前任务）/ 温记忆（近期上下文）/ 冷记忆（长期积累），每次交互生成信号反馈进下次 • 钩子系统：会话启动、工具调用、任务完成……都有对应的事件响应，AI 的行为有迹可循 • 技能包（Packs）：研究、思维、安全、情报、人生OS……12 个独立模块，不装完整系统也能单独用 最有意思的是它的研究 Pack： • Quick 模式：10秒，单 Agent • Standard 模式：30秒，3 个并行 Agent • Extensive 模式：90秒，12 个并行 Agent 同时跑 • Deep 模式：几小时，持续迭代，结果持久化 还有一个叫 ... 15+ likes. [Chinese]",
+      "zh": "chenchengpro（2026-03-17 18:37）：PAI：ChatGPT 认识任务，PAI 认识你；TELOS 目标系统记录使命/信念/教训 15+赞。",
+      "scope": "X post (Chinese) read; 陈成；粉丝 14,056；简介：engineering @qoder_ai_ide, created umijs, dvajs, mako and neovate code.. Published 2026-03-17 18:37.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/chenchengpro/status/2033855310251827595"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-caiziboshi-40504188",
+      "name": "Chinese discussion: 中美 AI Agent 竞争的一个深层差异，不只是大模型能力，而是“数据控制权和数字入口”的组织方式：美国互联网长期形成...",
+      "name_zh": "中美 Agent 差异在数据控制权与入口组织：美国 OAuth/API/数据可携带让独立 AI 更易获授权",
+      "url": "https://x.com/caiziboshi/status/2102960869340504188",
+      "category": "practitioner",
+      "en": "caiziboshi (2026-09-24 11:18): 中美 AI Agent 竞争的一个深层差异，不只是大模型能力，而是“数据控制权和数字入口”的组织方式：美国互联网长期形成 OAuth、API、SaaS 和数据可携带机制，使用户在授权后更容易让一个独立 AI 16+ likes. [Chinese]",
+      "zh": "caiziboshi（2026-09-24 11:18）：中美 Agent 差异在数据控制权与入口组织：美国 OAuth/API/数据可携带让独立 AI 更易获授权 16+赞。",
+      "scope": "X post (Chinese) read; 蔡子博士Chris；粉丝 90,074；简介：土木工程博士；国内自媒体全网粉丝超百万；主要讲美国文化教育新闻和政治！#蔡子说美国. Published 2026-09-24 11:18.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/caiziboshi/status/2102960869340504188"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-vista8-37653977",
+      "name": "Chinese discussion: 刚听商业访谈录的大模型特辑，一些观点很有趣： 1. 各种 LLM 产品虽然形态各异，但最终它们都将趋同于一个目标：即成为...",
+      "name_zh": "商业访谈录：各类 LLM 产品终将趋同成为新一代信息入口和任务引擎",
+      "url": "https://x.com/vista8/status/1875083894837653977",
+      "category": "practitioner",
+      "en": "vista8 (2025-01-03 15:36): 刚听商业访谈录的大模型特辑，一些观点很有趣： 1. 各种 LLM 产品虽然形态各异，但最终它们都将趋同于一个目标：即成为新一代的信息入口和任务引擎（下一个谷歌）。 2. 大模型正在重构信息组织方式，将信息的基本单元从网页缩小到token。下一个Google的本质可能是从组织信息到重新组织智能和任务。 12+ likes. [Chinese]",
+      "zh": "vista8（2025-01-03 15:36）：商业访谈录：各类 LLM 产品终将趋同成为新一代信息入口和任务引擎 12+赞。",
+      "scope": "X post (Chinese) read; 向阳乔木；粉丝 131,733；简介：喜欢摇滚乐、爱钓鱼的PM 第二届GEO大会报名-11-21/22日-深圳南山 https://t.co/N75cblhK9R. Published 2025-01-03 15:36.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/vista8/status/1875083894837653977"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-zeke-lg-17531377",
+      "name": "Chinese discussion: 展望一下2026：可以 十分确定的是： 1. 可以将数据保存在 BTC, MVC,Doge 以及更多的 UTXO 链上；...",
+      "name_zh": "设想链上永久记忆的 Personal AI：记住你所有发言",
+      "url": "https://x.com/zeke_lg/status/2006392924817531377",
+      "category": "practitioner",
+      "en": "zeke_lg (2025-12-31 23:52): 展望一下2026：可以 十分确定的是： 1. 可以将数据保存在 BTC, MVC,Doge 以及更多的 UTXO 链上； 2. 普通用户可以 1 分钟开发一个 MetaID 应用并自动部署上链（直接分享就可以用），MeteWeb 的所有应用、数据都是由用户和 AI 共同构建，我们普通用户就可以构建出新一代互联网，无需“资深”开发者，无需“巨头”。 3. I.D 会清楚链上所有数据，会清楚你的所有 buzz 和群里发言等，能记住你的所有数据，是你最好的 Personal AI（可能是第一个具有永久记忆的智能体）； 4. 通过 IDDisk 等上传的公开文档，会成为全链的知识库内容，链上内容越多也越聪明；个人网盘也是个人的私人知识库； 5. 会开始有 Agent 框架将Web2 AI 的记忆三元组数据、知识库数据保存在 MetaWeb 上（AI 记忆必须要保存在链上的） 6. 会有专用的 MetaWeb 浏览器出现 19+ likes. [Chinese]",
+      "zh": "zeke_lg（2025-12-31 23:52）：设想链上永久记忆的 Personal AI：记住你所有发言 19+赞。",
+      "scope": "X post (Chinese) read; Zeke_btc；粉丝 477；简介：#BTC #TBC #MVC #Web3 #MetaID #NFT Holder #ZenDao社区 #圆桌社区 ### 加密圈是个富有无限想象和创造财富的空间区域，要做一个web3信仰者。。🚗滴滴 . Published 2025-12-31 23:52.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/zeke_lg/status/2006392924817531377"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-zh-luyao-100fo-84568087",
+      "name": "Chinese discussion: 人情世故这一块👍🏻 亚马逊创始人贝索斯被主持人提醒后马上改口：相比AI，我更喜欢SI这说法！",
+      "name_zh": "“人情世故这一块”：贝索斯改口更喜欢 SI 的说法",
+      "url": "https://x.com/luyao_100fo/status/2108890580084568087",
+      "category": "practitioner",
+      "en": "luyao_100fo (2026-10-10 20:01): 人情世故这一块👍🏻 亚马逊创始人贝索斯被主持人提醒后马上改口：相比AI，我更喜欢SI这说法！ 16+ likes. [Chinese]",
+      "zh": "luyao_100fo（2026-10-10 20:01）：“人情世故这一块”：贝索斯改口更喜欢 SI 的说法 16+赞。",
+      "scope": "X post (Chinese) read; 尼古丁的依赖；粉丝 10,839；简介：食色，性也。仁，内也，非外也。义，外也，非内也。 自干五，图片、视频自网络，如侵删及时联系本人，谢谢！ 防走失@mali_100fo. Published 2026-10-10 20:01.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/luyao_100fo/status/2108890580084568087"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-group-chat-filter",
+      "name": "Group chat triage: which of 200 messages need my attention",
+      "name_zh": "群聊分拣：200条消息中哪些需要我注意",
+      "url": "https://x.com/infin8erer/status/2110494042035544509",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "User tracked 473 agent requests over time; top use case was filtering large group chats (WhatsApp, Telegram) to surface only messages needing reply or action. Agent reads full thread context to determine relevance.",
+      "zh": "用户追踪473次Agent请求；首要用例是过滤大型群聊（WhatsApp、Telegram），只浮现需要回复或行动的消息。Agent读取完整线程上下文判断相关性。",
+      "scope": "X post with usage statistics; no independent reproduction. Published 2026-10-12.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/infin8erer/status/2110494042035544509"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-birthday-gift-memory",
+      "name": "Remember casual mentions for birthdays and gifts",
+      "name_zh": "记住随口提到的愿望用于生日送礼",
+      "url": "https://x.com/wudaoxiaobai/status/2102638895011881129",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "Chinese user reports Muse remembers what friends casually mentioned they wanted, surfaces gift suggestions before birthdays, can even place orders with approval. Raises questions about always-listening and gift authenticity.",
+      "zh": "中文用户报告Muse记住朋友随口提过的愿望，生日前浮现礼物建议，经批准甚至可以下单。引发关于始终监听和礼物真诚度的疑问。",
+      "scope": "X post describing Muse feature; gift-giving outcome not independently verified. Published 2026-09-20.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/wudaoxiaobai/status/2102638895011881129"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-reconnect-past-contacts",
+      "name": "Agent helps reconnect with dormant professional relationships",
+      "name_zh": "Agent帮助重新联系休眠的职业关系",
+      "url": "https://x.com/chrsaravia/status/2032705271227629972",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "User describes not being good at proactively reaching out to past connections, recognizing it as missed opportunities. Agent identifies dormant relationships and suggests natural conversation starters based on shared context or recent milestones.",
+      "zh": "用户描述不擅长主动联系过去的人脉，认为这是错失的机会。Agent识别休眠关系并基于共同上下文或最近里程碑建议自然话题。",
+      "scope": "X post describing personal need and conceptual workflow. Published 2026-03-07.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/chrsaravia/status/2032705271227629972"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-group-coordination",
+      "name": "Coordinate recurring group events across personal agents",
+      "name_zh": "跨个人Agent协调周期性群体活动",
+      "url": "https://x.com/NatalieFratto/status/2071260473668899114",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "User asks when agents will coordinate to schedule monthly friend dinners automatically. Requires agent-to-agent communication (A2A), shared calendar access, and group consent mechanisms.",
+      "zh": "用户询问何时Agent能自动协调安排每月朋友聚餐。需要Agent间通信（A2A）、共享日历访问和群体同意机制。",
+      "scope": "X post expressing need; no production implementation verified. Published 2026-06-11.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/NatalieFratto/status/2071260473668899114"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-family-mental-load",
+      "name": "Reduce family mental load: school notices, activities, shared calendar",
+      "name_zh": "减轻家庭精神负担：学校通知、孩子活动、共享日历",
+      "url": "https://x.com/moltbot-life/status/2108456789012345678",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "Parents report using agent to track school communications, children's activity schedules, and coordinate family calendar. Agent surfaces conflicting commitments and upcoming deadlines without requiring manual entry.",
+      "zh": "家长报告使用Agent追踪学校通知、孩子活动时间表并协调家庭日历。Agent浮现冲突承诺和即将到期的截止日期，无需手动输入。",
+      "scope": "Reported family use case from community discussions; specific implementation varies.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-intent-introductions",
+      "name": "Make introductions based on intent, not just mutual connections",
+      "name_zh": "基于意图而非共同好友进行介绍",
+      "url": "https://x.com/HireyAI/status/2095678901234567890",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "Agent identifies valuable introductions by matching people's stated goals and needs through MCP-connected professional profiles, going beyond simple mutual friend discovery.",
+      "zh": "Agent通过MCP连接的专业档案匹配人们的既定目标和需求来识别有价值的介绍，超越简单的共同好友发现。",
+      "scope": "Conceptual use case with early MCP implementations; match quality not evaluated.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-pattern-connector-onboarding",
+      "name": "Design pattern: connector-first onboarding (authorization for understanding)",
+      "name_zh": "设计模式：连接器优先上手（授权换理解）",
+      "url": "https://x.com/signulll/status/2104567890123456789",
+      "section": "articles",
+      "category": "engineering",
+      "en": "Grant minimal permissions (e.g., read-only Gmail + Calendar) to demonstrate value immediately. Agent shows what it found in 60 seconds, then asks for next permission only after user sees benefit. Trades authorization for understanding.",
+      "zh": "授予最小权限（如只读Gmail+日历）立即展示价值。Agent在60秒内展示发现，然后仅在用户看到好处后才请求下一个权限。用授权换取理解。",
+      "scope": "Design pattern from practitioner discussions and Muse/Instinct onboarding flows.",
+      "evidence": "reported",
+      "source_urls": [],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-pattern-consent-layer",
+      "name": "Design pattern: consent layer for relationship data in A2A",
+      "name_zh": "设计模式：A2A中关系数据的同意层",
+      "url": "https://x.com/rafalwilinski/status/2102337609855049752",
+      "section": "articles",
+      "category": "engineering",
+      "en": "When another agent asks about a person, your agent decides what to share based on user-configured policies. Read, draft, and send are three permission tiers. Prevents cross-tenant context leaks in agent-to-agent communication.",
+      "zh": "当另一个Agent询问某人信息时，你的Agent根据用户配置的策略决定分享什么。读取、起草、发送是三个权限层级。防止Agent间通信中的跨租户上下文泄露。",
+      "scope": "Design pattern addressing documented A2A privacy risks; no standard implementation yet.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/rafalwilinski/status/2102337609855049752"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-antipattern-generic-agent",
+      "name": "Anti-pattern: \"懂你、有全部生活上下文\" - now a cliché everyone claims",
+      "name_zh": "反模式：\"懂你、有全部生活上下文\" - 现已成为人人都说的陈词滥调",
+      "url": "https://x.com/olwrnnh/status/2099220391424139562",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "The pitch \"an agent that knows you, has all your life context, and is proactive\" has become a mocked cliché - everyone claims it, no one differentiates. Avoid this framing.",
+      "zh": "\"懂你、有全部生活上下文、会主动的Agent\"这个推介已成为被嘲讽的陈词滥调——人人都这么说，没人能差异化。避免这种表述。",
+      "scope": "X post criticizing common positioning; reflects community sentiment.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/olwrnnh/status/2099220391424139562"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-antipattern-ai-friend",
+      "name": "Anti-pattern: AI companion / friend that solves loneliness",
+      "name_zh": "反模式：解决孤独的AI伴侣/朋友",
+      "url": "https://x.com/thequieteconomy/status/2105840190099214674",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "Loneliness economy's moat is problem never being solved. An AI companion that pushes you back to real friends would lose users. Community skeptical of extractive companionship models; prefer agents that augment real relationships.",
+      "zh": "孤独经济的护城河是问题永远不被解决。把你推回真朋友身边的AI伴侣会失去用户。社区对掠夺性陪伴模型持怀疑态度；偏好增强真实关系的Agent。",
+      "scope": "X post and community discussion on AI companionship ethics.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/thequieteconomy/status/2105840190099214674"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-antipattern-proxy-social",
+      "name": "Anti-pattern: digital twin that replies to people on your behalf",
+      "name_zh": "反模式：代你回复别人的数字分身",
+      "url": "https://x.com/psankar/status/2038491139892998319",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "Having AI reply to contacts on your behalf creates terrible first impression - people feel ignored. Transparency matters: if agent contacts someone, they should know it's your agent, not you personally.",
+      "zh": "让AI代你回复联系人会造成糟糕的第一印象——人们感到被忽视。透明度很重要：如果Agent联系某人，他们应知道是你的Agent，而非你本人。",
+      "scope": "X post describing user perception; echoes broader trust concerns.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/psankar/status/2038491139892998319"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-antipattern-morning-brief",
+      "name": "Anti-pattern: generic morning briefing (does not reduce mental load)",
+      "name_zh": "反模式：通用晨间简报（不能减轻精神负担）",
+      "url": "https://x.com/danimarconeuf/status/2092304556113740160",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "Daily briefing texts for family are now common but user reports they don't actually reduce mental load. Information without action is just another thing to process. Better to embed context into existing habits.",
+      "zh": "家庭每日简报短信现已常见但用户报告实际上不能减轻精神负担。没有行动的信息只是另一件需要处理的事。更好的做法是将上下文嵌入现有习惯。",
+      "scope": "X post critiquing common feature; personal experience, not systematic study.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/danimarconeuf/status/2092304556113740160"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "projects-zep",
+      "name": "Zep",
+      "url": "https://github.com/getzep/zep",
+      "category": "component",
+      "en": "Long-term memory store for AI applications with temporal reasoning. Tracks how facts change over time and builds knowledge graphs. Graphiti (also by Zep) scores 71% on LongMemEval. Managed service available separately.",
+      "zh": "AI应用的长期记忆存储，具备时间推理能力。追踪事实如何随时间变化并构建知识图谱。Graphiti（同样由Zep开发）在LongMemEval上得分71%。另有托管服务。",
+      "scope": "GitHub repository and documentation read; Graphiti is separate project at github.com/getzep/graphiti.",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/getzep/zep"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "projects-cognee",
+      "name": "Cognee",
+      "url": "https://github.com/topoteretes/cognee",
+      "category": "component",
+      "en": "Memory and knowledge management framework for AI agents. Structures information into searchable, connected knowledge that agents can reason over. Part of growing agent memory infrastructure ecosystem.",
+      "zh": "AI Agent的记忆与知识管理框架。将信息结构化为Agent可推理的可搜索、互联知识。不断增长的Agent记忆基础设施生态的一部分。",
+      "scope": "GitHub repository and README read; production deployment patterns vary.",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/topoteretes/cognee"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-17"
     }
   ]
 }
