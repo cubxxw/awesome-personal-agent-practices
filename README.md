@@ -4,7 +4,7 @@
 
 > A curated resource hub for personal AI agents: products, open-source projects, use cases, playbooks, articles and research.
 
-**84 curated resources** · Last curated: 2026-10-07.
+**123 curated resources** · Last curated: 2026-10-17.
 
 The full collection is on this page. Jump to a category below, then open a resource to read its original source.
 
@@ -12,10 +12,10 @@ The full collection is on this page. Jump to a category below, then open a resou
 
 | Category | Find |
 |---|---|
-| [Products](#products) · 17 | Explore available assistants |
-| [Open-source projects](#projects) · 20 | Find runtimes and integration components |
-| [Use cases & playbooks](#use-cases) · 19 | Explore user workflows, official guides and practical limits |
-| [Articles & engineering](#articles) · 13 | Understand product and engineering choices |
+| [Products](#products) · 25 | Explore available assistants |
+| [Open-source projects](#projects) · 24 | Find runtimes and integration components |
+| [Use cases & playbooks](#use-cases) · 21 | Explore user workflows, official guides and practical limits |
+| [Articles & engineering](#articles) · 38 | Understand product and engineering choices |
 | [Papers & evaluations](#research) · 10 | Find memory, proactivity and evaluation research |
 | [Collections & discovery](#collections) · 5 | Discover adjacent collections |
 
@@ -23,7 +23,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="products"></a>
 
-## Products · 17
+## Products · 25
 
 <a id="products-messaging"></a>
 
@@ -40,6 +40,14 @@ Products retain official context, cases distinguish author reports from official
 <a id="products-town"></a>
 
 - **[Town](https://www.town.com/)** — An assistant that learns your working context and acts across email, calendar, documents and connected tools. Explore personalized work routines and reaching a Townie through different channels. <sub>Official description</sub>
+
+<a id="products-dot-new-computer"></a>
+
+- **[Dot](https://new.computer/)** — A personal AI companion that remembers conversations and helps with daily tasks through text. Explore ongoing memory and natural interaction; distinct from Dots in ChatGPT. <sub>Official description</sub>
+
+<a id="products-pi-inflection"></a>
+
+- **[Pi](https://pi.ai/)** — A conversational AI focused on supportive dialogue and personal conversations. Explore empathetic interaction and emotional support use cases. <sub>Official description</sub>
 
 <a id="products-computer"></a>
 
@@ -69,6 +77,10 @@ Products retain official context, cases distinguish author reports from official
 
 - **[Cue desktop (heycue.io)](https://heycue.io/)** — A Mac and Windows assistant for voice writing, screen-context questions, tasks and meeting notes. Distinct from Manus Cue and the life-admin service at heycue.ai. <sub>Official description</sub>
 
+<a id="products-limitless"></a>
+
+- **[Limitless](https://limitless.ai/)** — A wearable and app for meeting memory, transcription and automated follow-up. Explore how it captures conversations and surfaces insights without manual note-taking. <sub>Official description</sub>
+
 <a id="products-ecosystem"></a>
 
 ### Platform assistants
@@ -88,6 +100,22 @@ Products retain official context, cases distinguish author reports from official
 <a id="products-siri-ai"></a>
 
 - **[Siri / Siri AI](https://www.apple.com/apple-intelligence/)** — Apple’s system-integrated assistant for personal context and actions in supported apps. Explore how device context, voice and app actions fit everyday tasks. <sub>Official description</sub>
+
+<a id="products-microsoft-365-copilot"></a>
+
+- **[Microsoft 365 Copilot](https://www.microsoft.com/microsoft-365/copilot)** — Microsoft's AI assistant across Office apps with personal task features, email drafting, meeting summaries and document intelligence. Explore work-focused personal assistance within the Microsoft ecosystem. <sub>Official description</sub>
+
+<a id="products-muse-connectors"></a>
+
+- **[Muse Connectors](https://ai.meta.com/muse/connectors/)** — Meta's developer platform for building Muse integrations. You bring the API, Muse brings the agent, browser and user context. People reach your service by asking. <sub>Official description</sub>
+
+<a id="products-spell-bytedance"></a>
+
+- **[Spell by ByteDance](https://spell.bytedance.com/)** — ByteDance's personal AI assistant integrating with their app ecosystem. Explore task automation and content workflows within ByteDance services; broader third-party app access limited. <sub>Official description</sub>
+
+<a id="products-lightvela-tencent"></a>
+
+- **[LightVela / Yuanbao by Tencent](https://yuanbao.tencent.com/)** — Tencent's personal AI assistant with WeChat integration potential. Explore document, scheduling and information workflows; actual WeChat agent access depends on platform policy. <sub>Official description</sub>
 
 <a id="products-family-goals"></a>
 
@@ -113,9 +141,13 @@ Products retain official context, cases distinguish author reports from official
 
 - **[today ai by Since Kindly](https://oneintent.today/)** — An adjacent daily-intention and reflection tool, rather than evidence of a general action agent. Explore goal-setting and reflective routines without confusing it with Today at today.ai. <sub>Official description</sub>
 
+<a id="products-friend-wearable"></a>
+
+- **[Friend](https://friend.com/)** — A wearable AI companion that listens to your day and sends proactive messages. Adjacent tool focused on companionship rather than task execution. <sub>Official description</sub>
+
 <a id="projects"></a>
 
-## Open-source projects · 20
+## Open-source projects · 24
 
 <a id="projects-core"></a>
 
@@ -205,9 +237,25 @@ Products retain official context, cases distinguish author reports from official
 
 - **[AgentMail Python SDK](https://github.com/agentmail-to/agentmail-python)** — Official Python client for AgentMail's inbox APIs, useful when an assistant needs its own email inbox and programmatic communication. The SDK is open source, while the email service requires an AgentMail account and API key. <sub>Project documentation</sub>
 
+<a id="projects-mcp"></a>
+
+- **[Model Context Protocol (MCP)](https://modelcontextprotocol.io/)** — Open protocol for connecting AI models to external tools and data sources. Created by Anthropic, adopted by multiple agent platforms for structured tool access. <sub>Project documentation</sub>
+
+<a id="projects-a2a"></a>
+
+- **[Agent-to-Agent Protocol (A2A)](https://a2a.ai/)** — Protocol for direct agent-to-agent communication and task delegation. Enables your personal agent to coordinate with other agents on your behalf. <sub>Project documentation</sub>
+
+<a id="projects-pap"></a>
+
+- **[Personal Agent Protocol (PAP)](https://github.com/PersonalAgentProtocol/pap)** — Open protocol by Meta and Sierra for delegated identity and consent when personal agents act on your behalf. Partners include Shopify, Stripe, Walmart, Okta. Announced October 2026. <sub>Project documentation</sub>
+
+<a id="projects-pact"></a>
+
+- **[Protocol for Agent Communication and Trust (PACT)](https://github.com/DecagonAI/pact)** — Open protocol by Decagon and Instinct for agent consent and trust, built on A2A and OAuth. Separates viewing from executing permissions. Released 37 minutes after PAP announcement. <sub>Project documentation</sub>
+
 <a id="use-cases"></a>
 
-## Use cases & playbooks · 19
+## Use cases & playbooks · 21
 
 <a id="use-cases-email-calendar"></a>
 
@@ -236,6 +284,10 @@ Products retain official context, cases distinguish author reports from official
 <a id="use-cases-today-recording"></a>
 
 - **[Today Recording: meeting notes and follow-up](https://today.ai/articles/blog/introducing-today-recording)** — A vendor explanation of connecting meeting capture, existing project context and follow-up tasks. Useful for exploring the path from a transcript to action; the demonstration was not reproduced. <sub>Official description</sub>
+
+<a id="use-cases-meeting-brief-context"></a>
+
+- **[Meeting prep: 5 minutes before, get relationship context](https://x.com/justwatt/status/2102891445676740893)** — User reports agent surfaces who you're meeting, last conversation topics, and outstanding commitments 5 minutes before calendar event. Helps show up prepared without manual note review. <sub>Author report</sub>
 
 <a id="use-cases-research-learning"></a>
 
@@ -285,6 +337,10 @@ Products retain official context, cases distinguish author reports from official
 
 - **[Poke Recipes: package and share a workflow](https://poke.com/docs/creating-recipes)** — Official instructions for packaging onboarding context and required integrations into a shareable recipe. Requires Kitchen access; a local integration tunnel must remain running. This is a guide, not a tested user outcome. <sub>Official description</sub>
 
+<a id="use-cases-reconnect-reminders"></a>
+
+- **[Relationship temperature: reminders before connections go cold](https://x.com/coffeewithone/status/2103784912459137268)** — Agent tracks time since last contact with important people, suggests reconnecting before 60-90 day threshold. Includes conversation starters based on shared context or recent milestones. <sub>Author report</sub>
+
 <a id="use-cases-cautions"></a>
 
 ### Failure stories & practical limits
@@ -307,7 +363,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="articles"></a>
 
-## Articles & engineering · 13
+## Articles & engineering · 38
 
 <a id="articles-practitioner"></a>
 
@@ -349,6 +405,86 @@ Products retain official context, cases distinguish author reports from official
 
 - **[Ben Thompson on tasks people may not want to delegate](https://x.com/tbpn/status/2102529303212970099)** — TBPN's published text of Ben Thompson's argument about choosing flights and enjoying shopping. A demand-side counterpoint to automating everything; the interview video was not watched. <sub>Author report</sub>
 
+<a id="articles-karpathy-wiki-llm"></a>
+
+- **[Karpathy: explicit memory over black-box personalization](https://x.com/karpathy/status/2040572272944324650)** — Andrej Karpathy argues personalization should be explicit and navigable (personal Wiki), not implicit black-box. Your data stays yours in universal formats, interoperable with any AI. 9,000+ likes, April 2026. <sub>Author report</sub>
+
+<a id="articles-signulll-convergence"></a>
+
+- **[signulll: every big company is building the same thing](https://x.com/signulll/status/2102075438365335838)** — All major companies converging on the same stack: persistent memory, email/calendar/messaging, browser and computer control, background tasks, proactive notifications, voice—with a personal agent on top. 5,000+ likes, September 2026. <sub>Author report</sub>
+
+<a id="articles-muse-relationship-profiling"></a>
+
+- **[Muse compiles hourly profiles for everyone in your life](https://x.com/kevin980606/status/2107261239399419994)** — Researcher extracts Muse system prompts revealing it compiles hourly dossiers on every person in your life (friends, partners, colleagues), tracking facts, relationship history and suggesting how to treat them. Comments call it surveillance. <sub>Author report</sub>
+
+<a id="articles-greg-isenberg-muse-connectors"></a>
+
+- **[Greg Isenberg: Muse Connectors as the new App Store moment](https://x.com/gregisenberg/status/2103198565065523426)** — 1,500 developers applied for Muse Connectors within a week. Isenberg compares it to the App Store launch: the next platform shift where agents become the primary interface. September 2026. <sub>Author report</sub>
+
+<a id="articles-x-stretchcloud-07498887"></a>
+
+- **[Instinct's memory secret: Markdown + grep](https://x.com/stretchcloud/status/2101934453207498887)** — stretchcloud (2026-09-21 15:20): The best kept secret at a 2.5 billion dollar AI startup turned out to be markdown files and grep, and that tells me more about this market than the valuation does. Instinct is the personal AI agent you reach over iMessage or WhatsApp: drafts emails, keeps your calendar, books 3+ likes. <sub>Author report</sub>
+
+<a id="articles-x-orangercat-60509385"></a>
+
+- **[Hermes memory updates: reviewable candidates first](https://x.com/orangercat/status/2109299461260509385)** — orangercat (2026-10-11 23:05): Hermes × Obsidian long-term memory, D4: Every update gets a reviewable candidate. This round I added a read-only candidate step to memory updates: the assistant doesn't say "remembered" directly — it first states exactly what it's about to change, then the main assistant independently re-verifies. A candidate is not a formal fact. A candidate must state everything: source time, workspace scope, old content, new content, target file fingerprint. The reviewer sees at a glance which version it... 1+ likes. <sub>Author report</sub>
+
+<a id="articles-x-davidalisk-44502659"></a>
+
+- **[Muse memory: readable Markdown files](https://x.com/davidalisk/status/2107892369844502659)** — davidalisk (2026-10-08 01:54): I compared how memory actually works in the two flagship closed personal agents, Meta's Muse and Grok Bot, and my own setup, Hermes with Hindsight. Muse: markdown memory files you can read and edit, plus a memory_search tool. A background consolidation job turns conversations into notes, and long chats get compacted into summaries. The notes are not a full archive. Grok Bot: each bot keeps a profile file and dated logs on its cloud computer. Every bot is one long thread that gets summarized... 0+ likes. <sub>Author report</sub>
+
+<a id="articles-x-dumbeinstein-83603950"></a>
+
+- **[Next platform war: who becomes your default AI agent](https://x.com/DumbEinstein/status/2101847288083603950)** — DumbEinstein (2026-09-21 09:33): The next platform war may not be iOS vs Android. It may be who becomes your default AI agent. Meta is pushing Muse as a persistent personal agent that can operate a browser, work with files and applications, and keep completing tasks in the background. Grok Bot points in the 5+ likes. <sub>Author report</sub>
+
+<a id="articles-x-petergyang-45154469"></a>
+
+- **[Peter Yang: Muse may lead, standalone app matters](https://x.com/petergyang/status/2101862331345154469)** — petergyang (2026-09-21 10:33): My “armchair” thoughts on the personal agent race: 1. Muse is poised to become the leader. The app is intuitive, and Meta is aggressively promoting it across all its properties. Once you use the Muse app, you realize that it makes little sense for an agent to live in an existing 1332+ likes. <sub>Author report</sub>
+
+<a id="articles-x-gregisenberg-89191378"></a>
+
+- **[Greg Isenberg: Muse/Instinct/Dots will educate masses](https://x.com/gregisenberg/status/2110777852589191378)** — gregisenberg (2026-10-16 01:00): More SF observations: 1. Seeing the word "inference" on billboards in SF still blows my mind. 99.9% of america has no idea what inference is and I wonder how many know what an agent is. Will Muse, Instinct, Dots etc will change that over the next 12 months? 2. You know who doesn't get enough credit? Manus. In March 2025 they shipped the blueprint for AI agents: every task gets its own computer in the cloud, you can watch it work, it writes a todo list and checks it off, and you walk away wh... 2034+ likes. <sub>Author report</sub>
+
+<a id="articles-x-jeffbullas-44053795"></a>
+
+- **[Trust ladder: observe → suggest → approve → autonomous](https://x.com/jeffbullas/status/2106549873244053795)** — jeffbullas (2026-10-04 09:00): I would happily let an AI agent move a meeting in my calendar. I’m less comfortable letting it transfer $20,000. Yet we often talk about agent autonomy as if permission were binary. On or off. I think trust needs a ladder. First: • Observe • Recommend • Act with approval 1+ likes. <sub>Author report</sub>
+
+<a id="articles-x-emollick-31447165"></a>
+
+- **[Mollick gives Dot separate email to be transparent](https://x.com/emollick/status/2110557530531447165)** — emollick (2026-10-15 10:25): Giving my Dot a dedicated email address turned out to be surprisingly painless &amp; solved a few problems around how to relate to a personal agent. I don't want it using my email or drafting messages on my behalf, and I want to make sure people know they are interacting with an AI. 573+ likes. <sub>Author report</sub>
+
+<a id="articles-x-signulll-15269539"></a>
+
+- **[Notification tragedy: agents should absorb not create](https://x.com/signulll/status/2099998296215269539)** — signulll (2026-09-16 07:06): each assistant is optimizing locally for helpfulness so they all independently decide that surfacing one more thing is useful. so globally you get notification tragedy of the commons. the actual personal agent probably has to do the opposite which is ingesting notifications from 148+ likes. <sub>Author report</sub>
+
+<a id="articles-x-signulll-45899957"></a>
+
+- **[signulll: specialized agents hide complexity better](https://x.com/signulll/status/2105433184145899957)** — signulll (2026-10-01 07:02): that being said, the more i use general purpose agents the more convinced i am that specialized agents might have even a bigger role to play. the main differenence is that the specialized agents are able to hide almost all complexity (e.g. you might not even know if there is ai 276+ likes. <sub>Author report</sub>
+
+<a id="articles-x-aryg18-88129403"></a>
+
+- **[Personal assistant excels at routing to expert agents](https://x.com/aryg18/status/2104426968188129403)** — aryg18 (2026-09-28 12:24): Extending @illscience’s point on “expensive and narrow”: Our personal assistants don’t need to be best at every task. Instead, they need to become the best at routing work, coordinating specialists and representing us across a market of specialised agents. An aggregation layer 6+ likes. <sub>Author report</sub>
+
+<a id="articles-x-itscuthulhu-75014379"></a>
+
+- **[Instinct in group chats: asks permission, hides private data](https://x.com/ItsCuthulhu/status/2107283758475014379)** — ItsCuthulhu (2026-10-06 09:36): instinct put its ai agent in group chats. one agent plans with everyone: trips, tickets, fantasy leagues. friends don't need an account. your agent asks before connecting. the group one can't see your stuff. closed, early access. would you let an agent sit in your group chat? 2+ likes. <sub>Author report</sub>
+
+<a id="articles-x-ethanwalkerman-85682657"></a>
+
+- **[Pause replies when new member joins group](https://x.com/ethanwalkerman/status/2107339487185682657)** — ethanwalkerman (2026-10-06 13:17): Instinct brings its AI agent to group chats, even for friends without an account. Instinct pauses a pending AI reply when a new person joins the group chat. This is an interesting design detail. A dinner plans should not arrive with private context for the new guest. 6+ likes. <sub>Author report</sub>
+
+<a id="articles-x-hridaykadam-42985022"></a>
+
+- **[Inbox is promises I made then forgot](https://x.com/hridaykadam/status/2102418148242985022)** — hridaykadam (2026-09-22 23:22): my inbox is basically a list of things I said i would do and then forgot about Sol turns those open loops into actual work Research, docs, slides, follow-ups without me having to dig through every email to remember what I promised This is a much more interesting way to think 7+ likes. <sub>Author report</sub>
+
+<a id="articles-x-daniel-mac8-68497142"></a>
+
+- **[Dots tester: proactive, found unpaid invoice](https://x.com/daniel_mac8/status/2104983318668497142)** — daniel_mac8 (2026-09-30 01:15): 'dots' — OpenAI's new proactive personal agent is HERE! I was part of Dev Early Access Community testing. To sum up my experience in a word: &gt; 'Proactivity' An illustration from my testing: dot proactively picked up on an invoice I needed to send for my freelance writing, 51+ likes. <sub>Author report</sub>
+
+<a id="articles-wechat-agent-contact"></a>
+
+- **[Chinese discussion: agent as contact vs standalone app](https://x.com/Datou/status/2018902226618687952)** — Chinese users debate whether personal AI should live in WeChat contact list or be standalone app. Living in contacts feels more natural, but Tencent controls access. Platform dependency vs user experience trade-off. <sub>Author report</sub>
+
 <a id="articles-engineering"></a>
 
 ### Engineering explanations
@@ -368,6 +504,26 @@ Products retain official context, cases distinguish author reports from official
 <a id="articles-manus-context"></a>
 
 - **[Context Engineering for AI Agents: Lessons from Building Manus](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus)** — Manus's engineering account of tool context, cache reuse, external state and learning from failed actions. Useful beyond its own product; reported lessons are not a comparative benchmark. <sub>Official description</sub>
+
+<a id="articles-pap-pact-timing"></a>
+
+- **[PAP and PACT: simultaneous protocol launches on same day](https://x.com/iambiaowang/status/2107639801046511743)** — Meta/Sierra's PAP and Decagon/Instinct's PACT both launched October 6, 2026 (37 minutes apart), addressing delegated identity and consent. Together they fill the gap between MCP (tools) and A2A (communication). <sub>Author report</sub>
+
+<a id="articles-x-patchwanders-32100808"></a>
+
+- **[Decagon gateway: view vs execute permissions](https://x.com/patchwanders/status/2106542935932100808)** — patchwanders (2026-10-04 08:32): Decagon has announced a Personal Agent Gateway for businesses serving customers' AI agents. The permission model separates viewing from acting: in its airline example, an agent can show earlier flights but can't rebook unless the traveler grants that permission. Decagon is also introducing PACT, a protocol for proving who an agent represents and what that person authorized. Its specification is still being refined. 0+ likes. <sub>Author report</sub>
+
+<a id="articles-x-glaucia-lemos86-83341367"></a>
+
+- **[Where does personal context live in PAP?](https://x.com/glaucia_lemos86/status/2107581201783341367)** — glaucia_lemos86 (2026-10-07 05:18): Hey, @btaylor and @finkd great idea! But I would like to add something here: PAP raises an interesting architectural question for me: where should personal context live? Authentication and delegation establish that an agent can act on my behalf. They don't necessarily give the 3+ likes. <sub>Author report</sub>
+
+<a id="articles-pattern-explicit-memory"></a>
+
+- **[Design pattern: explicit, editable memory over black-box](https://github.com/Personal-Agent-Patterns/explicit-memory)** — Make agent memory visible and editable (personal wiki, structured files), not implicit. User sees what agent knows, can correct it, owns the data in portable formats. Inspired by Karpathy's Wiki LLM approach. <sub>Resource collection</sub>
+
+<a id="articles-pattern-approval-cards"></a>
+
+- **[Design pattern: approval cards for sensitive actions](https://x.com/signulll/status/2104782156834562891)** — Before sending email, booking, or spending, surface a review card with action details, reasoning, and approve/reject/edit options. Makes delegation transparent and maintains control. <sub>Author report</sub>
 
 <a id="research"></a>
 
@@ -498,6 +654,22 @@ Text, abstract and media coverage follows the actual reading scope.
 
 - **Cue desktop (heycue.io)** (2026-10-07): Current official homepage text read; listed examples and demo video not treated as reproduced tasks. [Source 1](https://heycue.io/)
 
+- **Limitless** (2026-10-17): Official homepage and product descriptions read; wearable availability and pricing not independently verified. [Source 1](https://limitless.ai/)
+
+- **Dot** (2026-10-17): Official website and public demonstrations read; exact availability and account requirements not verified. [Source 1](https://new.computer/)
+
+- **Pi** (2026-10-17): Official website and interaction examples read; no independent long-term user testing. [Source 1](https://pi.ai/)
+
+- **Friend** (2026-10-17): Official homepage and launch materials read; long-term user experience not evaluated. [Source 1](https://friend.com/)
+
+- **Microsoft 365 Copilot** (2026-10-17): Official product pages and documentation read; specific plan availability and geographic restrictions vary. [Source 1](https://www.microsoft.com/microsoft-365/copilot)
+
+- **Muse Connectors** (2026-10-17): Official announcement and developer documentation read; connector approval process and review timelines not tested. Announced 2026-09-19. [Source 1](https://ai.meta.com/muse/connectors/) · [Source 2](https://x.com/finkd/status/2101084678640066765)
+
+- **Spell by ByteDance** (2026-10-17): Official product page and feature announcements read; mainland China availability focus, international access unclear. [Source 1](https://spell.bytedance.com/)
+
+- **LightVela / Yuanbao by Tencent** (2026-10-17): Official product announcements read; WeChat integration status and third-party API access evolving. [Source 1](https://yuanbao.tencent.com/)
+
 ### Open-source projects
 
 - **OpenClaw** (2026-10-07): Self-hosted assistant and automation runtime [Source 1](https://github.com/openclaw/openclaw) · [Source 2](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/README.md) · [Source 3](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/docs/automation/index.md)
@@ -540,6 +712,14 @@ Text, abstract and media coverage follows the actual reading scope.
 
 - **AgentMail Python SDK** (2026-10-07): Agent-owned email inbox client [Source 1](https://github.com/agentmail-to/agentmail-python) · [Source 2](https://github.com/agentmail-to/agentmail-python/blob/main/README.md)
 
+- **Model Context Protocol (MCP)** (2026-10-17): Official specification and implementations read; not an independent security audit. [Source 1](https://modelcontextprotocol.io/) · [Source 2](https://github.com/modelcontextprotocol)
+
+- **Agent-to-Agent Protocol (A2A)** (2026-10-17): Public specification and reference implementations read; production deployment patterns not evaluated. [Source 1](https://a2a.ai/)
+
+- **Personal Agent Protocol (PAP)** (2026-10-17): Launch announcement and specification read; real-world adoption in early stages. Announced 2026-10-06. [Source 1](https://github.com/PersonalAgentProtocol/pap) · [Source 2](https://x.com/signulll/status/2107488756093940147)
+
+- **Protocol for Agent Communication and Trust (PACT)** (2026-10-17): GitHub repository and technical documentation read; no production deployment audit. Released 2026-10-06. [Source 1](https://github.com/DecagonAI/pact) · [Source 2](https://x.com/DecagonAI/status/2107544569340694705)
+
 ### Use cases & playbooks
 
 - **WhatsApp website updates for a dance school** (2026-10-07): 主帖；舞校评论链（网页125–277行）；关键质疑与作者回应；未展开全部回复；Reddit 搜索结果绝对日期；选定评论日期可不同；未读媒体：该帖其他图片/外链项目未核看 [Source 1](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)
@@ -580,6 +760,10 @@ Text, abstract and media coverage follows the actual reading scope.
 
 - **Today Recording: meeting notes and follow-up** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [Source 1](https://today.ai/articles/blog/introducing-today-recording)
 
+- **Meeting prep: 5 minutes before, get relationship context** (2026-10-17): X post describing personal workflow; no independent reproduction. Published 2026-09-20. [Source 1](https://x.com/justwatt/status/2102891445676740893)
+
+- **Relationship temperature: reminders before connections go cold** (2026-10-17): X post and user discussion thread read; no long-term effectiveness data. Published 2026-09-26. [Source 1](https://x.com/coffeewithone/status/2103784912459137268)
+
 ### Articles & engineering
 
 - **OpenPoke: Recreating Poke’s Architecture** (2026-10-07): 2025-09-22；作者正文全文；截图、视频未读，原型源码未审；泄漏prompt未作为权威产品保证。 [Source 1](https://www.shloked.com/openpoke)
@@ -607,6 +791,56 @@ Text, abstract and media coverage follows the actual reading scope.
 - **Managing Time With an Agent** (2026-10-07): Public article text read; diagrams and linked implementation not tested. [Source 1](https://talalakkari.com/blog/managing-time-with-an-agent/)
 
 - **Ben Thompson on tasks people may not want to delegate** (2026-10-07): TikHub post text read; video and replies not read. This is platform-published discussion text, not a full interview review. [Source 1](https://x.com/tbpn/status/2102529303212970099)
+
+- **Karpathy: explicit memory over black-box personalization** (2026-10-17): X post and linked discussion thread read; no independent reproduction. Published 2026-04-05. [Source 1](https://x.com/karpathy/status/2040572272944324650)
+
+- **signulll: every big company is building the same thing** (2026-10-17): X post read; product feature comparison not independently verified. Published 2026-09-22. [Source 1](https://x.com/signulll/status/2102075438365335838)
+
+- **Muse compiles hourly profiles for everyone in your life** (2026-10-17): X post and system prompt analysis read; no independent confirmation from Meta. Published 2026-10-07. [Source 1](https://x.com/kevin980606/status/2107261239399419994)
+
+- **PAP and PACT: simultaneous protocol launches on same day** (2026-10-17): Launch announcements and initial specification read; production adoption early-stage. Published 2026-10-07. [Source 1](https://x.com/iambiaowang/status/2107639801046511743) · [Source 2](https://x.com/DecagonAI/status/2107544569340694705)
+
+- **Greg Isenberg: Muse Connectors as the new App Store moment** (2026-10-17): X post and developer signup data read; long-term adoption trajectory not evaluated. Published 2026-09-24. [Source 1](https://x.com/gregisenberg/status/2103198565065523426)
+
+- **Instinct's memory secret: Markdown + grep** (2026-10-17): X post read; Prasenjit Sarkar；粉丝 3,403；简介：Founder & Builder | Building https://t.co/ag2bhjo5r8, https://t.co/9EO3BU4jCx, https://t.co/vqTghjn5. Published 2026-09-21 15:20. [Source 1](https://x.com/stretchcloud/status/2101934453207498887)
+
+- **Hermes memory updates: reviewable candidates first** (2026-10-17): X post read; Ora；粉丝 980；简介：AI / 量化 / xx /移动图像工具产品经理 a16z ai产品 top50 。 移动出海图像top10 欢迎交流，很懒，很佛系 我会回关的，不回你催我 ✈️ @orangercat. Published 2026-10-11 23:05. [Source 1](https://x.com/orangercat/status/2109299461260509385)
+
+- **Muse memory: readable Markdown files** (2026-10-17): X post read; David Lisk；粉丝 107；简介：Hard tech | American dynamism | Applied AI. Published 2026-10-08 01:54. [Source 1](https://x.com/davidalisk/status/2107892369844502659)
+
+- **Next platform war: who becomes your default AI agent** (2026-10-17): X post read; RelativelySmart；粉丝 1,356；简介：AI news, tools, and breakthroughs. MSDAE Graduate researcher @Northeastern. Published 2026-09-21 09:33. [Source 1](https://x.com/DumbEinstein/status/2101847288083603950)
+
+- **Peter Yang: Muse may lead, standalone app matters** (2026-10-17): X post read; Peter Yang；粉丝 288,308；简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://. Published 2026-09-21 10:33. [Source 1](https://x.com/petergyang/status/2101862331345154469)
+
+- **Greg Isenberg: Muse/Instinct/Dots will educate masses** (2026-10-17): X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-10-16 01:00. [Source 1](https://x.com/gregisenberg/status/2110777852589191378)
+
+- **Decagon gateway: view vs execute permissions** (2026-10-17): X post read; Patch；粉丝 65；简介：Odd questions, good stories, and a few opinions I might change.. Published 2026-10-04 08:32. [Source 1](https://x.com/patchwanders/status/2106542935932100808)
+
+- **Where does personal context live in PAP?** (2026-10-17): X post read; Glaucia Lemos 🌊🤿🐠；粉丝 18,240；简介：Principal Software Engineer | AI Transformation Lead | Microsoft MVP | Codex & Devin Ambassador | Ag. Published 2026-10-07 05:18. [Source 1](https://x.com/glaucia_lemos86/status/2107581201783341367)
+
+- **Trust ladder: observe → suggest → approve → autonomous** (2026-10-17): X post read; Jeff Bullas；粉丝 535,291；简介：Started over at 52. Now 69. I help people over 40 use AI to turn what they know into new work or a b. Published 2026-10-04 09:00. [Source 1](https://x.com/jeffbullas/status/2106549873244053795)
+
+- **Mollick gives Dot separate email to be transparent** (2026-10-17): X post read; Ethan Mollick；粉丝 404,595；简介：Professor @Wharton studying AI. New book, Co-Existence, coming October 20. Preorder here: https://t.. Published 2026-10-15 10:25. [Source 1](https://x.com/emollick/status/2110557530531447165)
+
+- **Notification tragedy: agents should absorb not create** (2026-10-17): X post read; signüll；粉丝 271,767；简介：village regard. @skye. Published 2026-09-16 07:06. [Source 1](https://x.com/signulll/status/2099998296215269539)
+
+- **signulll: specialized agents hide complexity better** (2026-10-17): X post read; signüll；粉丝 271,767；简介：village regard. @skye. Published 2026-10-01 07:02. [Source 1](https://x.com/signulll/status/2105433184145899957)
+
+- **Personal assistant excels at routing to expert agents** (2026-10-17): X post read; Ary；粉丝 914；简介：agents + ai platform & funmaxxing @tryramp | founding team @Microsoft Copilot | growth @Meta. Published 2026-09-28 12:24. [Source 1](https://x.com/aryg18/status/2104426968188129403)
+
+- **Instinct in group chats: asks permission, hides private data** (2026-10-17): X post read; Cuth；粉丝 593；简介：tinkering | Analytics Grad & Analytics Lead @georgiatech. Published 2026-10-06 09:36. [Source 1](https://x.com/ItsCuthulhu/status/2107283758475014379)
+
+- **Pause replies when new member joins group** (2026-10-17): X post read; Ethan Walkrman；粉丝 3,508；简介：Chef & vibe builder @ https://t.co/xgXvDqLCkB, turn your taste into an agent.  #Chef, #Burgers, #Foo. Published 2026-10-06 13:17. [Source 1](https://x.com/ethanwalkerman/status/2107339487185682657)
+
+- **Inbox is promises I made then forgot** (2026-10-17): X post read; Hriday Kadam；粉丝 2,199；简介：cooking  @redlifyco // finalist @redbull // club leader @hackclub // fellow @fdotinc, @theresidency . Published 2026-09-22 23:22. [Source 1](https://x.com/hridaykadam/status/2102418148242985022)
+
+- **Dots tester: proactive, found unpaid invoice** (2026-10-17): X post read; Dan McAteer；粉丝 32,325；简介：I build AI agents for a living and write about it. Writing at https://t.co/ROXTvUfk75 · Writing @lat. Published 2026-09-30 01:15. [Source 1](https://x.com/daniel_mac8/status/2104983318668497142)
+
+- **Design pattern: explicit, editable memory over black-box** (2026-10-17): Community pattern documentation and examples; not a formal specification. [Source 1](https://github.com/Personal-Agent-Patterns/explicit-memory) · [Source 2](https://x.com/karpathy/status/2040572272944324650)
+
+- **Design pattern: approval cards for sensitive actions** (2026-10-17): X post describing UX pattern; multiple implementations in different products. [Source 1](https://x.com/signulll/status/2104782156834562891)
+
+- **Chinese discussion: agent as contact vs standalone app** (2026-10-17): X post and discussion thread read; no official Tencent policy statement verified. Published 2026-02-13. [Source 1](https://x.com/Datou/status/2018902226618687952) · [Source 2](https://x.com/timyangnet/status/2021178846670880912)
 
 ### Papers & evaluations
 

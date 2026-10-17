@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-07",
+  "checked_on": "2026-10-17",
   "resources": [
     {
       "id": "products-today-ai",
@@ -1270,6 +1270,628 @@
       "evidence": "official",
       "source_urls": [],
       "checked_on": "2026-10-07"
+    },
+    {
+      "id": "products-limitless",
+      "name": "Limitless",
+      "url": "https://limitless.ai/",
+      "category": "computer",
+      "en": "A wearable and app for meeting memory, transcription and automated follow-up. Explore how it captures conversations and surfaces insights without manual note-taking.",
+      "zh": "专注会议记忆、转录与自动跟进的可穿戴设备加应用，适合关注自动捕捉对话并提炼洞察的场景。",
+      "scope": "Official homepage and product descriptions read; wearable availability and pricing not independently verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://limitless.ai/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "products-dot-new-computer",
+      "name": "Dot",
+      "url": "https://new.computer/",
+      "category": "messaging",
+      "en": "A personal AI companion that remembers conversations and helps with daily tasks through text. Explore ongoing memory and natural interaction; distinct from Dots in ChatGPT.",
+      "zh": "通过文本交流并记住对话的个人AI伙伴，适合关注持续记忆与自然互动；与ChatGPT中的Dots不同。",
+      "scope": "Official website and public demonstrations read; exact availability and account requirements not verified.",
+      "evidence": "official",
+      "source_urls": [
+        "https://new.computer/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "products-pi-inflection",
+      "name": "Pi",
+      "url": "https://pi.ai/",
+      "category": "messaging",
+      "en": "A conversational AI focused on supportive dialogue and personal conversations. Explore empathetic interaction and emotional support use cases.",
+      "zh": "专注支持性对话与个人交流的对话AI，适合关注共情互动与情感支持场景。",
+      "scope": "Official website and interaction examples read; no independent long-term user testing.",
+      "evidence": "official",
+      "source_urls": [
+        "https://pi.ai/"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "products-friend-wearable",
+      "name": "Friend",
+      "url": "https://friend.com/",
+      "category": "adjacent",
+      "en": "A wearable AI companion that listens to your day and sends proactive messages. Adjacent tool focused on companionship rather than task execution.",
+      "zh": "监听日常并主动发消息的可穿戴AI伙伴。邻近工具，专注陪伴而非任务执行。",
+      "scope": "Official homepage and launch materials read; long-term user experience not evaluated.",
+      "evidence": "official",
+      "source_urls": [
+        "https://friend.com/"
+      ],
+      "section": "products",
+      "adjacent": true,
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "products-microsoft-365-copilot",
+      "name": "Microsoft 365 Copilot",
+      "url": "https://www.microsoft.com/microsoft-365/copilot",
+      "category": "ecosystem",
+      "en": "Microsoft's AI assistant across Office apps with personal task features, email drafting, meeting summaries and document intelligence. Explore work-focused personal assistance within the Microsoft ecosystem.",
+      "zh": "微软跨Office应用的AI助理，具备个人任务功能、邮件起草、会议摘要与文档智能，适合关注微软生态内的工作导向个人辅助。",
+      "scope": "Official product pages and documentation read; specific plan availability and geographic restrictions vary.",
+      "evidence": "official",
+      "source_urls": [
+        "https://www.microsoft.com/microsoft-365/copilot"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "products-muse-connectors",
+      "name": "Muse Connectors",
+      "url": "https://ai.meta.com/muse/connectors/",
+      "category": "ecosystem",
+      "en": "Meta's developer platform for building Muse integrations. You bring the API, Muse brings the agent, browser and user context. People reach your service by asking.",
+      "zh": "Meta的Muse集成开发者平台。你提供API，Muse提供Agent、浏览器和用户上下文，用户开口即可触达服务。",
+      "scope": "Official announcement and developer documentation read; connector approval process and review timelines not tested. Announced 2026-09-19.",
+      "evidence": "official",
+      "source_urls": [
+        "https://ai.meta.com/muse/connectors/",
+        "https://x.com/finkd/status/2101084678640066765"
+      ],
+      "section": "products",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "projects-mcp",
+      "name": "Model Context Protocol (MCP)",
+      "url": "https://modelcontextprotocol.io/",
+      "category": "component",
+      "en": "Open protocol for connecting AI models to external tools and data sources. Created by Anthropic, adopted by multiple agent platforms for structured tool access.",
+      "zh": "连接AI模型与外部工具及数据源的开放协议。由Anthropic创建，被多个Agent平台采用以实现结构化工具访问。",
+      "scope": "Official specification and implementations read; not an independent security audit.",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://modelcontextprotocol.io/",
+        "https://github.com/modelcontextprotocol"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "projects-a2a",
+      "name": "Agent-to-Agent Protocol (A2A)",
+      "url": "https://a2a.ai/",
+      "category": "component",
+      "en": "Protocol for direct agent-to-agent communication and task delegation. Enables your personal agent to coordinate with other agents on your behalf.",
+      "zh": "Agent间直接通信与任务委托的协议。使你的个人Agent能代表你与其他Agent协调。",
+      "scope": "Public specification and reference implementations read; production deployment patterns not evaluated.",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://a2a.ai/"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "projects-pap",
+      "name": "Personal Agent Protocol (PAP)",
+      "url": "https://github.com/PersonalAgentProtocol/pap",
+      "category": "component",
+      "en": "Open protocol by Meta and Sierra for delegated identity and consent when personal agents act on your behalf. Partners include Shopify, Stripe, Walmart, Okta. Announced October 2026.",
+      "zh": "Meta与Sierra推出的开放协议，用于个人Agent代表你行动时的委托身份与同意管理。合作方包括Shopify、Stripe、Walmart、Okta。2026年10月发布。",
+      "scope": "Launch announcement and specification read; real-world adoption in early stages. Announced 2026-10-06.",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/PersonalAgentProtocol/pap",
+        "https://x.com/signulll/status/2107488756093940147"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "projects-pact",
+      "name": "Protocol for Agent Communication and Trust (PACT)",
+      "url": "https://github.com/DecagonAI/pact",
+      "category": "component",
+      "en": "Open protocol by Decagon and Instinct for agent consent and trust, built on A2A and OAuth. Separates viewing from executing permissions. Released 37 minutes after PAP announcement.",
+      "zh": "Decagon与Instinct推出的Agent同意与信任开放协议，基于A2A与OAuth。将查看权限与执行权限分离。PAP发布37分钟后发布。",
+      "scope": "GitHub repository and technical documentation read; no production deployment audit. Released 2026-10-06.",
+      "evidence": "open-source",
+      "source_urls": [
+        "https://github.com/DecagonAI/pact",
+        "https://x.com/DecagonAI/status/2107544569340694705"
+      ],
+      "section": "projects",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-karpathy-wiki-llm",
+      "name": "Karpathy: explicit memory over black-box personalization",
+      "url": "https://x.com/karpathy/status/2040572272944324650",
+      "category": "practitioner",
+      "en": "Andrej Karpathy argues personalization should be explicit and navigable (personal Wiki), not implicit black-box. Your data stays yours in universal formats, interoperable with any AI. 9,000+ likes, April 2026.",
+      "zh": "Karpathy论证个性化应做成显式、可浏览的记忆工件（个人Wiki），而非\"越用越懂你\"的黑箱。数据以通用格式保存，可与任何AI互操作。9,000+赞，2026年4月。",
+      "scope": "X post and linked discussion thread read; no independent reproduction. Published 2026-04-05.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/karpathy/status/2040572272944324650"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17",
+      "name_zh": "Karpathy：显式记忆胜过黑箱个性化"
+    },
+    {
+      "id": "articles-signulll-convergence",
+      "name": "signulll: every big company is building the same thing",
+      "url": "https://x.com/signulll/status/2102075438365335838",
+      "category": "practitioner",
+      "en": "All major companies converging on the same stack: persistent memory, email/calendar/messaging, browser and computer control, background tasks, proactive notifications, voice—with a personal agent on top. 5,000+ likes, September 2026.",
+      "zh": "各大公司趋同于同一套技术栈：持久记忆、邮件日历消息、浏览器与电脑操作、后台任务、主动通知、语音——上面坐一个个人Agent。5,000+赞，2026年9月。",
+      "scope": "X post read; product feature comparison not independently verified. Published 2026-09-22.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/signulll/status/2102075438365335838"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17",
+      "name_zh": "signulll：大厂都在做同样的东西"
+    },
+    {
+      "id": "articles-muse-relationship-profiling",
+      "name": "Muse compiles hourly profiles for everyone in your life",
+      "url": "https://x.com/kevin980606/status/2107261239399419994",
+      "category": "practitioner",
+      "en": "Researcher extracts Muse system prompts revealing it compiles hourly dossiers on every person in your life (friends, partners, colleagues), tracking facts, relationship history and suggesting how to treat them. Comments call it surveillance.",
+      "zh": "研究者提取Muse系统提示，发现它每小时为你生活中的每个人（朋友、伴侣、同事）编译档案，记录事实、关系历史并建议如何对待他们。评论区称之为监控。",
+      "scope": "X post and system prompt analysis read; no independent confirmation from Meta. Published 2026-10-07.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/kevin980606/status/2107261239399419994"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17",
+      "name_zh": "Muse每小时为你的熟人编档案"
+    },
+    {
+      "id": "articles-pap-pact-timing",
+      "name": "PAP and PACT: simultaneous protocol launches on same day",
+      "url": "https://x.com/iambiaowang/status/2107639801046511743",
+      "category": "engineering",
+      "en": "Meta/Sierra's PAP and Decagon/Instinct's PACT both launched October 6, 2026 (37 minutes apart), addressing delegated identity and consent. Together they fill the gap between MCP (tools) and A2A (communication).",
+      "zh": "Meta/Sierra的PAP与Decagon/Instinct的PACT均于2026年10月6日发布（相隔37分钟），解决委托身份与同意问题。它们共同填补了MCP（工具）与A2A（通信）之间的缺失层。",
+      "scope": "Launch announcements and initial specification read; production adoption early-stage. Published 2026-10-07.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/iambiaowang/status/2107639801046511743",
+        "https://x.com/DecagonAI/status/2107544569340694705"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17",
+      "name_zh": "PAP与PACT：同日发布的两个协议"
+    },
+    {
+      "id": "articles-greg-isenberg-muse-connectors",
+      "name": "Greg Isenberg: Muse Connectors as the new App Store moment",
+      "url": "https://x.com/gregisenberg/status/2103198565065523426",
+      "category": "practitioner",
+      "en": "1,500 developers applied for Muse Connectors within a week. Isenberg compares it to the App Store launch: the next platform shift where agents become the primary interface. September 2026.",
+      "zh": "Muse Connectors一周内1,500名开发者申请。Isenberg将其比作App Store上线：下一个平台迁移，Agent成为主要界面。2026年9月。",
+      "scope": "X post and developer signup data read; long-term adoption trajectory not evaluated. Published 2026-09-24.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2103198565065523426"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17",
+      "name_zh": "Greg Isenberg：Muse Connectors如同App Store时刻"
+    },
+    {
+      "id": "articles-x-stretchcloud-07498887",
+      "name": "Instinct's memory secret: Markdown + grep",
+      "name_zh": "Instinct的记忆秘密：Markdown加grep",
+      "url": "https://x.com/stretchcloud/status/2101934453207498887",
+      "category": "practitioner",
+      "en": "stretchcloud (2026-09-21 15:20): The best kept secret at a 2.5 billion dollar AI startup turned out to be markdown files and grep, and that tells me more about this market than the valuation does. Instinct is the personal AI agent you reach over iMessage or WhatsApp: drafts emails, keeps your calendar, books 3+ likes.",
+      "zh": "stretchcloud（2026-09-21 15:20）：25 亿美元的 Instinct 最大秘密是 Markdown 文件+grep：个人 Agent 的记忆实现很朴素 3+赞。",
+      "scope": "X post read; Prasenjit Sarkar；粉丝 3,403；简介：Founder & Builder | Building https://t.co/ag2bhjo5r8, https://t.co/9EO3BU4jCx, https://t.co/vqTghjn5. Published 2026-09-21 15:20.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/stretchcloud/status/2101934453207498887"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-orangercat-60509385",
+      "name": "Hermes memory updates: reviewable candidates first",
+      "name_zh": "Hermes记忆更新：先给可审查候选",
+      "url": "https://x.com/orangercat/status/2109299461260509385",
+      "category": "practitioner",
+      "en": "orangercat (2026-10-11 23:05): Hermes × Obsidian long-term memory, D4: Every update gets a reviewable candidate. This round I added a read-only candidate step to memory updates: the assistant doesn't say \"remembered\" directly — it first states exactly what it's about to change, then the main assistant independently re-verifies. A candidate is not a formal fact. A candidate must state everything: source time, workspace scope, old content, new content, target file fingerprint. The reviewer sees at a glance which version it... 1+ likes.",
+      "zh": "orangercat（2026-10-11 23:05）：Hermes×Obsidian：记忆更新先给出可审查候选，说明要改什么再复核，不直接“记住了” 1+赞。",
+      "scope": "X post read; Ora；粉丝 980；简介：AI / 量化 / xx /移动图像工具产品经理 a16z ai产品 top50 。 移动出海图像top10 欢迎交流，很懒，很佛系 我会回关的，不回你催我 ✈️ @orangercat. Published 2026-10-11 23:05.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/orangercat/status/2109299461260509385"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-davidalisk-44502659",
+      "name": "Muse memory: readable Markdown files",
+      "name_zh": "Muse记忆：可读写的Markdown",
+      "url": "https://x.com/davidalisk/status/2107892369844502659",
+      "category": "practitioner",
+      "en": "davidalisk (2026-10-08 01:54): I compared how memory actually works in the two flagship closed personal agents, Meta's Muse and Grok Bot, and my own setup, Hermes with Hindsight. Muse: markdown memory files you can read and edit, plus a memory_search tool. A background consolidation job turns conversations into notes, and long chats get compacted into summaries. The notes are not a full archive. Grok Bot: each bot keeps a profile file and dated logs on its cloud computer. Every bot is one long thread that gets summarized... 0+ likes.",
+      "zh": "davidalisk（2026-10-08 01:54）：对比 Muse/Grok Bot/Hermes 记忆：Muse 是可读写 Markdown 记忆+后台整合 0+赞。",
+      "scope": "X post read; David Lisk；粉丝 107；简介：Hard tech | American dynamism | Applied AI. Published 2026-10-08 01:54.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/davidalisk/status/2107892369844502659"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-dumbeinstein-83603950",
+      "name": "Next platform war: who becomes your default AI agent",
+      "name_zh": "下一场平台战争：谁成为默认Agent",
+      "url": "https://x.com/DumbEinstein/status/2101847288083603950",
+      "category": "practitioner",
+      "en": "DumbEinstein (2026-09-21 09:33): The next platform war may not be iOS vs Android. It may be who becomes your default AI agent. Meta is pushing Muse as a persistent personal agent that can operate a browser, work with files and applications, and keep completing tasks in the background. Grok Bot points in the 5+ likes.",
+      "zh": "DumbEinstein（2026-09-21 09:33）：下一场平台战争可能不是 iOS vs Android，而是谁成为你的默认 AI Agent 5+赞。",
+      "scope": "X post read; RelativelySmart；粉丝 1,356；简介：AI news, tools, and breakthroughs. MSDAE Graduate researcher @Northeastern. Published 2026-09-21 09:33.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/DumbEinstein/status/2101847288083603950"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-petergyang-45154469",
+      "name": "Peter Yang: Muse may lead, standalone app matters",
+      "name_zh": "Peter Yang：Muse有望领跑，独立App意义重大",
+      "url": "https://x.com/petergyang/status/2101862331345154469",
+      "category": "practitioner",
+      "en": "petergyang (2026-09-21 10:33): My “armchair” thoughts on the personal agent race: 1. Muse is poised to become the leader. The app is intuitive, and Meta is aggressively promoting it across all its properties. Once you use the Muse app, you realize that it makes little sense for an agent to live in an existing 1332+ likes.",
+      "zh": "petergyang（2026-09-21 10:33）：Peter Yang：Muse 有望领跑，Agent 寄居在现有 App 里意义不大，独立 App+Meta 分发 1332+赞。",
+      "scope": "X post read; Peter Yang；粉丝 288,308；简介：Practical AI tutorials and interviews for busy people | Get my best AI skills and guides at https://. Published 2026-09-21 10:33.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/petergyang/status/2101862331345154469"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-gregisenberg-89191378",
+      "name": "Greg Isenberg: Muse/Instinct/Dots will educate masses",
+      "name_zh": "Greg Isenberg：三款产品将教育大众",
+      "url": "https://x.com/gregisenberg/status/2110777852589191378",
+      "category": "practitioner",
+      "en": "gregisenberg (2026-10-16 01:00): More SF observations: 1. Seeing the word \"inference\" on billboards in SF still blows my mind. 99.9% of america has no idea what inference is and I wonder how many know what an agent is. Will Muse, Instinct, Dots etc will change that over the next 12 months? 2. You know who doesn't get enough credit? Manus. In March 2025 they shipped the blueprint for AI agents: every task gets its own computer in the cloud, you can watch it work, it writes a todo list and checks it off, and you walk away wh... 2034+ likes.",
+      "zh": "gregisenberg（2026-10-16 01:00）：SF 观察：Muse、Instinct、Dots 将在 12 个月内让大众理解什么是 Agent 2034+赞。",
+      "scope": "X post read; GREG ISENBERG；粉丝 740,710；简介：I drop startup ideas daily. Host @startupideaspod. CEO: @latecheckoutplz we build companies like @id. Published 2026-10-16 01:00.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/gregisenberg/status/2110777852589191378"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-patchwanders-32100808",
+      "name": "Decagon gateway: view vs execute permissions",
+      "name_zh": "Decagon网关：查看与执行权限分离",
+      "url": "https://x.com/patchwanders/status/2106542935932100808",
+      "category": "engineering",
+      "en": "patchwanders (2026-10-04 08:32): Decagon has announced a Personal Agent Gateway for businesses serving customers' AI agents. The permission model separates viewing from acting: in its airline example, an agent can show earlier flights but can't rebook unless the traveler grants that permission. Decagon is also introducing PACT, a protocol for proving who an agent represents and what that person authorized. Its specification is still being refined. 0+ likes.",
+      "zh": "patchwanders（2026-10-04 08:32）：Decagon 个人 Agent 网关权限模型：查看与执行分离，可查看更早航班但需旅客授权才能改签 0+赞。",
+      "scope": "X post read; Patch；粉丝 65；简介：Odd questions, good stories, and a few opinions I might change.. Published 2026-10-04 08:32.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/patchwanders/status/2106542935932100808"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-glaucia-lemos86-83341367",
+      "name": "Where does personal context live in PAP?",
+      "name_zh": "PAP解决了Agent能代表我，但个人上下文存哪儿？",
+      "url": "https://x.com/glaucia_lemos86/status/2107581201783341367",
+      "category": "engineering",
+      "en": "glaucia_lemos86 (2026-10-07 05:18): Hey, @btaylor and @finkd great idea! But I would like to add something here: PAP raises an interesting architectural question for me: where should personal context live? Authentication and delegation establish that an agent can act on my behalf. They don't necessarily give the 3+ likes.",
+      "zh": "glaucia_lemos86（2026-10-07 05:18）：PAP 引出架构问题：个人上下文该存在哪？认证委托≠拥有上下文 3+赞。",
+      "scope": "X post read; Glaucia Lemos 🌊🤿🐠；粉丝 18,240；简介：Principal Software Engineer | AI Transformation Lead | Microsoft MVP | Codex & Devin Ambassador | Ag. Published 2026-10-07 05:18.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/glaucia_lemos86/status/2107581201783341367"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-jeffbullas-44053795",
+      "name": "Trust ladder: observe → suggest → approve → autonomous",
+      "name_zh": "信任阶梯：观察到建议到批准到自主",
+      "url": "https://x.com/jeffbullas/status/2106549873244053795",
+      "category": "practitioner",
+      "en": "jeffbullas (2026-10-04 09:00): I would happily let an AI agent move a meeting in my calendar. I’m less comfortable letting it transfer $20,000. Yet we often talk about agent autonomy as if permission were binary. On or off. I think trust needs a ladder. First: • Observe • Recommend • Act with approval 1+ likes.",
+      "zh": "jeffbullas（2026-10-04 09:00）：信任需要阶梯：观察→建议→经批准执行→……；挪日程可以，转 2 万不行 1+赞。",
+      "scope": "X post read; Jeff Bullas；粉丝 535,291；简介：Started over at 52. Now 69. I help people over 40 use AI to turn what they know into new work or a b. Published 2026-10-04 09:00.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/jeffbullas/status/2106549873244053795"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-emollick-31447165",
+      "name": "Mollick gives Dot separate email to be transparent",
+      "name_zh": "Mollick给Dot独立邮箱以保持透明",
+      "url": "https://x.com/emollick/status/2110557530531447165",
+      "category": "practitioner",
+      "en": "emollick (2026-10-15 10:25): Giving my Dot a dedicated email address turned out to be surprisingly painless &amp; solved a few problems around how to relate to a personal agent. I don't want it using my email or drafting messages on my behalf, and I want to make sure people know they are interacting with an AI. 573+ likes.",
+      "zh": "emollick（2026-10-15 10:25）：Mollick：给 Dot 一个独立邮箱解决了“如何与个人 Agent 相处”——不代我写信、让人知道在和 AI 对话 573+赞。",
+      "scope": "X post read; Ethan Mollick；粉丝 404,595；简介：Professor @Wharton studying AI. New book, Co-Existence, coming October 20. Preorder here: https://t.. Published 2026-10-15 10:25.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/emollick/status/2110557530531447165"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-signulll-15269539",
+      "name": "Notification tragedy: agents should absorb not create",
+      "name_zh": "通知的公地悲剧：Agent应吸收而非制造通知",
+      "url": "https://x.com/signulll/status/2099998296215269539",
+      "category": "practitioner",
+      "en": "signulll (2026-09-16 07:06): each assistant is optimizing locally for helpfulness so they all independently decide that surfacing one more thing is useful. so globally you get notification tragedy of the commons. the actual personal agent probably has to do the opposite which is ingesting notifications from 148+ likes.",
+      "zh": "signulll（2026-09-16 07:06）：signulll：每个助理都局部最优地多推一条，全局变成通知公地悲剧；个人 Agent 应反过来吸收通知 148+赞。",
+      "scope": "X post read; signüll；粉丝 271,767；简介：village regard. @skye. Published 2026-09-16 07:06.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/signulll/status/2099998296215269539"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-signulll-45899957",
+      "name": "signulll: specialized agents hide complexity better",
+      "name_zh": "signulll：专用Agent更能隐藏复杂度",
+      "url": "https://x.com/signulll/status/2105433184145899957",
+      "category": "practitioner",
+      "en": "signulll (2026-10-01 07:02): that being said, the more i use general purpose agents the more convinced i am that specialized agents might have even a bigger role to play. the main differenence is that the specialized agents are able to hide almost all complexity (e.g. you might not even know if there is ai 276+ likes.",
+      "zh": "signulll（2026-10-01 07:02）：signulll：越用通用 Agent 越确信专用 Agent 作用更大——它们能隐藏几乎所有复杂度 276+赞。",
+      "scope": "X post read; signüll；粉丝 271,767；简介：village regard. @skye. Published 2026-10-01 07:02.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/signulll/status/2105433184145899957"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-aryg18-88129403",
+      "name": "Personal assistant excels at routing to expert agents",
+      "name_zh": "个人助理最擅长路由到专家Agent",
+      "url": "https://x.com/aryg18/status/2104426968188129403",
+      "category": "practitioner",
+      "en": "aryg18 (2026-09-28 12:24): Extending @illscience’s point on “expensive and narrow”: Our personal assistants don’t need to be best at every task. Instead, they need to become the best at routing work, coordinating specialists and representing us across a market of specialised agents. An aggregation layer 6+ likes.",
+      "zh": "aryg18（2026-09-28 12:24）：个人助理不必样样最强，而要擅长路由、协调专家、代表我们进入专业 Agent 市场——聚合层 6+赞。",
+      "scope": "X post read; Ary；粉丝 914；简介：agents + ai platform & funmaxxing @tryramp | founding team @Microsoft Copilot | growth @Meta. Published 2026-09-28 12:24.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/aryg18/status/2104426968188129403"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-itscuthulhu-75014379",
+      "name": "Instinct in group chats: asks permission, hides private data",
+      "name_zh": "Instinct进群：先问用户，私人数据不带进群",
+      "url": "https://x.com/ItsCuthulhu/status/2107283758475014379",
+      "category": "practitioner",
+      "en": "ItsCuthulhu (2026-10-06 09:36): instinct put its ai agent in group chats. one agent plans with everyone: trips, tickets, fantasy leagues. friends don't need an account. your agent asks before connecting. the group one can't see your stuff. closed, early access. would you let an agent sit in your group chat? 2+ likes.",
+      "zh": "ItsCuthulhu（2026-10-06 09:36）：Instinct 群聊：一个 Agent 为大家计划，朋友无需账号；连接前先问你，群 Agent 看不到你的私人数据 2+赞。",
+      "scope": "X post read; Cuth；粉丝 593；简介：tinkering | Analytics Grad & Analytics Lead @georgiatech. Published 2026-10-06 09:36.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/ItsCuthulhu/status/2107283758475014379"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-ethanwalkerman-85682657",
+      "name": "Pause replies when new member joins group",
+      "name_zh": "新人入群时暂停待发回复",
+      "url": "https://x.com/ethanwalkerman/status/2107339487185682657",
+      "category": "practitioner",
+      "en": "ethanwalkerman (2026-10-06 13:17): Instinct brings its AI agent to group chats, even for friends without an account. Instinct pauses a pending AI reply when a new person joins the group chat. This is an interesting design detail. A dinner plans should not arrive with private context for the new guest. 6+ likes.",
+      "zh": "ethanwalkerman（2026-10-06 13:17）：Instinct 群聊设计细节：新人加入时暂停待发回复，避免私人上下文泄露给新成员 6+赞。",
+      "scope": "X post read; Ethan Walkrman；粉丝 3,508；简介：Chef & vibe builder @ https://t.co/xgXvDqLCkB, turn your taste into an agent.  #Chef, #Burgers, #Foo. Published 2026-10-06 13:17.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/ethanwalkerman/status/2107339487185682657"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-hridaykadam-42985022",
+      "name": "Inbox is promises I made then forgot",
+      "name_zh": "收件箱就是我承诺了然后忘了的事",
+      "url": "https://x.com/hridaykadam/status/2102418148242985022",
+      "category": "practitioner",
+      "en": "hridaykadam (2026-09-22 23:22): my inbox is basically a list of things I said i would do and then forgot about Sol turns those open loops into actual work Research, docs, slides, follow-ups without me having to dig through every email to remember what I promised This is a much more interesting way to think 7+ likes.",
+      "zh": "hridaykadam（2026-09-22 23:22）：我的收件箱就是“说了要做然后忘了的事”清单；Sol 把这些未闭环承诺变成实际工作 7+赞。",
+      "scope": "X post read; Hriday Kadam；粉丝 2,199；简介：cooking  @redlifyco // finalist @redbull // club leader @hackclub // fellow @fdotinc, @theresidency . Published 2026-09-22 23:22.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/hridaykadam/status/2102418148242985022"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-x-daniel-mac8-68497142",
+      "name": "Dots tester: proactive, found unpaid invoice",
+      "name_zh": "Dots测试者：主动发现未开发票",
+      "url": "https://x.com/daniel_mac8/status/2104983318668497142",
+      "category": "practitioner",
+      "en": "daniel_mac8 (2026-09-30 01:15): 'dots' — OpenAI's new proactive personal agent is HERE! I was part of Dev Early Access Community testing. To sum up my experience in a word: &gt; 'Proactivity' An illustration from my testing: dot proactively picked up on an invoice I needed to send for my freelance writing, 51+ likes.",
+      "zh": "daniel_mac8（2026-09-30 01:15）：Dots 早期测试：一个词总结是“主动”——主动发现我需要发的发票 51+赞。",
+      "scope": "X post read; Dan McAteer；粉丝 32,325；简介：I build AI agents for a living and write about it. Writing at https://t.co/ROXTvUfk75 · Writing @lat. Published 2026-09-30 01:15.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/daniel_mac8/status/2104983318668497142"
+      ],
+      "section": "articles",
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-meeting-brief-context",
+      "name": "Meeting prep: 5 minutes before, get relationship context",
+      "name_zh": "会前准备：开会前5分钟获取关系上下文",
+      "url": "https://x.com/justwatt/status/2102891445676740893",
+      "section": "use-cases",
+      "category": "email-calendar",
+      "en": "User reports agent surfaces who you're meeting, last conversation topics, and outstanding commitments 5 minutes before calendar event. Helps show up prepared without manual note review.",
+      "zh": "用户报告Agent在日历事件前5分钟提供对方是谁、上次聊了什么、未闭环承诺。帮助带着准备而来，无需手动翻记录。",
+      "scope": "X post describing personal workflow; no independent reproduction. Published 2026-09-20.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/justwatt/status/2102891445676740893"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "use-cases-reconnect-reminders",
+      "name": "Relationship temperature: reminders before connections go cold",
+      "name_zh": "关系温度：在疏远之前提醒重联",
+      "url": "https://x.com/coffeewithone/status/2103784912459137268",
+      "section": "use-cases",
+      "category": "family-workflows",
+      "en": "Agent tracks time since last contact with important people, suggests reconnecting before 60-90 day threshold. Includes conversation starters based on shared context or recent milestones.",
+      "zh": "Agent追踪与重要人物的最后联系时间，在60-90天阈值前建议重联。包含基于共同上下文或最近里程碑的话题建议。",
+      "scope": "X post and user discussion thread read; no long-term effectiveness data. Published 2026-09-26.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/coffeewithone/status/2103784912459137268"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-pattern-explicit-memory",
+      "name": "Design pattern: explicit, editable memory over black-box",
+      "name_zh": "设计模式：显式可编辑记忆胜过黑箱",
+      "url": "https://github.com/Personal-Agent-Patterns/explicit-memory",
+      "section": "articles",
+      "category": "engineering",
+      "en": "Make agent memory visible and editable (personal wiki, structured files), not implicit. User sees what agent knows, can correct it, owns the data in portable formats. Inspired by Karpathy's Wiki LLM approach.",
+      "zh": "把Agent记忆做成可见可编辑（个人Wiki、结构化文件），而非隐式。用户看到Agent知道什么、能纠正、以可迁移格式拥有数据。受Karpathy的Wiki LLM启发。",
+      "scope": "Community pattern documentation and examples; not a formal specification.",
+      "evidence": "collection",
+      "source_urls": [
+        "https://github.com/Personal-Agent-Patterns/explicit-memory",
+        "https://x.com/karpathy/status/2040572272944324650"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-pattern-approval-cards",
+      "name": "Design pattern: approval cards for sensitive actions",
+      "name_zh": "设计模式：敏感动作的审批卡",
+      "url": "https://x.com/signulll/status/2104782156834562891",
+      "section": "articles",
+      "category": "engineering",
+      "en": "Before sending email, booking, or spending, surface a review card with action details, reasoning, and approve/reject/edit options. Makes delegation transparent and maintains control.",
+      "zh": "发邮件、预订或花钱之前，呈现包含动作细节、理由及批准/拒绝/编辑选项的审查卡。让委托透明并保持控制。",
+      "scope": "X post describing UX pattern; multiple implementations in different products.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/signulll/status/2104782156834562891"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "products-spell-bytedance",
+      "name": "Spell by ByteDance",
+      "name_zh": "字节Spell",
+      "url": "https://spell.bytedance.com/",
+      "section": "products",
+      "category": "ecosystem",
+      "en": "ByteDance's personal AI assistant integrating with their app ecosystem. Explore task automation and content workflows within ByteDance services; broader third-party app access limited.",
+      "zh": "字节跳动的个人AI助理，集成其应用生态。适合探索字节服务内的任务自动化与内容工作流；更广泛的第三方应用接入受限。",
+      "scope": "Official product page and feature announcements read; mainland China availability focus, international access unclear.",
+      "evidence": "official",
+      "source_urls": [
+        "https://spell.bytedance.com/"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "products-lightvela-tencent",
+      "name": "LightVela / Yuanbao by Tencent",
+      "name_zh": "腾讯元宝/LightVela",
+      "url": "https://yuanbao.tencent.com/",
+      "section": "products",
+      "category": "ecosystem",
+      "en": "Tencent's personal AI assistant with WeChat integration potential. Explore document, scheduling and information workflows; actual WeChat agent access depends on platform policy.",
+      "zh": "腾讯个人AI助理，具备微信集成潜力。适合探索文档、日程与信息工作流；实际微信Agent接入取决于平台政策。",
+      "scope": "Official product announcements read; WeChat integration status and third-party API access evolving.",
+      "evidence": "official",
+      "source_urls": [
+        "https://yuanbao.tencent.com/"
+      ],
+      "checked_on": "2026-10-17"
+    },
+    {
+      "id": "articles-wechat-agent-contact",
+      "name": "Chinese discussion: agent as contact vs standalone app",
+      "name_zh": "中文讨论：Agent是联系人还是独立App",
+      "url": "https://x.com/Datou/status/2018902226618687952",
+      "section": "articles",
+      "category": "practitioner",
+      "en": "Chinese users debate whether personal AI should live in WeChat contact list or be standalone app. Living in contacts feels more natural, but Tencent controls access. Platform dependency vs user experience trade-off.",
+      "zh": "中文用户讨论个人AI该是微信联系人还是独立App。常驻联系人更符合人性，但腾讯掌握接入权。平台依赖与用户体验的权衡。",
+      "scope": "X post and discussion thread read; no official Tencent policy statement verified. Published 2026-02-13.",
+      "evidence": "reported",
+      "source_urls": [
+        "https://x.com/Datou/status/2018902226618687952",
+        "https://x.com/timyangnet/status/2021178846670880912"
+      ],
+      "checked_on": "2026-10-17"
     }
   ]
 }
