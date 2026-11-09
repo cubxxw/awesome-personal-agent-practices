@@ -4,7 +4,7 @@
 
 > 个人Agent资源聚合：产品、开源项目、用户案例与玩法，附精选文章和论文。
 
-**227 条精选资源** · 最近整理：2026-10-17。
+**228 条精选资源** · 最近整理：2026-11-09。
 
 完整资源直接列在本页。用目录跳到感兴趣的分类，点击资源名称打开原始来源。
 
@@ -17,7 +17,7 @@
 | [用例与玩法](#use-cases) · 27 | 看实际用法、官方教程与使用限制 |
 | [文章与技术](#articles) · 134 | 理解产品与工程取舍 |
 | [论文与评测](#research) · 10 | 找记忆、主动性及评测研究 |
-| [资源集合](#collections) · 5 | 继续发现相关资料 |
+| [资源集合](#collections) · 6 | 继续发现相关资料 |
 
 产品保留官方说明，用例区分作者自报和官方玩法，研究注明读取范围。可用地区与接入条件以原站为准。
 
@@ -999,7 +999,7 @@
 
 <a id="collections"></a>
 
-## 资源集合 · 5
+## 资源集合 · 6
 
 <a id="collections-collection"></a>
 
@@ -1024,6 +1024,10 @@
 <a id="collections-awesome-openclaw-examples"></a>
 
 - **[Awesome OpenClaw Examples](https://github.com/OthmaneBlial/awesome-openclaw-examples)** — 提供提示、输出样例和配置说明的工作流起步包；样例不自动等于真实生产运行。 <sub>资源集合</sub>
+
+<a id="twin-consumer-assistant-guides"></a>
+
+- **[Twin AI助手实用指南库](https://clonemyiphone.com/topics/)** — Twin团队编写的消费者指南，包含任务简报、日程约束、记忆纠正练习、手机迁移与专用设备问题。七个专题明确披露共同归属；Twin客户助手仍在开发。内容为合成示例和选择建议，并非独立产品测试。 <sub>资源集合</sub>
 
 <a id="reading-notes"></a>
 
@@ -1499,6 +1503,8 @@
 - **Awesome OpenClaw Use Cases** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/hesamsheikh/awesome-openclaw-usecases)
 
 - **Awesome OpenClaw Examples** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/OthmaneBlial/awesome-openclaw-examples)
+
+- **Twin AI助手实用指南库** (2026-11-09): Read the public topic directory and full texts of the seven new practical guides linked below. Publisher affiliation and product-development limits are visible. No assistant execution, device compatibility or time-saving outcome was independently tested. [来源 1](https://clonemyiphone.com/topics/) · [来源 2](https://clonemyiphone.com/guides/ai-assistant-for-everyday-tasks/) · [来源 3](https://clonemyiphone.com/guides/ai-assistant-for-calendar-planning/) · [来源 4](https://clonemyiphone.com/guides/moving-phone-data-vs-ai-assistant/) · [来源 5](https://clonemyiphone.com/guides/phone-cloning-vs-ai-assistant/) · [来源 6](https://clonemyiphone.com/guides/spare-iphone-ai-assistant/) · [来源 7](https://clonemyiphone.com/guides/dedicated-ai-phone-explained/) · [来源 8](https://clonemyiphone.com/guides/ai-assistant-memory-and-personalization/)
 
 </details>
 

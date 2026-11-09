@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_on": "2026-10-17",
+  "checked_on": "2026-11-09",
   "resources": [
     {
       "id": "products-today-ai",
@@ -3548,6 +3548,28 @@
       ],
       "section": "projects",
       "checked_on": "2026-10-17"
+    },
+    {
+      "id": "twin-consumer-assistant-guides",
+      "section": "collections",
+      "category": "collection",
+      "name": "Twin AI Assistant Guide Library",
+      "name_zh": "Twin AI助手实用指南库",
+      "url": "https://clonemyiphone.com/topics/",
+      "en": "Twin-authored consumer guides with worked task briefs, scheduling constraints, memory correction exercises, phone migration distinctions and dedicated-device questions. The seven topic sections disclose common ownership; Twin’s customer assistant remains in development. Synthetic examples and selection guidance, not independent product tests.",
+      "zh": "Twin团队编写的消费者指南，包含任务简报、日程约束、记忆纠正练习、手机迁移与专用设备问题。七个专题明确披露共同归属；Twin客户助手仍在开发。内容为合成示例和选择建议，并非独立产品测试。",
+      "evidence": "collection",
+      "scope": "Read the public topic directory and full texts of the seven new practical guides linked below. Publisher affiliation and product-development limits are visible. No assistant execution, device compatibility or time-saving outcome was independently tested.",
+      "checked_on": "2026-11-09",
+      "source_urls": [
+        "https://clonemyiphone.com/guides/ai-assistant-for-everyday-tasks/",
+        "https://clonemyiphone.com/guides/ai-assistant-for-calendar-planning/",
+        "https://clonemyiphone.com/guides/moving-phone-data-vs-ai-assistant/",
+        "https://clonemyiphone.com/guides/phone-cloning-vs-ai-assistant/",
+        "https://clonemyiphone.com/guides/spare-iphone-ai-assistant/",
+        "https://clonemyiphone.com/guides/dedicated-ai-phone-explained/",
+        "https://clonemyiphone.com/guides/ai-assistant-memory-and-personalization/"
+      ]
     }
   ]
 }

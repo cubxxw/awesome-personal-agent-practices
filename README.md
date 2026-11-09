@@ -4,7 +4,7 @@
 
 > A curated resource hub for personal AI agents: products, open-source projects, use cases, playbooks, articles and research.
 
-**227 curated resources** · Last curated: 2026-10-17.
+**228 curated resources** · Last curated: 2026-11-09.
 
 The full collection is on this page. Jump to a category below, then open a resource to read its original source.
 
@@ -17,7 +17,7 @@ The full collection is on this page. Jump to a category below, then open a resou
 | [Use cases & playbooks](#use-cases) · 27 | Explore user workflows, official guides and practical limits |
 | [Articles & engineering](#articles) · 134 | Understand product and engineering choices |
 | [Papers & evaluations](#research) · 10 | Find memory, proactivity and evaluation research |
-| [Collections & discovery](#collections) · 5 | Discover adjacent collections |
+| [Collections & discovery](#collections) · 6 | Discover adjacent collections |
 
 Products retain official context, cases distinguish author reports from official guides, and research records its reading scope. Check the original source for availability and account requirements.
 
@@ -999,7 +999,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="collections"></a>
 
-## Collections & discovery · 5
+## Collections & discovery · 6
 
 <a id="collections-collection"></a>
 
@@ -1024,6 +1024,10 @@ Products retain official context, cases distinguish author reports from official
 <a id="collections-awesome-openclaw-examples"></a>
 
 - **[Awesome OpenClaw Examples](https://github.com/OthmaneBlial/awesome-openclaw-examples)** — Inspectable workflow starter packs with prompts, sample outputs and setup notes. Samples are not automatically evidence of production runs. <sub>Resource collection</sub>
+
+<a id="twin-consumer-assistant-guides"></a>
+
+- **[Twin AI Assistant Guide Library](https://clonemyiphone.com/topics/)** — Twin-authored consumer guides with worked task briefs, scheduling constraints, memory correction exercises, phone migration distinctions and dedicated-device questions. The seven topic sections disclose common ownership; Twin’s customer assistant remains in development. Synthetic examples and selection guidance, not independent product tests. <sub>Resource collection</sub>
 
 <a id="reading-notes"></a>
 
@@ -1499,6 +1503,8 @@ Text, abstract and media coverage follows the actual reading scope.
 - **Awesome OpenClaw Use Cases** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/hesamsheikh/awesome-openclaw-usecases)
 
 - **Awesome OpenClaw Examples** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/OthmaneBlial/awesome-openclaw-examples)
+
+- **Twin AI Assistant Guide Library** (2026-11-09): Read the public topic directory and full texts of the seven new practical guides linked below. Publisher affiliation and product-development limits are visible. No assistant execution, device compatibility or time-saving outcome was independently tested. [Source 1](https://clonemyiphone.com/topics/) · [Source 2](https://clonemyiphone.com/guides/ai-assistant-for-everyday-tasks/) · [Source 3](https://clonemyiphone.com/guides/ai-assistant-for-calendar-planning/) · [Source 4](https://clonemyiphone.com/guides/moving-phone-data-vs-ai-assistant/) · [Source 5](https://clonemyiphone.com/guides/phone-cloning-vs-ai-assistant/) · [Source 6](https://clonemyiphone.com/guides/spare-iphone-ai-assistant/) · [Source 7](https://clonemyiphone.com/guides/dedicated-ai-phone-explained/) · [Source 8](https://clonemyiphone.com/guides/ai-assistant-memory-and-personalization/)
 
 </details>
 
