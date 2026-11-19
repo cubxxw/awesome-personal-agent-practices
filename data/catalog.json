@@ -17,7 +17,8 @@
         "https://today.ai/privacy"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-instinct",
@@ -32,7 +33,8 @@
         "https://instinct.com/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "email-communication"
     },
     {
       "id": "products-poke",
@@ -47,7 +49,8 @@
         "https://poke.com/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "email-communication"
     },
     {
       "id": "products-meta-muse",
@@ -63,7 +66,8 @@
         "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-town",
@@ -79,7 +83,8 @@
         "https://www.town.com/docs/getting-started"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "email-communication"
     },
     {
       "id": "products-tomo-mapo",
@@ -95,7 +100,8 @@
         "https://www.tomo.ai/about"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "family-daily"
     },
     {
       "id": "products-ollie",
@@ -111,7 +117,8 @@
         "https://www.ollie.ai/about/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "family-daily"
     },
     {
       "id": "products-chatgpt-dots",
@@ -127,7 +134,8 @@
         "https://openai.com/index/introducing-dots/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-grok-bot",
@@ -143,7 +151,8 @@
         "https://x.ai/bot/guides/grok-bot-101"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-manus-cue",
@@ -159,7 +168,8 @@
         "https://www.cue.im/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-heycue-life-admin",
@@ -174,7 +184,8 @@
         "https://heycue.ai/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "family-daily"
     },
     {
       "id": "products-gemini-spark",
@@ -190,7 +201,8 @@
         "https://support.google.com/gemini/answer/17094507"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-siri-ai",
@@ -206,7 +218,8 @@
         "https://www.apple.com/newsroom/2026/06/apple-introduces-siri-ai-a-profoundly-more-capable-and-personal-assistant/"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-manus",
@@ -222,7 +235,8 @@
         "https://help.manus.im/en/articles/17190150-what-is-new-in-manus-2-0"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-claude-cowork",
@@ -237,7 +251,8 @@
         "https://claude.com/product/cowork"
       ],
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-since-kindly-today-ai",
@@ -255,7 +270,8 @@
       ],
       "adjacent": true,
       "section": "products",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-cue-desktop",
@@ -269,7 +285,8 @@
       "scope": "Current official homepage text read; listed examples and demo video not treated as reproduced tasks.",
       "evidence": "official",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-openclaw",
@@ -285,7 +302,8 @@
         "https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/docs/automation/index.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-hermes-agent",
@@ -301,7 +319,8 @@
         "https://github.com/NousResearch/hermes-agent/blob/a50406d9b7474b060450d2dcaff8743c977d296a/website/docs/user-guide/features/cron.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-letta-code",
@@ -317,7 +336,8 @@
         "https://github.com/letta-ai/letta/blob/5bcdd177d70fa2b31a754cfcd801e77b2e1ab16a/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-nanoclaw",
@@ -333,7 +353,8 @@
         "https://github.com/nanocoai/nanoclaw/blob/66f0823a693bd9cca4123e72f8ccee05f5e7e1c5/docs/SECURITY.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-openmuse",
@@ -349,7 +370,8 @@
         "https://github.com/CopilotKit/openmuse/blob/1ac68f3909f2478ab6280883f1ab5ea65eb5719d/apps/server/src/actions.ts"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-nanobot",
@@ -365,7 +387,8 @@
         "https://github.com/HKUDS/nanobot/blob/main/docs/automations.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-zeroclaw",
@@ -380,7 +403,8 @@
         "https://github.com/zeroclaw-labs/zeroclaw/blob/master/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-picoclaw",
@@ -395,7 +419,8 @@
         "https://github.com/sipeed/picoclaw/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-ironclaw",
@@ -410,7 +435,8 @@
         "https://github.com/nearai/ironclaw/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-qwenpaw",
@@ -426,7 +452,8 @@
         "https://github.com/agentscope-ai/CoPaw"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-rowboat",
@@ -441,7 +468,8 @@
         "https://github.com/rowboatlabs/rowboat/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-khoj",
@@ -456,7 +484,8 @@
         "https://github.com/khoj-ai/khoj/blob/master/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-mem0",
@@ -471,7 +500,8 @@
         "https://github.com/mem0ai/mem0/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-hindsight",
@@ -486,7 +516,8 @@
         "https://github.com/vectorize-io/hindsight/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-graphiti",
@@ -501,7 +532,8 @@
         "https://github.com/getzep/graphiti/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-e2b",
@@ -516,7 +548,8 @@
         "https://github.com/e2b-dev/E2B/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-browser-use",
@@ -531,7 +564,8 @@
         "https://github.com/browser-use/browser-use/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-playwright-mcp",
@@ -546,7 +580,8 @@
         "https://github.com/microsoft/playwright-mcp/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-google-workspace-cli",
@@ -561,7 +596,8 @@
         "https://github.com/googleworkspace/cli/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-agentmail-python",
@@ -576,7 +612,8 @@
         "https://github.com/agentmail-to/agentmail-python/blob/main/README.md"
       ],
       "section": "projects",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "use-cases-uc01",
@@ -592,7 +629,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "用WhatsApp更新舞蹈学校网站"
+      "name_zh": "用WhatsApp更新舞蹈学校网站",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-uc02",
@@ -608,7 +646,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "成本暴涨后拆分确定性流程"
+      "name_zh": "成本暴涨后拆分确定性流程",
+      "scenario": "limits-cautions"
     },
     {
       "id": "use-cases-uc03",
@@ -624,7 +663,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "Hermes数月使用：六邮箱与复用流程"
+      "name_zh": "Hermes数月使用：六邮箱与复用流程",
+      "scenario": "email-communication"
     },
     {
       "id": "use-cases-uc04",
@@ -640,7 +680,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "Poke一周体验：日程与迟到改约"
+      "name_zh": "Poke一周体验：日程与迟到改约",
+      "scenario": "email-communication"
     },
     {
       "id": "use-cases-uc05",
@@ -656,7 +697,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "Today采访邀约与次日续办"
+      "name_zh": "Today采访邀约与次日续办",
+      "scenario": "email-communication"
     },
     {
       "id": "use-cases-uc06",
@@ -672,7 +714,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "Instinct机票监控与购物测试"
+      "name_zh": "Instinct机票监控与购物测试",
+      "scenario": "travel-shopping"
     },
     {
       "id": "use-cases-uc07",
@@ -688,7 +731,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "Muse十二天后：复核负担上升"
+      "name_zh": "Muse十二天后：复核负担上升",
+      "scenario": "limits-cautions"
     },
     {
       "id": "use-cases-uc08",
@@ -704,7 +748,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "规则流程加一次模型判断的对照"
+      "name_zh": "规则流程加一次模型判断的对照",
+      "scenario": "limits-cautions"
     },
     {
       "id": "use-cases-uc09",
@@ -720,7 +765,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "从Obsidian笔记发起复习提问"
+      "name_zh": "从Obsidian笔记发起复习提问",
+      "scenario": "research-learning"
     },
     {
       "id": "use-cases-uc10",
@@ -736,7 +782,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "家庭Matrix消息助手Sebastian"
+      "name_zh": "家庭Matrix消息助手Sebastian",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-uc11",
@@ -752,7 +799,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "邮件语义检索与资料挖掘"
+      "name_zh": "邮件语义检索与资料挖掘",
+      "scenario": "email-communication"
     },
     {
       "id": "use-cases-uc12",
@@ -768,7 +816,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "邮件中的家庭预约确认后写入日历"
+      "name_zh": "邮件中的家庭预约确认后写入日历",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-uc13",
@@ -784,7 +833,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "Hermes三周Telegram工作流"
+      "name_zh": "Hermes三周Telegram工作流",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-uc14",
@@ -800,7 +850,8 @@
       ],
       "section": "use-cases",
       "checked_on": "2026-10-07",
-      "name_zh": "克什米尔行程测试与细节幻觉"
+      "name_zh": "克什米尔行程测试与细节幻觉",
+      "scenario": "travel-shopping"
     },
     {
       "id": "use-cases-xiaobu-phone",
@@ -814,7 +865,8 @@
       "scope": "TikHub text detail and18 returned comment/reply records read on2026-10-07. Images and video not read; no pagination or product test.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-dots-handoffs",
@@ -828,7 +880,8 @@
       "scope": "TikHub returned long-form post text read; image and replies not read. No independent reproduction.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "limits-cautions"
     },
     {
       "id": "articles-ar01",
@@ -844,7 +897,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-07",
-      "name_zh": "OpenPoke：复现Poke架构的分析"
+      "name_zh": "OpenPoke：复现Poke架构的分析",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-ar02",
@@ -860,7 +914,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-07",
-      "name_zh": "离开Poke后的个人反思"
+      "name_zh": "离开Poke后的个人反思",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-ar03",
@@ -876,7 +931,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-07",
-      "name_zh": "Tanisha的消息式助手体验"
+      "name_zh": "Tanisha的消息式助手体验",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-ar04",
@@ -892,7 +948,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-07",
-      "name_zh": "构建4shClaw的过程"
+      "name_zh": "构建4shClaw的过程",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-ar05",
@@ -908,7 +965,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-07",
-      "name_zh": "五个OpenClaw工作流"
+      "name_zh": "五个OpenClaw工作流",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-ar06",
@@ -924,7 +982,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-07",
-      "name_zh": "Personal Agent的产品与采用分析"
+      "name_zh": "Personal Agent的产品与采用分析",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-context-engineering",
@@ -938,7 +997,8 @@
       "evidence": "official",
       "checked_on": "2026-10-07",
       "source_urls": [],
-      "name_zh": "怎样管理Agent的上下文"
+      "name_zh": "怎样管理Agent的上下文",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-building-effective-agents",
@@ -952,7 +1012,8 @@
       "evidence": "official",
       "checked_on": "2026-10-07",
       "source_urls": [],
-      "name_zh": "构建有效Agent的基础模式"
+      "name_zh": "构建有效Agent的基础模式",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-muse-safety",
@@ -966,7 +1027,8 @@
       "evidence": "official",
       "checked_on": "2026-10-07",
       "source_urls": [],
-      "name_zh": "Muse的安全设计说明"
+      "name_zh": "Muse的安全设计说明",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-manus-context",
@@ -980,7 +1042,8 @@
       "evidence": "official",
       "checked_on": "2026-10-07",
       "source_urls": [],
-      "name_zh": "Manus的上下文工程经验"
+      "name_zh": "Manus的上下文工程经验",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-nicolas-stack",
@@ -994,7 +1057,8 @@
       "scope": "Public article text read; screenshots and linked tools not tested.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-talal-calendar",
@@ -1008,7 +1072,8 @@
       "scope": "Public article text read; diagrams and linked implementation not tested.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-tbpn-delegation",
@@ -1022,7 +1087,8 @@
       "scope": "TikHub post text read; video and replies not read. This is platform-published discussion text, not a full interview review.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "research-vitabench2",
@@ -1035,7 +1101,8 @@
       "scope": "Benchmark, setup and limitations sections; not reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-pi-bench",
@@ -1048,7 +1115,8 @@
       "scope": "Benchmark, implementation configuration and limitations; not reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-memora",
@@ -1061,7 +1129,8 @@
       "scope": "Benchmark, experiments, limitations and memory-evaluation appendix; not reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-pasb",
@@ -1074,7 +1143,8 @@
       "scope": "Sections3–5 and the human-gold appendix; not reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-longmint",
@@ -1087,7 +1157,8 @@
       "scope": "Method and selected experimental sections; not reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-recuris",
@@ -1100,7 +1171,8 @@
       "scope": "Selected method, task-state and held-out evaluation sections; not reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-vibelife",
@@ -1113,7 +1185,8 @@
       "scope": "arXiv abstract and version metadata only; not reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-personalized-rag",
@@ -1126,7 +1199,8 @@
       "scope": "Official README and related survey sections4.4.5,5,6.",
       "evidence": "collection",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-personal-agent-bench",
@@ -1139,7 +1213,8 @@
       "scope": "Homepage, about page, task index and exam methodology; scores not independently reproduced.",
       "evidence": "research",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "research-micro1-personalagentbench",
@@ -1152,7 +1227,8 @@
       "scope": "Public launch text and page-provided transcript; video not watched, linked result inaccessible.",
       "evidence": "official",
       "checked_on": "2026-10-07",
-      "source_urls": []
+      "source_urls": [],
+      "scenario": "tools-reference"
     },
     {
       "id": "collections-awesome-personal-agents-selection",
@@ -1167,7 +1243,8 @@
         "https://github.com/upgundecha/awesome-personal-agents"
       ],
       "section": "collections",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "collections-awesome-personal-agents-components",
@@ -1182,7 +1259,8 @@
         "https://github.com/ahmadyan/awesome-personal-agents"
       ],
       "section": "collections",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "collections-awesome-personal-ai-assistants",
@@ -1197,7 +1275,8 @@
         "https://github.com/elyase/awesome-personal-ai-assistants"
       ],
       "section": "collections",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "collections-awesome-openclaw-usecases",
@@ -1212,7 +1291,8 @@
         "https://github.com/hesamsheikh/awesome-openclaw-usecases"
       ],
       "section": "collections",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "collections-awesome-openclaw-examples",
@@ -1227,7 +1307,8 @@
         "https://github.com/OthmaneBlial/awesome-openclaw-examples"
       ],
       "section": "collections",
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "tools-reference"
     },
     {
       "id": "use-cases-poke-recipes",
@@ -1241,7 +1322,8 @@
       "scope": "Current official guide/article text read; linked demonstrations and live workflow not tested.",
       "evidence": "official",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-town-routines",
@@ -1255,7 +1337,8 @@
       "scope": "Current official guide/article text read; linked demonstrations and live workflow not tested.",
       "evidence": "official",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "email-communication"
     },
     {
       "id": "use-cases-today-recording",
@@ -1269,7 +1352,8 @@
       "scope": "Current official guide/article text read; linked demonstrations and live workflow not tested.",
       "evidence": "official",
       "source_urls": [],
-      "checked_on": "2026-10-07"
+      "checked_on": "2026-10-07",
+      "scenario": "email-communication"
     },
     {
       "id": "products-limitless",
@@ -1284,7 +1368,8 @@
         "https://limitless.ai/"
       ],
       "section": "products",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-dot-new-computer",
@@ -1299,7 +1384,8 @@
         "https://new.computer/"
       ],
       "section": "products",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "email-communication"
     },
     {
       "id": "products-pi-inflection",
@@ -1314,7 +1400,8 @@
         "https://pi.ai/"
       ],
       "section": "products",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "email-communication"
     },
     {
       "id": "products-friend-wearable",
@@ -1330,7 +1417,8 @@
       ],
       "section": "products",
       "adjacent": true,
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-microsoft-365-copilot",
@@ -1345,7 +1433,8 @@
         "https://www.microsoft.com/microsoft-365/copilot"
       ],
       "section": "products",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-muse-connectors",
@@ -1361,7 +1450,8 @@
         "https://x.com/finkd/status/2101084678640066765"
       ],
       "section": "products",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-mcp",
@@ -1377,7 +1467,8 @@
         "https://github.com/modelcontextprotocol"
       ],
       "section": "projects",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-a2a",
@@ -1392,7 +1483,8 @@
         "https://a2a.ai/"
       ],
       "section": "projects",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-pap",
@@ -1408,7 +1500,8 @@
         "https://x.com/signulll/status/2107488756093940147"
       ],
       "section": "projects",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-pact",
@@ -1424,7 +1517,8 @@
         "https://x.com/DecagonAI/status/2107544569340694705"
       ],
       "section": "projects",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-karpathy-wiki-llm",
@@ -1440,7 +1534,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-17",
-      "name_zh": "Karpathy：显式记忆胜过黑箱个性化"
+      "name_zh": "Karpathy：显式记忆胜过黑箱个性化",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-signulll-convergence",
@@ -1456,7 +1551,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-17",
-      "name_zh": "signulll：大厂都在做同样的东西"
+      "name_zh": "signulll：大厂都在做同样的东西",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-muse-relationship-profiling",
@@ -1472,7 +1568,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-17",
-      "name_zh": "Muse每小时为你的熟人编档案"
+      "name_zh": "Muse每小时为你的熟人编档案",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-pap-pact-timing",
@@ -1489,7 +1586,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-17",
-      "name_zh": "PAP与PACT：同日发布的两个协议"
+      "name_zh": "PAP与PACT：同日发布的两个协议",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-greg-isenberg-muse-connectors",
@@ -1505,7 +1603,8 @@
       ],
       "section": "articles",
       "checked_on": "2026-10-17",
-      "name_zh": "Greg Isenberg：Muse Connectors如同App Store时刻"
+      "name_zh": "Greg Isenberg：Muse Connectors如同App Store时刻",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-stretchcloud-07498887",
@@ -1521,7 +1620,8 @@
         "https://x.com/stretchcloud/status/2101934453207498887"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-orangercat-60509385",
@@ -1537,7 +1637,8 @@
         "https://x.com/orangercat/status/2109299461260509385"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-davidalisk-44502659",
@@ -1553,7 +1654,8 @@
         "https://x.com/davidalisk/status/2107892369844502659"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-dumbeinstein-83603950",
@@ -1569,7 +1671,8 @@
         "https://x.com/DumbEinstein/status/2101847288083603950"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-petergyang-45154469",
@@ -1585,7 +1688,8 @@
         "https://x.com/petergyang/status/2101862331345154469"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-89191378",
@@ -1601,7 +1705,8 @@
         "https://x.com/gregisenberg/status/2110777852589191378"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-patchwanders-32100808",
@@ -1617,7 +1722,8 @@
         "https://x.com/patchwanders/status/2106542935932100808"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-glaucia-lemos86-83341367",
@@ -1633,7 +1739,8 @@
         "https://x.com/glaucia_lemos86/status/2107581201783341367"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-jeffbullas-44053795",
@@ -1649,7 +1756,8 @@
         "https://x.com/jeffbullas/status/2106549873244053795"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-emollick-31447165",
@@ -1665,7 +1773,8 @@
         "https://x.com/emollick/status/2110557530531447165"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-signulll-15269539",
@@ -1681,7 +1790,8 @@
         "https://x.com/signulll/status/2099998296215269539"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-signulll-45899957",
@@ -1697,7 +1807,8 @@
         "https://x.com/signulll/status/2105433184145899957"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-aryg18-88129403",
@@ -1713,7 +1824,8 @@
         "https://x.com/aryg18/status/2104426968188129403"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-itscuthulhu-75014379",
@@ -1729,7 +1841,8 @@
         "https://x.com/ItsCuthulhu/status/2107283758475014379"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-ethanwalkerman-85682657",
@@ -1745,7 +1858,8 @@
         "https://x.com/ethanwalkerman/status/2107339487185682657"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-hridaykadam-42985022",
@@ -1761,7 +1875,8 @@
         "https://x.com/hridaykadam/status/2102418148242985022"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-daniel-mac8-68497142",
@@ -1777,7 +1892,8 @@
         "https://x.com/daniel_mac8/status/2104983318668497142"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "use-cases-meeting-brief-context",
@@ -1793,7 +1909,8 @@
       "source_urls": [
         "https://x.com/justwatt/status/2102891445676740893"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "email-communication"
     },
     {
       "id": "use-cases-reconnect-reminders",
@@ -1809,7 +1926,8 @@
       "source_urls": [
         "https://x.com/coffeewithone/status/2103784912459137268"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "family-daily"
     },
     {
       "id": "articles-pattern-explicit-memory",
@@ -1826,7 +1944,8 @@
         "https://github.com/Personal-Agent-Patterns/explicit-memory",
         "https://x.com/karpathy/status/2040572272944324650"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-pattern-approval-cards",
@@ -1842,7 +1961,8 @@
       "source_urls": [
         "https://x.com/signulll/status/2104782156834562891"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-spell-bytedance",
@@ -1858,7 +1978,8 @@
       "source_urls": [
         "https://spell.bytedance.com/"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "products-lightvela-tencent",
@@ -1874,7 +1995,8 @@
       "source_urls": [
         "https://yuanbao.tencent.com/"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-wechat-agent-contact",
@@ -1891,7 +2013,8 @@
         "https://x.com/Datou/status/2018902226618687952",
         "https://x.com/timyangnet/status/2021178846670880912"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-51358378",
@@ -1907,7 +2030,8 @@
         "https://x.com/gregisenberg/status/2046310954351358378"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-lummox-eth-10185287",
@@ -1923,7 +2047,8 @@
         "https://x.com/Lummox_eth/status/2104218875810185287"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-heynavtoor-71876901",
@@ -1939,7 +2064,8 @@
         "https://x.com/heynavtoor/status/2043626777671876901"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-aakashgupta-20139176",
@@ -1955,7 +2081,8 @@
         "https://x.com/aakashgupta/status/2011660610120139176"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-beamnxw-93490284",
@@ -1971,7 +2098,8 @@
         "https://x.com/beamnxw/status/2103757085393490284"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-53603406",
@@ -1987,7 +2115,8 @@
         "https://x.com/gregisenberg/status/2048381278953603406"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-githubprojects-90983890",
@@ -2003,7 +2132,8 @@
         "https://x.com/GithubProjects/status/2027987058090983890"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-swyx-81061887",
@@ -2019,7 +2149,8 @@
         "https://x.com/swyx/status/1784087549881061887"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-danifesto-67721852",
@@ -2035,7 +2166,8 @@
         "https://x.com/danifesto/status/2110146315967721852"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-origin-ai-01-58863878",
@@ -2051,7 +2183,8 @@
         "https://x.com/Origin_AI_01/status/2091082508758863878"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-cointelegraph-33605820",
@@ -2067,7 +2200,8 @@
         "https://x.com/Cointelegraph/status/2062276877633605820"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-finkd-40066765",
@@ -2083,7 +2217,8 @@
         "https://x.com/finkd/status/2101084678640066765"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-48769413",
@@ -2099,7 +2234,8 @@
         "https://x.com/gregisenberg/status/2054584280848769413"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-alexandr-wang-48303589",
@@ -2115,7 +2251,8 @@
         "https://x.com/alexandr_wang/status/2101098666048303589"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-petergyang-95187949",
@@ -2131,7 +2268,8 @@
         "https://x.com/petergyang/status/2020260897395187949"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-emollick-54287270",
@@ -2147,7 +2285,8 @@
         "https://x.com/emollick/status/2102033312554287270"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-omarshahine-61079264",
@@ -2163,7 +2302,8 @@
         "https://x.com/OmarShahine/status/2103480227561079264"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-63293703",
@@ -2179,7 +2319,8 @@
         "https://x.com/gregisenberg/status/2099938794363293703"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-swyx-58117158",
@@ -2195,7 +2336,8 @@
         "https://x.com/swyx/status/2023820429258117158"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-emollick-11505335",
@@ -2211,7 +2353,8 @@
         "https://x.com/emollick/status/2104920813111505335"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-iamgingertrash-60914248",
@@ -2227,7 +2370,8 @@
         "https://x.com/iamgingertrash/status/1992716763960914248"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-aakashgupta-03677548",
@@ -2243,7 +2387,8 @@
         "https://x.com/aakashgupta/status/2045669269103677548"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-nicbstme-46261248",
@@ -2259,7 +2404,8 @@
         "https://x.com/nicbstme/status/2103236791646261248"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-bober-smart-11252351",
@@ -2275,7 +2421,8 @@
         "https://x.com/Bober_smart/status/2105357660711252351"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-timjang3-46532045",
@@ -2291,7 +2438,8 @@
         "https://x.com/timjang3/status/2078186063546532045"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-omarsar0-16477417",
@@ -2307,7 +2455,8 @@
         "https://x.com/omarsar0/status/2107880581216477417"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-s4yonnara-82120808",
@@ -2323,7 +2472,8 @@
         "https://x.com/s4yonnara/status/2105340497682120808"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-elaragrace-ai-22690725",
@@ -2339,7 +2489,8 @@
         "https://x.com/ElaraGrace_AI/status/2105038045422690725"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-vikktorrrre-03685707",
@@ -2355,7 +2506,8 @@
         "https://x.com/vikktorrrre/status/2108273776303685707"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-brenzhills-73931600",
@@ -2371,7 +2523,8 @@
         "https://x.com/brenzhills/status/2100625720573931600"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-naval-37881183",
@@ -2387,7 +2540,8 @@
         "https://x.com/naval/status/2099013370837881183"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-65978326",
@@ -2403,7 +2557,8 @@
         "https://x.com/gregisenberg/status/2061889033865978326"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-decagonai-40694705",
@@ -2419,7 +2574,8 @@
         "https://x.com/DecagonAI/status/2107544569340694705"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-vedantvida-94310885",
@@ -2435,7 +2591,8 @@
         "https://x.com/VedantVida/status/2107743819194310885"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-daniel-koss-01562025",
@@ -2451,7 +2608,8 @@
         "https://x.com/daniel_koss/status/2102124234801562025"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-hassaanraza-95331996",
@@ -2467,7 +2625,8 @@
         "https://x.com/hassaanraza/status/1988666194795331996"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-levie-57370641",
@@ -2483,7 +2642,8 @@
         "https://x.com/levie/status/1974637047257370641"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-21086912",
@@ -2499,7 +2659,8 @@
         "https://x.com/gregisenberg/status/2103481217421086912"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-coreyganim-85259816",
@@ -2515,7 +2676,8 @@
         "https://x.com/coreyganim/status/2106509097185259816"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-omarsar0-66505651",
@@ -2531,7 +2693,8 @@
         "https://x.com/omarsar0/status/2107232293366505651"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-crimenghini-76657619",
@@ -2547,7 +2710,8 @@
         "https://x.com/CriMenghini/status/2098362681476657619"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-hughlangley-52176697",
@@ -2563,7 +2727,8 @@
         "https://x.com/HughLangley/status/2051725247452176697"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-arcblock-io-46176949",
@@ -2579,7 +2744,8 @@
         "https://x.com/ArcBlock_io/status/2105519607046176949"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-codebypoonam-70882149",
@@ -2595,7 +2761,8 @@
         "https://x.com/CodeByPoonam/status/2075128095770882149"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-rohanpaul-ai-92638310",
@@ -2611,7 +2778,8 @@
         "https://x.com/rohanpaul_ai/status/2071838158992638310"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-chinazhidx-22249869",
@@ -2627,7 +2795,8 @@
         "https://x.com/Chinazhidx/status/2109579812822249869"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-rileybrown-24308158",
@@ -2643,7 +2812,8 @@
         "https://x.com/rileybrown/status/2101547282424308158"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-curtis-yarvin-10359518",
@@ -2659,7 +2829,8 @@
         "https://x.com/curtis_yarvin/status/2105481195010359518"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-davidhoang-37051025",
@@ -2675,7 +2846,8 @@
         "https://x.com/davidhoang/status/1875426005437051025"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-scobleizer-01584740",
@@ -2691,7 +2863,8 @@
         "https://x.com/Scobleizer/status/2062966360301584740"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-techbymarkandey-67927504",
@@ -2707,7 +2880,8 @@
         "https://x.com/TechByMarkandey/status/2100299065967927504"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-hedgiemarkets-63734099",
@@ -2723,7 +2897,8 @@
         "https://x.com/HedgieMarkets/status/2078246366363734099"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-vishalanton-14581885",
@@ -2739,7 +2914,8 @@
         "https://x.com/vishalanton_/status/2109395844814581885"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-kyronis-talks-23871584",
@@ -2755,7 +2931,8 @@
         "https://x.com/kyronis_talks/status/2052310187323871584"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-36463340",
@@ -2771,7 +2948,8 @@
         "https://x.com/gregisenberg/status/1911467353436463340"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gregisenberg-17288272",
@@ -2787,7 +2965,8 @@
         "https://x.com/gregisenberg/status/1909589402017288272"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-aryanxmahajan-40883736",
@@ -2803,7 +2982,8 @@
         "https://x.com/aryanXmahajan/status/2022772133940883736"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-alliekmiller-92049185",
@@ -2819,7 +2999,8 @@
         "https://x.com/alliekmiller/status/2107834523392049185"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-heysajib-53099411",
@@ -2835,7 +3016,8 @@
         "https://x.com/heysajib/status/2100292458253099411"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-jaybisen473370-15848606",
@@ -2851,7 +3033,8 @@
         "https://x.com/JayBisen473370/status/2100292362815848606"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-pridesai-78356888",
@@ -2867,7 +3050,8 @@
         "https://x.com/pridesai/status/1985180616078356888"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gramliu-02186391",
@@ -2883,7 +3067,8 @@
         "https://x.com/gramliu/status/2107562048402186391"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-sytaylor-77792171",
@@ -2899,7 +3084,8 @@
         "https://x.com/sytaylor/status/2107545935777792171"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-gokiteai-64355489",
@@ -2915,7 +3101,8 @@
         "https://x.com/GoKiteAI/status/2109993390964355489"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-x-eric-seufert-58801416",
@@ -2931,7 +3118,8 @@
         "https://x.com/eric_seufert/status/2102066171658801416"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-dotey-10740597",
@@ -2947,7 +3135,8 @@
         "https://x.com/dotey/status/2019468065310740597"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-fusheng-0306-52050635",
@@ -2963,7 +3152,8 @@
         "https://x.com/FuSheng_0306/status/2023023519052050635"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-shao-meng-33249841",
@@ -2979,7 +3169,8 @@
         "https://x.com/shao__meng/status/2039331523833249841"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-i-am-oil-oil-77421317",
@@ -2995,7 +3186,8 @@
         "https://x.com/I_am_oil_oil/status/2109680797477421317"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-shao-meng-23993337",
@@ -3011,7 +3203,8 @@
         "https://x.com/shao__meng/status/1992407530123993337"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-shao-meng-43784211",
@@ -3027,7 +3220,8 @@
         "https://x.com/shao__meng/status/1992961367343784211"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-latepostnews-06174033",
@@ -3043,7 +3237,8 @@
         "https://x.com/latepostnews/status/2084494022006174033"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-tychozzz-44135025",
@@ -3059,7 +3254,8 @@
         "https://x.com/tychozzz/status/2033836476644135025"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-shao-meng-44949113",
@@ -3075,7 +3271,8 @@
         "https://x.com/shao__meng/status/2025540142744949113"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-nft-chen-53465108",
@@ -3091,7 +3288,8 @@
         "https://x.com/NFT_Chen/status/2109913824153465108"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-shao-meng-62033862",
@@ -3107,7 +3305,8 @@
         "https://x.com/shao__meng/status/1974113350562033862"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-aigclink-33484608",
@@ -3123,7 +3322,8 @@
         "https://x.com/aigclink/status/1909987566633484608"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-github-daily-98664781",
@@ -3139,7 +3339,8 @@
         "https://x.com/GitHub_Daily/status/2012683950498664781"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-dotey-21255768",
@@ -3155,7 +3356,8 @@
         "https://x.com/dotey/status/1927205162621255768"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-xiaoerzhan-74982959",
@@ -3171,7 +3373,8 @@
         "https://x.com/xiaoerzhan/status/2015269906774982959"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-noe1017-monad-93765073",
@@ -3187,7 +3390,8 @@
         "https://x.com/Noe1017_Monad/status/2109651669193765073"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-nft-chen-46861531",
@@ -3203,7 +3407,8 @@
         "https://x.com/NFT_Chen/status/2102907178046861531"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-foxshuo-06363868",
@@ -3219,7 +3424,8 @@
         "https://x.com/foxshuo/status/2062026509406363868"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-github-daily-39073743",
@@ -3235,7 +3441,8 @@
         "https://x.com/GitHub_Daily/status/2068687909839073743"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-realydt-35326383",
@@ -3251,7 +3458,8 @@
         "https://x.com/RealYDT/status/2076197696835326383"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-chenchengpro-51827595",
@@ -3267,7 +3475,8 @@
         "https://x.com/chenchengpro/status/2033855310251827595"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-caiziboshi-40504188",
@@ -3283,7 +3492,8 @@
         "https://x.com/caiziboshi/status/2102960869340504188"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-vista8-37653977",
@@ -3299,7 +3509,8 @@
         "https://x.com/vista8/status/1875083894837653977"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-zeke-lg-17531377",
@@ -3315,7 +3526,8 @@
         "https://x.com/zeke_lg/status/2006392924817531377"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-zh-luyao-100fo-84568087",
@@ -3331,7 +3543,8 @@
         "https://x.com/luyao_100fo/status/2108890580084568087"
       ],
       "section": "articles",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "use-cases-group-chat-filter",
@@ -3347,7 +3560,8 @@
       "source_urls": [
         "https://x.com/infin8erer/status/2110494042035544509"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-birthday-gift-memory",
@@ -3363,7 +3577,8 @@
       "source_urls": [
         "https://x.com/wudaoxiaobai/status/2102638895011881129"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-reconnect-past-contacts",
@@ -3379,7 +3594,8 @@
       "source_urls": [
         "https://x.com/chrsaravia/status/2032705271227629972"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-group-coordination",
@@ -3395,7 +3611,8 @@
       "source_urls": [
         "https://x.com/NatalieFratto/status/2071260473668899114"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-family-mental-load",
@@ -3409,7 +3626,8 @@
       "scope": "Reported family use case from community discussions; specific implementation varies.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "family-daily"
     },
     {
       "id": "use-cases-intent-introductions",
@@ -3423,7 +3641,8 @@
       "scope": "Conceptual use case with early MCP implementations; match quality not evaluated.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "family-daily"
     },
     {
       "id": "articles-pattern-connector-onboarding",
@@ -3437,7 +3656,8 @@
       "scope": "Design pattern from practitioner discussions and Muse/Instinct onboarding flows.",
       "evidence": "reported",
       "source_urls": [],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-pattern-consent-layer",
@@ -3453,7 +3673,8 @@
       "source_urls": [
         "https://x.com/rafalwilinski/status/2102337609855049752"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-antipattern-generic-agent",
@@ -3469,7 +3690,8 @@
       "source_urls": [
         "https://x.com/olwrnnh/status/2099220391424139562"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-antipattern-ai-friend",
@@ -3485,7 +3707,8 @@
       "source_urls": [
         "https://x.com/thequieteconomy/status/2105840190099214674"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-antipattern-proxy-social",
@@ -3501,7 +3724,8 @@
       "source_urls": [
         "https://x.com/psankar/status/2038491139892998319"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "articles-antipattern-morning-brief",
@@ -3517,7 +3741,8 @@
       "source_urls": [
         "https://x.com/danimarconeuf/status/2092304556113740160"
       ],
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-zep",
@@ -3532,7 +3757,8 @@
         "https://github.com/getzep/zep"
       ],
       "section": "projects",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "projects-cognee",
@@ -3547,7 +3773,8 @@
         "https://github.com/topoteretes/cognee"
       ],
       "section": "projects",
-      "checked_on": "2026-10-17"
+      "checked_on": "2026-10-17",
+      "scenario": "tools-reference"
     },
     {
       "id": "twin-consumer-assistant-guides",
@@ -3569,7 +3796,8 @@
         "https://clonemyiphone.com/guides/spare-iphone-ai-assistant/",
         "https://clonemyiphone.com/guides/dedicated-ai-phone-explained/",
         "https://clonemyiphone.com/guides/ai-assistant-memory-and-personalization/"
-      ]
+      ],
+      "scenario": "tools-reference"
     }
   ]
 }
