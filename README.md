@@ -2,32 +2,62 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-> A curated resource hub for personal AI agents: products, open-source projects, use cases, playbooks, articles and research.
+> A curated resource hub for personal AI agents: organized by practical scenarios with use cases, products, and research.
 
-**228 curated resources** · Last curated: 2026-11-09.
+**228 curated resources** (27 use cases) · Last curated: 2026-11-09.
 
-The full collection is on this page. Jump to a category below, then open a resource to read its original source.
+The full collection is on this page. Jump to a scenario to see use cases first, then related tools and articles.
 
 ## Contents
 
-| Category | Find |
-|---|---|
-| [Products](#products) · 25 | Explore available assistants |
-| [Open-source projects](#projects) · 26 | Find runtimes and integration components |
-| [Use cases & playbooks](#use-cases) · 27 | Explore user workflows, official guides and practical limits |
-| [Articles & engineering](#articles) · 134 | Understand product and engineering choices |
-| [Papers & evaluations](#research) · 10 | Find memory, proactivity and evaluation research |
-| [Collections & discovery](#collections) · 6 | Discover adjacent collections |
+| Scenario | Use Cases | Total |
+|---|---|---|
+| [Email & Communication Workflows](#email-communication) | 7 | 12 |
+| [Family & Daily Life](#family-daily) | 13 | 16 |
+| [Travel & Shopping](#travel-shopping) | 2 | 2 |
+| [Research & Learning](#research-learning) | 1 | 1 |
+| [Understanding Limits & Cautions](#limits-cautions) | 4 | 4 |
+| [Tools & Research Reference](#tools-reference) | — | 193 |
 
-Products retain official context, cases distinguish author reports from official guides, and research records its reading scope. Check the original source for availability and account requirements.
+Use cases distinguish author reports from official guides, products retain official context, and research records its reading scope. Check the original source for availability and account requirements.
 
-<a id="products"></a>
+<a id="email-communication"></a>
 
-## Products · 25
+## Email & Communication Workflows · 12
 
-<a id="products-messaging"></a>
+Practical use cases for email triage, calendar management, and communication workflows, with products and articles on messaging assistants.
 
-### Messaging assistants
+### Use Cases · 7
+
+<a id="use-cases-uc03"></a>
+
+- **[Months of Hermes: six inboxes and reusable routines](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)** — A user reports triaging six inboxes and maintaining reusable routines over several months, while retaining control of sending. The account also covers outdated memory and costly automatic model fallback. <sub>Author report</sub>
+
+<a id="use-cases-uc04"></a>
+
+- **[One week with Poke: schedules and late-meeting messages](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)** — A one-week account describes daily briefings and a location-triggered rescheduling workflow using Workers, Shortcuts and webhooks. Setup effort and integration problems are part of the recipe, with no published reliability log. <sub>Author report</sub>
+
+<a id="use-cases-uc05"></a>
+
+- **[Today interview invitation with next-day follow-up](https://www.pingwest.com/a/317164)** — A journalist reports approving an interview email, checking it in the inbox, and receiving an unsolicited follow-up after the reply the next day. This is a one-week account without a final interview outcome or long-term measurements. <sub>Author report</sub>
+
+<a id="use-cases-uc11"></a>
+
+- **[Semantic email mining with Gmail API and Claude](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)** — Kris reports retrieving email candidates with fourteen keyword searches, fetching bodies through Gmail API, then classifying them with a model. The reusable script workflow needed caching, retries and resumable writes after rate limits and failed API calls. <sub>Author report</sub>
+
+<a id="use-cases-town-routines"></a>
+
+- **[Town Routines: recurring email and meeting jobs](https://www.town.com/docs/features/routines)** — Official examples include morning briefings, inbox triage, meeting preparation and reply drafts. Explore the read-only, approval-required and autonomous modes; examples are vendor-described workflows. <sub>Official description</sub>
+
+<a id="use-cases-today-recording"></a>
+
+- **[Today Recording: meeting notes and follow-up](https://today.ai/articles/blog/introducing-today-recording)** — A vendor explanation of connecting meeting capture, existing project context and follow-up tasks. Useful for exploring the path from a transcript to action; the demonstration was not reproduced. <sub>Official description</sub>
+
+<a id="use-cases-meeting-brief-context"></a>
+
+- **[Meeting prep: 5 minutes before, get relationship context](https://x.com/justwatt/status/2102891445676740893)** — User reports agent surfaces who you're meeting, last conversation topics, and outstanding commitments 5 minutes before calendar event. Helps show up prepared without manual note review. <sub>Author report</sub>
+
+### Related Tools & Articles · 5
 
 <a id="products-instinct"></a>
 
@@ -49,9 +79,145 @@ Products retain official context, cases distinguish author reports from official
 
 - **[Pi](https://pi.ai/)** — A conversational AI focused on supportive dialogue and personal conversations. Explore empathetic interaction and emotional support use cases. <sub>Official description</sub>
 
+<a id="family-daily"></a>
+
+## Family & Daily Life · 16
+
+Real-world accounts of family coordination, household tasks, reminders, and relationship management, with tools designed for everyday life.
+
+### Use Cases · 13
+
+<a id="use-cases-uc01"></a>
+
+- **[WhatsApp website updates for a dance school](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)** — A developer reports connecting a small dance-school website to WhatsApp through a GitHub repository. Initial permissions and reliable recovery still required technical help. <sub>Author report</sub>
+
+<a id="use-cases-uc10"></a>
+
+- **[Sebastian: a family Matrix assistant](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)** — A builder describes a family-of-four assistant with Matrix rooms, email monitoring and source-checked news digests. The post documents rate-limit and encryption-session failures; E2EE does not make data sent to external models local. <sub>Author report</sub>
+
+<a id="use-cases-uc12"></a>
+
+- **[Zoho appointment email to a confirmed family event](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)** — Ganesh Tarala describes reading appointment email over IMAP, checking availability through ICS and creating the event over CalDAV after confirmation. It uses local helper scripts rather than a ready-made Google connector; ongoing reliability and costs are not reported. <sub>Author report</sub>
+
+<a id="use-cases-uc13"></a>
+
+- **[Three weeks of Hermes through Telegram](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)** — A three-week user reports sending voice notes and screenshots from a phone to build a small-business Telegram bot. A script rotates available free models, but the author admits failed cron jobs and commenters report inconsistent results and extra review. <sub>Author report</sub>
+
+<a id="use-cases-xiaobu-phone"></a>
+
+- **[Two months with Xiaobu Next: phone workflows and limits](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)** — A co-creation-tagged account of reminders and information capture. Author replies acknowledge limited third-party app control; useful for exploring phone-assistant expectations, not an independent long-term test. <sub>Author report</sub>
+
+<a id="use-cases-poke-recipes"></a>
+
+- **[Poke Recipes: package and share a workflow](https://poke.com/docs/creating-recipes)** — Official instructions for packaging onboarding context and required integrations into a shareable recipe. Requires Kitchen access; a local integration tunnel must remain running. This is a guide, not a tested user outcome. <sub>Official description</sub>
+
+<a id="use-cases-reconnect-reminders"></a>
+
+- **[Relationship temperature: reminders before connections go cold](https://x.com/coffeewithone/status/2103784912459137268)** — Agent tracks time since last contact with important people, suggests reconnecting before 60-90 day threshold. Includes conversation starters based on shared context or recent milestones. <sub>Author report</sub>
+
+<a id="use-cases-group-chat-filter"></a>
+
+- **[Group chat triage: which of 200 messages need my attention](https://x.com/infin8erer/status/2110494042035544509)** — User tracked 473 agent requests over time; top use case was filtering large group chats (WhatsApp, Telegram) to surface only messages needing reply or action. Agent reads full thread context to determine relevance. <sub>Author report</sub>
+
+<a id="use-cases-birthday-gift-memory"></a>
+
+- **[Remember casual mentions for birthdays and gifts](https://x.com/wudaoxiaobai/status/2102638895011881129)** — Chinese user reports Muse remembers what friends casually mentioned they wanted, surfaces gift suggestions before birthdays, can even place orders with approval. Raises questions about always-listening and gift authenticity. <sub>Author report</sub>
+
+<a id="use-cases-reconnect-past-contacts"></a>
+
+- **[Agent helps reconnect with dormant professional relationships](https://x.com/chrsaravia/status/2032705271227629972)** — User describes not being good at proactively reaching out to past connections, recognizing it as missed opportunities. Agent identifies dormant relationships and suggests natural conversation starters based on shared context or recent milestones. <sub>Author report</sub>
+
+<a id="use-cases-group-coordination"></a>
+
+- **[Coordinate recurring group events across personal agents](https://x.com/NatalieFratto/status/2071260473668899114)** — User asks when agents will coordinate to schedule monthly friend dinners automatically. Requires agent-to-agent communication (A2A), shared calendar access, and group consent mechanisms. <sub>Author report</sub>
+
+<a id="use-cases-family-mental-load"></a>
+
+- **[Reduce family mental load: school notices, activities, shared calendar](https://x.com/moltbot-life/status/2108456789012345678)** — Parents report using agent to track school communications, children's activity schedules, and coordinate family calendar. Agent surfaces conflicting commitments and upcoming deadlines without requiring manual entry. <sub>Author report</sub>
+
+<a id="use-cases-intent-introductions"></a>
+
+- **[Make introductions based on intent, not just mutual connections](https://x.com/HireyAI/status/2095678901234567890)** — Agent identifies valuable introductions by matching people's stated goals and needs through MCP-connected professional profiles, going beyond simple mutual friend discovery. <sub>Author report</sub>
+
+### Related Tools & Articles · 3
+
+<a id="products-tomo-mapo"></a>
+
+- **[Tomo by Mapo Labs](https://www.tomo.ai/)** — A text-based personal AI focused on goals and everyday life. Explore accountability, proactive reminders, group chats and calendar/email connections. <sub>Official description</sub>
+
+<a id="products-ollie"></a>
+
+- **[Ollie](https://ollie.ai/)** — A family-oriented assistant for shared calendars, inbox information and household coordination. Explore how a family assistant works through text and group conversations. <sub>Official source, partially read</sub>
+
+<a id="products-heycue-life-admin"></a>
+
+- **[HeyCue](https://heycue.ai/)** — A life-admin service for bills, renewals and local-service quotes, combining agents with human representatives. Explore the household job-and-quote workflow and its approval steps. <sub>Official description</sub>
+
+<a id="travel-shopping"></a>
+
+## Travel & Shopping · 2
+
+Travel planning and shopping assistance use cases, including itinerary generation and product research.
+
+### Use Cases · 2
+
+<a id="use-cases-uc06"></a>
+
+- **[Instinct flight monitoring and shopping stress test](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)** — A tester reports flight checks roughly three times daily and several shopping tasks, alongside slow steps, inaccessible sites and manual OTP handling. Payment approval remains a separate trust decision. <sub>Author report</sub>
+
+<a id="use-cases-uc14"></a>
+
+- **[Kashmir itinerary test: overview versus details](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)** — A Trip Planner builder explains a search-plus-model itinerary workflow, and a Kashmir traveler reports useful day-level ideas but hallucinated details and weak date-specific hotel prices. Other comments report a search rate-limit error; no booking or completed trip is verified. <sub>Author report</sub>
+
+<a id="research-learning"></a>
+
+## Research & Learning · 1
+
+Learning and study workflows with AI assistants, including knowledge recall and content synthesis.
+
+### Use Cases · 1
+
+<a id="use-cases-uc09"></a>
+
+- **[OpenClaw study recall from an Obsidian vault](https://sajalsharma.com/posts/openclaw-experiments/)** — Sajal Sharma reports a twice-weekly cron that quizzes him from the articles and courses logged in Obsidian. His one-week account also explains separate accounts, sender allowlisting and duplicate-email fixes; learning gains are not measured. <sub>Author report</sub>
+
+<a id="limits-cautions"></a>
+
+## Understanding Limits & Cautions · 4
+
+Failure stories, practical limitations, and cautionary accounts that help set realistic expectations.
+
+### Use Cases · 4
+
+<a id="use-cases-uc02"></a>
+
+- **[OpenClaw cost spike and deterministic-workflow split](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)** — A multi-agent operator reports a $850 month and describes moving repeatable work to n8n while shortening context and adding limits. The claimed savings lack comparable bills or workload logs. <sub>Author report</sub>
+
+<a id="use-cases-uc07"></a>
+
+- **[Muse travel-advisor workflow after twelve days](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)** — A travel advisor reports missing spreadsheet details and repeated rule failures after an initially useful start, creating extra review work. Shopping-site blocks and account issues are allegations, without logs proving their cause. <sub>Author report</sub>
+
+<a id="use-cases-uc08"></a>
+
+- **[When a plain workflow plus one model call is enough](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)** — A weekly-use discussion describes log summaries, inbox drafts and page diffs with deterministic fetching and routing. These are reported alternatives to a general agent; sending and money-sensitive actions remain approved by a person. <sub>Author report</sub>
+
+<a id="use-cases-dots-handoffs"></a>
+
+- **[Dots after a few days: agent handoffs and calls](https://x.com/telegram_man/status/2107498869571633273)** — The author's report of friction when delegating to other agents and using calls. A friend's travel success is second-hand; useful for thinking about handoffs rather than comparing completion rates. <sub>Author report</sub>
+
+<a id="tools-reference"></a>
+
+## Tools & Research Reference · 193
+
+Personal agent platforms, open-source frameworks, engineering articles, research papers, and resource collections for builders and researchers.
+
+<a id="products"></a>
+
+### Products · 17
+
 <a id="products-computer"></a>
 
-### Computer & browser assistants
+#### Computer & browser assistants
 
 <a id="products-today-ai"></a>
 
@@ -83,7 +249,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="products-ecosystem"></a>
 
-### Platform assistants
+#### Platform assistants
 
 <a id="products-meta-muse"></a>
 
@@ -117,25 +283,9 @@ Products retain official context, cases distinguish author reports from official
 
 - **[LightVela / Yuanbao by Tencent](https://yuanbao.tencent.com/)** — Tencent's personal AI assistant with WeChat integration potential. Explore document, scheduling and information workflows; actual WeChat agent access depends on platform policy. <sub>Official description</sub>
 
-<a id="products-family-goals"></a>
-
-### Family & personal goals
-
-<a id="products-tomo-mapo"></a>
-
-- **[Tomo by Mapo Labs](https://www.tomo.ai/)** — A text-based personal AI focused on goals and everyday life. Explore accountability, proactive reminders, group chats and calendar/email connections. <sub>Official description</sub>
-
-<a id="products-ollie"></a>
-
-- **[Ollie](https://ollie.ai/)** — A family-oriented assistant for shared calendars, inbox information and household coordination. Explore how a family assistant works through text and group conversations. <sub>Official source, partially read</sub>
-
-<a id="products-heycue-life-admin"></a>
-
-- **[HeyCue](https://heycue.ai/)** — A life-admin service for bills, renewals and local-service quotes, combining agents with human representatives. Explore the household job-and-quote workflow and its approval steps. <sub>Official description</sub>
-
 <a id="products-adjacent"></a>
 
-### Adjacent tools
+#### Adjacent tools
 
 <a id="products-since-kindly-today-ai"></a>
 
@@ -147,11 +297,11 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="projects"></a>
 
-## Open-source projects · 26
+### Open-source projects · 26
 
 <a id="projects-core"></a>
 
-### Personal-agent runtimes
+#### Personal-agent runtimes
 
 <a id="projects-openclaw"></a>
 
@@ -203,7 +353,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="projects-component"></a>
 
-### Memory, tools & integrations
+#### Memory, tools & integrations
 
 <a id="projects-mem0"></a>
 
@@ -261,145 +411,13 @@ Products retain official context, cases distinguish author reports from official
 
 - **[Cognee](https://github.com/topoteretes/cognee)** — Memory and knowledge management framework for AI agents. Structures information into searchable, connected knowledge that agents can reason over. Part of growing agent memory infrastructure ecosystem. <sub>Project documentation</sub>
 
-<a id="use-cases"></a>
-
-## Use cases & playbooks · 27
-
-<a id="use-cases-email-calendar"></a>
-
-### Email & calendar
-
-<a id="use-cases-uc03"></a>
-
-- **[Months of Hermes: six inboxes and reusable routines](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)** — A user reports triaging six inboxes and maintaining reusable routines over several months, while retaining control of sending. The account also covers outdated memory and costly automatic model fallback. <sub>Author report</sub>
-
-<a id="use-cases-uc04"></a>
-
-- **[One week with Poke: schedules and late-meeting messages](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)** — A one-week account describes daily briefings and a location-triggered rescheduling workflow using Workers, Shortcuts and webhooks. Setup effort and integration problems are part of the recipe, with no published reliability log. <sub>Author report</sub>
-
-<a id="use-cases-uc05"></a>
-
-- **[Today interview invitation with next-day follow-up](https://www.pingwest.com/a/317164)** — A journalist reports approving an interview email, checking it in the inbox, and receiving an unsolicited follow-up after the reply the next day. This is a one-week account without a final interview outcome or long-term measurements. <sub>Author report</sub>
-
-<a id="use-cases-uc11"></a>
-
-- **[Semantic email mining with Gmail API and Claude](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)** — Kris reports retrieving email candidates with fourteen keyword searches, fetching bodies through Gmail API, then classifying them with a model. The reusable script workflow needed caching, retries and resumable writes after rate limits and failed API calls. <sub>Author report</sub>
-
-<a id="use-cases-town-routines"></a>
-
-- **[Town Routines: recurring email and meeting jobs](https://www.town.com/docs/features/routines)** — Official examples include morning briefings, inbox triage, meeting preparation and reply drafts. Explore the read-only, approval-required and autonomous modes; examples are vendor-described workflows. <sub>Official description</sub>
-
-<a id="use-cases-today-recording"></a>
-
-- **[Today Recording: meeting notes and follow-up](https://today.ai/articles/blog/introducing-today-recording)** — A vendor explanation of connecting meeting capture, existing project context and follow-up tasks. Useful for exploring the path from a transcript to action; the demonstration was not reproduced. <sub>Official description</sub>
-
-<a id="use-cases-meeting-brief-context"></a>
-
-- **[Meeting prep: 5 minutes before, get relationship context](https://x.com/justwatt/status/2102891445676740893)** — User reports agent surfaces who you're meeting, last conversation topics, and outstanding commitments 5 minutes before calendar event. Helps show up prepared without manual note review. <sub>Author report</sub>
-
-<a id="use-cases-research-learning"></a>
-
-### Research & learning
-
-<a id="use-cases-uc09"></a>
-
-- **[OpenClaw study recall from an Obsidian vault](https://sajalsharma.com/posts/openclaw-experiments/)** — Sajal Sharma reports a twice-weekly cron that quizzes him from the articles and courses logged in Obsidian. His one-week account also explains separate accounts, sender allowlisting and duplicate-email fixes; learning gains are not measured. <sub>Author report</sub>
-
-<a id="use-cases-travel-shopping"></a>
-
-### Travel & shopping
-
-<a id="use-cases-uc06"></a>
-
-- **[Instinct flight monitoring and shopping stress test](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)** — A tester reports flight checks roughly three times daily and several shopping tasks, alongside slow steps, inaccessible sites and manual OTP handling. Payment approval remains a separate trust decision. <sub>Author report</sub>
-
-<a id="use-cases-uc14"></a>
-
-- **[Kashmir itinerary test: overview versus details](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)** — A Trip Planner builder explains a search-plus-model itinerary workflow, and a Kashmir traveler reports useful day-level ideas but hallucinated details and weak date-specific hotel prices. Other comments report a search rate-limit error; no booking or completed trip is verified. <sub>Author report</sub>
-
-<a id="use-cases-family-workflows"></a>
-
-### Family & everyday workflows
-
-<a id="use-cases-uc01"></a>
-
-- **[WhatsApp website updates for a dance school](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)** — A developer reports connecting a small dance-school website to WhatsApp through a GitHub repository. Initial permissions and reliable recovery still required technical help. <sub>Author report</sub>
-
-<a id="use-cases-uc10"></a>
-
-- **[Sebastian: a family Matrix assistant](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)** — A builder describes a family-of-four assistant with Matrix rooms, email monitoring and source-checked news digests. The post documents rate-limit and encryption-session failures; E2EE does not make data sent to external models local. <sub>Author report</sub>
-
-<a id="use-cases-uc12"></a>
-
-- **[Zoho appointment email to a confirmed family event](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)** — Ganesh Tarala describes reading appointment email over IMAP, checking availability through ICS and creating the event over CalDAV after confirmation. It uses local helper scripts rather than a ready-made Google connector; ongoing reliability and costs are not reported. <sub>Author report</sub>
-
-<a id="use-cases-uc13"></a>
-
-- **[Three weeks of Hermes through Telegram](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)** — A three-week user reports sending voice notes and screenshots from a phone to build a small-business Telegram bot. A script rotates available free models, but the author admits failed cron jobs and commenters report inconsistent results and extra review. <sub>Author report</sub>
-
-<a id="use-cases-xiaobu-phone"></a>
-
-- **[Two months with Xiaobu Next: phone workflows and limits](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)** — A co-creation-tagged account of reminders and information capture. Author replies acknowledge limited third-party app control; useful for exploring phone-assistant expectations, not an independent long-term test. <sub>Author report</sub>
-
-<a id="use-cases-poke-recipes"></a>
-
-- **[Poke Recipes: package and share a workflow](https://poke.com/docs/creating-recipes)** — Official instructions for packaging onboarding context and required integrations into a shareable recipe. Requires Kitchen access; a local integration tunnel must remain running. This is a guide, not a tested user outcome. <sub>Official description</sub>
-
-<a id="use-cases-reconnect-reminders"></a>
-
-- **[Relationship temperature: reminders before connections go cold](https://x.com/coffeewithone/status/2103784912459137268)** — Agent tracks time since last contact with important people, suggests reconnecting before 60-90 day threshold. Includes conversation starters based on shared context or recent milestones. <sub>Author report</sub>
-
-<a id="use-cases-group-chat-filter"></a>
-
-- **[Group chat triage: which of 200 messages need my attention](https://x.com/infin8erer/status/2110494042035544509)** — User tracked 473 agent requests over time; top use case was filtering large group chats (WhatsApp, Telegram) to surface only messages needing reply or action. Agent reads full thread context to determine relevance. <sub>Author report</sub>
-
-<a id="use-cases-birthday-gift-memory"></a>
-
-- **[Remember casual mentions for birthdays and gifts](https://x.com/wudaoxiaobai/status/2102638895011881129)** — Chinese user reports Muse remembers what friends casually mentioned they wanted, surfaces gift suggestions before birthdays, can even place orders with approval. Raises questions about always-listening and gift authenticity. <sub>Author report</sub>
-
-<a id="use-cases-reconnect-past-contacts"></a>
-
-- **[Agent helps reconnect with dormant professional relationships](https://x.com/chrsaravia/status/2032705271227629972)** — User describes not being good at proactively reaching out to past connections, recognizing it as missed opportunities. Agent identifies dormant relationships and suggests natural conversation starters based on shared context or recent milestones. <sub>Author report</sub>
-
-<a id="use-cases-group-coordination"></a>
-
-- **[Coordinate recurring group events across personal agents](https://x.com/NatalieFratto/status/2071260473668899114)** — User asks when agents will coordinate to schedule monthly friend dinners automatically. Requires agent-to-agent communication (A2A), shared calendar access, and group consent mechanisms. <sub>Author report</sub>
-
-<a id="use-cases-family-mental-load"></a>
-
-- **[Reduce family mental load: school notices, activities, shared calendar](https://x.com/moltbot-life/status/2108456789012345678)** — Parents report using agent to track school communications, children's activity schedules, and coordinate family calendar. Agent surfaces conflicting commitments and upcoming deadlines without requiring manual entry. <sub>Author report</sub>
-
-<a id="use-cases-intent-introductions"></a>
-
-- **[Make introductions based on intent, not just mutual connections](https://x.com/HireyAI/status/2095678901234567890)** — Agent identifies valuable introductions by matching people's stated goals and needs through MCP-connected professional profiles, going beyond simple mutual friend discovery. <sub>Author report</sub>
-
-<a id="use-cases-cautions"></a>
-
-### Failure stories & practical limits
-
-<a id="use-cases-uc02"></a>
-
-- **[OpenClaw cost spike and deterministic-workflow split](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)** — A multi-agent operator reports a $850 month and describes moving repeatable work to n8n while shortening context and adding limits. The claimed savings lack comparable bills or workload logs. <sub>Author report</sub>
-
-<a id="use-cases-uc07"></a>
-
-- **[Muse travel-advisor workflow after twelve days](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)** — A travel advisor reports missing spreadsheet details and repeated rule failures after an initially useful start, creating extra review work. Shopping-site blocks and account issues are allegations, without logs proving their cause. <sub>Author report</sub>
-
-<a id="use-cases-uc08"></a>
-
-- **[When a plain workflow plus one model call is enough](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)** — A weekly-use discussion describes log summaries, inbox drafts and page diffs with deterministic fetching and routing. These are reported alternatives to a general agent; sending and money-sensitive actions remain approved by a person. <sub>Author report</sub>
-
-<a id="use-cases-dots-handoffs"></a>
-
-- **[Dots after a few days: agent handoffs and calls](https://x.com/telegram_man/status/2107498869571633273)** — The author's report of friction when delegating to other agents and using calls. A friend's travel success is second-hand; useful for thinking about handoffs rather than comparing completion rates. <sub>Author report</sub>
-
 <a id="articles"></a>
 
-## Articles & engineering · 134
+### Articles & engineering · 134
 
 <a id="articles-practitioner"></a>
 
-### Practitioner accounts
+#### Practitioner accounts
 
 <a id="articles-ar01"></a>
 
@@ -895,7 +913,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="articles-engineering"></a>
 
-### Engineering explanations
+#### Engineering explanations
 
 <a id="articles-context-engineering"></a>
 
@@ -943,11 +961,11 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="research"></a>
 
-## Papers & evaluations · 10
+### Papers & evaluations · 10
 
 <a id="research-memory"></a>
 
-### Memory & personalization
+#### Memory & personalization
 
 <a id="research-memora"></a>
 
@@ -967,7 +985,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="research-proactivity"></a>
 
-### Proactivity & continuity
+#### Proactivity & continuity
 
 <a id="research-vitabench2"></a>
 
@@ -983,7 +1001,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="research-evaluation"></a>
 
-### Evaluation methods
+#### Evaluation methods
 
 <a id="research-recuris"></a>
 
@@ -999,11 +1017,7 @@ Products retain official context, cases distinguish author reports from official
 
 <a id="collections"></a>
 
-## Collections & discovery · 6
-
-<a id="collections-collection"></a>
-
-### Curated collections
+### Collections & discovery · 6
 
 <a id="collections-awesome-personal-agents-selection"></a>
 
@@ -1038,29 +1052,97 @@ Products retain official context, cases distinguish author reports from official
 
 Text, abstract and media coverage follows the actual reading scope.
 
-### Products
-
-- **Today** (2026-10-07): Official download page lists Mac, Windows, Linux and mobile entry points; specific country eligibility not verified. Distinct from the Since Kindly app at oneintent.today. [Source 1](https://today.ai/) · [Source 2](https://today.ai/downloads) · [Source 3](https://today.ai/privacy)
+### Email & Communication Workflows
 
 - **Instinct** (2026-10-07): Text/call entry documented; current country, pricing and invitation eligibility not established on the inspected homepage. [Source 1](https://instinct.com/)
 
 - **Poke** (2026-10-07): Messaging channels explicitly named on homepage; individual channel/account/region availability not independently tested. [Source 1](https://poke.com/)
 
-- **Muse by Meta** (2026-10-07): Official launch page states US rollout on iOS, Android and muse.ai; current expansion outside the US not verified. [Source 1](https://ai.meta.com/muse/) · [Source 2](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) · [Source 3](https://about.fb.com/news/2026/09/introducing-muse-small-business/)
-
 - **Town** (2026-10-07): Official documentation covers connected services and work tasks; country eligibility not verified. [Source 1](https://www.town.com/) · [Source 2](https://www.town.com/docs/getting-started)
+
+- **Months of Hermes: six inboxes and reusable routines** (2026-10-07): 主帖主要全文（网页21–84行）；首个评论中5个月使用者的本地memory维护/高投入提醒（124–127行）；2026-10-07读取时缓存显示28d ago；不据缓存反推准确日；未读媒体：评论所链记忆项目和模型未审源码 [Source 1](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)
+
+- **One week with Poke: schedules and late-meeting messages** (2026-10-07): 主帖；自定义流程与一周体验段；Daniel MCP接入质疑及作者回复（224–235行）；网页显示1yr ago；公开HTML日期字段均为2025-09，本轮未锁定帖级精确日；未读媒体：入门截图与MCP连接截图未核看 [Source 1](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)
+
+- **Today interview invitation with next-day follow-up** (2026-10-07): 原站公开HTML正文完整提取；工具web首开有目录、后续Internal Error，以免费HTTP正文恢复；未读截图；页面可见0评论；原站9月9日，聚合页交叉确认2026-09-09；未读媒体：产品截图未核看 [Source 1](https://www.pingwest.com/a/317164)
+
+- **Semantic email mining with Gmail API and Claude** (2026-10-07): 公开正文全文；步骤1–3、结果与故障均已读；发布时间页面只显示相对日期，未核绝对日；未查私有邮件或脚本。 [Source 1](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)
+
+- **Town Routines: recurring email and meeting jobs** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [Source 1](https://www.town.com/docs/features/routines)
+
+- **Today Recording: meeting notes and follow-up** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [Source 1](https://today.ai/articles/blog/introducing-today-recording)
+
+- **Dot** (2026-10-17): Official website and public demonstrations read; exact availability and account requirements not verified. [Source 1](https://new.computer/)
+
+- **Pi** (2026-10-17): Official website and interaction examples read; no independent long-term user testing. [Source 1](https://pi.ai/)
+
+- **Meeting prep: 5 minutes before, get relationship context** (2026-10-17): X post describing personal workflow; no independent reproduction. Published 2026-09-20. [Source 1](https://x.com/justwatt/status/2102891445676740893)
+
+### Family & Daily Life
 
 - **Tomo by Mapo Labs** (2026-10-07): Official About page names Mapo Labs; do not confuse with unrelated open-source tamnd/tomo. Region eligibility not verified. [Source 1](https://www.tomo.ai/) · [Source 2](https://www.tomo.ai/about)
 
 - **Ollie** (2026-10-07): Official indexed homepage describes iOS/Android text access; country eligibility unknown. Full-page retrieval failed in this run. [Source 1](https://ollie.ai/) · [Source 2](https://www.ollie.ai/about/)
+
+- **HeyCue** (2026-10-07): Homepage states web/iOS/Android and English/Spanish. Human involvement explicitly disclosed. Country/service-area eligibility not established. [Source 1](https://heycue.ai/)
+
+- **WhatsApp website updates for a dance school** (2026-10-07): 主帖；舞校评论链（网页125–277行）；关键质疑与作者回应；未展开全部回复；Reddit 搜索结果绝对日期；选定评论日期可不同；未读媒体：该帖其他图片/外链项目未核看 [Source 1](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)
+
+- **Sebastian: a family Matrix assistant** (2026-10-07): 2026-04-10；主文全文，含新闻步骤、家人重新验证与失败；图片未读，技能加速倍率未经独立测试。 [Source 1](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)
+
+- **Zoho appointment email to a confirmed family event** (2026-10-07): 2026-05-05；公开LinkedIn作者正文全文与可见感谢评论；截图未读，链接ganesht.de未进一步读取。 [Source 1](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)
+
+- **Three weeks of Hermes through Telegram** (2026-10-07): 2026-05-17；主帖及OP关于脚本、失败cron、个人数据隔离的回复；模型不稳定评论；机器人摘要与操作代码不作独立证据，未读图片。 [Source 1](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)
+
+- **Two months with Xiaobu Next: phone workflows and limits** (2026-10-07): TikHub text detail and18 returned comment/reply records read on2026-10-07. Images and video not read; no pagination or product test. [Source 1](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)
+
+- **Poke Recipes: package and share a workflow** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [Source 1](https://poke.com/docs/creating-recipes)
+
+- **Relationship temperature: reminders before connections go cold** (2026-10-17): X post and user discussion thread read; no long-term effectiveness data. Published 2026-09-26. [Source 1](https://x.com/coffeewithone/status/2103784912459137268)
+
+- **Group chat triage: which of 200 messages need my attention** (2026-10-17): X post with usage statistics; no independent reproduction. Published 2026-10-12. [Source 1](https://x.com/infin8erer/status/2110494042035544509)
+
+- **Remember casual mentions for birthdays and gifts** (2026-10-17): X post describing Muse feature; gift-giving outcome not independently verified. Published 2026-09-20. [Source 1](https://x.com/wudaoxiaobai/status/2102638895011881129)
+
+- **Agent helps reconnect with dormant professional relationships** (2026-10-17): X post describing personal need and conceptual workflow. Published 2026-03-07. [Source 1](https://x.com/chrsaravia/status/2032705271227629972)
+
+- **Coordinate recurring group events across personal agents** (2026-10-17): X post expressing need; no production implementation verified. Published 2026-06-11. [Source 1](https://x.com/NatalieFratto/status/2071260473668899114)
+
+- **Reduce family mental load: school notices, activities, shared calendar** (2026-10-17): Reported family use case from community discussions; specific implementation varies. [Source 1](https://x.com/moltbot-life/status/2108456789012345678)
+
+- **Make introductions based on intent, not just mutual connections** (2026-10-17): Conceptual use case with early MCP implementations; match quality not evaluated. [Source 1](https://x.com/HireyAI/status/2095678901234567890)
+
+### Travel & Shopping
+
+- **Instinct flight monitoring and shopping stress test** (2026-10-07): 主帖全文；虚拟卡建议与作者反问（125–134行）；OTP/速度讨论；iMessage读权限误认后自纠（248–300行）；Reddit 搜索结果绝对日期，既有来源卡一致；未读媒体：评论外链视频、Instagram及媒体未逐一核读 [Source 1](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)
+
+- **Kashmir itinerary test: overview versus details** (2026-10-07): 主帖与旅行测试、作者回应、500限流评论均已读；页面关联2025-03-16，精确发表时间未核；外链产品未登录或试用。 [Source 1](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)
+
+### Research & Learning
+
+- **OpenClaw study recall from an Obsidian vault** (2026-10-07): 2026-02-16；主文全文，重点Studying与技术失败；图片未读，未来看房功能为计划。 [Source 1](https://sajalsharma.com/posts/openclaw-experiments/)
+
+### Understanding Limits & Cautions
+
+- **OpenClaw cost spike and deterministic-workflow split** (2026-10-07): 主帖；成本质疑、作者两次澄清、n8n替代讨论（网页21–305行）；Reddit 搜索结果绝对日期；未读媒体：作者提及的费用截图未核看 [Source 1](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)
+
+- **Muse travel-advisor workflow after twelve days** (2026-10-07): Public post and selected discussion read, including repeated-task failures and claimed verification. Exact publication date not independently rechecked; images, videos and linked threads not read. [Source 1](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)
+
+- **When a plain workflow plus one model call is enough** (2026-10-07): 主帖；Total_Drag7439三项实际周用例（128–138行）；规则/模型边界反问；其他每周例子与在建声明；本轮缓存显示23d ago；既有研究2026-09-29已读，不反推准确日；未读媒体：评论所链工具产品未逐一读 [Source 1](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)
+
+- **Dots after a few days: agent handoffs and calls** (2026-10-07): TikHub returned long-form post text read; image and replies not read. No independent reproduction. [Source 1](https://x.com/telegram_man/status/2107498869571633273)
+
+### Tools & Research Reference
+
+- **Today** (2026-10-07): Official download page lists Mac, Windows, Linux and mobile entry points; specific country eligibility not verified. Distinct from the Since Kindly app at oneintent.today. [Source 1](https://today.ai/) · [Source 2](https://today.ai/downloads) · [Source 3](https://today.ai/privacy)
+
+- **Muse by Meta** (2026-10-07): Official launch page states US rollout on iOS, Android and muse.ai; current expansion outside the US not verified. [Source 1](https://ai.meta.com/muse/) · [Source 2](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) · [Source 3](https://about.fb.com/news/2026/09/introducing-muse-small-business/)
 
 - **Dots in ChatGPT** (2026-10-07): Official Help Center describes initial Pro rollout excluding EEA/Switzerland/UK, Business Premium across supported ChatGPT regions, and admin-enabled Enterprise beta; eligibility varies. [Source 1](https://chatgpt.com/features/dots/) · [Source 2](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot) · [Source 3](https://openai.com/index/introducing-dots/)
 
 - **Grok Bot** (2026-10-07): Official page documents desktop/iOS interaction and persistent computer workspace; country eligibility not verified. [Source 1](https://x.ai/bot) · [Source 2](https://x.ai/bot/guides/grok-bot-101)
 
 - **Cue by Manus** (2026-10-07): Official Manus help page says invitation code required, obtained through Agents (Cue!) in the Manus sidebar; mobile and desktop described. Distinct from heycue.ai and the desktop Cue at heycue.io. [Source 1](https://www.cue.im/) · [Source 2](https://help.manus.im/en/articles/17190150-what-is-new-in-manus-2-0)
-
-- **HeyCue** (2026-10-07): Homepage states web/iOS/Android and English/Spanish. Human involvement explicitly disclosed. Country/service-area eligibility not established. [Source 1](https://heycue.ai/)
 
 - **Gemini Spark** (2026-10-07): Official page says Google AI Pro/Ultra users over 18 in selected countries and selected business users; availability link provided rather than a complete region list. [Source 1](https://gemini.google/overview/agent/spark/) · [Source 2](https://support.google.com/gemini/answer/17094507)
 
@@ -1073,24 +1155,6 @@ Text, abstract and media coverage follows the actual reading scope.
 - **today ai by Since Kindly** (2026-10-07): Official terms identify Since Kindly Inc. and describe daily intention/reflection; iOS app named. Country eligibility not verified. [Source 1](https://oneintent.today/) · [Source 2](https://oneintent.today/terms.html) · [Source 3](https://apps.apple.com/us/app/today-ai-personal-agent/id6767525653)
 
 - **Cue desktop (heycue.io)** (2026-10-07): Current official homepage text read; listed examples and demo video not treated as reproduced tasks. [Source 1](https://heycue.io/)
-
-- **Limitless** (2026-10-17): Official homepage and product descriptions read; wearable availability and pricing not independently verified. [Source 1](https://limitless.ai/)
-
-- **Dot** (2026-10-17): Official website and public demonstrations read; exact availability and account requirements not verified. [Source 1](https://new.computer/)
-
-- **Pi** (2026-10-17): Official website and interaction examples read; no independent long-term user testing. [Source 1](https://pi.ai/)
-
-- **Friend** (2026-10-17): Official homepage and launch materials read; long-term user experience not evaluated. [Source 1](https://friend.com/)
-
-- **Microsoft 365 Copilot** (2026-10-17): Official product pages and documentation read; specific plan availability and geographic restrictions vary. [Source 1](https://www.microsoft.com/microsoft-365/copilot)
-
-- **Muse Connectors** (2026-10-17): Official announcement and developer documentation read; connector approval process and review timelines not tested. Announced 2026-09-19. [Source 1](https://ai.meta.com/muse/connectors/) · [Source 2](https://x.com/finkd/status/2101084678640066765)
-
-- **Spell by ByteDance** (2026-10-17): Official product page and feature announcements read; mainland China availability focus, international access unclear. [Source 1](https://spell.bytedance.com/)
-
-- **LightVela / Yuanbao by Tencent** (2026-10-17): Official product announcements read; WeChat integration status and third-party API access evolving. [Source 1](https://yuanbao.tencent.com/)
-
-### Open-source projects
 
 - **OpenClaw** (2026-10-07): Self-hosted assistant and automation runtime [Source 1](https://github.com/openclaw/openclaw) · [Source 2](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/README.md) · [Source 3](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/docs/automation/index.md)
 
@@ -1132,76 +1196,6 @@ Text, abstract and media coverage follows the actual reading scope.
 
 - **AgentMail Python SDK** (2026-10-07): Agent-owned email inbox client [Source 1](https://github.com/agentmail-to/agentmail-python) · [Source 2](https://github.com/agentmail-to/agentmail-python/blob/main/README.md)
 
-- **Model Context Protocol (MCP)** (2026-10-17): Official specification and implementations read; not an independent security audit. [Source 1](https://modelcontextprotocol.io/) · [Source 2](https://github.com/modelcontextprotocol)
-
-- **Agent-to-Agent Protocol (A2A)** (2026-10-17): Public specification and reference implementations read; production deployment patterns not evaluated. [Source 1](https://a2a.ai/)
-
-- **Personal Agent Protocol (PAP)** (2026-10-17): Launch announcement and specification read; real-world adoption in early stages. Announced 2026-10-06. [Source 1](https://github.com/PersonalAgentProtocol/pap) · [Source 2](https://x.com/signulll/status/2107488756093940147)
-
-- **Protocol for Agent Communication and Trust (PACT)** (2026-10-17): GitHub repository and technical documentation read; no production deployment audit. Released 2026-10-06. [Source 1](https://github.com/DecagonAI/pact) · [Source 2](https://x.com/DecagonAI/status/2107544569340694705)
-
-- **Zep** (2026-10-17): GitHub repository and documentation read; Graphiti is separate project at github.com/getzep/graphiti. [Source 1](https://github.com/getzep/zep)
-
-- **Cognee** (2026-10-17): GitHub repository and README read; production deployment patterns vary. [Source 1](https://github.com/topoteretes/cognee)
-
-### Use cases & playbooks
-
-- **WhatsApp website updates for a dance school** (2026-10-07): 主帖；舞校评论链（网页125–277行）；关键质疑与作者回应；未展开全部回复；Reddit 搜索结果绝对日期；选定评论日期可不同；未读媒体：该帖其他图片/外链项目未核看 [Source 1](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)
-
-- **OpenClaw cost spike and deterministic-workflow split** (2026-10-07): 主帖；成本质疑、作者两次澄清、n8n替代讨论（网页21–305行）；Reddit 搜索结果绝对日期；未读媒体：作者提及的费用截图未核看 [Source 1](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)
-
-- **Months of Hermes: six inboxes and reusable routines** (2026-10-07): 主帖主要全文（网页21–84行）；首个评论中5个月使用者的本地memory维护/高投入提醒（124–127行）；2026-10-07读取时缓存显示28d ago；不据缓存反推准确日；未读媒体：评论所链记忆项目和模型未审源码 [Source 1](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)
-
-- **One week with Poke: schedules and late-meeting messages** (2026-10-07): 主帖；自定义流程与一周体验段；Daniel MCP接入质疑及作者回复（224–235行）；网页显示1yr ago；公开HTML日期字段均为2025-09，本轮未锁定帖级精确日；未读媒体：入门截图与MCP连接截图未核看 [Source 1](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)
-
-- **Today interview invitation with next-day follow-up** (2026-10-07): 原站公开HTML正文完整提取；工具web首开有目录、后续Internal Error，以免费HTTP正文恢复；未读截图；页面可见0评论；原站9月9日，聚合页交叉确认2026-09-09；未读媒体：产品截图未核看 [Source 1](https://www.pingwest.com/a/317164)
-
-- **Instinct flight monitoring and shopping stress test** (2026-10-07): 主帖全文；虚拟卡建议与作者反问（125–134行）；OTP/速度讨论；iMessage读权限误认后自纠（248–300行）；Reddit 搜索结果绝对日期，既有来源卡一致；未读媒体：评论外链视频、Instagram及媒体未逐一核读 [Source 1](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)
-
-- **Muse travel-advisor workflow after twelve days** (2026-10-07): Public post and selected discussion read, including repeated-task failures and claimed verification. Exact publication date not independently rechecked; images, videos and linked threads not read. [Source 1](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)
-
-- **When a plain workflow plus one model call is enough** (2026-10-07): 主帖；Total_Drag7439三项实际周用例（128–138行）；规则/模型边界反问；其他每周例子与在建声明；本轮缓存显示23d ago；既有研究2026-09-29已读，不反推准确日；未读媒体：评论所链工具产品未逐一读 [Source 1](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)
-
-- **OpenClaw study recall from an Obsidian vault** (2026-10-07): 2026-02-16；主文全文，重点Studying与技术失败；图片未读，未来看房功能为计划。 [Source 1](https://sajalsharma.com/posts/openclaw-experiments/)
-
-- **Sebastian: a family Matrix assistant** (2026-10-07): 2026-04-10；主文全文，含新闻步骤、家人重新验证与失败；图片未读，技能加速倍率未经独立测试。 [Source 1](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)
-
-- **Semantic email mining with Gmail API and Claude** (2026-10-07): 公开正文全文；步骤1–3、结果与故障均已读；发布时间页面只显示相对日期，未核绝对日；未查私有邮件或脚本。 [Source 1](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)
-
-- **Zoho appointment email to a confirmed family event** (2026-10-07): 2026-05-05；公开LinkedIn作者正文全文与可见感谢评论；截图未读，链接ganesht.de未进一步读取。 [Source 1](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)
-
-- **Three weeks of Hermes through Telegram** (2026-10-07): 2026-05-17；主帖及OP关于脚本、失败cron、个人数据隔离的回复；模型不稳定评论；机器人摘要与操作代码不作独立证据，未读图片。 [Source 1](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)
-
-- **Kashmir itinerary test: overview versus details** (2026-10-07): 主帖与旅行测试、作者回应、500限流评论均已读；页面关联2025-03-16，精确发表时间未核；外链产品未登录或试用。 [Source 1](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)
-
-- **Two months with Xiaobu Next: phone workflows and limits** (2026-10-07): TikHub text detail and18 returned comment/reply records read on2026-10-07. Images and video not read; no pagination or product test. [Source 1](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)
-
-- **Dots after a few days: agent handoffs and calls** (2026-10-07): TikHub returned long-form post text read; image and replies not read. No independent reproduction. [Source 1](https://x.com/telegram_man/status/2107498869571633273)
-
-- **Poke Recipes: package and share a workflow** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [Source 1](https://poke.com/docs/creating-recipes)
-
-- **Town Routines: recurring email and meeting jobs** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [Source 1](https://www.town.com/docs/features/routines)
-
-- **Today Recording: meeting notes and follow-up** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [Source 1](https://today.ai/articles/blog/introducing-today-recording)
-
-- **Meeting prep: 5 minutes before, get relationship context** (2026-10-17): X post describing personal workflow; no independent reproduction. Published 2026-09-20. [Source 1](https://x.com/justwatt/status/2102891445676740893)
-
-- **Relationship temperature: reminders before connections go cold** (2026-10-17): X post and user discussion thread read; no long-term effectiveness data. Published 2026-09-26. [Source 1](https://x.com/coffeewithone/status/2103784912459137268)
-
-- **Group chat triage: which of 200 messages need my attention** (2026-10-17): X post with usage statistics; no independent reproduction. Published 2026-10-12. [Source 1](https://x.com/infin8erer/status/2110494042035544509)
-
-- **Remember casual mentions for birthdays and gifts** (2026-10-17): X post describing Muse feature; gift-giving outcome not independently verified. Published 2026-09-20. [Source 1](https://x.com/wudaoxiaobai/status/2102638895011881129)
-
-- **Agent helps reconnect with dormant professional relationships** (2026-10-17): X post describing personal need and conceptual workflow. Published 2026-03-07. [Source 1](https://x.com/chrsaravia/status/2032705271227629972)
-
-- **Coordinate recurring group events across personal agents** (2026-10-17): X post expressing need; no production implementation verified. Published 2026-06-11. [Source 1](https://x.com/NatalieFratto/status/2071260473668899114)
-
-- **Reduce family mental load: school notices, activities, shared calendar** (2026-10-17): Reported family use case from community discussions; specific implementation varies. [Source 1](https://x.com/moltbot-life/status/2108456789012345678)
-
-- **Make introductions based on intent, not just mutual connections** (2026-10-17): Conceptual use case with early MCP implementations; match quality not evaluated. [Source 1](https://x.com/HireyAI/status/2095678901234567890)
-
-### Articles & engineering
-
 - **OpenPoke: Recreating Poke’s Architecture** (2026-10-07): 2025-09-22；作者正文全文；截图、视频未读，原型源码未审；泄漏prompt未作为权威产品保证。 [Source 1](https://www.shloked.com/openpoke)
 
 - **On the Interaction Acquisition** (2026-10-07): 2026-07-30；短文全文；所链X讨论未读，不据单人经历估总体留存。 [Source 1](https://www.shloked.com/interaction-acquisition)
@@ -1227,6 +1221,52 @@ Text, abstract and media coverage follows the actual reading scope.
 - **Managing Time With an Agent** (2026-10-07): Public article text read; diagrams and linked implementation not tested. [Source 1](https://talalakkari.com/blog/managing-time-with-an-agent/)
 
 - **Ben Thompson on tasks people may not want to delegate** (2026-10-07): TikHub post text read; video and replies not read. This is platform-published discussion text, not a full interview review. [Source 1](https://x.com/tbpn/status/2102529303212970099)
+
+- **VitaBench 2.0** (2026-10-07): Benchmark, setup and limitations sections; not reproduced. [Source 1](https://arxiv.org/html/2605.27141v1)
+
+- **π-Bench** (2026-10-07): Benchmark, implementation configuration and limitations; not reproduced. [Source 1](https://arxiv.org/html/2605.14678v3)
+
+- **Memora: From Recall to Forgetting** (2026-10-07): Benchmark, experiments, limitations and memory-evaluation appendix; not reproduced. [Source 1](https://arxiv.org/html/2604.20006v1)
+
+- **PASB: Agents Don’t Just Agree, They Remember** (2026-10-07): Sections3–5 and the human-gold appendix; not reproduced. [Source 1](https://arxiv.org/html/2607.10526v1)
+
+- **LongMINT** (2026-10-07): Method and selected experimental sections; not reproduced. [Source 1](https://arxiv.org/html/2605.18565v1)
+
+- **Recuris** (2026-10-07): Selected method, task-state and held-out evaluation sections; not reproduced. [Source 1](https://arxiv.org/html/2608.24876v1)
+
+- **VibeLifeBench** (2026-10-07): arXiv abstract and version metadata only; not reproduced. [Source 1](https://arxiv.org/abs/2608.10875v2)
+
+- **Awesome Personalized RAG Agent / survey** (2026-10-07): Official README and related survey sections4.4.5,5,6. [Source 1](https://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent)
+
+- **Personal Agent Bench** (2026-10-07): Homepage, about page, task index and exam methodology; scores not independently reproduced. [Source 1](https://personalagentbench.com/)
+
+- **micro1 PersonalAgentBench launch** (2026-10-07): Public launch text and page-provided transcript; video not watched, linked result inaccessible. [Source 1](https://www.linkedin.com/posts/aliansarinik_which-personal-agent-is-the-best-life-assistant-activity-7513263537247457282-D1-5)
+
+- **Awesome Personal Agents — selection guide** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/upgundecha/awesome-personal-agents)
+
+- **Awesome Personal Agents — components** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/ahmadyan/awesome-personal-agents)
+
+- **Awesome Personal AI Assistants** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/elyase/awesome-personal-ai-assistants)
+
+- **Awesome OpenClaw Use Cases** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/hesamsheikh/awesome-openclaw-usecases)
+
+- **Awesome OpenClaw Examples** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/OthmaneBlial/awesome-openclaw-examples)
+
+- **Limitless** (2026-10-17): Official homepage and product descriptions read; wearable availability and pricing not independently verified. [Source 1](https://limitless.ai/)
+
+- **Friend** (2026-10-17): Official homepage and launch materials read; long-term user experience not evaluated. [Source 1](https://friend.com/)
+
+- **Microsoft 365 Copilot** (2026-10-17): Official product pages and documentation read; specific plan availability and geographic restrictions vary. [Source 1](https://www.microsoft.com/microsoft-365/copilot)
+
+- **Muse Connectors** (2026-10-17): Official announcement and developer documentation read; connector approval process and review timelines not tested. Announced 2026-09-19. [Source 1](https://ai.meta.com/muse/connectors/) · [Source 2](https://x.com/finkd/status/2101084678640066765)
+
+- **Model Context Protocol (MCP)** (2026-10-17): Official specification and implementations read; not an independent security audit. [Source 1](https://modelcontextprotocol.io/) · [Source 2](https://github.com/modelcontextprotocol)
+
+- **Agent-to-Agent Protocol (A2A)** (2026-10-17): Public specification and reference implementations read; production deployment patterns not evaluated. [Source 1](https://a2a.ai/)
+
+- **Personal Agent Protocol (PAP)** (2026-10-17): Launch announcement and specification read; real-world adoption in early stages. Announced 2026-10-06. [Source 1](https://github.com/PersonalAgentProtocol/pap) · [Source 2](https://x.com/signulll/status/2107488756093940147)
+
+- **Protocol for Agent Communication and Trust (PACT)** (2026-10-17): GitHub repository and technical documentation read; no production deployment audit. Released 2026-10-06. [Source 1](https://github.com/DecagonAI/pact) · [Source 2](https://x.com/DecagonAI/status/2107544569340694705)
 
 - **Karpathy: explicit memory over black-box personalization** (2026-10-17): X post and linked discussion thread read; no independent reproduction. Published 2026-04-05. [Source 1](https://x.com/karpathy/status/2040572272944324650)
 
@@ -1275,6 +1315,10 @@ Text, abstract and media coverage follows the actual reading scope.
 - **Design pattern: explicit, editable memory over black-box** (2026-10-17): Community pattern documentation and examples; not a formal specification. [Source 1](https://github.com/Personal-Agent-Patterns/explicit-memory) · [Source 2](https://x.com/karpathy/status/2040572272944324650)
 
 - **Design pattern: approval cards for sensitive actions** (2026-10-17): X post describing UX pattern; multiple implementations in different products. [Source 1](https://x.com/signulll/status/2104782156834562891)
+
+- **Spell by ByteDance** (2026-10-17): Official product page and feature announcements read; mainland China availability focus, international access unclear. [Source 1](https://spell.bytedance.com/)
+
+- **LightVela / Yuanbao by Tencent** (2026-10-17): Official product announcements read; WeChat integration status and third-party API access evolving. [Source 1](https://yuanbao.tencent.com/)
 
 - **Chinese discussion: agent as contact vs standalone app** (2026-10-17): X post and discussion thread read; no official Tencent policy statement verified. Published 2026-02-13. [Source 1](https://x.com/Datou/status/2018902226618687952) · [Source 2](https://x.com/timyangnet/status/2021178846670880912)
 
@@ -1470,39 +1514,9 @@ Text, abstract and media coverage follows the actual reading scope.
 
 - **Anti-pattern: generic morning briefing (does not reduce mental load)** (2026-10-17): X post critiquing common feature; personal experience, not systematic study. [Source 1](https://x.com/danimarconeuf/status/2092304556113740160)
 
-### Papers & evaluations
+- **Zep** (2026-10-17): GitHub repository and documentation read; Graphiti is separate project at github.com/getzep/graphiti. [Source 1](https://github.com/getzep/zep)
 
-- **VitaBench 2.0** (2026-10-07): Benchmark, setup and limitations sections; not reproduced. [Source 1](https://arxiv.org/html/2605.27141v1)
-
-- **π-Bench** (2026-10-07): Benchmark, implementation configuration and limitations; not reproduced. [Source 1](https://arxiv.org/html/2605.14678v3)
-
-- **Memora: From Recall to Forgetting** (2026-10-07): Benchmark, experiments, limitations and memory-evaluation appendix; not reproduced. [Source 1](https://arxiv.org/html/2604.20006v1)
-
-- **PASB: Agents Don’t Just Agree, They Remember** (2026-10-07): Sections3–5 and the human-gold appendix; not reproduced. [Source 1](https://arxiv.org/html/2607.10526v1)
-
-- **LongMINT** (2026-10-07): Method and selected experimental sections; not reproduced. [Source 1](https://arxiv.org/html/2605.18565v1)
-
-- **Recuris** (2026-10-07): Selected method, task-state and held-out evaluation sections; not reproduced. [Source 1](https://arxiv.org/html/2608.24876v1)
-
-- **VibeLifeBench** (2026-10-07): arXiv abstract and version metadata only; not reproduced. [Source 1](https://arxiv.org/abs/2608.10875v2)
-
-- **Awesome Personalized RAG Agent / survey** (2026-10-07): Official README and related survey sections4.4.5,5,6. [Source 1](https://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent)
-
-- **Personal Agent Bench** (2026-10-07): Homepage, about page, task index and exam methodology; scores not independently reproduced. [Source 1](https://personalagentbench.com/)
-
-- **micro1 PersonalAgentBench launch** (2026-10-07): Public launch text and page-provided transcript; video not watched, linked result inaccessible. [Source 1](https://www.linkedin.com/posts/aliansarinik_which-personal-agent-is-the-best-life-assistant-activity-7513263537247457282-D1-5)
-
-### Collections & discovery
-
-- **Awesome Personal Agents — selection guide** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/upgundecha/awesome-personal-agents)
-
-- **Awesome Personal Agents — components** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/ahmadyan/awesome-personal-agents)
-
-- **Awesome Personal AI Assistants** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/elyase/awesome-personal-ai-assistants)
-
-- **Awesome OpenClaw Use Cases** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/hesamsheikh/awesome-openclaw-usecases)
-
-- **Awesome OpenClaw Examples** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [Source 1](https://github.com/OthmaneBlial/awesome-openclaw-examples)
+- **Cognee** (2026-10-17): GitHub repository and README read; production deployment patterns vary. [Source 1](https://github.com/topoteretes/cognee)
 
 - **Twin AI Assistant Guide Library** (2026-11-09): Read the public topic directory and full texts of the seven new practical guides linked below. Publisher affiliation and product-development limits are visible. No assistant execution, device compatibility or time-saving outcome was independently tested. [Source 1](https://clonemyiphone.com/topics/) · [Source 2](https://clonemyiphone.com/guides/ai-assistant-for-everyday-tasks/) · [Source 3](https://clonemyiphone.com/guides/ai-assistant-for-calendar-planning/) · [Source 4](https://clonemyiphone.com/guides/moving-phone-data-vs-ai-assistant/) · [Source 5](https://clonemyiphone.com/guides/phone-cloning-vs-ai-assistant/) · [Source 6](https://clonemyiphone.com/guides/spare-iphone-ai-assistant/) · [Source 7](https://clonemyiphone.com/guides/dedicated-ai-phone-explained/) · [Source 8](https://clonemyiphone.com/guides/ai-assistant-memory-and-personalization/)
 

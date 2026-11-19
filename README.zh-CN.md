@@ -2,32 +2,62 @@
 
 [English](README.md) · [简体中文](README.zh-CN.md)
 
-> 个人Agent资源聚合：产品、开源项目、用户案例与玩法，附精选文章和论文。
+> 个人Agent资源聚合：按使用场景索引的用例、产品与研究材料。
 
-**228 条精选资源** · 最近整理：2026-11-09。
+**228 条精选资源**（含 27 个用例） · 最近整理：2026-11-09。
 
-完整资源直接列在本页。用目录跳到感兴趣的分类，点击资源名称打开原始来源。
+完整资源直接列在本页。按场景跳转，先看实际用例，再看相关工具与材料。
 
 ## 目录
 
-| 分类 | 找什么 |
-|---|---|
-| [产品](#products) · 25 | 看看产品与助手形态 |
-| [开源项目](#projects) · 26 | 找运行框架和接入组件 |
-| [用例与玩法](#use-cases) · 27 | 看实际用法、官方教程与使用限制 |
-| [文章与技术](#articles) · 134 | 理解产品与工程取舍 |
-| [论文与评测](#research) · 10 | 找记忆、主动性及评测研究 |
-| [资源集合](#collections) · 6 | 继续发现相关资料 |
+| 场景 | 用例 | 全部 |
+|---|---|---|
+| [邮件与沟通工作流](#email-communication) | 7 | 12 |
+| [家庭与日常生活](#family-daily) | 13 | 16 |
+| [旅行与购物](#travel-shopping) | 2 | 2 |
+| [研究与学习](#research-learning) | 1 | 1 |
+| [了解限制与边界](#limits-cautions) | 4 | 4 |
+| [工具与研究参考](#tools-reference) | — | 193 |
 
-产品保留官方说明，用例区分作者自报和官方玩法，研究注明读取范围。可用地区与接入条件以原站为准。
+用例区分作者自报和官方玩法，产品保留官方说明，研究注明读取范围。可用地区与接入条件以原站为准。
 
-<a id="products"></a>
+<a id="email-communication"></a>
 
-## 产品 · 25
+## 邮件与沟通工作流 · 12
 
-<a id="products-messaging"></a>
+邮件分拣、日程管理与沟通工作流的实际用例，以及消息助手类产品和相关文章。
 
-### 消息入口的助手
+### 用例 · 7
+
+<a id="use-cases-uc03"></a>
+
+- **[Hermes数月使用：六邮箱与复用流程](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)** — 用户自报数月用Hermes分拣六个邮箱、积累可复用流程，发送仍由本人控制。记录同时包含过时记忆维护与昂贵模型自动回退的教训。 <sub>作者自报</sub>
+
+<a id="use-cases-uc04"></a>
+
+- **[Poke一周体验：日程与迟到改约](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)** — 一周使用记录包含日程简报，以及通过Workers、Shortcuts和webhooks搭出的迟到改约流程。需要配置调试，也有接入问题，未公开可靠性日志。 <sub>作者自报</sub>
+
+<a id="use-cases-uc05"></a>
+
+- **[Today采访邀约与次日续办](https://www.pingwest.com/a/317164)** — 记者自报确认采访邀约后在邮箱看到已发邮件，次日收到对方回复时Today主动续办。只有一周体验，未交代最终采访落实或长期效果。 <sub>作者自报</sub>
+
+<a id="use-cases-uc11"></a>
+
+- **[邮件语义检索与资料挖掘](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)** — Kris自报先用14组关键词取候选邮件，再通过Gmail API读正文并让模型分类。缓存、重试和可续跑保存处理限流与失败调用，属于可复用脚本流程。 <sub>作者自报</sub>
+
+<a id="use-cases-town-routines"></a>
+
+- **[Town Routine：周期邮件与会议任务](https://www.town.com/docs/features/routines)** — 官方示例包含晨报、邮件分拣、会前准备及回复草稿，适合学习只读、需审批与自主运行的设置。属于厂商介绍的流程。 <sub>官方说明</sub>
+
+<a id="use-cases-today-recording"></a>
+
+- **[Today Recording：会议记录与后续跟进](https://today.ai/articles/blog/introducing-today-recording)** — 厂商介绍如何把会议记录、已有项目上下文和后续任务连接起来。适合探索转录之后怎样推进事情，演示尚未复跑。 <sub>官方说明</sub>
+
+<a id="use-cases-meeting-brief-context"></a>
+
+- **[会前准备：开会前5分钟获取关系上下文](https://x.com/justwatt/status/2102891445676740893)** — 用户报告Agent在日历事件前5分钟提供对方是谁、上次聊了什么、未闭环承诺。帮助带着准备而来，无需手动翻记录。 <sub>作者自报</sub>
+
+### 相关工具与材料 · 5
 
 <a id="products-instinct"></a>
 
@@ -49,9 +79,145 @@
 
 - **[Pi](https://pi.ai/)** — 专注支持性对话与个人交流的对话AI，适合关注共情互动与情感支持场景。 <sub>官方说明</sub>
 
+<a id="family-daily"></a>
+
+## 家庭与日常生活 · 16
+
+家庭协调、日常任务、提醒与关系管理的真实案例，以及面向日常生活的工具。
+
+### 用例 · 13
+
+<a id="use-cases-uc01"></a>
+
+- **[用WhatsApp更新舞蹈学校网站](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)** — 作者自报把小型舞校网站连到WhatsApp和GitHub，母亲可通过聊天更新。初始化权限与可靠回滚仍需技术熟手帮忙。 <sub>作者自报</sub>
+
+<a id="use-cases-uc10"></a>
+
+- **[家庭Matrix消息助手Sebastian](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)** — 作者描述供四口之家使用的Matrix助手，处理邮件监测和核来源的新闻简报。正文记录限流、加密会话与升级故障；聊天端加密不等于外部模型不会收到上下文。 <sub>作者自报</sub>
+
+<a id="use-cases-uc12"></a>
+
+- **[邮件中的家庭预约确认后写入日历](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)** — Ganesh Tarala描述通过IMAP读预约邮件、ICS查空闲，在确认后用CalDAV建家庭日历事件。依靠本地辅助脚本，未报告持续可靠性和费用。 <sub>作者自报</sub>
+
+<a id="use-cases-uc13"></a>
+
+- **[Hermes三周Telegram工作流](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)** — 三周使用者自报通过手机语音与截图开发小企业Telegram机器人，另用脚本轮换可用免费模型。作者承认失败的定时任务，评论也有结果不一致和多轮复核。 <sub>作者自报</sub>
+
+<a id="use-cases-xiaobu-phone"></a>
+
+- **[小布Next两个月体验与第三方应用限制](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)** — 带共创活动标签的提醒与信息归档体验；作者评论承认第三方应用控制有限，适合了解手机助手的期望和现实边界。 <sub>作者自报</sub>
+
+<a id="use-cases-poke-recipes"></a>
+
+- **[Poke Recipe：打包与分享一个工作流](https://poke.com/docs/creating-recipes)** — 官方教程把首次上下文和所需集成打包成可分享Recipe。需要Kitchen权限，本地接入隧道需持续运行；属于玩法指南，没有本库实跑结果。 <sub>官方说明</sub>
+
+<a id="use-cases-reconnect-reminders"></a>
+
+- **[关系温度：在疏远之前提醒重联](https://x.com/coffeewithone/status/2103784912459137268)** — Agent追踪与重要人物的最后联系时间，在60-90天阈值前建议重联。包含基于共同上下文或最近里程碑的话题建议。 <sub>作者自报</sub>
+
+<a id="use-cases-group-chat-filter"></a>
+
+- **[群聊分拣：200条消息中哪些需要我注意](https://x.com/infin8erer/status/2110494042035544509)** — 用户追踪473次Agent请求；首要用例是过滤大型群聊（WhatsApp、Telegram），只浮现需要回复或行动的消息。Agent读取完整线程上下文判断相关性。 <sub>作者自报</sub>
+
+<a id="use-cases-birthday-gift-memory"></a>
+
+- **[记住随口提到的愿望用于生日送礼](https://x.com/wudaoxiaobai/status/2102638895011881129)** — 中文用户报告Muse记住朋友随口提过的愿望，生日前浮现礼物建议，经批准甚至可以下单。引发关于始终监听和礼物真诚度的疑问。 <sub>作者自报</sub>
+
+<a id="use-cases-reconnect-past-contacts"></a>
+
+- **[Agent帮助重新联系休眠的职业关系](https://x.com/chrsaravia/status/2032705271227629972)** — 用户描述不擅长主动联系过去的人脉，认为这是错失的机会。Agent识别休眠关系并基于共同上下文或最近里程碑建议自然话题。 <sub>作者自报</sub>
+
+<a id="use-cases-group-coordination"></a>
+
+- **[跨个人Agent协调周期性群体活动](https://x.com/NatalieFratto/status/2071260473668899114)** — 用户询问何时Agent能自动协调安排每月朋友聚餐。需要Agent间通信（A2A）、共享日历访问和群体同意机制。 <sub>作者自报</sub>
+
+<a id="use-cases-family-mental-load"></a>
+
+- **[减轻家庭精神负担：学校通知、孩子活动、共享日历](https://x.com/moltbot-life/status/2108456789012345678)** — 家长报告使用Agent追踪学校通知、孩子活动时间表并协调家庭日历。Agent浮现冲突承诺和即将到期的截止日期，无需手动输入。 <sub>作者自报</sub>
+
+<a id="use-cases-intent-introductions"></a>
+
+- **[基于意图而非共同好友进行介绍](https://x.com/HireyAI/status/2095678901234567890)** — Agent通过MCP连接的专业档案匹配人们的既定目标和需求来识别有价值的介绍，超越简单的共同好友发现。 <sub>作者自报</sub>
+
+### 相关工具与材料 · 3
+
+<a id="products-tomo-mapo"></a>
+
+- **[Tomo by Mapo Labs](https://www.tomo.ai/)** — 由 Mapo Labs 开发、以短信交流的个人 AI，适合关注目标陪伴、主动提醒、群聊以及日历和邮件连接。 <sub>官方说明</sub>
+
+<a id="products-ollie"></a>
+
+- **[Ollie](https://ollie.ai/)** — 面向家庭日历、邮箱信息和家庭协作的助理，适合关注短信与家庭群聊中的事务协调。 <sub>官方来源，部分核读</sub>
+
+<a id="products-heycue-life-admin"></a>
+
+- **[HeyCue](https://heycue.ai/)** — 管理账单、续订与本地服务报价的生活事务产品，结合 Agent 和人工代表，适合关注家庭需求如何变成报价及确认流程。 <sub>官方说明</sub>
+
+<a id="travel-shopping"></a>
+
+## 旅行与购物 · 2
+
+旅行规划与购物辅助用例，包括行程生成和产品研究。
+
+### 用例 · 2
+
+<a id="use-cases-uc06"></a>
+
+- **[Instinct机票监控与购物测试](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)** — 试用者自报每天约三次机票检查和多项购物任务，也报告步骤慢、部分网站不通与OTP接管。是否允许付款需要单独决定。 <sub>作者自报</sub>
+
+<a id="use-cases-uc14"></a>
+
+- **[克什米尔行程测试与细节幻觉](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)** — Trip Planner作者介绍搜索加模型的行程流程，Kashmir旅行用户反馈按天概览有用，细节却有幻觉、酒店报价未按日期落实。另有搜索限流错误，没有已验证的预订或旅程结果。 <sub>作者自报</sub>
+
+<a id="research-learning"></a>
+
+## 研究与学习 · 1
+
+学习与研究工作流，包括知识回顾和内容整合。
+
+### 用例 · 1
+
+<a id="use-cases-uc09"></a>
+
+- **[从Obsidian笔记发起复习提问](https://sajalsharma.com/posts/openclaw-experiments/)** — Sajal Sharma自报每周两次根据Obsidian中的文章和课程记录主动提问，帮助检查记忆与理解。一周记录也交代独立账号、发件人白名单及重复邮件修复，未测学习成绩。 <sub>作者自报</sub>
+
+<a id="limits-cautions"></a>
+
+## 了解限制与边界 · 4
+
+失败经验、实际限制与警示案例，帮助建立现实预期。
+
+### 用例 · 4
+
+<a id="use-cases-uc02"></a>
+
+- **[成本暴涨后拆分确定性流程](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)** — 多代理操作者自报一个月花费$850，说明如何把确定性步骤移给n8n、缩短上下文并限额。降费幅度没有同负载账单或调用日志佐证。 <sub>作者自报</sub>
+
+<a id="use-cases-uc07"></a>
+
+- **[Muse十二天后：复核负担上升](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)** — 旅行顾问自报最初有用，约12天后开始漏填表格、反复忘规则，复核负担增加。购物网站阻拦与账号异常未有日志证明因果。 <sub>作者自报</sub>
+
+<a id="use-cases-uc08"></a>
+
+- **[规则流程加一次模型判断的对照](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)** — 周常讨论提供日志摘要、邮件拟稿、网页差异等规则抓取与路由的做法。它们是通用代理的自报替代方案，发送和涉及金钱的步骤仍由人批准。 <sub>作者自报</sub>
+
+<a id="use-cases-dots-handoffs"></a>
+
+- **[Dots几天体验：权限交接与通话](https://x.com/telegram_man/status/2107498869571633273)** — 作者报告把任务转给其他Agent及通话时遇到的阻碍。朋友的旅行成功是转述，适合思考交接条件，不能用于成功率比较。 <sub>作者自报</sub>
+
+<a id="tools-reference"></a>
+
+## 工具与研究参考 · 193
+
+个人Agent平台、开源框架、工程文章、研究论文与资源集合，面向构建者与研究人员。
+
+<a id="products"></a>
+
+### 产品 · 17
+
 <a id="products-computer"></a>
 
-### 电脑与浏览器助手
+#### 电脑与浏览器助手
 
 <a id="products-today-ai"></a>
 
@@ -83,7 +249,7 @@
 
 <a id="products-ecosystem"></a>
 
-### 平台生态的助手
+#### 平台生态的助手
 
 <a id="products-meta-muse"></a>
 
@@ -117,25 +283,9 @@
 
 - **[腾讯元宝/LightVela](https://yuanbao.tencent.com/)** — 腾讯个人AI助理，具备微信集成潜力。适合探索文档、日程与信息工作流；实际微信Agent接入取决于平台政策。 <sub>官方说明</sub>
 
-<a id="products-family-goals"></a>
-
-### 家庭与个人目标
-
-<a id="products-tomo-mapo"></a>
-
-- **[Tomo by Mapo Labs](https://www.tomo.ai/)** — 由 Mapo Labs 开发、以短信交流的个人 AI，适合关注目标陪伴、主动提醒、群聊以及日历和邮件连接。 <sub>官方说明</sub>
-
-<a id="products-ollie"></a>
-
-- **[Ollie](https://ollie.ai/)** — 面向家庭日历、邮箱信息和家庭协作的助理，适合关注短信与家庭群聊中的事务协调。 <sub>官方来源，部分核读</sub>
-
-<a id="products-heycue-life-admin"></a>
-
-- **[HeyCue](https://heycue.ai/)** — 管理账单、续订与本地服务报价的生活事务产品，结合 Agent 和人工代表，适合关注家庭需求如何变成报价及确认流程。 <sub>官方说明</sub>
-
 <a id="products-adjacent"></a>
 
-### 邻近工具
+#### 邻近工具
 
 <a id="products-since-kindly-today-ai"></a>
 
@@ -147,11 +297,11 @@
 
 <a id="projects"></a>
 
-## 开源项目 · 26
+### 开源项目 · 26
 
 <a id="projects-core"></a>
 
-### 个人Agent运行框架
+#### 个人Agent运行框架
 
 <a id="projects-openclaw"></a>
 
@@ -203,7 +353,7 @@
 
 <a id="projects-component"></a>
 
-### 记忆与接入组件
+#### 记忆与接入组件
 
 <a id="projects-mem0"></a>
 
@@ -261,145 +411,13 @@
 
 - **[Cognee](https://github.com/topoteretes/cognee)** — AI Agent的记忆与知识管理框架。将信息结构化为Agent可推理的可搜索、互联知识。不断增长的Agent记忆基础设施生态的一部分。 <sub>项目文档</sub>
 
-<a id="use-cases"></a>
-
-## 用例与玩法 · 27
-
-<a id="use-cases-email-calendar"></a>
-
-### 邮件与日历
-
-<a id="use-cases-uc03"></a>
-
-- **[Hermes数月使用：六邮箱与复用流程](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)** — 用户自报数月用Hermes分拣六个邮箱、积累可复用流程，发送仍由本人控制。记录同时包含过时记忆维护与昂贵模型自动回退的教训。 <sub>作者自报</sub>
-
-<a id="use-cases-uc04"></a>
-
-- **[Poke一周体验：日程与迟到改约](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)** — 一周使用记录包含日程简报，以及通过Workers、Shortcuts和webhooks搭出的迟到改约流程。需要配置调试，也有接入问题，未公开可靠性日志。 <sub>作者自报</sub>
-
-<a id="use-cases-uc05"></a>
-
-- **[Today采访邀约与次日续办](https://www.pingwest.com/a/317164)** — 记者自报确认采访邀约后在邮箱看到已发邮件，次日收到对方回复时Today主动续办。只有一周体验，未交代最终采访落实或长期效果。 <sub>作者自报</sub>
-
-<a id="use-cases-uc11"></a>
-
-- **[邮件语义检索与资料挖掘](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)** — Kris自报先用14组关键词取候选邮件，再通过Gmail API读正文并让模型分类。缓存、重试和可续跑保存处理限流与失败调用，属于可复用脚本流程。 <sub>作者自报</sub>
-
-<a id="use-cases-town-routines"></a>
-
-- **[Town Routine：周期邮件与会议任务](https://www.town.com/docs/features/routines)** — 官方示例包含晨报、邮件分拣、会前准备及回复草稿，适合学习只读、需审批与自主运行的设置。属于厂商介绍的流程。 <sub>官方说明</sub>
-
-<a id="use-cases-today-recording"></a>
-
-- **[Today Recording：会议记录与后续跟进](https://today.ai/articles/blog/introducing-today-recording)** — 厂商介绍如何把会议记录、已有项目上下文和后续任务连接起来。适合探索转录之后怎样推进事情，演示尚未复跑。 <sub>官方说明</sub>
-
-<a id="use-cases-meeting-brief-context"></a>
-
-- **[会前准备：开会前5分钟获取关系上下文](https://x.com/justwatt/status/2102891445676740893)** — 用户报告Agent在日历事件前5分钟提供对方是谁、上次聊了什么、未闭环承诺。帮助带着准备而来，无需手动翻记录。 <sub>作者自报</sub>
-
-<a id="use-cases-research-learning"></a>
-
-### 研究与学习
-
-<a id="use-cases-uc09"></a>
-
-- **[从Obsidian笔记发起复习提问](https://sajalsharma.com/posts/openclaw-experiments/)** — Sajal Sharma自报每周两次根据Obsidian中的文章和课程记录主动提问，帮助检查记忆与理解。一周记录也交代独立账号、发件人白名单及重复邮件修复，未测学习成绩。 <sub>作者自报</sub>
-
-<a id="use-cases-travel-shopping"></a>
-
-### 旅行与购物
-
-<a id="use-cases-uc06"></a>
-
-- **[Instinct机票监控与购物测试](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)** — 试用者自报每天约三次机票检查和多项购物任务，也报告步骤慢、部分网站不通与OTP接管。是否允许付款需要单独决定。 <sub>作者自报</sub>
-
-<a id="use-cases-uc14"></a>
-
-- **[克什米尔行程测试与细节幻觉](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)** — Trip Planner作者介绍搜索加模型的行程流程，Kashmir旅行用户反馈按天概览有用，细节却有幻觉、酒店报价未按日期落实。另有搜索限流错误，没有已验证的预订或旅程结果。 <sub>作者自报</sub>
-
-<a id="use-cases-family-workflows"></a>
-
-### 家庭与日常流程
-
-<a id="use-cases-uc01"></a>
-
-- **[用WhatsApp更新舞蹈学校网站](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)** — 作者自报把小型舞校网站连到WhatsApp和GitHub，母亲可通过聊天更新。初始化权限与可靠回滚仍需技术熟手帮忙。 <sub>作者自报</sub>
-
-<a id="use-cases-uc10"></a>
-
-- **[家庭Matrix消息助手Sebastian](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)** — 作者描述供四口之家使用的Matrix助手，处理邮件监测和核来源的新闻简报。正文记录限流、加密会话与升级故障；聊天端加密不等于外部模型不会收到上下文。 <sub>作者自报</sub>
-
-<a id="use-cases-uc12"></a>
-
-- **[邮件中的家庭预约确认后写入日历](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)** — Ganesh Tarala描述通过IMAP读预约邮件、ICS查空闲，在确认后用CalDAV建家庭日历事件。依靠本地辅助脚本，未报告持续可靠性和费用。 <sub>作者自报</sub>
-
-<a id="use-cases-uc13"></a>
-
-- **[Hermes三周Telegram工作流](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)** — 三周使用者自报通过手机语音与截图开发小企业Telegram机器人，另用脚本轮换可用免费模型。作者承认失败的定时任务，评论也有结果不一致和多轮复核。 <sub>作者自报</sub>
-
-<a id="use-cases-xiaobu-phone"></a>
-
-- **[小布Next两个月体验与第三方应用限制](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)** — 带共创活动标签的提醒与信息归档体验；作者评论承认第三方应用控制有限，适合了解手机助手的期望和现实边界。 <sub>作者自报</sub>
-
-<a id="use-cases-poke-recipes"></a>
-
-- **[Poke Recipe：打包与分享一个工作流](https://poke.com/docs/creating-recipes)** — 官方教程把首次上下文和所需集成打包成可分享Recipe。需要Kitchen权限，本地接入隧道需持续运行；属于玩法指南，没有本库实跑结果。 <sub>官方说明</sub>
-
-<a id="use-cases-reconnect-reminders"></a>
-
-- **[关系温度：在疏远之前提醒重联](https://x.com/coffeewithone/status/2103784912459137268)** — Agent追踪与重要人物的最后联系时间，在60-90天阈值前建议重联。包含基于共同上下文或最近里程碑的话题建议。 <sub>作者自报</sub>
-
-<a id="use-cases-group-chat-filter"></a>
-
-- **[群聊分拣：200条消息中哪些需要我注意](https://x.com/infin8erer/status/2110494042035544509)** — 用户追踪473次Agent请求；首要用例是过滤大型群聊（WhatsApp、Telegram），只浮现需要回复或行动的消息。Agent读取完整线程上下文判断相关性。 <sub>作者自报</sub>
-
-<a id="use-cases-birthday-gift-memory"></a>
-
-- **[记住随口提到的愿望用于生日送礼](https://x.com/wudaoxiaobai/status/2102638895011881129)** — 中文用户报告Muse记住朋友随口提过的愿望，生日前浮现礼物建议，经批准甚至可以下单。引发关于始终监听和礼物真诚度的疑问。 <sub>作者自报</sub>
-
-<a id="use-cases-reconnect-past-contacts"></a>
-
-- **[Agent帮助重新联系休眠的职业关系](https://x.com/chrsaravia/status/2032705271227629972)** — 用户描述不擅长主动联系过去的人脉，认为这是错失的机会。Agent识别休眠关系并基于共同上下文或最近里程碑建议自然话题。 <sub>作者自报</sub>
-
-<a id="use-cases-group-coordination"></a>
-
-- **[跨个人Agent协调周期性群体活动](https://x.com/NatalieFratto/status/2071260473668899114)** — 用户询问何时Agent能自动协调安排每月朋友聚餐。需要Agent间通信（A2A）、共享日历访问和群体同意机制。 <sub>作者自报</sub>
-
-<a id="use-cases-family-mental-load"></a>
-
-- **[减轻家庭精神负担：学校通知、孩子活动、共享日历](https://x.com/moltbot-life/status/2108456789012345678)** — 家长报告使用Agent追踪学校通知、孩子活动时间表并协调家庭日历。Agent浮现冲突承诺和即将到期的截止日期，无需手动输入。 <sub>作者自报</sub>
-
-<a id="use-cases-intent-introductions"></a>
-
-- **[基于意图而非共同好友进行介绍](https://x.com/HireyAI/status/2095678901234567890)** — Agent通过MCP连接的专业档案匹配人们的既定目标和需求来识别有价值的介绍，超越简单的共同好友发现。 <sub>作者自报</sub>
-
-<a id="use-cases-cautions"></a>
-
-### 失败经验与使用限制
-
-<a id="use-cases-uc02"></a>
-
-- **[成本暴涨后拆分确定性流程](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)** — 多代理操作者自报一个月花费$850，说明如何把确定性步骤移给n8n、缩短上下文并限额。降费幅度没有同负载账单或调用日志佐证。 <sub>作者自报</sub>
-
-<a id="use-cases-uc07"></a>
-
-- **[Muse十二天后：复核负担上升](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)** — 旅行顾问自报最初有用，约12天后开始漏填表格、反复忘规则，复核负担增加。购物网站阻拦与账号异常未有日志证明因果。 <sub>作者自报</sub>
-
-<a id="use-cases-uc08"></a>
-
-- **[规则流程加一次模型判断的对照](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)** — 周常讨论提供日志摘要、邮件拟稿、网页差异等规则抓取与路由的做法。它们是通用代理的自报替代方案，发送和涉及金钱的步骤仍由人批准。 <sub>作者自报</sub>
-
-<a id="use-cases-dots-handoffs"></a>
-
-- **[Dots几天体验：权限交接与通话](https://x.com/telegram_man/status/2107498869571633273)** — 作者报告把任务转给其他Agent及通话时遇到的阻碍。朋友的旅行成功是转述，适合思考交接条件，不能用于成功率比较。 <sub>作者自报</sub>
-
 <a id="articles"></a>
 
-## 文章与技术 · 134
+### 文章与技术 · 134
 
 <a id="articles-practitioner"></a>
 
-### 开发者实践
+#### 开发者实践
 
 <a id="articles-ar01"></a>
 
@@ -895,7 +913,7 @@
 
 <a id="articles-engineering"></a>
 
-### 工程解释
+#### 工程解释
 
 <a id="articles-context-engineering"></a>
 
@@ -943,11 +961,11 @@
 
 <a id="research"></a>
 
-## 论文与评测 · 10
+### 论文与评测 · 10
 
 <a id="research-memory"></a>
 
-### 记忆与个性化
+#### 记忆与个性化
 
 <a id="research-memora"></a>
 
@@ -967,7 +985,7 @@
 
 <a id="research-proactivity"></a>
 
-### 主动性与任务续接
+#### 主动性与任务续接
 
 <a id="research-vitabench2"></a>
 
@@ -983,7 +1001,7 @@
 
 <a id="research-evaluation"></a>
 
-### 评测方法
+#### 评测方法
 
 <a id="research-recuris"></a>
 
@@ -999,11 +1017,7 @@
 
 <a id="collections"></a>
 
-## 资源集合 · 6
-
-<a id="collections-collection"></a>
-
-### 精选集合
+### 资源集合 · 6
 
 <a id="collections-awesome-personal-agents-selection"></a>
 
@@ -1038,29 +1052,97 @@
 
 正文、摘要与媒体按实际读取范围记录。
 
-### 产品
-
-- **Today** (2026-10-07): Official download page lists Mac, Windows, Linux and mobile entry points; specific country eligibility not verified. Distinct from the Since Kindly app at oneintent.today. [来源 1](https://today.ai/) · [来源 2](https://today.ai/downloads) · [来源 3](https://today.ai/privacy)
+### 邮件与沟通工作流
 
 - **Instinct** (2026-10-07): Text/call entry documented; current country, pricing and invitation eligibility not established on the inspected homepage. [来源 1](https://instinct.com/)
 
 - **Poke** (2026-10-07): Messaging channels explicitly named on homepage; individual channel/account/region availability not independently tested. [来源 1](https://poke.com/)
 
-- **Muse by Meta** (2026-10-07): Official launch page states US rollout on iOS, Android and muse.ai; current expansion outside the US not verified. [来源 1](https://ai.meta.com/muse/) · [来源 2](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) · [来源 3](https://about.fb.com/news/2026/09/introducing-muse-small-business/)
-
 - **Town** (2026-10-07): Official documentation covers connected services and work tasks; country eligibility not verified. [来源 1](https://www.town.com/) · [来源 2](https://www.town.com/docs/getting-started)
+
+- **Hermes数月使用：六邮箱与复用流程** (2026-10-07): 主帖主要全文（网页21–84行）；首个评论中5个月使用者的本地memory维护/高投入提醒（124–127行）；2026-10-07读取时缓存显示28d ago；不据缓存反推准确日；未读媒体：评论所链记忆项目和模型未审源码 [来源 1](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)
+
+- **Poke一周体验：日程与迟到改约** (2026-10-07): 主帖；自定义流程与一周体验段；Daniel MCP接入质疑及作者回复（224–235行）；网页显示1yr ago；公开HTML日期字段均为2025-09，本轮未锁定帖级精确日；未读媒体：入门截图与MCP连接截图未核看 [来源 1](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)
+
+- **Today采访邀约与次日续办** (2026-10-07): 原站公开HTML正文完整提取；工具web首开有目录、后续Internal Error，以免费HTTP正文恢复；未读截图；页面可见0评论；原站9月9日，聚合页交叉确认2026-09-09；未读媒体：产品截图未核看 [来源 1](https://www.pingwest.com/a/317164)
+
+- **邮件语义检索与资料挖掘** (2026-10-07): 公开正文全文；步骤1–3、结果与故障均已读；发布时间页面只显示相对日期，未核绝对日；未查私有邮件或脚本。 [来源 1](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)
+
+- **Town Routine：周期邮件与会议任务** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [来源 1](https://www.town.com/docs/features/routines)
+
+- **Today Recording：会议记录与后续跟进** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [来源 1](https://today.ai/articles/blog/introducing-today-recording)
+
+- **Dot** (2026-10-17): Official website and public demonstrations read; exact availability and account requirements not verified. [来源 1](https://new.computer/)
+
+- **Pi** (2026-10-17): Official website and interaction examples read; no independent long-term user testing. [来源 1](https://pi.ai/)
+
+- **会前准备：开会前5分钟获取关系上下文** (2026-10-17): X post describing personal workflow; no independent reproduction. Published 2026-09-20. [来源 1](https://x.com/justwatt/status/2102891445676740893)
+
+### 家庭与日常生活
 
 - **Tomo by Mapo Labs** (2026-10-07): Official About page names Mapo Labs; do not confuse with unrelated open-source tamnd/tomo. Region eligibility not verified. [来源 1](https://www.tomo.ai/) · [来源 2](https://www.tomo.ai/about)
 
 - **Ollie** (2026-10-07): Official indexed homepage describes iOS/Android text access; country eligibility unknown. Full-page retrieval failed in this run. [来源 1](https://ollie.ai/) · [来源 2](https://www.ollie.ai/about/)
+
+- **HeyCue** (2026-10-07): Homepage states web/iOS/Android and English/Spanish. Human involvement explicitly disclosed. Country/service-area eligibility not established. [来源 1](https://heycue.ai/)
+
+- **用WhatsApp更新舞蹈学校网站** (2026-10-07): 主帖；舞校评论链（网页125–277行）；关键质疑与作者回应；未展开全部回复；Reddit 搜索结果绝对日期；选定评论日期可不同；未读媒体：该帖其他图片/外链项目未核看 [来源 1](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)
+
+- **家庭Matrix消息助手Sebastian** (2026-10-07): 2026-04-10；主文全文，含新闻步骤、家人重新验证与失败；图片未读，技能加速倍率未经独立测试。 [来源 1](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)
+
+- **邮件中的家庭预约确认后写入日历** (2026-10-07): 2026-05-05；公开LinkedIn作者正文全文与可见感谢评论；截图未读，链接ganesht.de未进一步读取。 [来源 1](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)
+
+- **Hermes三周Telegram工作流** (2026-10-07): 2026-05-17；主帖及OP关于脚本、失败cron、个人数据隔离的回复；模型不稳定评论；机器人摘要与操作代码不作独立证据，未读图片。 [来源 1](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)
+
+- **小布Next两个月体验与第三方应用限制** (2026-10-07): TikHub text detail and18 returned comment/reply records read on2026-10-07. Images and video not read; no pagination or product test. [来源 1](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)
+
+- **Poke Recipe：打包与分享一个工作流** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [来源 1](https://poke.com/docs/creating-recipes)
+
+- **关系温度：在疏远之前提醒重联** (2026-10-17): X post and user discussion thread read; no long-term effectiveness data. Published 2026-09-26. [来源 1](https://x.com/coffeewithone/status/2103784912459137268)
+
+- **群聊分拣：200条消息中哪些需要我注意** (2026-10-17): X post with usage statistics; no independent reproduction. Published 2026-10-12. [来源 1](https://x.com/infin8erer/status/2110494042035544509)
+
+- **记住随口提到的愿望用于生日送礼** (2026-10-17): X post describing Muse feature; gift-giving outcome not independently verified. Published 2026-09-20. [来源 1](https://x.com/wudaoxiaobai/status/2102638895011881129)
+
+- **Agent帮助重新联系休眠的职业关系** (2026-10-17): X post describing personal need and conceptual workflow. Published 2026-03-07. [来源 1](https://x.com/chrsaravia/status/2032705271227629972)
+
+- **跨个人Agent协调周期性群体活动** (2026-10-17): X post expressing need; no production implementation verified. Published 2026-06-11. [来源 1](https://x.com/NatalieFratto/status/2071260473668899114)
+
+- **减轻家庭精神负担：学校通知、孩子活动、共享日历** (2026-10-17): Reported family use case from community discussions; specific implementation varies. [来源 1](https://x.com/moltbot-life/status/2108456789012345678)
+
+- **基于意图而非共同好友进行介绍** (2026-10-17): Conceptual use case with early MCP implementations; match quality not evaluated. [来源 1](https://x.com/HireyAI/status/2095678901234567890)
+
+### 旅行与购物
+
+- **Instinct机票监控与购物测试** (2026-10-07): 主帖全文；虚拟卡建议与作者反问（125–134行）；OTP/速度讨论；iMessage读权限误认后自纠（248–300行）；Reddit 搜索结果绝对日期，既有来源卡一致；未读媒体：评论外链视频、Instagram及媒体未逐一核读 [来源 1](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)
+
+- **克什米尔行程测试与细节幻觉** (2026-10-07): 主帖与旅行测试、作者回应、500限流评论均已读；页面关联2025-03-16，精确发表时间未核；外链产品未登录或试用。 [来源 1](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)
+
+### 研究与学习
+
+- **从Obsidian笔记发起复习提问** (2026-10-07): 2026-02-16；主文全文，重点Studying与技术失败；图片未读，未来看房功能为计划。 [来源 1](https://sajalsharma.com/posts/openclaw-experiments/)
+
+### 了解限制与边界
+
+- **成本暴涨后拆分确定性流程** (2026-10-07): 主帖；成本质疑、作者两次澄清、n8n替代讨论（网页21–305行）；Reddit 搜索结果绝对日期；未读媒体：作者提及的费用截图未核看 [来源 1](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)
+
+- **Muse十二天后：复核负担上升** (2026-10-07): Public post and selected discussion read, including repeated-task failures and claimed verification. Exact publication date not independently rechecked; images, videos and linked threads not read. [来源 1](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)
+
+- **规则流程加一次模型判断的对照** (2026-10-07): 主帖；Total_Drag7439三项实际周用例（128–138行）；规则/模型边界反问；其他每周例子与在建声明；本轮缓存显示23d ago；既有研究2026-09-29已读，不反推准确日；未读媒体：评论所链工具产品未逐一读 [来源 1](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)
+
+- **Dots几天体验：权限交接与通话** (2026-10-07): TikHub returned long-form post text read; image and replies not read. No independent reproduction. [来源 1](https://x.com/telegram_man/status/2107498869571633273)
+
+### 工具与研究参考
+
+- **Today** (2026-10-07): Official download page lists Mac, Windows, Linux and mobile entry points; specific country eligibility not verified. Distinct from the Since Kindly app at oneintent.today. [来源 1](https://today.ai/) · [来源 2](https://today.ai/downloads) · [来源 3](https://today.ai/privacy)
+
+- **Muse by Meta** (2026-10-07): Official launch page states US rollout on iOS, Android and muse.ai; current expansion outside the US not verified. [来源 1](https://ai.meta.com/muse/) · [来源 2](https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/) · [来源 3](https://about.fb.com/news/2026/09/introducing-muse-small-business/)
 
 - **Dots in ChatGPT** (2026-10-07): Official Help Center describes initial Pro rollout excluding EEA/Switzerland/UK, Business Premium across supported ChatGPT regions, and admin-enabled Enterprise beta; eligibility varies. [来源 1](https://chatgpt.com/features/dots/) · [来源 2](https://help.openai.com/en/articles/20001530-getting-started-with-your-dot) · [来源 3](https://openai.com/index/introducing-dots/)
 
 - **Grok Bot** (2026-10-07): Official page documents desktop/iOS interaction and persistent computer workspace; country eligibility not verified. [来源 1](https://x.ai/bot) · [来源 2](https://x.ai/bot/guides/grok-bot-101)
 
 - **Cue by Manus** (2026-10-07): Official Manus help page says invitation code required, obtained through Agents (Cue!) in the Manus sidebar; mobile and desktop described. Distinct from heycue.ai and the desktop Cue at heycue.io. [来源 1](https://www.cue.im/) · [来源 2](https://help.manus.im/en/articles/17190150-what-is-new-in-manus-2-0)
-
-- **HeyCue** (2026-10-07): Homepage states web/iOS/Android and English/Spanish. Human involvement explicitly disclosed. Country/service-area eligibility not established. [来源 1](https://heycue.ai/)
 
 - **Gemini Spark** (2026-10-07): Official page says Google AI Pro/Ultra users over 18 in selected countries and selected business users; availability link provided rather than a complete region list. [来源 1](https://gemini.google/overview/agent/spark/) · [来源 2](https://support.google.com/gemini/answer/17094507)
 
@@ -1073,24 +1155,6 @@
 - **today ai by Since Kindly** (2026-10-07): Official terms identify Since Kindly Inc. and describe daily intention/reflection; iOS app named. Country eligibility not verified. [来源 1](https://oneintent.today/) · [来源 2](https://oneintent.today/terms.html) · [来源 3](https://apps.apple.com/us/app/today-ai-personal-agent/id6767525653)
 
 - **Cue桌面助手（heycue.io）** (2026-10-07): Current official homepage text read; listed examples and demo video not treated as reproduced tasks. [来源 1](https://heycue.io/)
-
-- **Limitless** (2026-10-17): Official homepage and product descriptions read; wearable availability and pricing not independently verified. [来源 1](https://limitless.ai/)
-
-- **Dot** (2026-10-17): Official website and public demonstrations read; exact availability and account requirements not verified. [来源 1](https://new.computer/)
-
-- **Pi** (2026-10-17): Official website and interaction examples read; no independent long-term user testing. [来源 1](https://pi.ai/)
-
-- **Friend** (2026-10-17): Official homepage and launch materials read; long-term user experience not evaluated. [来源 1](https://friend.com/)
-
-- **Microsoft 365 Copilot** (2026-10-17): Official product pages and documentation read; specific plan availability and geographic restrictions vary. [来源 1](https://www.microsoft.com/microsoft-365/copilot)
-
-- **Muse Connectors** (2026-10-17): Official announcement and developer documentation read; connector approval process and review timelines not tested. Announced 2026-09-19. [来源 1](https://ai.meta.com/muse/connectors/) · [来源 2](https://x.com/finkd/status/2101084678640066765)
-
-- **字节Spell** (2026-10-17): Official product page and feature announcements read; mainland China availability focus, international access unclear. [来源 1](https://spell.bytedance.com/)
-
-- **腾讯元宝/LightVela** (2026-10-17): Official product announcements read; WeChat integration status and third-party API access evolving. [来源 1](https://yuanbao.tencent.com/)
-
-### 开源项目
 
 - **OpenClaw** (2026-10-07): Self-hosted assistant and automation runtime [来源 1](https://github.com/openclaw/openclaw) · [来源 2](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/README.md) · [来源 3](https://github.com/openclaw/openclaw/blob/0dc20916873149b6f6803d1eae711c8d44f3de9e/docs/automation/index.md)
 
@@ -1132,76 +1196,6 @@
 
 - **AgentMail Python SDK** (2026-10-07): Agent-owned email inbox client [来源 1](https://github.com/agentmail-to/agentmail-python) · [来源 2](https://github.com/agentmail-to/agentmail-python/blob/main/README.md)
 
-- **Model Context Protocol (MCP)** (2026-10-17): Official specification and implementations read; not an independent security audit. [来源 1](https://modelcontextprotocol.io/) · [来源 2](https://github.com/modelcontextprotocol)
-
-- **Agent-to-Agent Protocol (A2A)** (2026-10-17): Public specification and reference implementations read; production deployment patterns not evaluated. [来源 1](https://a2a.ai/)
-
-- **Personal Agent Protocol (PAP)** (2026-10-17): Launch announcement and specification read; real-world adoption in early stages. Announced 2026-10-06. [来源 1](https://github.com/PersonalAgentProtocol/pap) · [来源 2](https://x.com/signulll/status/2107488756093940147)
-
-- **Protocol for Agent Communication and Trust (PACT)** (2026-10-17): GitHub repository and technical documentation read; no production deployment audit. Released 2026-10-06. [来源 1](https://github.com/DecagonAI/pact) · [来源 2](https://x.com/DecagonAI/status/2107544569340694705)
-
-- **Zep** (2026-10-17): GitHub repository and documentation read; Graphiti is separate project at github.com/getzep/graphiti. [来源 1](https://github.com/getzep/zep)
-
-- **Cognee** (2026-10-17): GitHub repository and README read; production deployment patterns vary. [来源 1](https://github.com/topoteretes/cognee)
-
-### 用例与玩法
-
-- **用WhatsApp更新舞蹈学校网站** (2026-10-07): 主帖；舞校评论链（网页125–277行）；关键质疑与作者回应；未展开全部回复；Reddit 搜索结果绝对日期；选定评论日期可不同；未读媒体：该帖其他图片/外链项目未核看 [来源 1](https://www.reddit.com/r/openclaw/comments/1ta7294/what_are_you_actually_using_openclaw_for_that/)
-
-- **成本暴涨后拆分确定性流程** (2026-10-07): 主帖；成本质疑、作者两次澄清、n8n替代讨论（网页21–305行）；Reddit 搜索结果绝对日期；未读媒体：作者提及的费用截图未核看 [来源 1](https://www.reddit.com/r/openclaw/comments/1t2fd8o/spent_850_on_openclaw_in_a_month_350_in_one_day/)
-
-- **Hermes数月使用：六邮箱与复用流程** (2026-10-07): 主帖主要全文（网页21–84行）；首个评论中5个月使用者的本地memory维护/高投入提醒（124–127行）；2026-10-07读取时缓存显示28d ago；不据缓存反推准确日；未读媒体：评论所链记忆项目和模型未审源码 [来源 1](https://www.reddit.com/r/hermesagent/comments/1w7dtpp/what_i_learned_after_running_hermes_as_my/)
-
-- **Poke一周体验：日程与迟到改约** (2026-10-07): 主帖；自定义流程与一周体验段；Daniel MCP接入质疑及作者回复（224–235行）；网页显示1yr ago；公开HTML日期字段均为2025-09，本轮未锁定帖级精确日；未读媒体：入门截图与MCP连接截图未核看 [来源 1](https://www.producthunt.com/p/poke-by-interaction-co/a-week-with-poke-review-a-promising-start-for-a-proactive-ai-assistant)
-
-- **Today采访邀约与次日续办** (2026-10-07): 原站公开HTML正文完整提取；工具web首开有目录、后续Internal Error，以免费HTTP正文恢复；未读截图；页面可见0评论；原站9月9日，聚合页交叉确认2026-09-09；未读媒体：产品截图未核看 [来源 1](https://www.pingwest.com/a/317164)
-
-- **Instinct机票监控与购物测试** (2026-10-07): 主帖全文；虚拟卡建议与作者反问（125–134行）；OTP/速度讨论；iMessage读权限误认后自纠（248–300行）；Reddit 搜索结果绝对日期，既有来源卡一致；未读媒体：评论外链视频、Instagram及媒体未逐一核读 [来源 1](https://www.reddit.com/r/AI_Agents/comments/1wak4is/ive_been_stresstesting_instinct_with_reallife/)
-
-- **Muse十二天后：复核负担上升** (2026-10-07): Public post and selected discussion read, including repeated-task failures and claimed verification. Exact publication date not independently rechecked; images, videos and linked threads not read. [来源 1](https://www.reddit.com/r/MetaAI/comments/1wpdcdd/it_was_great_until_it_wasnt/)
-
-- **规则流程加一次模型判断的对照** (2026-10-07): 主帖；Total_Drag7439三项实际周用例（128–138行）；规则/模型边界反问；其他每周例子与在建声明；本轮缓存显示23d ago；既有研究2026-09-29已读，不反推准确日；未读媒体：评论所链工具产品未逐一读 [来源 1](https://www.reddit.com/r/automation/comments/1w9duly/what_are_people_actually_using_ai_agents_for_on_a/)
-
-- **从Obsidian笔记发起复习提问** (2026-10-07): 2026-02-16；主文全文，重点Studying与技术失败；图片未读，未来看房功能为计划。 [来源 1](https://sajalsharma.com/posts/openclaw-experiments/)
-
-- **家庭Matrix消息助手Sebastian** (2026-10-07): 2026-04-10；主文全文，含新闻步骤、家人重新验证与失败；图片未读，技能加速倍率未经独立测试。 [来源 1](https://ataary.com/meet-sebastian-how-i-built-a-self-learning-ai-assistant-on-openclaw/)
-
-- **邮件语义检索与资料挖掘** (2026-10-07): 公开正文全文；步骤1–3、结果与故障均已读；发布时间页面只显示相对日期，未核绝对日；未查私有邮件或脚本。 [来源 1](https://moontowermeta.com/unlocking-my-email-with-ai/amp/)
-
-- **邮件中的家庭预约确认后写入日历** (2026-10-07): 2026-05-05；公开LinkedIn作者正文全文与可见感谢评论；截图未读，链接ganesht.de未进一步读取。 [来源 1](https://www.linkedin.com/pulse/from-setup-errors-working-personal-ai-assistant-my-openclaw-tarala-xwszf)
-
-- **Hermes三周Telegram工作流** (2026-10-07): 2026-05-17；主帖及OP关于脚本、失败cron、个人数据隔离的回复；模型不稳定评论；机器人摘要与操作代码不作独立证据，未读图片。 [来源 1](https://www.reddit.com/r/hermesagent/comments/1tfrilq/genuinely_blown_away/)
-
-- **克什米尔行程测试与细节幻觉** (2026-10-07): 主帖与旅行测试、作者回应、500限流评论均已读；页面关联2025-03-16，精确发表时间未核；外链产品未登录或试用。 [来源 1](https://www.reddit.com/r/travelindia/comments/1jcjr8h/i_have_made_this_travel_planner_ai_agent_i_do_lot/)
-
-- **小布Next两个月体验与第三方应用限制** (2026-10-07): TikHub text detail and18 returned comment/reply records read on2026-10-07. Images and video not read; no pagination or product test. [来源 1](https://www.xiaohongshu.com/explore/6a964eec000000002b0257a5)
-
-- **Dots几天体验：权限交接与通话** (2026-10-07): TikHub returned long-form post text read; image and replies not read. No independent reproduction. [来源 1](https://x.com/telegram_man/status/2107498869571633273)
-
-- **Poke Recipe：打包与分享一个工作流** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [来源 1](https://poke.com/docs/creating-recipes)
-
-- **Town Routine：周期邮件与会议任务** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [来源 1](https://www.town.com/docs/features/routines)
-
-- **Today Recording：会议记录与后续跟进** (2026-10-07): Current official guide/article text read; linked demonstrations and live workflow not tested. [来源 1](https://today.ai/articles/blog/introducing-today-recording)
-
-- **会前准备：开会前5分钟获取关系上下文** (2026-10-17): X post describing personal workflow; no independent reproduction. Published 2026-09-20. [来源 1](https://x.com/justwatt/status/2102891445676740893)
-
-- **关系温度：在疏远之前提醒重联** (2026-10-17): X post and user discussion thread read; no long-term effectiveness data. Published 2026-09-26. [来源 1](https://x.com/coffeewithone/status/2103784912459137268)
-
-- **群聊分拣：200条消息中哪些需要我注意** (2026-10-17): X post with usage statistics; no independent reproduction. Published 2026-10-12. [来源 1](https://x.com/infin8erer/status/2110494042035544509)
-
-- **记住随口提到的愿望用于生日送礼** (2026-10-17): X post describing Muse feature; gift-giving outcome not independently verified. Published 2026-09-20. [来源 1](https://x.com/wudaoxiaobai/status/2102638895011881129)
-
-- **Agent帮助重新联系休眠的职业关系** (2026-10-17): X post describing personal need and conceptual workflow. Published 2026-03-07. [来源 1](https://x.com/chrsaravia/status/2032705271227629972)
-
-- **跨个人Agent协调周期性群体活动** (2026-10-17): X post expressing need; no production implementation verified. Published 2026-06-11. [来源 1](https://x.com/NatalieFratto/status/2071260473668899114)
-
-- **减轻家庭精神负担：学校通知、孩子活动、共享日历** (2026-10-17): Reported family use case from community discussions; specific implementation varies. [来源 1](https://x.com/moltbot-life/status/2108456789012345678)
-
-- **基于意图而非共同好友进行介绍** (2026-10-17): Conceptual use case with early MCP implementations; match quality not evaluated. [来源 1](https://x.com/HireyAI/status/2095678901234567890)
-
-### 文章与技术
-
 - **OpenPoke：复现Poke架构的分析** (2026-10-07): 2025-09-22；作者正文全文；截图、视频未读，原型源码未审；泄漏prompt未作为权威产品保证。 [来源 1](https://www.shloked.com/openpoke)
 
 - **离开Poke后的个人反思** (2026-10-07): 2026-07-30；短文全文；所链X讨论未读，不据单人经历估总体留存。 [来源 1](https://www.shloked.com/interaction-acquisition)
@@ -1227,6 +1221,52 @@
 - **与Agent共同管理日历和精力预算** (2026-10-07): Public article text read; diagrams and linked implementation not tested. [来源 1](https://talalakkari.com/blog/managing-time-with-an-agent/)
 
 - **哪些事情用户可能愿意自己做** (2026-10-07): TikHub post text read; video and replies not read. This is platform-published discussion text, not a full interview review. [来源 1](https://x.com/tbpn/status/2102529303212970099)
+
+- **VitaBench 2.0** (2026-10-07): Benchmark, setup and limitations sections; not reproduced. [来源 1](https://arxiv.org/html/2605.27141v1)
+
+- **π-Bench** (2026-10-07): Benchmark, implementation configuration and limitations; not reproduced. [来源 1](https://arxiv.org/html/2605.14678v3)
+
+- **Memora: From Recall to Forgetting** (2026-10-07): Benchmark, experiments, limitations and memory-evaluation appendix; not reproduced. [来源 1](https://arxiv.org/html/2604.20006v1)
+
+- **PASB: Agents Don’t Just Agree, They Remember** (2026-10-07): Sections3–5 and the human-gold appendix; not reproduced. [来源 1](https://arxiv.org/html/2607.10526v1)
+
+- **LongMINT** (2026-10-07): Method and selected experimental sections; not reproduced. [来源 1](https://arxiv.org/html/2605.18565v1)
+
+- **Recuris** (2026-10-07): Selected method, task-state and held-out evaluation sections; not reproduced. [来源 1](https://arxiv.org/html/2608.24876v1)
+
+- **VibeLifeBench** (2026-10-07): arXiv abstract and version metadata only; not reproduced. [来源 1](https://arxiv.org/abs/2608.10875v2)
+
+- **Awesome Personalized RAG Agent / survey** (2026-10-07): Official README and related survey sections4.4.5,5,6. [来源 1](https://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent)
+
+- **Personal Agent Bench** (2026-10-07): Homepage, about page, task index and exam methodology; scores not independently reproduced. [来源 1](https://personalagentbench.com/)
+
+- **micro1 PersonalAgentBench launch** (2026-10-07): Public launch text and page-provided transcript; video not watched, linked result inaccessible. [来源 1](https://www.linkedin.com/posts/aliansarinik_which-personal-agent-is-the-best-life-assistant-activity-7513263537247457282-D1-5)
+
+- **Awesome Personal Agents — selection guide** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/upgundecha/awesome-personal-agents)
+
+- **Awesome Personal Agents — components** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/ahmadyan/awesome-personal-agents)
+
+- **Awesome Personal AI Assistants** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/elyase/awesome-personal-ai-assistants)
+
+- **Awesome OpenClaw Use Cases** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/hesamsheikh/awesome-openclaw-usecases)
+
+- **Awesome OpenClaw Examples** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/OthmaneBlial/awesome-openclaw-examples)
+
+- **Limitless** (2026-10-17): Official homepage and product descriptions read; wearable availability and pricing not independently verified. [来源 1](https://limitless.ai/)
+
+- **Friend** (2026-10-17): Official homepage and launch materials read; long-term user experience not evaluated. [来源 1](https://friend.com/)
+
+- **Microsoft 365 Copilot** (2026-10-17): Official product pages and documentation read; specific plan availability and geographic restrictions vary. [来源 1](https://www.microsoft.com/microsoft-365/copilot)
+
+- **Muse Connectors** (2026-10-17): Official announcement and developer documentation read; connector approval process and review timelines not tested. Announced 2026-09-19. [来源 1](https://ai.meta.com/muse/connectors/) · [来源 2](https://x.com/finkd/status/2101084678640066765)
+
+- **Model Context Protocol (MCP)** (2026-10-17): Official specification and implementations read; not an independent security audit. [来源 1](https://modelcontextprotocol.io/) · [来源 2](https://github.com/modelcontextprotocol)
+
+- **Agent-to-Agent Protocol (A2A)** (2026-10-17): Public specification and reference implementations read; production deployment patterns not evaluated. [来源 1](https://a2a.ai/)
+
+- **Personal Agent Protocol (PAP)** (2026-10-17): Launch announcement and specification read; real-world adoption in early stages. Announced 2026-10-06. [来源 1](https://github.com/PersonalAgentProtocol/pap) · [来源 2](https://x.com/signulll/status/2107488756093940147)
+
+- **Protocol for Agent Communication and Trust (PACT)** (2026-10-17): GitHub repository and technical documentation read; no production deployment audit. Released 2026-10-06. [来源 1](https://github.com/DecagonAI/pact) · [来源 2](https://x.com/DecagonAI/status/2107544569340694705)
 
 - **Karpathy：显式记忆胜过黑箱个性化** (2026-10-17): X post and linked discussion thread read; no independent reproduction. Published 2026-04-05. [来源 1](https://x.com/karpathy/status/2040572272944324650)
 
@@ -1275,6 +1315,10 @@
 - **设计模式：显式可编辑记忆胜过黑箱** (2026-10-17): Community pattern documentation and examples; not a formal specification. [来源 1](https://github.com/Personal-Agent-Patterns/explicit-memory) · [来源 2](https://x.com/karpathy/status/2040572272944324650)
 
 - **设计模式：敏感动作的审批卡** (2026-10-17): X post describing UX pattern; multiple implementations in different products. [来源 1](https://x.com/signulll/status/2104782156834562891)
+
+- **字节Spell** (2026-10-17): Official product page and feature announcements read; mainland China availability focus, international access unclear. [来源 1](https://spell.bytedance.com/)
+
+- **腾讯元宝/LightVela** (2026-10-17): Official product announcements read; WeChat integration status and third-party API access evolving. [来源 1](https://yuanbao.tencent.com/)
 
 - **中文讨论：Agent是联系人还是独立App** (2026-10-17): X post and discussion thread read; no official Tencent policy statement verified. Published 2026-02-13. [来源 1](https://x.com/Datou/status/2018902226618687952) · [来源 2](https://x.com/timyangnet/status/2021178846670880912)
 
@@ -1470,39 +1514,9 @@
 
 - **反模式：通用晨间简报（不能减轻精神负担）** (2026-10-17): X post critiquing common feature; personal experience, not systematic study. [来源 1](https://x.com/danimarconeuf/status/2092304556113740160)
 
-### 论文与评测
+- **Zep** (2026-10-17): GitHub repository and documentation read; Graphiti is separate project at github.com/getzep/graphiti. [来源 1](https://github.com/getzep/zep)
 
-- **VitaBench 2.0** (2026-10-07): Benchmark, setup and limitations sections; not reproduced. [来源 1](https://arxiv.org/html/2605.27141v1)
-
-- **π-Bench** (2026-10-07): Benchmark, implementation configuration and limitations; not reproduced. [来源 1](https://arxiv.org/html/2605.14678v3)
-
-- **Memora: From Recall to Forgetting** (2026-10-07): Benchmark, experiments, limitations and memory-evaluation appendix; not reproduced. [来源 1](https://arxiv.org/html/2604.20006v1)
-
-- **PASB: Agents Don’t Just Agree, They Remember** (2026-10-07): Sections3–5 and the human-gold appendix; not reproduced. [来源 1](https://arxiv.org/html/2607.10526v1)
-
-- **LongMINT** (2026-10-07): Method and selected experimental sections; not reproduced. [来源 1](https://arxiv.org/html/2605.18565v1)
-
-- **Recuris** (2026-10-07): Selected method, task-state and held-out evaluation sections; not reproduced. [来源 1](https://arxiv.org/html/2608.24876v1)
-
-- **VibeLifeBench** (2026-10-07): arXiv abstract and version metadata only; not reproduced. [来源 1](https://arxiv.org/abs/2608.10875v2)
-
-- **Awesome Personalized RAG Agent / survey** (2026-10-07): Official README and related survey sections4.4.5,5,6. [来源 1](https://github.com/Applied-Machine-Learning-Lab/Awesome-Personalized-RAG-Agent)
-
-- **Personal Agent Bench** (2026-10-07): Homepage, about page, task index and exam methodology; scores not independently reproduced. [来源 1](https://personalagentbench.com/)
-
-- **micro1 PersonalAgentBench launch** (2026-10-07): Public launch text and page-provided transcript; video not watched, linked result inaccessible. [来源 1](https://www.linkedin.com/posts/aliansarinik_which-personal-agent-is-the-best-life-assistant-activity-7513263537247457282-D1-5)
-
-### 资源集合
-
-- **Awesome Personal Agents — selection guide** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/upgundecha/awesome-personal-agents)
-
-- **Awesome Personal Agents — components** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/ahmadyan/awesome-personal-agents)
-
-- **Awesome Personal AI Assistants** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/elyase/awesome-personal-ai-assistants)
-
-- **Awesome OpenClaw Use Cases** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/hesamsheikh/awesome-openclaw-usecases)
-
-- **Awesome OpenClaw Examples** (2026-10-07): Independent public curator/community collection; not an endorsement or benchmark. [来源 1](https://github.com/OthmaneBlial/awesome-openclaw-examples)
+- **Cognee** (2026-10-17): GitHub repository and README read; production deployment patterns vary. [来源 1](https://github.com/topoteretes/cognee)
 
 - **Twin AI助手实用指南库** (2026-11-09): Read the public topic directory and full texts of the seven new practical guides linked below. Publisher affiliation and product-development limits are visible. No assistant execution, device compatibility or time-saving outcome was independently tested. [来源 1](https://clonemyiphone.com/topics/) · [来源 2](https://clonemyiphone.com/guides/ai-assistant-for-everyday-tasks/) · [来源 3](https://clonemyiphone.com/guides/ai-assistant-for-calendar-planning/) · [来源 4](https://clonemyiphone.com/guides/moving-phone-data-vs-ai-assistant/) · [来源 5](https://clonemyiphone.com/guides/phone-cloning-vs-ai-assistant/) · [来源 6](https://clonemyiphone.com/guides/spare-iphone-ai-assistant/) · [来源 7](https://clonemyiphone.com/guides/dedicated-ai-phone-explained/) · [来源 8](https://clonemyiphone.com/guides/ai-assistant-memory-and-personalization/)
 

@@ -10,10 +10,11 @@ Keep relevant limitations and author affiliations. Do not submit private convers
 
 ## Updating the catalog
 
-1. Edit `data/catalog.json`. Each resource has a stable ID, section, category, English and Chinese annotations, source links, reading scope and the actual review date.
-2. Preserve the distinction between `official`, `official-partial`, `open-source`, `reported`, `implementation-account`, `research` and `collection` evidence.
-3. Run `python3 scripts/catalog.py` to regenerate both languages.
-4. Run `python3 scripts/catalog.py --check` before submitting.
+1. Edit `data/catalog.json`. Each resource has a stable ID, section, category, scenario, English and Chinese annotations, source links, reading scope and the actual review date.
+2. Assign the appropriate scenario: `email-communication`, `family-daily`, `travel-shopping`, `research-learning`, `limits-cautions`, or `tools-reference`.
+3. Preserve the distinction between `official`, `official-partial`, `open-source`, `reported`, `implementation-account`, `research` and `collection` evidence.
+4. Run `python3 scripts/catalog.py` to regenerate both languages.
+5. Run `python3 scripts/catalog.py --check` before submitting.
 
 The root `checked_on` is the collection's editing date; each resource's `checked_on` is its own content-review date. Advance them only when the corresponding work was done. Regeneration alone is not a new source review.
 
